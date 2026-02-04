@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Free | Premium Digital & Affiliate Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header id="header">
+        <div class="container class-nav">
+            <nav>
+                <a href="#" class="logo">ALL <span style="color: var(--accent-color);">FREE</span></a>
+                <div class="nav-links">
+                    <a href="#digital">Digital</a>
+                    <a href="#affiliate">Deals</a>
+                    <div class="cart-icon" onclick="toggleCart()">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-badge" id="cart-count">0</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary"
+                        style="padding: 8px 20px; font-size: 0.9rem; margin-left: 20px; color: #000;">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay" id="cart-overlay" onclick="toggleCart()"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <span class="cart-close" onclick="toggleCart()">&times;</span>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items loaded via JS -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total">$0.00</span>
+            </div>
+            <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">Checkout</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 data-aos="fade-up">Premium Digital Knowledge<br><span>And Global Deals</span></h1>
+            <p data-aos="fade-up" data-aos-delay="200">Unlock your potential with our exclusive digital tools, or browse
+                the hottest trends from Amazon, Temu, and Alibaba at unbeatable prices.</p>
+            <div data-aos="fade-up" data-aos-delay="400">
+                <a href="#digital" class="btn btn-primary">Explore Digital</a>
+                <a href="#affiliate" class="btn"
+                    style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); margin-left: 20px;">Shop
+                    Deals</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Digital Products Section -->
+    <section id="digital">
+        <div class="container">
+            <h2 class="section-title">Exclusive Digital Downloads</h2>
+            <div class="grid" id="digital-grid">
+                <!-- Digital products loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Affiliate Products Section -->
+    <section id="affiliate" style="background: rgba(0,0,0,0.2);">
+        <div class="container">
+            <h2 class="section-title">Trending Global Deals</h2>
+
+            <div class="filters">
+                <button class="filter-btn active" onclick="filterProducts('All')">All</button>
+                <button class="filter-btn" onclick="filterProducts('Tech')">Tech</button>
+                <button class="filter-btn" onclick="filterProducts('Home')">Home</button>
+                <button class="filter-btn" onclick="filterProducts('Beauty')">Beauty</button>
+            </div>
+
+            <div class="grid" id="affiliate-grid">
+                <!-- Affiliate products loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / About Section -->
+    <section id="contact">
+        <div class="container" style="max-width: 800px;">
+            <div class="glass-panel" style="padding: 50px; text-align: center;">
+                <h2 class="section-title" style="margin-bottom: 30px;">Contact Us</h2>
+                <p style="margin-bottom: 30px; font-size: 1.1rem; color: var(--text-secondary);">
+                    Have questions about our products or need support? Reach out directly.
+                </p>
+                <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+                    <div>
+                        <i class="fas fa-map-marker-alt"
+                            style="font-size: 2rem; color: var(--accent-color); margin-bottom: 15px;"></i>
+                        <p>11545 Angel Falls Ct.<br>Reno, Nevada, 89506</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"
+                            style="font-size: 2rem; color: var(--accent-color); margin-bottom: 15px;"></i>
+                        <p>lilterry200369@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="logo" style="font-size: 1.5rem; margin-bottom: 20px;">ALL FREE</div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-discord"></i></a>
+            </div>
+            <p style="color: var(--text-secondary); font-size: 0.9rem;">&copy; 2026 All Free. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

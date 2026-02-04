@@ -1,0 +1,42 @@
+name: Daily Store Update
+
+on:
+  schedule:
+    # Run at 8:00 AM PST (16:00 UTC) every day
+    - cron: '0 16 * * *'
+  workflow_dispatch: # Allows manual triggering from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-store:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        pip install -r automation/requirements.txt
+
+    - name: Run Scraper and AI Enhancer
+      run: |
+        cd automation
+        python3 deal_scraper.py
+        python3 ai_enhancer.py
+        python3 update_store.py
+      
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name 'Automated Store Bot'
+        git config --global user.email 'bot@noreply.github.com'
+        git add products.js automation/raw_deals.json automation/enhanced_deals.json automation/daily_post.txt
+        # Only commit if there are changes
+        git diff --quiet && git diff --staged --quiet || (git commit -m "daily: update store deals [skip ci]" && git push)
