@@ -24,7 +24,7 @@ USER_AGENTS = [
 AFFILIATE_TAGS = {
     "amazon": "bigterry20036-20",
     "temu": "alg041956",
-    "ebay": "YOUR_EBAY_TAG",
+    "ebay": "4tima",
     "default": "money_maker_2026"
 }
 
