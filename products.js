@@ -5,7 +5,7 @@ const digitalProducts = [
         category: "Digital",
         price: 19.99,
         image: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        link: "https://paypal.me/YOUR_HANDLE",
+        link: "https://paypal.me/lilterry200369",
         badge: "Best Seller"
     },
     {
@@ -14,7 +14,7 @@ const digitalProducts = [
         category: "Digital",
         price: 49.99,
         image: "https://images.unsplash.com/photo-1611974765270-ca12586343bb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        link: "https://paypal.me/YOUR_HANDLE",
+        link: "https://paypal.me/lilterry200369",
         badge: "Popular"
     },
     {
@@ -23,7 +23,7 @@ const digitalProducts = [
         category: "Digital",
         price: 14.99,
         image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        link: "https://paypal.me/YOUR_HANDLE",
+        link: "https://paypal.me/lilterry200369",
         badge: "New"
     },
     {
@@ -32,7 +32,7 @@ const digitalProducts = [
         category: "Digital",
         price: 29.99,
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        link: "https://paypal.me/YOUR_HANDLE",
+        link: "https://paypal.me/lilterry200369",
         badge: "Hot"
     },
     {
@@ -41,7 +41,7 @@ const digitalProducts = [
         category: "Digital",
         price: 24.99,
         image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        link: "https://paypal.me/YOUR_HANDLE",
+        link: "https://paypal.me/lilterry200369",
         badge: "Trending"
     }
 ];
