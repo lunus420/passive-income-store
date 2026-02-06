@@ -31,6 +31,7 @@ jobs:
         cd automation
         python3 deal_scraper.py
         python3 ai_enhancer.py
+        python3 promo_poster.py
         python3 update_store.py
       
     - name: Commit and Push changes
