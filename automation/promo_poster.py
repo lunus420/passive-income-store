@@ -1,49 +1,29 @@
-import json
-import os
 import random
+import time
 
-def generate_social_post():
-    base_dir = os.path.dirname(os.path.dirname(__file__))
-    enhanced_path = os.path.join(os.path.dirname(__file__), "enhanced_deals.json")
-    
-    if not os.path.exists(enhanced_path):
-        print("No enhanced deals found to promote.")
-        return
-        
-    with open(enhanced_path, "r") as f:
-        deals = json.load(f)
-        
-    if not deals:
-        print("Deals list is empty.")
-        return
-        
-    # Pick top 3 deals
-    top_deals = deals[:3]
-    
-    intro_hooks = [
-        "🔥 TODAY'S TOP GLOBAL DEALS ARE IN! 🔥",
-        "💸 STOP OVERPAYING! Check these out:",
-        "🚀 The automation just found these INSANE steals:",
-        "👀 You won't believe these prices. Fresh from the web:"
-    ]
-    
-    post_content = f"{random.choice(intro_hooks)}\n\n"
-    
-    for i, deal in enumerate(top_deals, 1):
-        post_content += f"{i}. {deal['title']}\n"
-        post_content += f"👉 Grab it here: {deal['link']}\n\n"
-        
-    post_content += "Check out the full store for more: [YOUR_STORE_URL_HERE]\n"
-    post_content += "#PassiveIncome #Deals #Shopping #Automation"
-    
-    print("--- GENERATED SOCIAL POST ---")
-    print(post_content)
-    print("-----------------------------")
-    
-    # Save to a file for easy copying
-    with open(os.path.join(os.path.dirname(__file__), "daily_post.txt"), "w") as f:
-        f.write(post_content)
-    print("Post saved to daily_post.txt")
+PROMO_TEMPLATES = [
+    "🔥 HOT DEAL: {title} for only {price}! #PassiveIncome #Deals",
+    "🚀 Just dropped: {title}. Grab it before it's gone! #Tech #Savings",
+    "💰 Money Maker Alert: {title} is currently trending. Link in bio!",
+    "⭐ Reader Favorite: {title} - Best price we've seen all year."
+]
+
+def post_to_social(deal):
+    """Simulates posting to social media."""
+    template = random.choice(PROMO_TEMPLATES)
+    post_text = template.format(title=deal['title'], price=deal['price'])
+    print(f"[Twitter Bot] Posting: {post_text}")
+    print(f"[Twitter Bot] Link: {deal['link']}")
+    print("-" * 50)
+    time.sleep(1)
 
 if __name__ == "__main__":
-    generate_social_post()
+    print("🤖 Social Media Promoter v1.0 Starting...")
+    # This would load deals from json in a real scenario
+    dummy_deal = {
+        "title": "Crypto Trading Bot V2",
+        "price": "$49.99",
+        "link": "https://paypal.me/YOUR_HANDLE"
+    }
+    post_to_social(dummy_deal)
+    print("✅ Promotion Complete!")
