@@ -48,19 +48,63 @@ const digitalProducts = [
 
 const affiliateProducts = [
     {
-        "id": 9444,
-        "title": "Epic: 2-Pack Houoisheck Hat Organizer for Baseball Caps (Black) $7.50 ",
+        "id": 3419,
+        "title": "Viral: 6.6-Oz Calvin Klein Unisex One Eau De Toilette Perfume Spray $31.70 ",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19176562-2-pack-houoisheck-har-organizer-for-baseball-caps-black-7-49-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19180009-calvin-klein-one-eau-de-toilette-perfume-spray-6-6-oz-31-7?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 1784,
-        "title": "Premium: Slickdeals Daily Draw Giveaway \u2013 Enter Now for a Chance to Win! (See Official Rules) ",
+        "id": 6452,
+        "title": "Must-Have: Prime Members: 3-Tier Smiry 27\" Bamboo Stackable Shoe Rack Organizer from $10.80 + Free Shipping",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19180192-prime-members-3-tier-smiry-27-bamboo-stackable-shoe-rack-organizer-regular-10-79-thick-13-19-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 3522,
+        "title": "Exclusive: MGA's Miniverse Make It Mini Spaces: Hello Kitty Building Set $13.20 ",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19179769-mga-s-miniverse-make-it-mini-spaces-hello-kitty-building-set-13-18-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 4052,
+        "title": "Exclusive: 75\" Samsung U7900 Series 4K UHD 60Hz Smart Tizen TV $448 + Free Shipping",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19179148-75-samsung-class-u7900-series-uhd-4k-smart-tizen-tv-2025-448-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 1830,
+        "title": "Insane: GIGABYTE X870E AORUS ELITE MB + AMD Ryzen 7 9850X3D CPU + Corsair M75 Mouse $600 + Free Shipping",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19179502-bundle-gigabyte-x870e-aorus-elite-mb-amd-ryzen-7-9850x3d-cpu-corsair-m75-wireless-rgb-lightweight-fps-gaming-mouse-599-99-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 1921,
+        "title": "Unbeatable: Slickdeals Daily Draw Giveaway \u2013 Enter Now for a Chance to Win! (See Official Rules) ",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
@@ -70,91 +114,47 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 2692,
-        "title": "Premium: 9-Count Walgreens Double Roll Soft Bath Tissue 10 for $28 + Free Store Pickup",
+        "id": 3698,
+        "title": "Must-Have: 32-Oz Tim Hortons Medium Roast Coffee (Whole Bean) $12.15 w/ Subscribe & Save",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19167433-walgreens-2-ply-soft-bath-tissue-9-roll-10-for-28?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19177324-32-oz-tim-hortons-medium-roast-coffee-whole-bean-12-15-w-s-s-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 7984,
-        "title": "Premium: Prime Members: SONGMICS 3-Tier 12-Pair Shoe Rack (11\" D x 25.5\" W x 27.6\" H) $9 & More + Free Shipping",
+        "id": 7402,
+        "title": "Must-Have: 24-Ct TheraBreath Dry Mouth Dentist Formulated Lozenges Sugar-Free (Mandarin Mint) $2.95 w/ Subscribe & Save",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19174543-prime-members-songmics-3-tier-12-pair-shoe-rack-11-d-x-25-5-w-x-27-6-h-9-more-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19178320-24-count-therabreath-dry-mouth-dentist-formulated-lozenges-sugar-free-mandarin-mint-2-93-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 5750,
-        "title": "Must-Have: Turok Trilogy Bundle (Nintendo Switch) $30 + Free Shipping",
+        "id": 7831,
+        "title": "Premium: Select Amazon Accounts: Echo Device Sale: Amazon Echo Dot Max $50 & More + Free S/H",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19176706-29-99-turok-trilogy-bundle-nintendo-switch-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19181425-select-amazon-accounts-echo-device-sale-amazon-echo-dot-max-50-more-free-s-h?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 8192,
-        "title": "Must-Have: 18-Count 1.8oz Reese's Fast Break Peanut Butter Nougat Candy Bars $12.10 w/ Subscribe & Save",
+        "id": 8319,
+        "title": "Unbeatable: 8-Pack Chfeila Dual Spring & Clasp Cord Organizer $4 ",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19177087-sns-12-09-18-count-1-8oz-reese-s-fast-break-peanut-butter-nougat-candy-bars-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 5469,
-        "title": "Unbeatable: 7-Piece 1/2\" DeWalt SAE 6 Point Deep Impact Socket Set $30 + Free Shipping",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19176385-7-piece-1-2-dewalt-sae-6-point-deep-impact-socket-set-29-99-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 5142,
-        "title": "Insane: Samsung Galaxy Tab S10+/S9+/S9FE+ Smart Book Tablet Protector Cover (Black) $12 ",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19177201-11-99-samsung-galaxy-tab-s10-s9-s9fe-smart-book-cover-black-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 7446,
-        "title": "Viral: 13.5-Oz Garnier SkinActive Micellar Cleansing Water Face Wash w/ Vitamin C $5.55 w/ Subscribe & Save",
-        "category": "Beauty",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19170679-13-5-oz-garnier-skinactive-micellar-water-w-vitamin-c-5-55-w-s-s-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 5696,
-        "title": "Must-Have: 24-Oz Pace Chunky Medium Salsa $2.25 w/ Subscribe & Save & More",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19176994-sns-ac-2-24-24-oz-pace-chunky-medium-salsa-more-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19119994-8-pack-chfeila-dual-spring-clasp-cord-organizer-black-3-98-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     }
 ];
