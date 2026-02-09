@@ -27,6 +27,18 @@ def enhance_deal(deal):
     elif any(k in title.lower() for k in ["beauty", "skin", "makeup", "face"]):
         category = "Beauty"
         
+    # Use extracted image or fallback
+    image = deal.get("image")
+    if not image:
+        # Fallback to a varied set of high-quality placeholders if no image found
+        placeholders = [
+            "https://images.unsplash.com/photo-1523275335684-37898b6baf30", # Gadgets
+            "https://images.unsplash.com/photo-1498049794561-7780e7231661", # Electronics
+            "https://images.unsplash.com/photo-1550751827-4bd374c3f58b", # Tech
+            "https://images.unsplash.com/photo-1518770660439-4636190af475"  # Circuit
+        ]
+        image = f"{random.choice(placeholders)}?auto=format&fit=crop&w=1350&q=80"
+
     return {
         "id": random.randint(1000, 9999),
         "title": title,
@@ -34,7 +46,7 @@ def enhance_deal(deal):
         "source": deal["source"],
         "price": "Check Site", # Extracting price from RSS is unreliable without better regex
         "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80", # Placeholder
+        "image": image,
         "link": deal["link"],
         "badge": deal["badge"]
     }
@@ -50,7 +62,7 @@ def process_deals():
     with open(raw_path, "r") as f:
         deals = json.load(f)
         
-    enhanced_deals = [enhance_deal(d) for d in deals[:10]] # Take top 10
+    enhanced_deals = [enhance_deal(d) for d in deals[:50]] # Increase to 50 for more variety
     
     with open(enhanced_path, "w") as f:
         json.dump(enhanced_deals, f, indent=4)

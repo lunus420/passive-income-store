@@ -14,6 +14,7 @@ cd "$AUTO_DIR"
 # Run Python scripts
 python3 deal_scraper.py >> "$LOG_FILE" 2>&1
 python3 ai_enhancer.py >> "$LOG_FILE" 2>&1
+python3 promo_poster.py >> "$LOG_FILE" 2>&1
 python3 update_store.py >> "$LOG_FILE" 2>&1
 
 echo "[$(date)] Store Update Complete." >> "$LOG_FILE"

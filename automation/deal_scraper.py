@@ -54,19 +54,55 @@ def get_deals():
                 continue
                 
             root = ET.fromstring(response.content)
+            # Define namespaces for media content if present
+            ns = {'media': 'http://search.yahoo.com/mrss/'}
+            
             for item in root.findall(".//item"):
                 title = item.find("title").text if item.find("title") is not None else "No Title"
                 raw_link = item.find("link").text if item.find("link") is not None else "#"
                 link = append_affiliate_tag(raw_link)
                 description = item.find("description").text if item.find("description") is not None else ""
                 
-                # Basic parsing for price and image if possible (source specific or generic)
-                # This is a bit tricky with RSS, might need better extraction later
+                # Try to find an image
+                image_url = None
                 
+                # 1. Look for enclosure
+                enclosure = item.find("enclosure")
+                if enclosure is not None and 'url' in enclosure.attrib:
+                    image_url = enclosure.attrib['url']
+                
+                # 2. Look for media:content or media:thumbnail
+                if not image_url:
+                    media_content = item.find("media:content", ns)
+                    if media_content is not None and 'url' in media_content.attrib:
+                        image_url = media_content.attrib['url']
+                    else:
+                        media_thumb = item.find("media:thumbnail", ns)
+                        if media_thumb is not None and 'url' in media_thumb.attrib:
+                            image_url = media_thumb.attrib['url']
+                
+                # 3. Look for img tag in description (very common in RSS)
+                if not image_url and description:
+                    import re
+                    # Broaden regex to catch more image types and ignore attributes
+                    # Slickdeals images are often like: <img src="https://static.slickdeals.net/..." />
+                    img_match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', description, re.IGNORECASE)
+                    if img_match:
+                        image_url = img_match.group(1)
+                    
+                    # 4. Special check for slickdeals.net links if still no image
+                    # Sometimes they use specific classes or structures
+                    if not image_url and "slickdeals.net" in description:
+                        # Extract any URL that looks like an image if we're desperate
+                        fallback_img = re.search(r'https://[^"\']+\.(?:jpg|jpeg|png|gif|webp)', description, re.IGNORECASE)
+                        if fallback_img:
+                            image_url = fallback_img.group(0)
+
                 deal = {
                     "title": title,
                     "link": link,
                     "description": description,
+                    "image": image_url,
                     "source": source["name"],
                     "badge": "NEW"
                 }
