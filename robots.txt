@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lunus420.github.io/passive-income-store/sitemap.xml

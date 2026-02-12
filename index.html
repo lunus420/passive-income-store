@@ -4,86 +4,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internal Project Documentation & Archive</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-
-        .container {
-            background: #fff;
-            padding: 30px;
-            border: 1px solid #ddd;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            color: #2c3e50;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-        }
-
-        h2 {
-            color: #34495e;
-            margin-top: 30px;
-        }
-
-        p {
-            margin-bottom: 15px;
-        }
-
-        .footer {
-            margin-top: 50px;
-            font-size: 0.8em;
-            color: #888;
-            text-align: center;
-            border-top: 1px solid #eee;
-            padding-top: 20px;
-        }
-
-        /* Hidden link style */
-        .secret-link {
-            color: inherit;
-            text-decoration: none;
-            cursor: default;
-        }
-
-        .secret-link:hover {
-            color: inherit;
-        }
-    </style>
+    <title>All Free | Premium Digital Products & Hot Deals</title>
+    <meta name="description"
+        content="Shop premium digital downloads, trending tech deals, home essentials, and more at unbeatable prices. Curated daily deals from top brands.">
+    <meta name="keywords"
+        content="deals, discounts, digital products, tech deals, home deals, coupon, free shipping, passive income">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://lunus420.github.io/passive-income-store/">
+    <meta property="og:title" content="All Free | Premium Digital Products & Hot Deals">
+    <meta property="og:description"
+        content="Curated daily deals from Amazon, Best Buy, and more. Digital downloads and trending products at unbeatable prices.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lunus420.github.io/passive-income-store/">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1>Internal Project Documentation</h1>
-        <p>This repository contains internal research notes, project drafts, and cached documentation for the 2026
-            development cycle. Access is restricted to authorized contributors only.</p>
 
-        <h2>Recent Updates</h2>
-        <ul>
-            <li>Updated environment configuration files.</li>
-            <li>Initial draft of system optimization parameters.</li>
-            <li>Archived legacy asset packs.</li>
-        </ul>
+    <!-- Navigation -->
+    <header id="header">
+        <div class="container class-nav">
+            <nav>
+                <a href="#" class="logo">ALL <span style="color: var(--accent-color);">FREE</span></a>
+                <div class="nav-links">
+                    <a href="#digital">Digital</a>
+                    <a href="#affiliate">Deals</a>
+                    <div class="cart-icon" onclick="toggleCart()">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-badge" id="cart-count">0</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary"
+                        style="padding: 8px 20px; font-size: 0.9rem; margin-left: 20px; color: #000;">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-        <h2>Compliance Notice</h2>
-        <p>All data contained within this archive is subject to internal privacy policies. Distribution of any material
-            found here without prior written consent is strictly prohibited.</p>
-
-        <div class="footer">
-            <p style="margin-bottom: 10px; font-style: italic; opacity: 0.8;">As an Amazon Associate I earn from
-                qualifying purchases.</p>
-            <p>&copy; 2026 <a href="store.html" class="secret-link">System</a> Maintenance Group. All rights reserved.
-            </p>
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay" id="cart-overlay" onclick="toggleCart()"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <span class="cart-close" onclick="toggleCart()">&times;</span>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items loaded via JS -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total">$0.00</span>
+            </div>
+            <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">Checkout</a>
         </div>
     </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 data-aos="fade-up">Premium Digital Knowledge<br><span>And Global Deals</span></h1>
+            <p data-aos="fade-up" data-aos-delay="200">Unlock your potential with our exclusive digital tools, or browse
+                the hottest trends from top retailers at unbeatable prices.</p>
+            <div data-aos="fade-up" data-aos-delay="400">
+                <a href="#digital" class="btn btn-primary">Explore Digital</a>
+                <a href="#affiliate" class="btn"
+                    style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); margin-left: 20px;">Shop
+                    Deals</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Digital Products Section -->
+    <section id="digital">
+        <div class="container">
+            <h2 class="section-title">Exclusive Digital Downloads</h2>
+            <div class="grid" id="digital-grid">
+                <!-- Digital products loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Affiliate Products Section -->
+    <section id="affiliate" style="background: rgba(0,0,0,0.2);">
+        <div class="container">
+            <h2 class="section-title">Trending Global Deals</h2>
+
+            <div class="filters">
+                <button class="filter-btn active" onclick="filterProducts('All')">All</button>
+                <button class="filter-btn" onclick="filterProducts('Tech')">Tech</button>
+                <button class="filter-btn" onclick="filterProducts('Home')">Home</button>
+                <button class="filter-btn" onclick="filterProducts('Beauty')">Beauty</button>
+            </div>
+
+            <div class="grid" id="affiliate-grid">
+                <!-- Affiliate products loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / About Section -->
+    <section id="contact">
+        <div class="container" style="max-width: 800px;">
+            <div class="glass-panel" style="padding: 50px; text-align: center;">
+                <h2 class="section-title" style="margin-bottom: 30px;">Contact Us</h2>
+                <p style="margin-bottom: 30px; font-size: 1.1rem; color: var(--text-secondary);">
+                    Have questions about our products or need support? Reach out directly.
+                </p>
+                <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+                    <div>
+                        <i class="fas fa-envelope"
+                            style="font-size: 2rem; color: var(--accent-color); margin-bottom: 15px;"></i>
+                        <p>lilterry200369@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="logo" style="font-size: 1.5rem; margin-bottom: 20px;">ALL FREE</div>
+            <div class="social-links" id="social-links">
+                <!-- Social links populated dynamically -->
+            </div>
+            <p style="color: var(--text-secondary); font-size: 0.8rem; margin-bottom: 15px; font-style: italic;">As an
+                Amazon Associate I earn from qualifying purchases.</p>
+            <p style="color: var(--text-secondary); font-size: 0.9rem;">&copy; 2026 All Free. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

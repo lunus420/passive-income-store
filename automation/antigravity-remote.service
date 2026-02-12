@@ -1,0 +1,12 @@
+[Unit]
+Description=Antigravity Mobile Remote Service
+After=network.target
+
+[Service]
+User=explode_420
+WorkingDirectory=/home/explode_420/Downloads/anti gravity/passive-income-store/automation
+ExecStart=/usr/bin/python3 "/home/explode_420/Downloads/anti gravity/passive-income-store/automation/mobile_remote.py"
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
