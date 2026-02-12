@@ -5,9 +5,9 @@ import random
 STORE_URL = "https://lunus420.github.io/passive-income-store/"
 
 PROMO_TEMPLATES = [
-    "🔥 TODAY'S TOP GLOBAL DEALS ARE IN! 🔥",
-    "🚀 NEW DEALS JUST DROPPED! 🚀",
-    "💰 START SAVING NOW: TODAY'S HIGHLIGHTS 💰"
+    "🔥 TODAY'S TOP DEALS from Tech and More! 🔥",
+    "🚀 NEW DEALS JUST DROPPED at Tech and More! 🚀",
+    "💰 SAVE BIG TODAY: Tech and More Highlights 💰"
 ]
 
 def generate_social_post():
@@ -42,7 +42,8 @@ def generate_social_post():
         post_lines.append("")
 
     post_lines.append(f"Check out the full store for more: {STORE_URL}")
-    post_lines.append("#PassiveIncome #Deals #Shopping #Automation")
+    post_lines.append("#TechAndMore #Deals #Tech #Shopping #SaveMoney")
+
     
     post_content = "\n".join(post_lines)
     
