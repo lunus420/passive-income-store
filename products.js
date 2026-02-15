@@ -48,29 +48,40 @@ const digitalProducts = [
 
 const affiliateProducts = [
     {
-        "id": 8745,
-        "title": "Viral: 2-Pack 40-Count Mead Security Tinted #10 Envelopes $2.15 & More",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19209124-2-pack-40-count-mead-security-tinted-10-envelopes-2-15-more?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 6989,
-        "title": "Must-Have: 3-Pack 4.7-Oz hello Antiplaque Whitening Toothpaste (Peppermint) $8.15 w/ Subscribe & Save",
+        "id": 8057,
+        "title": "Unbeatable: EUHAMS King Size Bed Wedge Pillow (76\" x 10\" x 6\") $30 ",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19208938-sns-8-12-3-pack-4-7-oz-hello-hello-antiplaque-whitening-toothpaste-peppermint-at-amazon-2-71-each?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19198165-euhams-king-size-bed-wedge-pillow-76-x-10-x-6-29-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 6283,
+        "id": 1247,
+        "title": "Must-Have: adidas: adiClub Winter Sales Event: Up to 50% Off + Extra 30% Off + Free Shipping",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19195198-up-to-50-off-extra-30-off-adidas-adiclub-winter-sales-event?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 8787,
+        "title": "Unbeatable: Wendy's Restaurants: Dave's Single Hamburger $1 w/ Food or Drink Purchase via App (Valid today only)",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19179190-feb-15-select-wendy-s-locations-1-dave-s-single-w-purchase?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 8166,
         "title": "Exclusive: Slickdeals Daily Draw Giveaway \u2013 Enter Now for a Chance to Win! (See Official Rules) ",
         "category": "Tech",
         "source": "Slickdeals",
@@ -81,250 +92,272 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 2392,
-        "title": "Viral: 21-Piece Sedy 2.5\" Hex Head Allen Wrench Drill Bit Set $7.50 ",
+        "id": 5916,
+        "title": "Premium: 39-Drawer Amazon Basics Wall Mount Storage Drawer Organizer $19.80 + Free S/H w/ Prime",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19209400-7-48-21-piece-sedy-2-5-hex-head-allen-wrench-drill-bit-set-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19208992-19-79-amazon-basics-wall-mount-hardware-and-craft-storage-cabinet-drawer-organizer-39-drawers-black-orange-15-l-x-6-3-w-x-18-6-h-inches-lxwxh-at-woot?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 7469,
-        "title": "Premium: Vornado Personal Space Heater with Vortex Technology $20 + Free Shipping",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19207477-vornado-personal-space-heater-with-vortex-technology-19-99-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 9268,
-        "title": "Epic: 4-Pack 1.76-Oz Pure Protein Bars (Cocoa Pebbles) $4.70 w/ Subscribe & Save",
+        "id": 3610,
+        "title": "Must-Have: Kingdom Come: Deliverance II (PS5 or Xbox Series X) $30 ",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://www.amazon.com/gp/product/B0FPNZ4HQG/ref=sw_img_1?creative=9325&camp=1789&linkCode=ur2&ie=UT&tag=bigterry20036-20",
+        "link": "https://slickdeals.net/f/19211926-29-99-kingdom-come-deliverance-ii-ps5-or-xbox-series-x-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 8875,
-        "title": "Premium: 5-Oz CeraVe 100% Mineral Sunscreen SPF 50 $6.50 w/ Subscribe & Save",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19209082-sns-ac-6-49-5-oz-cerave-100-mineral-sunscreen-spf-50-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 3914,
-        "title": "Epic: New Customers: 12-Pack Barebells Protein Bars (various flavors) from 5 for $79.50 & More + Free S/H Orders $50+",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19209088-barebells-60-protein-bars-40-off?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 8702,
-        "title": "Unbeatable: Insignia 2-Way Indoor/Outdoor Speakers (Pair, Black) $25 + Free Shipping",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19207957-insignia-2-way-indoor-outdoor-speakers-pair-black-24-99-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 8523,
-        "title": "Unbeatable: Smith Optics Embark Polarized ChromaPop Sunglasses w/ Side Shields (2 Colors) $56 & More + Free Shipping",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19207042-smith-optics-polarized-non-polarized-sunglasses-various-styles-from-56-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 9725,
-        "title": "Viral: 4-Pack 1.76-Oz Pure Protein Bars (Zig Zag Cake, Fruity Pebbles) $4.70 w/ Subscribe & Save",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19197385-4-pack-1-76-oz-pure-protein-bars-zig-zag-cake-fruity-pebbles-4-70-w-subscribe-save?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 4583,
-        "title": "Unbeatable: Qdoba Mexican Eats Restaurant Offer: Purchase Entr\u00e9e & Drink & Get Free Entr\u00e9e w/ Offer (Valid 2/14 Only)",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19203058-qdoba-free-entr-e-when-you-buy-an-entr-e-drink-2-14-only?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 5055,
-        "title": "Premium: DJI Mic 3 (2 TX + 1 RX + Charging Case) Wireless Microphone $259 + Free Shipping",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19186783-dji-mic-3-2-tx-1-rx-charging-case-wireless-microphone-259-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 9810,
-        "title": "Premium: LISEN 25W Magsafe Car Mount Charger w/ up to 54W Car Charger & 3.3' Cable $19 + Free Shipping",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19208455-lisen-qi2-2-25w-magsafe-car-mount-charger-w-54w-car-charger-3-3-usb-c-cable-18-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 4035,
-        "title": "Epic: Sennheiser ACCENTUM Wireless Bluetooth ANC Headphones (Blue or White) $100 + Free Shipping",
+        "id": 7917,
+        "title": "Unbeatable: 12.25-Oz NOCO Battery Terminal Cleaner Spray & Corrosion Cleaner w/ Acid Detector $3.15 ",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19201540-sennheiser-accentum-wireless-bluetooth-anc-headphones-blue-or-white-100-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19211731-3-16-12-25-oz-noco-battery-terminal-cleaner-spray-corrosion-cleaner-w-acid-detector-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 8352,
-        "title": "Insane: 20-ml Air Wick Essential Mist Refill (Lavender & Almond Blossom) $2.20 w/ Subscribe & Save",
+        "id": 7961,
+        "title": "Insane: Select Accts: 12-Count 13.8-Oz Amazon Grocery Beef Stew Seasoning Mix $5.50 w/ Subscribe & Save",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19203460-20-ml-air-wick-essential-mist-refill-lavender-almond-blossom-2-20-w-subscribe-save?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19209133-12-count-13-8-oz-amazon-grocery-beef-stew-seasoning-mix-5-50-w-s-s-free-shipping-w-prime-or-on-orders-over-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 9347,
-        "title": "Exclusive: Global Movie Day: Mix/ Match Sony Digital Films (UHD/HD): Hook, My Girl, Christine 5 for $13.50 & Many More",
+        "id": 5482,
+        "title": "Epic: OXO Tot Step Stool (Cloud or Drizzle) $16.80 ",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19205728-fanflix-global-movie-day-5-for-15-sony-digital-titles?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19206337-16-79-oxo-tot-step-stool-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 3459,
-        "title": "Epic: Open Box: Apple AirPods 4 Wireless Earbuds w/ USB-C Charging Case $60 + Free Shipping",
+        "id": 8500,
+        "title": "Exclusive: 40W Apple Dynamic Power Adapter $27.30 ",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19205056-walmart-apple-airpods-4-open-box-60?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19190386-27-30-40w-apple-dynamic-power-adapter-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 7574,
-        "title": "Premium: 9-Game Love you to Death Bundle (PC Digital Downloads) $12 ",
+        "id": 5559,
+        "title": "Insane: OLIXIS Under Desk Walking Pad Treadmill, up to 3.1 mph $80 + Free Shipping",
+        "category": "Home",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19210105-olixis-walking-pad-treadmill-led-display-w-remote-0-6mph-3-1mph-79-99-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 6525,
+        "title": "Viral: 32-Oz ECOLAB Acidic Toilet Bowl/Urinal Cleaner & Limescale Remover $3 + Free Store Pickup",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19208155-ecolab-32-oz-acidic-toilet-bowl-cleaner-and-limescale-remover-for-bathroom-toilets-and-urinals-2-98-free-pickup-home-depot?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 9058,
+        "title": "Epic: COSY HOMEER 20\" x 32\" Entryway Non-Slip Rug $10.80 ",
+        "category": "Home",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19191793-cosy-homeer-entryway-non-slip-rug-10-80-free-shipping-w-prime-or-orders-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 5820,
+        "title": "Premium: Select Accounts: 12-Pk 11-Oz Ensure Max Protein Nutrition Shake (French Vanilla) $15.40 w/ Subscribe & Save",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19203733-9-item-love-you-to-death-bundle-pc-digital-downloads-12?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://www.amazon.com/Ensure-Pro...r=1-4&amp;th=1?tag=bigterry20036-20",
         "badge": "NEW"
     },
     {
-        "id": 5077,
-        "title": "Premium: 3.3' Baseus 100W Retractable USB-C to USB-C 5A Charging Cable $6.65 ",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19206850-3-3-baseus-100w-retractable-usb-c-to-usb-c-5a-charging-cable-6-67-fs-w-prime-or-orders-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 9373,
-        "title": "Insane: 10\" x 13\" Winco Commercial-Grade Aluminum Sheet Pan (18 Gauge) $6.75 ",
+        "id": 4885,
+        "title": "Epic: AOCHUAN 3-Axis Smart XE Gimbal Stabilizer for Smartphones (iPhone/Android) $31.20 + Free Shipping",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19207729-6-75-winco-commercial-grade-aluminum-sheet-pan-18-gauge-1-4-size-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19197949-aochuan-3-axis-smart-xe-gimbal-stabilizer-for-smartphones-iphone-android-31-19-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 7810,
-        "title": "Exclusive: 38\" x 83\" MYPIN Heavy Duty Pet Screen Door w/ Two-Way Zippers (Black) $11 ",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19179547-38-x-83-mypin-heavy-duty-pet-screen-door-w-zippers-10-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 9359,
-        "title": "Exclusive: Vitamix 5-Speed 4-Piece Deluxe Immersion Blender Bundle $100 + Free Shipping",
+        "id": 9927,
+        "title": "Premium: Columbia Men's Konos Featherweight Shoe (Select Colors / Sizes) $35 + Free Shipping",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19207807-vitamix-5-speed-4-piece-deluxe-immersion-blender-bundle-black-red-or-green-99-99-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19211008-columbia-men-s-konos-featherweight-shoes-red-size-10-13-35-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 6862,
-        "title": "Unbeatable: Balatro (iOS/Android Game App) $7 ",
+        "id": 3749,
+        "title": "Viral: Select Locations: Swiffer Dusters Cleaning Kit (Handle + 5x Unscented Refills) 2 for $1.80 + Free Store Pickup ($10 Min.)",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19212088-swiffer-dusters-cleaning-kit-handle-5x-unscented-refills-2-for-1-78?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 2103,
+        "title": "Must-Have: Select Accounts: 12-Pk 11-Oz Ensure Max Protein Nutrition Shake (Milk Chocolate) $15.40 w/ Subscribe & Save",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19211971-select-accounts-12-pk-11-oz-ensure-max-protein-nutrition-shake-milk-chocolate-15-40-w-subscribe-save?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 5514,
+        "title": "Unbeatable: Vexino Puffy White Feather Comforter w/ Feathers Down Fiber Filled (Queen) $30 + Free Shipping",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19205974-balatro-ios-android-game-app-6-99-via-apple-app-or-google-play-store?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19182196-vexino-lightweight-all-season-duck-feather-fiber-feather-and-downfiber-queen-duvet-insert-w-100-cotton-cover-29-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 6469,
-        "title": "Must-Have: Cyberpunk 2077: Ultimate Edition (Nintendo Switch 2 Digital Download) $35 ",
+        "id": 7372,
+        "title": "Must-Have: Resmed AirSense 11 AutoSet CPAP Machine w/ Heated Humidifier & SlimLine Tubing $502 + Free Shipping",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19196668-resmed-airsense-11-autoset-cpap-machine-w-heated-humidifier-slimline-tubing-502?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 3882,
+        "title": "Insane: 7\" Squatty Potty Bathroom Toilet Stool (White) $15 ",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19206271-14-99-squatty-potty-the-original-bathroom-toilet-stool-7-inch-height-white-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 2017,
+        "title": "Premium: 8-Oz Stanley Adventure Pre-Party Flask (Azure) $10.40 ",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://www.amazon.com/gp/product/B0CV63QL6K?tag=bigterry20036-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 9882,
+        "title": "Epic: OXO Good Grips Multi-Use Squeegee w/ Hook $7.80 ",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19206367-7-79-oxo-good-grips-multi-use-squeegee-with-hook-10-w-x-7-4-h-at-amazon-com?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 7013,
+        "title": "Epic: Big Outerwear Steals & Deals Up to 85% Off + Free Shipping w/ Prime",
         "category": "Tech",
         "source": "Slickdeals",
         "price": "Check Site",
         "originalPrice": "---",
         "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=1350&q=80",
-        "link": "https://slickdeals.net/f/19207963-cyberpunk-2077-ultimate-edition-nintendo-switch-2-digital-download-34-99?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19206829-big-outerwear-steals-deals-up-to-85-off-free-shipping-w-prime?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 4043,
-        "title": "Insane: USB-A to USB-C Adapter 4-Pack for $5 + free shipping",
+        "id": 1292,
+        "title": "Insane: 4pc Nathan James 24\" Barker Classic Counter Height Wood Barstool w/ Leather Cushion $158.20 + Free Shipping",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1350&q=80",
+        "link": "https://slickdeals.net/f/19211164-175-17-4-pack-nathan-james-barker-classic-counter-height-wood-barstool-w-leather-cushion-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 7841,
+        "title": "Insane: Certified Refurb EcoFlow Delta Pro 3 4,000Wh Power Station for $1,559 + free shipping",
+        "category": "Tech",
+        "source": "DealNews Tech",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://c.dlnws.com/image/upload/f_auto,t_large,q_auto/cms/e6thqlgu9q5t5i4w3oj2.jpg",
+        "link": "https://www.dealnews.com/Certified-Refurb-Eco-Flow-Delta-Pro-3-4-000-Wh-Power-Station-for-1-559-free-shipping/21810336.html?iref=rss-c142&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 5449,
+        "title": "Viral: Refurb EcoFlow River 3 245Wh Portable Power Station for $105 + free shipping",
+        "category": "Tech",
+        "source": "DealNews Tech",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://c.dlnws.com/image/upload/f_auto,t_large,q_auto/cms/r8dttcsbuewiwobum5er.jpg",
+        "link": "https://www.dealnews.com/Refurb-Eco-Flow-River-3-245-Wh-Portable-Power-Station-for-105-free-shipping/21810334.html?iref=rss-c142&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 9717,
+        "title": "Premium: 4-in-1 Folding Wireless Charger / Alarm Clock for $10 + free shipping w/ first order",
+        "category": "Tech",
+        "source": "DealNews Tech",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://c.dlnws.com/image/upload/f_auto,t_large,q_auto/cms/czinb0u6gwhwbboot30j.jpg",
+        "link": "https://www.dealnews.com/4-in-1-Folding-Wireless-Charger-Alarm-Clock-for-10-free-shipping-w-first-order/21810319.html?iref=rss-c142&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 2476,
+        "title": "Must-Have: USB-A to USB-C Adapter 4-Pack for $5 + free shipping",
         "category": "Tech",
         "source": "DealNews Tech",
         "price": "Check Site",
@@ -334,8 +367,8 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 4362,
-        "title": "Premium: Refurb Samsung Galaxy Buds Pro Wireless Headphones for $29 + free shipping",
+        "id": 7986,
+        "title": "Viral: Refurb Samsung Galaxy Buds Pro Wireless Headphones for $29 + free shipping",
         "category": "Tech",
         "source": "DealNews Tech",
         "price": "Check Site",
@@ -345,8 +378,8 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 4778,
-        "title": "Epic: Open-Box Apple AirPods 4 for $60 + free shipping",
+        "id": 3827,
+        "title": "Viral: Open-Box Apple AirPods 4 for $60 + free shipping",
         "category": "Tech",
         "source": "DealNews Tech",
         "price": "Check Site",
@@ -356,7 +389,7 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 5878,
+        "id": 1517,
         "title": "Exclusive: eBay Presidents' Day Electronics Deals: Up to 67% off + extra 20% off + free shipping",
         "category": "Tech",
         "source": "DealNews Tech",
@@ -367,8 +400,8 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 1445,
-        "title": "Premium: Walmart Presidents' Day Deals: Up to 70% off + free shipping w/ $35",
+        "id": 3013,
+        "title": "Exclusive: Walmart Presidents' Day Deals: Up to 70% off + free shipping w/ $35",
         "category": "Tech",
         "source": "DealNews Tech",
         "price": "Check Site",
@@ -378,8 +411,8 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 1295,
-        "title": "Unbeatable: eBay Presidents' Day Sale: Up to 70% off + extra 20% off + free shipping",
+        "id": 7962,
+        "title": "Premium: eBay Presidents' Day Sale: Up to 70% off + extra 20% off + free shipping",
         "category": "Tech",
         "source": "DealNews Tech",
         "price": "Check Site",
@@ -389,8 +422,19 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 3267,
-        "title": "Insane: Best Buy Presidents' Day Sale: Up to 88% off + free shipping",
+        "id": 2730,
+        "title": "Unbeatable: Samsung Galaxy A17 5G 128GB Android Smartphone for Metro by T-Mobile: Free w/ $40 per month Period plan + free shipping",
+        "category": "Tech",
+        "source": "DealNews Tech",
+        "price": "Check Site",
+        "originalPrice": "---",
+        "image": "https://c.dlnws.com/image/upload/f_auto,t_large,q_auto/content/yyy3ctuuj46yibfj4etq.png",
+        "link": "https://www.dealnews.com/Samsung-Galaxy-A17-5-G-128-GB-Android-Smartphone-for-Metro-by-T-Mobile-Free-w-40-per-month-Period-plan-free-shipping/21809652.html?iref=rss-c142&ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 1734,
+        "title": "Premium: Best Buy Presidents' Day Sale: Up to 88% off + free shipping",
         "category": "Tech",
         "source": "DealNews Tech",
         "price": "Check Site",
@@ -400,8 +444,8 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 5992,
-        "title": "Insane: Refurb Unlocked Apple iPhone 16 Pro 256GB Smartphone for $632 + free shipping",
+        "id": 4910,
+        "title": "Must-Have: Refurb Unlocked Apple iPhone 16 Pro 256GB Smartphone for $632 + free shipping",
         "category": "Tech",
         "source": "DealNews Tech",
         "price": "Check Site",
@@ -411,8 +455,8 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 1515,
-        "title": "Unbeatable: Refurb Unlocked Apple iPhone 15 Pro 128GB Smartphone for $417 + free shipping",
+        "id": 5899,
+        "title": "Epic: Refurb Unlocked Apple iPhone 15 Pro 128GB Smartphone for $417 + free shipping",
         "category": "Tech",
         "source": "DealNews Tech",
         "price": "Check Site",
@@ -422,19 +466,8 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 5551,
-        "title": "Premium: Metro by T-Mobile Unlimited 5G for $25 / month",
-        "category": "Tech",
-        "source": "DealNews Tech",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://c.dlnws.com/image/upload/f_auto,t_large,q_auto/content/yyy3ctuuj46yibfj4etq.png",
-        "link": "https://www.dealnews.com/Metro-by-T-Mobile-Unlimited-5-G-for-25-month/21809326.html?iref=rss-c142&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 9731,
-        "title": "Unbeatable: Insignia Speaker and Soundbar Presidents' Day Deals at Best Buy: Up to 50% off + free shipping",
+        "id": 3363,
+        "title": "Insane: Insignia Speaker and Soundbar Presidents' Day Deals at Best Buy: Up to 50% off + free shipping",
         "category": "Tech",
         "source": "DealNews Tech",
         "price": "Check Site",
@@ -444,8 +477,8 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 5799,
-        "title": "Viral: Pioneer Roku TV Presidents' Day Deals at Best Buy: Up to 50% off + free shipping",
+        "id": 4446,
+        "title": "Exclusive: Pioneer Roku TV Presidents' Day Deals at Best Buy: Up to 50% off + free shipping",
         "category": "Tech",
         "source": "DealNews Tech",
         "price": "Check Site",
@@ -455,8 +488,8 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 2829,
-        "title": "Must-Have: Apple Presidents' Day Deals at Best Buy: Up to $350 off + free shipping",
+        "id": 6818,
+        "title": "Insane: Apple Presidents' Day Deals at Best Buy: Up to $350 off + free shipping",
         "category": "Tech",
         "source": "DealNews Tech",
         "price": "Check Site",
@@ -466,7 +499,7 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 2593,
+        "id": 2475,
         "title": "Epic: Open-box Apple AirTag 4-Pack for $59 + free shipping",
         "category": "Tech",
         "source": "DealNews Tech",
@@ -477,7 +510,7 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 4646,
+        "id": 1446,
         "title": "Exclusive: Eco-Worthy 48V 100Ah LiFePO4 Golf Cart Battery for $693 + free shipping",
         "category": "Tech",
         "source": "DealNews Tech",
@@ -488,8 +521,8 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 4963,
-        "title": "Viral: Open-box Apple AirPods Pro 3 (2025) for $167 + free shipping",
+        "id": 7894,
+        "title": "Premium: Open-box Apple AirPods Pro 3 (2025) for $167 + free shipping",
         "category": "Tech",
         "source": "DealNews Tech",
         "price": "Check Site",
@@ -499,52 +532,19 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 8179,
-        "title": "Unbeatable: Sony Bravia XR8B 65\" Class OLED 4K HDR Smart Google TV for $1,118 + free shipping",
+        "id": 4606,
+        "title": "Epic: Metro by T-Mobile Unlimited 5G for $25 / month",
         "category": "Tech",
         "source": "DealNews Tech",
         "price": "Check Site",
         "originalPrice": "---",
-        "image": "https://c.dlnws.com/image/upload/f_auto,t_large,q_auto/cms/nlz9izuzbmjtjo12r1rn.jpg",
-        "link": "https://www.dealnews.com/products/Sony-Electronics/Sony-Bravia-XR8-B-65-Class-OLED-4-K-HDR-Smart-Google-TV/497652.html?iref=rss-c142&ref=money_maker_2026",
+        "image": "https://c.dlnws.com/image/upload/f_auto,t_large,q_auto/content/yyy3ctuuj46yibfj4etq.png",
+        "link": "https://www.dealnews.com/Metro-by-T-Mobile-Unlimited-5-G-for-25-month/21809326.html?iref=rss-c142&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
-        "id": 9658,
-        "title": "Epic: Sony HT-G700 3.1-Channel Dolby Atmos / DTS:X Bluetooth Soundbar for $121 + free shipping",
-        "category": "Tech",
-        "source": "DealNews Tech",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://c.dlnws.com/image/upload/f_auto,t_large,q_auto/cms/nattllxa364ebbitntym.jpg",
-        "link": "https://www.dealnews.com/Sony-HT-G700-3-1-Channel-Dolby-Atmos-DTS-X-Bluetooth-Soundbar-for-121-free-shipping/21809978.html?iref=rss-c142&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 1208,
-        "title": "Epic: Open-box JBL Flip Essential 2 Waterproof Bluetooth Speaker for $34 + free shipping",
-        "category": "Tech",
-        "source": "DealNews Tech",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://c.dlnws.com/image/upload/f_auto,t_large,q_auto/cms/ij40ppl02f9bzp1flhbz.jpg",
-        "link": "https://www.dealnews.com/products/JBL/JBL-Flip-Essential-2-Waterproof-Bluetooth-Speaker/497651.html?iref=rss-c142&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 2775,
-        "title": "Premium: Infimobile Unlimited Talk & Text + 10GB/Month: Only $75/Year",
-        "category": "Tech",
-        "source": "DealNews Tech",
-        "price": "Check Site",
-        "originalPrice": "---",
-        "image": "https://c.dlnws.com/image/upload/f_auto,t_large,q_auto/content/j533lzgrrrqzmgqzzn3g.png",
-        "link": "https://www.dealnews.com/Infimobile-Unlimited-Talk-Text-10-GB-Month-Only-75-Year/21809295.html?iref=rss-c142&ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
-        "id": 9153,
-        "title": "Premium: Open-Box Microsoft Surface Laptop 3 Intel i7 13.5\" Laptop for $310 + free shipping",
+        "id": 1502,
+        "title": "Unbeatable: Open-Box Microsoft Surface Laptop 3 Intel i7 13.5\" Laptop for $310 + free shipping",
         "category": "Beauty",
         "source": "DealNews Home",
         "price": "Check Site",
@@ -554,8 +554,8 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 1007,
-        "title": "Viral: Laptops at Dell Refurbished: Up to 20% off + Extra 33% off + free shipping",
+        "id": 8851,
+        "title": "Insane: Laptops at Dell Refurbished: Up to 20% off + Extra 33% off + free shipping",
         "category": "Tech",
         "source": "DealNews Home",
         "price": "Check Site",
@@ -565,8 +565,8 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 3374,
-        "title": "Epic: Dell 13th-Gen. i5 15.6\" 2K Touchscreen Laptop w/ 512GB SSD for $350 + free shipping",
+        "id": 1556,
+        "title": "Unbeatable: Dell 13th-Gen. i5 15.6\" 2K Touchscreen Laptop w/ 512GB SSD for $350 + free shipping",
         "category": "Tech",
         "source": "DealNews Home",
         "price": "Check Site",
@@ -576,8 +576,8 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 2949,
-        "title": "Exclusive: Acer Aspire 14 Core Ultra 7 14\" Laptop for $530 + free shipping",
+        "id": 7837,
+        "title": "Insane: Acer Aspire 14 Core Ultra 7 14\" Laptop for $530 + free shipping",
         "category": "Tech",
         "source": "DealNews Home",
         "price": "Check Site",
@@ -587,8 +587,8 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 9459,
-        "title": "Premium: Refurb Dell Latitude 5530 Laptops: Extra 40% off + free shipping",
+        "id": 4949,
+        "title": "Must-Have: Refurb Dell Latitude 5530 Laptops: Extra 40% off + free shipping",
         "category": "Tech",
         "source": "DealNews Home",
         "price": "Check Site",
