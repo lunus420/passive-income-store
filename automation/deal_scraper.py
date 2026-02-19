@@ -4,14 +4,24 @@ import json
 import os
 import random
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from urllib.parse import urlparse, urlencode, parse_qs, urljoin
 
 # Sources for deals (RSS feeds)
 SOURCES = [
     {"name": "Slickdeals", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1"},
     {"name": "DealNews Tech", "url": "https://www.dealnews.com/c142/Tech-Gadgets/?rss=1"},
     {"name": "DealNews Home", "url": "https://www.dealnews.com/c49/Home-Garden/?rss=1"},
-    {"name": "Woot Electronics", "url": "https://www.woot.com/blog/feed/electronics"},
-    {"name": "Woot Home", "url": "https://www.woot.com/blog/feed/home-kitchen"}
+    # Additional sources that often have direct retailer links
+    {"name": "BensBargains", "url": "https://bensbargains.com/feed/"},
+    {"name": "FatWallet", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1&q=amazon"},
+]
+
+# Shopify stores to check (using their /products.json endpoint)
+SHOPIFY_SOURCES = [
+    {"name": "Ridge Gear", "url": "https://www.ridge.com/products.json"},
+    {"name": "Master & Dynamic", "url": "https://www.masterdynamic.com/products.json"},
+    {"name": "Ugmonk", "url": "https://ugmonk.com/products.json"},
 ]
 
 USER_AGENTS = [
@@ -25,6 +35,7 @@ AFFILIATE_TAGS = {
     "amazon": "bigterry20036-20",
     "temu": "alg041956",
     "ebay": "4tima",
+    "shopify": "moment_partner_2026", # Placeholder for shopify-specific affiliate id if it existed
     "default": "money_maker_2026"
 }
 
@@ -45,7 +56,44 @@ RETAILER_DOMAINS = [
     "samsung.com",
     "dell.com",
     "apple.com",
+    "ridge.com",
+    "masterdynamic.com",
+    "ugmonk.com",
+    "shopmoment.com",
 ]
+
+def resolve_redirect(url, timeout=6):
+    """Follow redirects to find the real destination retailer URL."""
+    if not url or url == "#":
+        return url
+    try:
+        headers = {"User-Agent": random.choice(USER_AGENTS)}
+        # Use HEAD first to avoid downloading full page
+        resp = requests.head(url, headers=headers, allow_redirects=True, timeout=timeout)
+        final_url = resp.url
+        # Check if the final URL is a known retailer
+        for domain in RETAILER_DOMAINS:
+            if domain in final_url:
+                print(f"  🔗 Resolved to direct link: {domain}")
+                return final_url
+        # If HEAD didn't redirect to a retailer, try GET and look for meta refresh or JS redirect
+        resp = requests.get(url, headers=headers, allow_redirects=True, timeout=timeout)
+        final_url = resp.url
+        for domain in RETAILER_DOMAINS:
+            if domain in final_url:
+                print(f"  🔗 Resolved via GET: {domain}")
+                return final_url
+        # Search for redirect targets in the page body
+        body = resp.text[:5000]
+        urls_in_body = re.findall(r'https?://[^\s"\')>]+', body)
+        for found_url in urls_in_body:
+            for domain in RETAILER_DOMAINS:
+                if domain in found_url:
+                    return found_url.rstrip('\"\',;)')
+    except Exception as e:
+        pass
+    return url
+
 
 def append_affiliate_tag(url):
     """Append the correct affiliate tag based on the retailer domain."""
@@ -65,6 +113,9 @@ def append_affiliate_tag(url):
         return f"{url}{separator}mkcid=1&mkrid=711-53200-19255-0&campid={AFFILIATE_TAGS['ebay']}"
     elif "temu.com" in url:
         return f"{url}{separator}affiliate_id={AFFILIATE_TAGS['temu']}"
+    elif any(d in url for d in ["ridge.com", "masterdynamic.com", "ugmonk.com", "shopmoment.com"]):
+        # Universal Shopify referral tag (placeholder)
+        return f"{url}{separator}ref={AFFILIATE_TAGS['shopify']}"
     elif "walmart.com" in url or "bestbuy.com" in url or "homedepot.com" in url or "newegg.com" in url:
         # These retailers still earn through the aggregator affiliate program
         return f"{url}{separator}ref={AFFILIATE_TAGS['default']}"
@@ -97,6 +148,10 @@ def extract_retailer_url(description, raw_link):
         "woot.com": 5,
         "sennheiser.com": 5,
         "apple.com": 5,
+        "ridge.com": 8,
+        "masterdynamic.com": 8,
+        "ugmonk.com": 8,
+        "shopmoment.com": 8,
         "morningsave.com": 4,
     }
     
@@ -147,9 +202,60 @@ def extract_retailer_url(description, raw_link):
     return best_url
 
 
+def get_shopify_deals():
+    """Fetch deals from Shopify stores using their /products.json endpoint."""
+    shopify_deals = []
+    headers = {"User-Agent": random.choice(USER_AGENTS)}
+    
+    for source in SHOPIFY_SOURCES:
+        try:
+            print(f"Scraping Shopify source: {source['name']}...")
+            response = requests.get(source["url"], headers=headers, timeout=10)
+            if response.status_code != 200:
+                print(f"Failed to fetch {source['name']}: {response.status_code}")
+                continue
+            
+            data = response.json()
+            products = data.get("products", [])
+            
+            # The store is for tech/gear, so we'll grab the first 5 "fresh" items
+            for item in products[:5]:
+                title = item.get("title", "No Title")
+                handle = item.get("handle", "")
+                # Create a direct link
+                base_url = source["url"].split("/products.json")[0]
+                raw_link = f"{base_url}/products/{handle}"
+                link = append_affiliate_tag(raw_link)
+                
+                description = item.get("body_html", "")[:200] + "..."
+                image_url = item.get("images", [{}])[0].get("src")
+                
+                # Get price from variants
+                price = "Check Site"
+                variants = item.get("variants", [])
+                if variants:
+                    price = f"${variants[0].get('price', '0')}"
+
+                deal = {
+                    "title": f"New: {title} {price}",
+                    "link": link,
+                    "link_type": "direct",
+                    "description": description,
+                    "image": image_url,
+                    "source": source["name"],
+                    "badge": "NEW"
+                }
+                shopify_deals.append(deal)
+        except Exception as e:
+            print(f"Error scraping Shopify {source['name']}: {e}")
+            
+    return shopify_deals
+
+
 def get_deals():
     all_deals = []
     
+    # 1. Scrape RSS Aggregators
     for source in SOURCES:
         try:
             headers = {"User-Agent": random.choice(USER_AGENTS)}
@@ -170,13 +276,13 @@ def get_deals():
                 retailer_url = extract_retailer_url(description, raw_link)
                 
                 if retailer_url:
-                    # We found a direct retailer link! Use it with our affiliate tag.
+                    # We found a direct retailer link in description text!
                     link = append_affiliate_tag(retailer_url)
                     link_source = "direct"
                 else:
-                    # No retailer link found, fall back to aggregator link
-                    link = append_affiliate_tag(raw_link)
-                    link_source = "aggregator"
+                    # Mark for batch redirect resolution later
+                    link = raw_link
+                    link_source = "pending_redirect"
                 
                 # --- Image extraction ---
                 image_url = None
@@ -221,6 +327,34 @@ def get_deals():
         except Exception as e:
             print(f"Error scraping {source['name']}: {e}")
             
+    # 2. Scrape Shopify Stores
+    shopify_deals = get_shopify_deals()
+    all_deals.extend(shopify_deals)
+
+    # 3. Batch-resolve pending redirects in parallel
+    pending = [d for d in all_deals if d.get("link_type") == "pending_redirect"]
+    if pending:
+        print(f"\n⚡ Resolving {len(pending)} redirects in parallel (20 workers)...")
+        def _resolve(deal):
+            resolved = resolve_redirect(deal["link"])
+            is_retailer = any(dom in resolved for dom in RETAILER_DOMAINS)
+            if is_retailer and resolved != deal["link"]:
+                deal["link"] = append_affiliate_tag(resolved)
+                deal["link_type"] = "direct"
+            else:
+                deal["link"] = append_affiliate_tag(deal["link"])
+                deal["link_type"] = "aggregator"
+            return deal
+
+        with ThreadPoolExecutor(max_workers=20) as executor:
+            futures = {executor.submit(_resolve, d): d for d in pending}
+            done = 0
+            for future in as_completed(futures):
+                future.result()  # updates deal dict in place
+                done += 1
+                if done % 10 == 0:
+                    print(f"  Resolved {done}/{len(pending)}...")
+
     # Print stats
     direct_count = sum(1 for d in all_deals if d.get("link_type") == "direct")
     print(f"\n📊 Link Stats: {direct_count}/{len(all_deals)} deals have DIRECT retailer links (earns commission)")
@@ -236,3 +370,10 @@ def save_deals(deals):
 if __name__ == "__main__":
     deals = get_deals()
     save_deals(deals)
+    
+    # Auto-run analysis
+    try:
+        from income_status import analyze_earnings
+        analyze_earnings()
+    except ImportError:
+        pass
