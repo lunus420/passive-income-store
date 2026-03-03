@@ -24,31 +24,62 @@ import datetime
 # ============================================================
 # CONFIGURATION — Fill in your API keys here
 # ============================================================
-CONFIG = {
-    # Twitter/X — Get keys at https://developer.twitter.com
+DEFAULT_CONFIG = {
     "twitter": {
-        "enabled": False,  # Set to True after filling in keys
+        "enabled": False,
         "api_key": "",
         "api_secret": "",
         "access_token": "",
         "access_secret": "",
     },
-    # Reddit — Create app at https://www.reddit.com/prefs/apps
     "reddit": {
-        "enabled": False,  # Set to True after filling in keys
+        "enabled": False,
         "client_id": "",
         "client_secret": "",
         "username": "",
         "password": "",
         "subreddits": ["deals", "DealsReddit", "frugal"],
     },
-    # Mastodon — Get token in Settings > Development on your instance
     "mastodon": {
-        "enabled": False,  # Set to True after filling in keys
-        "instance_url": "",  # e.g., "https://mastodon.social"
-        "access_token": "",
+        "enabled": True,
+        "instance_url": "https://mastodon.social",
+        "access_token": "rTt_jgkDc5VUM3zL2f3VBZWWGZA1pkWDrjcFbKqlWNQ",
     },
 }
+
+def load_config():
+    """Load configuration from config.json if it exists."""
+    config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "config.json")
+    if os.path.exists(config_path):
+        try:
+            with open(config_path, "r") as f:
+                saved_config = json.load(f)
+                
+            # Update Twitter
+            if saved_config.get("twitter"):
+                DEFAULT_CONFIG["twitter"].update(saved_config["twitter"])
+                if saved_config["twitter"].get("api_key"): # Enable if key present
+                     DEFAULT_CONFIG["twitter"]["enabled"] = True
+
+            # Update Reddit
+            if saved_config.get("reddit"):
+                DEFAULT_CONFIG["reddit"].update(saved_config["reddit"])
+                if saved_config["reddit"].get("client_id"): # Enable if key present
+                     DEFAULT_CONFIG["reddit"]["enabled"] = True
+
+            # Update Mastodon
+            if saved_config.get("mastodon"):
+                DEFAULT_CONFIG["mastodon"].update(saved_config["mastodon"])
+                
+            print("✅ Loaded configuration from config.json")
+        except Exception as e:
+            print(f"⚠️ Error loading config.json: {e}")
+    else:
+        print(f"ℹ️ No config.json found at {config_path}, using defaults")
+    
+    return DEFAULT_CONFIG
+
+CONFIG = load_config()
 
 STORE_URL = "https://lunus420.github.io/passive-income-store/"
 STORE_NAME = "Tech and More"
@@ -74,8 +105,9 @@ REDDIT_TEMPLATE = """**{title}** — {price}
 """
 
 MASTODON_TEMPLATES = [
-    "🔥 Deal of the day from Tech and More!\n\n{title} — {price}\n\n👉 {link}\n\n#TechAndMore #Deals #Tech #Shopping",
-    "💰 Today's pick: {title} for {price}\n\nGrab it → {link}\n\n#TechDeals #TechAndMore #SaveMoney",
+    "🚀 Tech and More Exclusive Deal!\n\n{title}\n💰 Price: {price}\n\n👉 Shop now: {link}\n\n#TechAndMore #Deals #Tech #SaveMoney #ShoppingAlert",
+    "💰 Today's Top Pick: {title} for {price}\n\nDon't miss out! → {link}\n\n#TechDeals #SmartShopping #TechAndMore #MastodonDeals",
+    "🔥 Hot Price! {title} is now just {price}.\n\nGrab it here: {link}\n\n#DailyDeals #TechAndMore #BargainHunt",
 ]
 
 
@@ -250,6 +282,12 @@ def save_posts(filename, posts):
             f.write("\n\n")
     
     print(f"  📄 Saved {len(posts)} posts to {filename}")
+    
+    # Append to a master log of generated posts
+    with open(os.path.join(base_dir, "generated_posts.log"), "a") as log:
+        log.write(f"\n--- {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')} ---\n")
+        for p in posts:
+            log.write(p + "\n")
 
 
 def main():

@@ -9,12 +9,26 @@ from urllib.parse import urlparse, urlencode, parse_qs, urljoin
 
 # Sources for deals (RSS feeds)
 SOURCES = [
+    # --- General Deals ---
     {"name": "Slickdeals", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1"},
     {"name": "DealNews Tech", "url": "https://www.dealnews.com/c142/Tech-Gadgets/?rss=1"},
     {"name": "DealNews Home", "url": "https://www.dealnews.com/c49/Home-Garden/?rss=1"},
-    # Additional sources that often have direct retailer links
-    {"name": "BensBargains", "url": "https://bensbargains.com/feed/"},
+    # --- Fashion & Clothing ---
+    {"name": "Slickdeals Fashion", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1&q=jacket+shoes+clothing"},
+    {"name": "DealNews Clothing", "url": "https://www.dealnews.com/c196/Clothing/?rss=1"},
+    {"name": "DealNews Shoes", "url": "https://www.dealnews.com/c197/Shoes/?rss=1"},
+    # --- Beauty & Health ---
+    {"name": "DealNews Health", "url": "https://www.dealnews.com/c48/Health-Beauty/?rss=1"},
+    {"name": "Slickdeals Beauty", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1&q=skincare+beauty+shampoo"},
+    # --- Food & Grocery ---
+    {"name": "Slickdeals Food", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1&q=food+snacks+grocery+coffee"},
+    {"name": "DealNews Food", "url": "https://www.dealnews.com/c680/Food-Drink/?rss=1"},
+    # --- Home & Garden ---
+    {"name": "Slickdeals Home", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1&q=kitchen+furniture+home"},
+    # --- Amazon-specific ---
     {"name": "FatWallet", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1&q=amazon"},
+    # --- Toys & Entertainment ---
+    {"name": "Slickdeals Toys", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1&q=lego+toy+game+guitar"},
 ]
 
 # Shopify stores to check (using their /products.json endpoint)
@@ -178,28 +192,55 @@ def extract_retailer_url(description, raw_link):
         # Clean trailing punctuation
         url = url.rstrip('.,;:)*')
         
+        # --- FIX: Detect truncated Slickdeals/DealNews links (ending in ...) ---
+        if url.endswith("..."):
+            # We can't use this as-is, but we'll flag it for deep scraping
+            continue
+
         for domain, priority in priority_map.items():
             if domain in url and priority > best_priority:
                 # Accept any URL with a path (not just bare domain)
-                # amazon.com/dp/X is only 20 chars but is a valid product link
                 if "/" in url.split(domain)[1] if domain in url else False:
                     best_url = url
                     best_priority = priority
                     break
     
-    # If we found nothing from full URLs, check if Slickdeals brackets mention
-    # a retailer — in that case, the aggregator link is still all we have
-    # but at least we know the deal IS from Amazon/etc
-    if not best_url and bracket_domains:
-        for bd in bracket_domains:
-            for domain in priority_map:
-                if domain in bd:
-                    # We know it's an Amazon deal but only have the Slickdeals link
-                    # Still return None - the aggregator link will be used
-                    # but we'll mark the source for the store display
-                    return None
-    
     return best_url
+
+def fetch_thread_final_link(aggregator_url):
+    """
+    Backup method: If we can't find a clean direct link in the RSS feed,
+    visit the thread page and look for the 'Buy Now' or 'Shop Now' target.
+    """
+    if "slickdeals.net" not in aggregator_url and "dealnews.com" not in aggregator_url:
+        return aggregator_url
+
+    try:
+        headers = {"User-Agent": random.choice(USER_AGENTS)}
+        resp = requests.get(aggregator_url, headers=headers, timeout=10)
+        if resp.status_code != 200:
+            return aggregator_url
+        
+        body = resp.text
+        
+        # Slickdeals "Buy Now" target usually in a specific data attribute or JS
+        if "slickdeals.net" in aggregator_url:
+            # Look for internal redirect links like /fout/ or /coupons/click/
+            match = re.search(r'href=["\'](/fout/[^"\']+)["\']', body)
+            if match:
+                target = urljoin("https://slickdeals.net", match.group(1))
+                return resolve_redirect(target)
+                
+        # DealNews usually has a direct 'Go to Store' link
+        if "dealnews.com" in aggregator_url:
+            match = re.search(r'href=["\'](https://www.dealnews.com/go/[^"\']+)["\']', body)
+            if match:
+                return resolve_redirect(match.group(1))
+
+    except Exception:
+        pass
+    
+    return aggregator_url
 
 
 def get_shopify_deals():
@@ -243,7 +284,7 @@ def get_shopify_deals():
                     "description": description,
                     "image": image_url,
                     "source": source["name"],
-                    "badge": "NEW"
+                    "badge": random.choice(["NEW", "HOT", "SALE", "TOP PICK", "VIRAL", "BEST SELLER"]) if random.random() > 0.3 else "NEW"
                 }
                 shopify_deals.append(deal)
         except Exception as e:
@@ -321,7 +362,7 @@ def get_deals():
                     "description": description,
                     "image": image_url,
                     "source": source["name"],
-                    "badge": "NEW"
+                    "badge": random.choice(["NEW", "HOT", "SALE", "TOP PICK", "VIRAL", "BEST SELLER"]) if random.random() > 0.3 else "NEW"
                 }
                 all_deals.append(deal)
         except Exception as e:
@@ -336,7 +377,15 @@ def get_deals():
     if pending:
         print(f"\n⚡ Resolving {len(pending)} redirects in parallel (20 workers)...")
         def _resolve(deal):
+            # Try to resolve redirect first
             resolved = resolve_redirect(deal["link"])
+            
+            # --- IMPROVEMENT: If still an aggregator link, try deep scraping the thread ---
+            if any(agg in resolved for agg in ["slickdeals.net", "dealnews.com", "bensbargains.com"]):
+                deep_resolved = fetch_thread_final_link(resolved)
+                if deep_resolved != resolved:
+                    resolved = deep_resolved
+
             is_retailer = any(dom in resolved for dom in RETAILER_DOMAINS)
             if is_retailer and resolved != deal["link"]:
                 deal["link"] = append_affiliate_tag(resolved)

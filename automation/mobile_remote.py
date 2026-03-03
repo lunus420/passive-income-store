@@ -7,7 +7,7 @@ import time
 app = Flask(__name__)
 
 # Paths
-BASE_DIR = "/home/explode_420/Downloads/anti gravity/passive-income-store"
+BASE_DIR = "/home/hawkatoad/Desktop/anti gravity/passive-income-store"
 AUTO_SCRIPT = os.path.join(BASE_DIR, "automation", "run_automation.sh")
 LOG_FILE = os.path.join(BASE_DIR, "automation", "automation.log")
 CHAT_FILE = os.path.join(BASE_DIR, "automation", "mobile_chat.json")

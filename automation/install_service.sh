@@ -2,7 +2,7 @@
 # Antigravity Service Installer
 
 SERVICE_NAME="antigravity-remote.service"
-SERVICE_PATH="/home/explode_420/Downloads/anti gravity/passive-income-store/automation/$SERVICE_NAME"
+SERVICE_PATH="/home/hawkatoad/Desktop/anti gravity/passive-income-store/automation/$SERVICE_NAME"
 SYSTEMD_PATH="/etc/systemd/system/$SERVICE_NAME"
 
 echo "🚀 Installing Antigravity Mobile Remote as a system service..."

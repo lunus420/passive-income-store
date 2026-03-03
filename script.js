@@ -10,6 +10,12 @@ const cartCountElement = document.getElementById('cart-count');
 
 // State
 let cart = [];
+const PAYPAL_USER = "lilterry200369";
+const SOCIAL_LINKS = [
+    { platform: "Twitter", icon: "fab fa-twitter", url: "https://twitter.com" },
+    { platform: "Instagram", icon: "fab fa-instagram", url: "https://instagram.com" },
+    { platform: "Mastodon", icon: "fab fa-mastodon", url: "https://mastodon.social" }
+];
 
 // Format Price
 const formatPrice = (price) => {
@@ -134,8 +140,30 @@ function updateCartUI() {
     });
 
     // Update Total
+    total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
     cartTotalElement.innerText = `$${total.toFixed(2)}`;
 }
+
+window.checkout = () => {
+    if (cart.length === 0) {
+        alert("Your cart is empty!");
+        return;
+    }
+
+    const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+    // Paypal.me format: https://paypal.me/username/amount
+    const paypalLink = `https://paypal.me/${PAYPAL_USER}/${total.toFixed(2)}`;
+
+    // In a real app, you'd send an order to a backend here.
+    // For this passive income setup, we redirect straight to payment.
+    if (confirm(`Redirecting to PayPal to complete your purchase of $${total.toFixed(2)}?`)) {
+        window.open(paypalLink, '_blank');
+        // Clear cart after checkout
+        cart = [];
+        updateCartUI();
+        toggleCart();
+    }
+};
 
 // Scroll Effect for Header
 window.addEventListener('scroll', () => {
@@ -146,8 +174,20 @@ window.addEventListener('scroll', () => {
     }
 });
 
+function renderSocialLinks() {
+    const containers = document.querySelectorAll('.social-links');
+    containers.forEach(container => {
+        container.innerHTML = SOCIAL_LINKS.map(s => `
+            <a href="${s.url}" target="_blank" title="${s.platform}">
+                <i class="${s.icon}"></i>
+            </a>
+        `).join('');
+    });
+}
+
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
     renderDigitalProducts();
     renderAffiliateProducts();
+    renderSocialLinks();
 });

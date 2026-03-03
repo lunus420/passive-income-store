@@ -3,7 +3,7 @@
 # Passive Income Store Automation Wrapper
 # Runs the scraper, enhancer, and updater in sequence
 
-APP_DIR="/home/explode_420/Downloads/anti gravity/passive-income-store"
+APP_DIR="/home/hawkatoad/Desktop/anti gravity/passive-income-store"
 AUTO_DIR="$APP_DIR/automation"
 LOG_FILE="$AUTO_DIR/automation.log"
 

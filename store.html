@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech and More | Premium Digital & Affiliate Store</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
@@ -46,7 +45,8 @@
                 <span>Total:</span>
                 <span id="cart-total">$0.00</span>
             </div>
-            <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">Checkout</a>
+            <button onclick="checkout()" class="btn btn-primary"
+                style="width: 100%; text-align: center; border: none; cursor: pointer;">Checkout</button>
         </div>
     </div>
 
@@ -82,9 +82,12 @@
 
             <div class="filters">
                 <button class="filter-btn active" onclick="filterProducts('All')">All</button>
-                <button class="filter-btn" onclick="filterProducts('Tech')">Tech</button>
+                <button class="filter-btn" onclick="filterProducts('Electronics')">Electronics</button>
                 <button class="filter-btn" onclick="filterProducts('Home')">Home</button>
+                <button class="filter-btn" onclick="filterProducts('Fashion')">Fashion</button>
                 <button class="filter-btn" onclick="filterProducts('Beauty')">Beauty</button>
+                <button class="filter-btn" onclick="filterProducts('Food')">Food</button>
+                <button class="filter-btn" onclick="filterProducts('Toys & Fun')">Toys & Fun</button>
             </div>
 
             <div class="grid" id="affiliate-grid">
