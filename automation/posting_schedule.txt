@@ -1,0 +1,30 @@
+# AUTO PROMOTION SCHEDULE - 2026-04-05
+
+## DAILY POSTING TIMES (3x per day):
+
+### 🌅 MORNING POST (8:00 AM)
+- Platform: Twitter
+- File: twitter_bot_posts.txt
+- Purpose: Catch early commuters
+
+### 🌞 AFTERNOON POST (2:00 PM) 
+- Platform: Facebook
+- File: facebook_bot_posts.txt  
+- Purpose: Lunch break browsers
+
+### 🌆 EVENING POST (7:00 PM)
+- Platform: Reddit
+- File: reddit_bot_posts.txt
+- Purpose: Evening relaxation time
+
+## INSTRUCTIONS:
+1. Copy the appropriate post from the file
+2. Paste to the platform
+3. Add relevant hashtags if needed
+4. Done! Your bot did the hard work.
+
+## TRACKING:
+Check your affiliate dashboards daily for clicks from these posts.
+
+## NEXT UPDATE:
+This schedule refreshes automatically every 24 hours.

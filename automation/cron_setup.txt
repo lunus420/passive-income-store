@@ -1,0 +1,20 @@
+# CRON JOB SETUP - Auto Posting 3x Daily
+
+## Add this to your crontab (crontab -e):
+
+# Post at 8:00 AM every day
+0 8 * * * cd /home/hawkatoad/Desktop/anti\ gravity/passive-income-store/automation && ./auto_post_bot.sh
+
+# Post at 2:00 PM every day  
+0 14 * * * cd /home/hawkatoad/Desktop/anti\ gravity/passive-income-store/automation && ./auto_post_bot.sh
+
+# Post at 7:00 PM every day
+0 19 * * * cd /home/hawkatoad/Desktop/anti\ gravity/passive-income-store/automation && ./auto_post_bot.sh
+
+## To install cron jobs:
+1. Type: crontab -e
+2. Add the lines above
+3. Save and exit
+4. Check with: crontab -l
+
+## Your bot will now post 3x daily automatically!
