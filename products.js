@@ -105,7 +105,7 @@ const affiliateProducts = [
         "source": "DealNews Home",
         "price": "$350",
         "originalPrice": "---",
-        "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=600&q=80",
+        "image": "https://images.unsplash.com/photo-1544244015-0f4fd9c4e7c?auto=format&fit=crop&w=600&q=80",
         "link": "https://www.dealnews.com/products/Apple/Apple-Mac-Book-Air-M1-13-Laptop-2020/441925.html?iref=rss-c49&ref=money_maker_2026",
         "badge": "SALE"
     },
