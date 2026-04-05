@@ -2069,4 +2069,95 @@ const affiliateProducts = [
     }
 ];
 
-const allProducts = [...digitalProducts, ...affiliateProducts];
+const allProducts = [...digitalProducts, ...affiliateProducts,
+[
+    {
+        "id": 9999,
+        "title": "Budget: Anker PowerCore 10000 Portable Charger $12",
+        "category": "Electronics",
+        "source": "Amazon Deal",
+        "price": "$12",
+        "originalPrice": "$25",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80",
+        "link": "https://www.amazon.com/s?k=anker+powercore&tag=bigterry20036-20",
+        "badge": "BUDGET"
+    },
+    {
+        "id": 9998,
+        "title": "Affordable: JBL Tune 500BT Wireless Headphones $25",
+        "category": "Electronics",
+        "source": "Amazon Deal",
+        "price": "$25",
+        "originalPrice": "$50",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+        "link": "https://www.amazon.com/s?k=jbl+headphones&tag=bigterry20036-20",
+        "badge": "SALE"
+    },
+    {
+        "id": 9997,
+        "title": "Budget: Logitech M185 Wireless Mouse $8",
+        "category": "Electronics",
+        "source": "Amazon Deal",
+        "price": "$8",
+        "originalPrice": "$20",
+        "image": "https://images.unsplash.com/photo-1527864550417-7fd9fc2417af?auto=format&fit=crop&w=600&q=80",
+        "link": "https://www.amazon.com/s?k=logitech+mouse&tag=bigterry20036-20",
+        "badge": "BUDGET"
+    },
+    {
+        "id": 9996,
+        "title": "Cheap: SanDisk 64GB USB Flash Drive $6",
+        "category": "Electronics",
+        "source": "Amazon Deal",
+        "price": "$6",
+        "originalPrice": "$15",
+        "image": "https://images.unsplash.com/photo-1517486808950-2e325a9c94e5?auto=format&fit=crop&w=600&q=80",
+        "link": "https://www.amazon.com/s?k=sandisk+usb&tag=bigterry20036-20",
+        "badge": "CHEAP"
+    },
+    {
+        "id": 9995,
+        "title": "Budget: Mainstays Basic Kitchen Knife Set $15",
+        "category": "Home",
+        "source": "Walmart Deal",
+        "price": "$15",
+        "originalPrice": "$30",
+        "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&q=80",
+        "link": "https://www.walmart.com/s?k=kitchen+knife+set",
+        "badge": "BUDGET"
+    },
+    {
+        "id": 9994,
+        "title": "Affordable: Utopia Bedding Set - Twin $20",
+        "category": "Home",
+        "source": "Amazon Deal",
+        "price": "$20",
+        "originalPrice": "$45",
+        "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=600&q=80",
+        "link": "https://www.amazon.com/s?k=bedding+set&tag=bigterry20036-20",
+        "badge": "SALE"
+    },
+    {
+        "id": 9993,
+        "title": "Cheap: Rubbermaid Food Storage Containers $8",
+        "category": "Home",
+        "source": "Target Deal",
+        "price": "$8",
+        "originalPrice": "$20",
+        "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&q=80",
+        "link": "https://www.target.com/s?search=food+storage",
+        "badge": "CHEAP"
+    },
+    {
+        "id": 9992,
+        "title": "Budget: Black+Decker Toaster Oven $25",
+        "category": "Home",
+        "source": "Amazon Deal",
+        "price": "$25",
+        "originalPrice": "$50",
+        "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&q=80",
+        "link": "https://www.amazon.com/s?k=toaster+oven&tag=bigterry20036-20",
+        "badge": "BUDGET"
+    }
+]
+];
