@@ -13,11 +13,11 @@ const socialLinks = document.getElementById('social-links');
 let cart = [];
 const PAYPAL_USER = "lilterry200369";
 const SOCIAL_LINKS = [
-    { platform: "Twitter", icon: "fab fa-twitter", url: "https://twitter.com/techandmore", color: "#1DA1F2" },
-    { platform: "Facebook", icon: "fab fa-facebook", url: "https://facebook.com/techandmore", color: "#1877F2" },
-    { platform: "Reddit", icon: "fab fa-reddit", url: "https://reddit.com/r/techandmoredeals", color: "#FF4500" },
-    { platform: "Instagram", icon: "fab fa-instagram", url: "https://instagram.com/techandmore", color: "#E4405F" },
-    { platform: "YouTube", icon: "fab fa-youtube", url: "https://youtube.com/@techandmore", color: "#FF0000" }
+    { platform: "Twitter", icon: "fab fa-twitter", url: "https://twitter.com/teknest", color: "#1DA1F2" },
+    { platform: "Facebook", icon: "fab fa-facebook", url: "https://facebook.com/teknest", color: "#1877F2" },
+    { platform: "Reddit", icon: "fab fa-reddit", url: "https://reddit.com/r/teknestdeals", color: "#FF4500" },
+    { platform: "Instagram", icon: "fab fa-instagram", url: "https://instagram.com/teknest", color: "#E4405F" },
+    { platform: "YouTube", icon: "fab fa-youtube", url: "https://youtube.com/@teknest", color: "#FF0000" }
 ];
 
 const formatPrice = (price) => {
