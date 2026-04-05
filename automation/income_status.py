@@ -7,29 +7,29 @@ Aggregates your affiliate IDs and provides direct links to check earnings.
 import os
 import sys
 
-# Affiliate IDs from deal_scraper.py
-AFFILIATE_CONFIG = {
-    "Amazon Associates": {
-        "id": "bigterry20036-20",
-        "url": "https://affiliate-program.amazon.com/home"
-    },
-    "eBay Partner Network": {
-        "id": "4tima",
-        "url": "https://partnernetwork.ebay.com/dashboard"
-    },
-    "Temu Affiliate": {
-        "id": "alg041956",
-        "url": "https://www.temu.com/affiliate/dashboard"
-    },
-    "Shopify Brands (Joint)": {
-        "id": "moment_partner_2026 (Placeholder)",
-        "url": "https://collabs.shopify.com/"
-    },
-    "PayPal (Direct Sales)": {
-        "id": "paypal.me/lilterry200369",
-        "url": "https://www.paypal.com/mep/dashboard"
+# --- CONFIG LOAD ---
+def load_config():
+    config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "config.json")
+    default_config = {
+        "Amazon Associates": {"id": "bigterry20036-20", "url": "https://affiliate-program.amazon.com/home"},
+        "eBay Partner Network": {"id": "4tima", "url": "https://partnernetwork.ebay.com/dashboard"},
+        "Temu Affiliate": {"id": "alg041956", "url": "https://www.temu.com/affiliate/dashboard"},
+        "Shopify Brands (Joint)": {"id": "moment_partner_2026 (Placeholder)", "url": "https://collabs.shopify.com/"},
+        "PayPal (Direct Sales)": {"id": "paypal.me/lilterry200369", "url": "https://www.paypal.com/mep/dashboard"}
     }
-}
+    if os.path.exists(config_path):
+        try:
+            with open(config_path, "r") as f:
+                c = json.load(f)
+                ids = c.get("affiliate_ids", {})
+                if "amazon" in ids: default_config["Amazon Associates"]["id"] = ids["amazon"]
+                if "ebay" in ids: default_config["eBay Partner Network"]["id"] = ids["ebay"]
+                if "temu" in ids: default_config["Temu Affiliate"]["id"] = ids["temu"]
+        except:
+            pass
+    return default_config
+
+AFFILIATE_CONFIG = load_config()
 
 def print_dashboard():
     print("="*60)

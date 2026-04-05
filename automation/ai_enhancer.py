@@ -3,7 +3,7 @@ import os
 import random
 import re
 
-ADJECTIVES = ["Epic", "Insane", "Unbeatable", "Must-Have", "Viral", "Premium", "Exclusive"]
+ADJECTIVES = ["Epic", "Insane", "Unbeatable", "Must-Have", "Viral", "Premium", "Exclusive", "Savage", "Brutal", "Elite", "Legendary", "Extreme"]
 
 # --- COMPREHENSIVE CATEGORY MAP ---
 # Each category has a list of keywords. First match wins (order matters).
@@ -77,6 +77,14 @@ CATEGORY_KEYWORDS = {
         "giveaway", "sweepstakes", "contest", "daily draw",
         "analog", "focus kit", "cards", "dot grid", "notebook", "journal",
     ],
+    "Books": [
+        "hardcover", "paperback", "biography", "memoir", "fiction", "novel",
+        "non-fiction", "cookbooks", "comic", "manga", "educational", "textbook"
+    ],
+    "Movies": [
+        "blu-ray", "dvd", "digital movie", "4k ultra hd", "movie collection",
+        "cinema", "theatrical", "series box set"
+    ],
 }
 
 def categorize_product(title):
@@ -109,7 +117,19 @@ def enhance_deal(deal):
     # Extract real price from title
     price = extract_price(title)
     
-    # Use extracted image or fallback based on CATEGORY
+    # Specific Badge handling
+    badge = deal["badge"]
+    source_lower = deal["source"].lower()
+    if "temu.com" in deal["link"] or "temu" in title.lower() or source_lower == "temu":
+        badge = "TEMU DEAL"
+        if category == "Other":
+            # Temu often has home/gadget stuff, try to re-poke Home if it's Temu
+            if any(k in title.lower() for k in ["organizer", "rack", "tool", "kitchen", "led"]):
+                category = "Home"
+    elif any(s in source_lower for s in ["b&h", "newegg", "techradar", "bh photo"]):
+        badge = "LEGIT TECH"
+    elif "amazon" in source_lower:
+        badge = "AMAZON DEAL"
     image = deal.get("image")
     if not image:
         category_placeholders = {

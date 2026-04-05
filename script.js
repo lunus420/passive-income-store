@@ -17,20 +17,31 @@ const SOCIAL_LINKS = [
     { platform: "Mastodon", icon: "fab fa-mastodon", url: "https://mastodon.social" }
 ];
 
-// Format Price
 const formatPrice = (price) => {
     return typeof price === 'number' ? `$${price.toFixed(2)}` : price;
 };
 
+const getBadgeColor = (badge) => {
+    if (badge === "LEGIT TECH") return "#00ccff"; // Cyan
+    if (badge === "TEMU DEAL") return "#ff6600"; // Orange
+    if (badge === "AMAZON DEAL") return "#ff9900"; // Amazon Orange
+    if (["HOT", "VIRAL", "BRUTAL", "SAVAGE", "EXTREME"].includes(badge)) return "#ff0055"; // Hot Pink/Red
+    return "#666"; // Gray fallback
+};
+
 // Render Functions
-function renderDigitalProducts() {
+function renderDigitalProducts(filter = 'All') {
     digitalGrid.innerHTML = '';
-    digitalProducts.forEach(product => {
+    const filtered = filter === 'All' 
+        ? digitalProducts 
+        : digitalProducts.filter(p => p.category === filter);
+
+    filtered.forEach(product => {
         const card = document.createElement('div');
         card.className = 'glass-panel product-card';
         card.innerHTML = `
             <div class="product-image">
-                <span class="badge">${product.badge}</span>
+                <span class="badge" style="background: #00ccff; color: #fff;">DIGITAL</span>
                 <img src="${product.image}" loading="lazy" alt="${product.title}">
             </div>
             <div class="product-content">
@@ -38,7 +49,7 @@ function renderDigitalProducts() {
                 <h3 class="product-title">${product.title}</h3>
                 <div class="product-price">${formatPrice(product.price)}</div>
                 <div class="product-actions">
-                    <button onclick="addToCart(${product.id})" class="btn btn-primary" style="width: 100%; text-align: center; border: none;">Add to Cart</button>
+                    <a href="${product.link}" target="_blank" class="btn btn-primary" style="width: 100%; text-align: center; border: none; text-decoration: none; display: block;">ACCESS NOW</a>
                 </div>
             </div>
         `;
@@ -54,11 +65,12 @@ function renderAffiliateProducts(category = 'All') {
         : affiliateProducts.filter(p => p.category === category);
 
     filteredProducts.forEach(product => {
+        const badgeColor = getBadgeColor(product.badge);
         const card = document.createElement('div');
         card.className = 'glass-panel product-card';
         card.innerHTML = `
             <div class="product-image">
-                <span class="badge" style="background: #ff0055; color: #fff;">${product.badge}</span>
+                <span class="badge" style="background: ${badgeColor}; color: #fff;">${product.badge}</span>
                 <img src="${product.image}" loading="lazy" alt="${product.title}">
             </div>
             <div class="product-content">
@@ -87,7 +99,19 @@ window.filterProducts = (category) => {
             btn.classList.remove('active');
         }
     });
-    renderAffiliateProducts(category);
+
+    const affiliateSection = document.getElementById('affiliate-section');
+    const librarySection = document.getElementById('library-section');
+    
+    if (category === 'Books' || category === 'Movies' || category === 'Library') {
+        affiliateSection.style.display = 'none';
+        librarySection.style.display = 'block';
+        renderDigitalProducts(category === 'Library' ? 'All' : category);
+    } else {
+        affiliateSection.style.display = 'block';
+        librarySection.style.display = 'none';
+        renderAffiliateProducts(category);
+    }
 };
 
 // Cart Functions

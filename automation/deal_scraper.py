@@ -7,12 +7,38 @@ import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urlparse, urlencode, parse_qs, urljoin
 
+# --- CONFIG LOAD ---
+def load_affiliate_config():
+    config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "config.json")
+    tags = {
+        "amazon": "bigterry20036-20",
+        "temu": "alg041956",
+        "ebay": "4tima",
+        "shopify": "moment_partner_2026",
+        "default": "money_maker_2026"
+    }
+    if os.path.exists(config_path):
+        try:
+            with open(config_path, "r") as f:
+                c = json.load(f)
+                if "affiliate_ids" in c:
+                    tags.update(c["affiliate_ids"])
+                    print("✅ Loaded affiliate IDs from config.json")
+        except:
+            pass
+    return tags
+
+AFFILIATE_TAGS = load_affiliate_config()
+
 # Sources for deals (RSS feeds)
 SOURCES = [
     # --- General Deals ---
     {"name": "Slickdeals", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1"},
     {"name": "DealNews Tech", "url": "https://www.dealnews.com/c142/Tech-Gadgets/?rss=1"},
     {"name": "DealNews Home", "url": "https://www.dealnews.com/c49/Home-Garden/?rss=1"},
+    # --- Temu Specific ---
+    {"name": "Slickdeals Temu", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1&q=temu"},
+    {"name": "DealNews Temu", "url": "https://www.dealnews.com/newsearch.php?q=temu&rss=1"},
     # --- Fashion & Clothing ---
     {"name": "Slickdeals Fashion", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1&q=jacket+shoes+clothing"},
     {"name": "DealNews Clothing", "url": "https://www.dealnews.com/c196/Clothing/?rss=1"},
@@ -27,6 +53,11 @@ SOURCES = [
     {"name": "Slickdeals Home", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1&q=kitchen+furniture+home"},
     # --- Amazon-specific ---
     {"name": "FatWallet", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1&q=amazon"},
+    # --- Tech & Gadgets (Premium) ---
+    {"name": "DealNews Tech", "url": "https://www.dealnews.com/c142/Tech-Gadgets/?rss=1"},
+    {"name": "B&H Photo Video", "url": "https://www.bhphotovideo.com/c/rss/dealZone.xml"},
+    {"name": "Newegg Deals", "url": "https://www.newegg.com/DailyDealsRSS.xml?depa=0"},
+    {"name": "TechRadar Deals", "url": "https://www.techradar.com/rss/reviews/gadgets"},
     # --- Toys & Entertainment ---
     {"name": "Slickdeals Toys", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1&q=lego+toy+game+guitar"},
 ]
