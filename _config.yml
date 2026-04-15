@@ -1,0 +1,6 @@
+# Disable Jekyll processing for static site
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
