@@ -1,0 +1,53 @@
+{
+  "reddit": {
+    "client_id": "YOUR_REDDIT_CLIENT_ID",
+    "client_secret": "YOUR_REDDIT_CLIENT_SECRET",
+    "username": "YOUR_REDDIT_USERNAME",
+    "password": "YOUR_REDDIT_PASSWORD",
+    "user_agent": "Tek-Nest Deal Bot v1.0"
+  },
+  "twitter": {
+    "api_key": "vG1i4w8j7R49BGeKz7zjiyhso",
+    "api_secret": "Wo5cRT3VnabVXXZgeDv5GEBUDU16DR5Rnfz8G4E95RgWZYaNdW",
+    "access_token": "1679811342574956548-IR8KCXylVGx3NhI3lDQ4fCzA4TBalA",
+    "access_token_secret": "LqxcC72pQ9ybPOYYlAUF29RgqGtiakgOAmsaGTVBgP8CF"
+  },
+  "subreddits": {
+    "Electronics": [
+      "buildapcsales",
+      "deals",
+      "frugalmalefashion"
+    ],
+    "Home": [
+      "HomeImprovement",
+      "deals",
+      "Frugal"
+    ],
+    "Fashion": [
+      "frugalmalefashion",
+      "deals"
+    ],
+    "Food": [
+      "EatCheapAndHealthy",
+      "deals"
+    ],
+    "Toys & Fun": [
+      "GameDeals",
+      "deals"
+    ],
+    "Beauty": [
+      "deals"
+    ],
+    "All": [
+      "deals",
+      "Frugal"
+    ]
+  },
+  "posting_times": [
+    "09:00",
+    "13:00",
+    "17:00",
+    "21:00"
+  ],
+  "delay_between_posts": 300
+}

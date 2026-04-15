@@ -1,0 +1,20 @@
+2026-03-31 15:27:33,537 | [*] Processing 5 posts for today...
+2026-03-31 15:28:28,228 | [!] praw not installed. Run: pip3 install praw
+2026-03-31 15:28:28,771 | [!] Twitter auth failed: 401 Unauthorized
+89 - Invalid or expired token.
+2026-03-31 15:28:28,771 | [*] Processing 5 posts for today...
+2026-03-31 15:28:28,771 | [!] Reddit not initialized
+2026-03-31 15:33:28,771 | [!] Reddit not initialized
+2026-03-31 15:38:29,008 | [!] Twitter post failed: 404 Not Found
+2026-03-31 15:43:29,009 | [!] Reddit not initialized
+2026-03-31 15:48:29,010 | [!] Reddit not initialized
+2026-03-31 15:53:29,253 | [!] Twitter post failed: 404 Not Found
+2026-03-31 15:58:29,254 | [!] Reddit not initialized
+2026-03-31 16:03:29,254 | [!] Reddit not initialized
+2026-03-31 16:08:29,481 | [!] Twitter post failed: 404 Not Found
+2026-03-31 16:13:29,481 | [!] Reddit not initialized
+2026-03-31 16:18:29,482 | [!] Reddit not initialized
+2026-03-31 16:23:29,736 | [!] Twitter post failed: 404 Not Found
+2026-03-31 16:28:29,736 | [!] Reddit not initialized
+2026-03-31 16:33:29,737 | [!] Reddit not initialized
+2026-03-31 16:38:29,999 | [!] Twitter post failed: 404 Not Found
