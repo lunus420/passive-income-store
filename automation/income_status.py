@@ -15,7 +15,7 @@ def load_config():
         "eBay Partner Network": {"id": "4tima", "url": "https://partnernetwork.ebay.com/dashboard"},
         "Temu Affiliate": {"id": "alg041956", "url": "https://www.temu.com/affiliate/dashboard"},
         "Shopify Brands (Joint)": {"id": "moment_partner_2026 (Placeholder)", "url": "https://collabs.shopify.com/"},
-        "PayPal (Direct Sales)": {"id": "paypal.me/lilterry200369", "url": "https://www.paypal.com/mep/dashboard"}
+        "PayPal (Direct Sales)": {"id": "paypal.me/teknest.org2026", "url": "https://www.paypal.com/mep/dashboard"}
     }
     if os.path.exists(config_path):
         try:
