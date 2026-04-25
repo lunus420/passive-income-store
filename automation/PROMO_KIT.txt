@@ -129,7 +129,7 @@ Terry | Tech and More
 To get Google to actually show your site in search results:
 
 1. Go to: https://search.google.com/search-console/
-2. Sign in with lilterry200369@gmail.com
+2. Sign in with teknest.org2026@yahoo.com
 3. Click "Add Property" → Enter: https://lunus420.github.io/passive-income-store/
 4. Verify via "URL prefix" method (it'll ask for HTML file upload — I can help with that)
 5. Once verified, go to "Sitemaps" → Submit: https://lunus420.github.io/passive-income-store/sitemap.xml
