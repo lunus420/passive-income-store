@@ -14,20 +14,32 @@ import requests  # Facebook API
 
 class RealAutoBots:
     def __init__(self):
-        self.site_url = "https://lunus420.github.io/passive-income-store/"
+        self.site_url = "https://tek-nest.org/"
+        self.config = self.load_config()
         
-        # API Keys (you'll need to add these)
-        self.twitter_api_key = "YOUR_TWITTER_API_KEY"
-        self.twitter_api_secret = "YOUR_TWITTER_API_SECRET"
-        self.twitter_access_token = "YOUR_TWITTER_ACCESS_TOKEN"
-        self.twitter_access_secret = "YOUR_TWITTER_ACCESS_SECRET"
+        # Load API keys from config
+        self.twitter_api_key = self.config.get('twitter', {}).get('api_key', '')
+        self.twitter_api_secret = self.config.get('twitter', {}).get('api_secret', '')
+        self.twitter_access_token = self.config.get('twitter', {}).get('access_token', '')
+        self.twitter_access_secret = self.config.get('twitter', {}).get('access_token_secret', '')
         
-        self.reddit_client_id = "YOUR_REDDIT_CLIENT_ID"
-        self.reddit_client_secret = "YOUR_REDDIT_CLIENT_SECRET"
-        self.reddit_user_agent = "DealsBot/1.0"
+        self.reddit_client_id = self.config.get('reddit', {}).get('client_id', '')
+        self.reddit_client_secret = self.config.get('reddit', {}).get('client_secret', '')
+        self.reddit_username = self.config.get('reddit', {}).get('username', '')
+        self.reddit_password = self.config.get('reddit', {}).get('password', '')
+        self.reddit_user_agent = self.config.get('reddit', {}).get('user_agent', 'Tek-Nest Deal Bot v1.0')
         
         # Facebook requires page access token
-        self.facebook_access_token = "YOUR_FACEBOOK_ACCESS_TOKEN"
+        self.facebook_access_token = self.config.get('facebook', {}).get('access_token', '')
+    
+    def load_config(self):
+        """Load config from promo_config.json"""
+        try:
+            config_path = os.path.join(os.path.dirname(__file__), 'promo_config.json')
+            with open(config_path, 'r') as f:
+                return json.load(f)
+        except:
+            return {}
         
     def load_products(self):
         """Load products from parent directory"""
@@ -42,19 +54,20 @@ class RealAutoBots:
             return []
     
     def setup_twitter_bot(self):
-        """Setup Twitter API bot"""
+        """Setup Twitter API bot using API v2"""
         try:
-            auth = tweepy.OAuthHandler(
-                self.twitter_api_key, 
-                self.twitter_api_secret,
-                self.twitter_access_token, 
-                self.twitter_access_secret
+            # Twitter API v2 with OAuth 1.0a (for posting)
+            client = tweepy.Client(
+                consumer_key=self.twitter_api_key,
+                consumer_secret=self.twitter_api_secret,
+                access_token=self.twitter_access_token,
+                access_token_secret=self.twitter_access_secret
             )
-            self.twitter_api = tweepy.API(auth, wait_on_rate_limit=True)
             
             # Test connection
-            me = self.twitter_api.verify_credentials()
-            print(f"✅ Twitter bot connected as @{me.screen_name}")
+            me = client.get_me()
+            print(f"✅ Twitter bot connected as @{me.data.username}")
+            self.twitter_client = client
             return True
         except Exception as e:
             print(f"❌ Twitter bot setup failed: {e}")
@@ -67,11 +80,13 @@ class RealAutoBots:
             self.reddit_api = praw.Reddit(
                 client_id=self.reddit_client_id,
                 client_secret=self.reddit_client_secret,
+                username=self.reddit_username,
+                password=self.reddit_password,
                 user_agent=self.reddit_user_agent
             )
             
             # Test connection
-            print(f"✅ Reddit bot connected")
+            print(f"✅ Reddit bot connected as u/{self.reddit_username}")
             return True
         except Exception as e:
             print(f"❌ Reddit bot setup failed: {e}")
@@ -177,9 +192,9 @@ Found this on a new deals site that auto-updates. Fresh deals every 8AM. No affi
         return None
     
     def post_to_twitter(self, content):
-        """Actually post to Twitter"""
+        """Actually post to Twitter using API v2"""
         try:
-            self.twitter_api.update_status(content)
+            self.twitter_client.create_tweet(text=content)
             print(f"🐦 Posted to Twitter: {content[:50]}...")
             return True
         except Exception as e:
