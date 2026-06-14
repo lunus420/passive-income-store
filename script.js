@@ -103,18 +103,7 @@ window.filterProducts = (category) => {
         }
     });
 
-    const affiliateSection = document.getElementById('affiliate-section');
-    const librarySection = document.getElementById('library-section');
-    
-    if (category === 'Books' || category === 'Movies' || category === 'Library') {
-        affiliateSection.style.display = 'none';
-        librarySection.style.display = 'block';
-        renderDigitalProducts(category === 'Library' ? 'All' : category);
-    } else {
-        affiliateSection.style.display = 'block';
-        librarySection.style.display = 'none';
-        renderAffiliateProducts(category);
-    }
+    renderAffiliateProducts(category);
 };
 
 // Cart Functions
