@@ -971,7 +971,7 @@ const affiliateProducts = [
     {
         "id": 9739,
         "title": "Epic: Woot! Furniture Sale: Decoro Mornington Upholstered 2.0 Platform Bed Frame (Full) $86 & More + Free S&H w/ Amazon Prime",
-        "category": "Tech",
+        "category": "Home & Kitchen",
         "source": "Slickdeals Home",
         "price": "$86",
         "originalPrice": "---",
@@ -1202,7 +1202,7 @@ const affiliateProducts = [
     {
         "id": 4484,
         "title": "Exclusive: TV Store Online Summer Blowout Clearance Sale: Sweatpants, Hoodies, Shirts $4 & More + Free S&H",
-        "category": "Tech",
+        "category": "Fashion",
         "source": "Slickdeals Food",
         "price": "$4",
         "originalPrice": "---",
@@ -1213,7 +1213,7 @@ const affiliateProducts = [
     {
         "id": 9830,
         "title": "Insane: Stanley 1913 24-oz. Stay-Chill Beer Stein for $20 + free shipping w/ Prime",
-        "category": "Food & Grocery",
+        "category": "Home & Kitchen",
         "source": "DealNews Clothing",
         "price": "$20",
         "originalPrice": "---",
@@ -1246,7 +1246,7 @@ const affiliateProducts = [
     {
         "id": 9483,
         "title": "Savage: Mattel UNO Stacko Game $10.70 + Free Pickup",
-        "category": "Tech",
+        "category": "Toys & Fun",
         "source": "Slickdeals Toys",
         "price": "$10.70",
         "originalPrice": "---",
@@ -1323,7 +1323,7 @@ const affiliateProducts = [
     {
         "id": 9385,
         "title": "Viral: How Not to Age: Scientific Approach to Getting Healthier as You Get Older (eBook) $3 ",
-        "category": "Food & Grocery",
+        "category": "Toys & Fun",
         "source": "Slickdeals Food",
         "price": "$3",
         "originalPrice": "---",
@@ -1378,7 +1378,7 @@ const affiliateProducts = [
     {
         "id": 4213,
         "title": "Exclusive: New Customers: Goture 4-Strand Braided Fishing Line (Blue or Grey, various) $2.40 + Free Shipping",
-        "category": "Food & Grocery",
+        "category": "Home & Kitchen",
         "source": "Slickdeals Temu",
         "price": "$2.40",
         "originalPrice": "---",
@@ -1411,7 +1411,7 @@ const affiliateProducts = [
     {
         "id": 8644,
         "title": "Elite: Woot Clearance Sale: See Thread for Deals & More + Free S/H for Prime Members",
-        "category": "Tech",
+        "category": "Top Deals",
         "source": "Slickdeals Home",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1620,7 +1620,7 @@ const affiliateProducts = [
     {
         "id": 5434,
         "title": "Exclusive:  The Laifen P3 Pro is a fantastic travel shaver with great battery life, but not suitable for more beardy users ",
-        "category": "Tech",
+        "category": "Beauty & Health",
         "source": "TechRadar Deals",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1730,7 +1730,7 @@ const affiliateProducts = [
     {
         "id": 4101,
         "title": "Must-Have: Select Accounts: 12-Ct 2.5-Gal Hefty Slider Jumbo Storage Bags 2 for $5.90 w/ S&S",
-        "category": "Food & Grocery",
+        "category": "Home & Kitchen",
         "source": "Slickdeals Food",
         "price": "$5.90",
         "originalPrice": "---",
@@ -1752,7 +1752,7 @@ const affiliateProducts = [
     {
         "id": 1189,
         "title": "Extreme: Walker's Razor Slim Passive Earmuffs $8 + Free S&H w/ Prime",
-        "category": "Top Deals",
+        "category": "Home & Kitchen",
         "source": "Slickdeals",
         "price": "$8",
         "originalPrice": "---",
@@ -1774,7 +1774,7 @@ const affiliateProducts = [
     {
         "id": 3446,
         "title": "Must-Have: 24oz. Hydro Flask Travel Tumbler (various colors) $15 + Free S/H for Prime Members",
-        "category": "Top Deals",
+        "category": "Home & Kitchen",
         "source": "FatWallet",
         "price": "$15",
         "originalPrice": "---",
@@ -1807,7 +1807,7 @@ const affiliateProducts = [
     {
         "id": 6000,
         "title": "Unbeatable: 1392-pc LEGO Super Mario The Bowser Express Train Toy (71437) $84 + Free S&H",
-        "category": "Tech",
+        "category": "Toys & Fun",
         "source": "Slickdeals Toys",
         "price": "$84",
         "originalPrice": "---",
@@ -1840,7 +1840,7 @@ const affiliateProducts = [
     {
         "id": 4214,
         "title": "Legendary: DegLasers 100-Foot Self Leveling Laser Level for $20 + free shipping w/ Prime",
-        "category": "Top Deals",
+        "category": "Home & Kitchen",
         "source": "DealNews Clothing",
         "price": "$20",
         "originalPrice": "---",
@@ -1862,7 +1862,7 @@ const affiliateProducts = [
     {
         "id": 1760,
         "title": "Epic: GoTrax Collapsible Folding Wagon Cart  for $40  + free shipping ",
-        "category": "Fashion",
+        "category": "Home & Kitchen",
         "source": "DealNews Shoes",
         "price": "$40",
         "originalPrice": "---",
@@ -1873,7 +1873,7 @@ const affiliateProducts = [
     {
         "id": 7872,
         "title": "Must-Have: Woot!: Home, Furniture & Holiday Clearance from $1 + Free Shipping w/ Prime",
-        "category": "Tech",
+        "category": "Home & Kitchen",
         "source": "Slickdeals Home",
         "price": "$1",
         "originalPrice": "---",
@@ -1906,7 +1906,7 @@ const affiliateProducts = [
     {
         "id": 1590,
         "title": "Unbeatable: adidas Black Friday Sale: 60% Off Select adidas Shoes, Apparel & More, Plus Extra 15% Off + Free Shipping",
-        "category": "Home & Kitchen",
+        "category": "Fashion",
         "source": "Slickdeals Fashion",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1939,7 +1939,7 @@ const affiliateProducts = [
     {
         "id": 8378,
         "title": "Brutal: Select Accts: 2-Pk 32-Oz Community Coffee Ground Coffee (Breakfast Blend, Medium Roast) $21.40 w/ S&S",
-        "category": "Home & Kitchen",
+        "category": "Food & Grocery",
         "source": "Slickdeals Food",
         "price": "$21.40",
         "originalPrice": "---",
@@ -1972,7 +1972,7 @@ const affiliateProducts = [
     {
         "id": 3003,
         "title": "Premium: Meifigno 360° Rotating MagSafe Car Mount for Tesla for $11 + free shipping w/ Prime",
-        "category": "Top Deals",
+        "category": "Tech",
         "source": "DealNews Tech",
         "price": "$11",
         "originalPrice": "---",
