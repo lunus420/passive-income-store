@@ -1,66 +1,66 @@
 const digitalProducts = [
     {
-        "id": 1,
-        "title": "Ultimate Passive Income Guide 2026",
-        "category": "Digital",
-        "price": 19.99,
-        "image": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        "link": "https://paypal.me/lilterry200369",
-        "badge": "Best Seller"
+        id: 1,
+        title: "Ultimate Passive Income Guide 2026",
+        category: "Digital",
+        price: 19.99,
+        image: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        link: "https://paypal.me/lilterry200369",
+        badge: "Best Seller"
     },
     {
-        "id": 2,
-        "title": "Crypto Trading Bot V2 (Source Code)",
-        "category": "Digital",
-        "price": 49.99,
-        "image": "https://images.unsplash.com/photo-1611974765270-ca12586343bb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        "link": "https://paypal.me/lilterry200369",
-        "badge": "Popular"
+        id: 2,
+        title: "Crypto Trading Bot V2 (Source Code)",
+        category: "Digital",
+        price: 49.99,
+        image: "https://images.unsplash.com/photo-1611974765270-ca12586343bb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        link: "https://paypal.me/lilterry200369",
+        badge: "Popular"
     },
     {
-        "id": 3,
-        "title": "Neon Cyberpunk Asset Pack",
-        "category": "Digital",
-        "price": 14.99,
-        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        "link": "https://paypal.me/lilterry200369",
-        "badge": "New"
+        id: 3,
+        title: "Neon Cyberpunk Asset Pack",
+        category: "Digital",
+        price: 14.99,
+        image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        link: "https://paypal.me/lilterry200369",
+        badge: "New"
     },
     {
-        "id": 4,
-        "title": "SaaS Starter Kit (Next.js + Tailwind)",
-        "category": "Digital",
-        "price": 29.99,
-        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        "link": "https://paypal.me/lilterry200369",
-        "badge": "Hot"
+        id: 4,
+        title: "SaaS Starter Kit (Next.js + Tailwind)",
+        category: "Digital",
+        price: 29.99,
+        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        link: "https://paypal.me/lilterry200369",
+        badge: "Hot"
     },
     {
-        "id": 5,
-        "title": "AI Prompt Engineering Masterclass",
-        "category": "Digital",
-        "price": 24.99,
-        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        "link": "https://paypal.me/lilterry200369",
-        "badge": "Trending"
+        id: 5,
+        title: "AI Prompt Engineering Masterclass",
+        category: "Digital",
+        price: 24.99,
+        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        link: "https://paypal.me/lilterry200369",
+        badge: "Trending"
     },
     {
-        "id": 101,
-        "title": "The Slasher's Shadow (Classic Twist Edition)",
-        "category": "Books",
-        "price": 4.99,
-        "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
-        "link": "https://paypal.me/lilterry200369/4.99",
-        "badge": "NEW"
+        id: 101,
+        title: "The Slasher's Shadow (Classic Twist Edition)",
+        category: "Books",
+        price: 4.99,
+        image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
+        link: "https://paypal.me/lilterry200369/4.99",
+        badge: "NEW"
     },
     {
-        "id": 102,
-        "title": "Neon Echoes: Uncensored Horror Cut",
-        "category": "Movies",
-        "price": 9.99,
-        "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=600&q=80",
-        "link": "https://paypal.me/lilterry200369/9.99",
-        "badge": "EXTREME"
+        id: 102,
+        title: "Neon Echoes: Uncensored Horror Cut",
+        category: "Movies",
+        price: 9.99,
+        image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=600&q=80",
+        link: "https://paypal.me/lilterry200369/9.99",
+        badge: "EXTREME"
     }
 ];
 
@@ -72,7 +72,7 @@ const affiliateProducts = [
         "source": "Slickdeals",
         "price": "Check Deal",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/18822175-slickdeals-daily-draw-giveaway-enter-now-for-a-chance-to-win-see-official-rules?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
@@ -83,14 +83,14 @@ const affiliateProducts = [
         "source": "Slickdeals Fashion",
         "price": "$28,",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/e/14863915-express-com-extra-60-off-clearance-men-s-jackets-from-28-women-s-sherpas-16-steve-madden-wedge-sneakers-28-more-fs-on-50?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "TOP PICK"
     },
     {
         "id": 2233,
         "title": "Exclusive: Google Pixel 10, Pixel Watch 4, & Samsung Galaxy Tab S10 FE 5G at Verizon: From $0/mo. w/ any Unlimited Plan + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$0",
         "originalPrice": "---",
@@ -101,7 +101,7 @@ const affiliateProducts = [
     {
         "id": 4522,
         "title": "Exclusive: Flex 24V 0.5\" 2-Speed Drill Driver Kit w/2 2.5Ah Lithium Battery & 160W Fast Charger for $165 + free shipping w/ Prime",
-        "category": "Home & Kitchen",
+        "category": "Electronics",
         "source": "DealNews Clothing",
         "price": "$165",
         "originalPrice": "---",
@@ -112,7 +112,7 @@ const affiliateProducts = [
     {
         "id": 7239,
         "title": "Brutal: Anker PowerCore Select 20k mAh Power Bank for $13 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$13",
         "originalPrice": "---",
@@ -123,7 +123,7 @@ const affiliateProducts = [
     {
         "id": 5393,
         "title": "Premium: Anker Prime 3-in-1 Magnetic Charging Station for $150 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$150",
         "originalPrice": "---",
@@ -134,7 +134,7 @@ const affiliateProducts = [
     {
         "id": 9244,
         "title": "Extreme: Walmart+ Student: 50% off",
-        "category": "Other",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -145,7 +145,7 @@ const affiliateProducts = [
     {
         "id": 2971,
         "title": "Premium: Top Smart Home Picks Daily Deals at Home Depot: Up to 63% off + free shipping",
-        "category": "Other",
+        "category": "Home",
         "source": "DealNews Tech",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -156,7 +156,7 @@ const affiliateProducts = [
     {
         "id": 7193,
         "title": "Elite: Dell Tech Refresh Sale: Up to $650 off + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$650",
         "originalPrice": "---",
@@ -167,7 +167,7 @@ const affiliateProducts = [
     {
         "id": 9204,
         "title": "Savage: Refurb Latitude 7530 Laptops at Dell Refurbished Store: 35% off + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Home",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -178,7 +178,7 @@ const affiliateProducts = [
     {
         "id": 2781,
         "title": "Epic: Home Improvement Spring Picks at eBay: Up to 72% off + extra 20% off + free shipping",
-        "category": "Other",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -189,11 +189,11 @@ const affiliateProducts = [
     {
         "id": 6793,
         "title": "Unbeatable: Thermalright 360mm AIO CPU Liquid Coolers: FW Ultra (Black) $63.60, FW Pro (White) $58 & More + Free S&H",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "FatWallet",
         "price": "$63.60",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19463244-multiple-aio-360-cpu-coolers-on-sale-thermalright-fw-pro-360-w-58-03-fw-360-ultra-argb-b-63-63-w-66-43-and-more?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
@@ -204,14 +204,14 @@ const affiliateProducts = [
         "source": "Slickdeals",
         "price": "$24",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19465905-4-amazon-essentials-womens-stretch-denim-midrise-pullon-skinny-jegging-at-woot?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "SALE"
     },
     {
         "id": 6830,
         "title": "Legendary: Dell 15 13th-Gen i5 15.6\" Laptop w/ 16GB RAM & 512GB SSD for $450 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Home",
         "price": "$450",
         "originalPrice": "---",
@@ -222,18 +222,18 @@ const affiliateProducts = [
     {
         "id": 5152,
         "title": "Elite: Black+Decker dustbuster QuickClean Cordless Handheld Vacuum $21.60 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$21.60",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/18491644-black-decker-dustbuster-quickclean-cordless-handheld-vacuum-hnvc215b10-21-59-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "VIRAL"
     },
     {
         "id": 7873,
         "title": "Insane:  Dyson's latest floor cleaner is a super-slim electric mop that got my hard floors sparkling in minutes ",
-        "category": "Home & Kitchen",
+        "category": "Electronics",
         "source": "TechRadar Deals",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -244,18 +244,18 @@ const affiliateProducts = [
     {
         "id": 8369,
         "title": "Insane: Select Accounts: 10-Pack 2.4-Oz Clif Bar Energy Bars (PB Banana w/ Dark Chocolate) $4.45 w/ S&S",
-        "category": "Food & Grocery",
+        "category": "Food",
         "source": "FatWallet",
         "price": "$4.45",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19464966-sns-ac-4-47-10-pack-2-4-oz-clif-bar-energy-bars-peanut-butter-banana-w-dark-chocolate-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "SALE"
     },
     {
         "id": 6164,
         "title": "Premium:  The Narwal Flow 2 an AI-forward robot vacuum and mop that uses its smarts to determine how dirty your floor is, and the best way to clean it ",
-        "category": "Home & Kitchen",
+        "category": "Electronics",
         "source": "TechRadar Deals",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -266,7 +266,7 @@ const affiliateProducts = [
     {
         "id": 5406,
         "title": "Savage: Samsung Galaxy S26, Watch, & Galaxy Tablet at Verizon: From $0/mo. w/ any Unlimited plan + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$0",
         "originalPrice": "---",
@@ -277,7 +277,7 @@ const affiliateProducts = [
     {
         "id": 2803,
         "title": "Exclusive: Soundbars and Party Speakers at Woot: Up to 53% off + free shipping w/ Prime",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -288,7 +288,7 @@ const affiliateProducts = [
     {
         "id": 1423,
         "title": "Elite: Reolink Security Products at Best Buy: Up to 10% off + free shipping",
-        "category": "Other",
+        "category": "Electronics",
         "source": "DealNews Clothing",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -303,14 +303,14 @@ const affiliateProducts = [
         "source": "Slickdeals Fashion",
         "price": "$52",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ea27babaf_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/e/13483366-merrell-extra-35-off-sale-styles-men-s-yokota-2-wide-width-shoes-52-more-free-s-h?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "BEST SELLER"
     },
     {
         "id": 5587,
         "title": "Savage: Dell Refurbished Store Coupon: 55% off any Dell Latitude 5520 laptop + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Home",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -321,7 +321,7 @@ const affiliateProducts = [
     {
         "id": 5034,
         "title": "Viral: Dell Desktop Computer Deals: Up to $480 off + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Health",
         "price": "$480",
         "originalPrice": "---",
@@ -332,7 +332,7 @@ const affiliateProducts = [
     {
         "id": 3477,
         "title": "Unbeatable: Quick Ship Electronics Clearance at eBay: Up to 60% off new and open-box items + free shipping",
-        "category": "Other",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -343,7 +343,7 @@ const affiliateProducts = [
     {
         "id": 1856,
         "title": "Legendary: Airthereal Revive Electric Kitchen Composter for $175 + free shipping",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "$175",
         "originalPrice": "---",
@@ -354,7 +354,7 @@ const affiliateProducts = [
     {
         "id": 2280,
         "title": "Elite: Tech Blowout on eBay Live for Deals from $10, starting at 3pm ET",
-        "category": "Other",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$10,",
         "originalPrice": "---",
@@ -365,29 +365,29 @@ const affiliateProducts = [
     {
         "id": 5680,
         "title": "Legendary: Prime Members: Dove Skincare: 24-Ct 3.75oz Dove Moisturizing Beauty Bar $12.65 & More w/ S&S + Free S/H",
-        "category": "Beauty & Health",
+        "category": "Beauty",
         "source": "Slickdeals Beauty",
         "price": "$12.65",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/33a9ef1d5_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/15105907-prime-members-dove-skincare-24-ct-3-75oz-dove-moisturizing-beauty-bar-12-65-more-w-s-s-free-s-h?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "BEST SELLER"
     },
     {
         "id": 2229,
         "title": "Elite: Costco Wholesale: Memorial Day Savings/Special Event, See Thread for Pricing (Home/Kitchen, Electronics, Clothing & More)",
-        "category": "Other",
+        "category": "Fashion",
         "source": "Slickdeals Home",
         "price": "Check Deal",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/15816982-costco-wholesale-memorial-day-savings-special-event-see-thread-for-pricing-home-kitchen-electronics-clothing-more?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 3196,
         "title": "Elite: LG C5 Series OLED77C5PUA 77\" 4K HDR OLED UHD Smart TV for $2,000 + ffree shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$2,000",
         "originalPrice": "---",
@@ -398,7 +398,7 @@ const affiliateProducts = [
     {
         "id": 6639,
         "title": "Viral: MSI Gaming Laptops: Save 15-25% off notebooks + free 2-year warranty  + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Home",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -409,7 +409,7 @@ const affiliateProducts = [
     {
         "id": 6538,
         "title": "Epic: Lenovo Fresh Tech, Fresh Savings Sale: Up to 68% off + Up to an extra $100 off + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$100",
         "originalPrice": "---",
@@ -420,7 +420,7 @@ const affiliateProducts = [
     {
         "id": 4329,
         "title": "Savage: AstroAI Digital Tire Inflator with Gauge for $15 w/ Prime + free shipping w/ Prime",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Shoes",
         "price": "$15",
         "originalPrice": "---",
@@ -431,7 +431,7 @@ const affiliateProducts = [
     {
         "id": 7777,
         "title": "Elite: Laptop Clearance at eBay: Up to 60% off + extra 10% off + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Home",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -442,7 +442,7 @@ const affiliateProducts = [
     {
         "id": 2401,
         "title": "Insane: OLED TVs at Best Buy: Up to 55% off + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -453,7 +453,7 @@ const affiliateProducts = [
     {
         "id": 6873,
         "title": "Insane:  The Segway Navimow i210E LiDAR Pro delivers orderly autonomous mowing with impressive navigation accuracy ",
-        "category": "Other",
+        "category": "Home",
         "source": "TechRadar Deals",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -468,18 +468,18 @@ const affiliateProducts = [
         "source": "Slickdeals Fashion",
         "price": "$8",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/e/13332379-columbia-apparel-sale-up-to-60-off-women-s-june-day-tank-top-8-more-free-s-h-w-rewards-mem?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 8462,
         "title": "Viral: Costco Citi Visa Cardholders: Purchase Qualifying Items and Receive Costco Shop Card $100 to $1200 based on item purchased (Valid until 5/28)",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$100",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/15801478-costco-shop-card-promotion-purchase-via-costco-anywhere-visa-required-get-100-1-200-shop-card-based-on-item-purchased-for-eligible-items-valid-through-5-28?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "VIRAL"
     },
@@ -501,47 +501,47 @@ const affiliateProducts = [
         "source": "Slickdeals Fashion",
         "price": "$5",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/e/13190944-express-com-50-off-clearance-women-s-tops-5-shorts-10-men-s-polos-shorts-canvas-sneakers-15-slim-365-comfort-suit-95-timex-cognac-30-fs-on-orders-of-50?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "HOT"
     },
     {
         "id": 3041,
         "title": "Extreme: New Customers: Goture 4-Strand Braided Fishing Line (Blue or Grey, various) $2.40 + Free Shipping",
-        "category": "Home & Kitchen",
+        "category": "Toys & Fun",
         "source": "Slickdeals Temu",
         "price": "$2.40",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/16139908-new-customers-goture-4-strand-braided-fishing-line-blue-or-grey-various-2-40-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 6956,
         "title": "Brutal: 1-Oz Amazon Grocery Italian Seasoning $1.15 w/ S&S",
-        "category": "Food & Grocery",
+        "category": "Food",
         "source": "Slickdeals",
         "price": "$1.15",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19448232-amazon-grocery-italian-seasoning-1-oz-1-13-with-s-s-amazon-buy-4-save-even-more?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "VIRAL"
     },
     {
         "id": 4217,
         "title": "Viral: Purolator PL14477 ONE Oil Filter $3.25 ",
-        "category": "Other",
+        "category": "Home",
         "source": "FatWallet",
         "price": "$3.25",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19465041-purolator-pl14477-one-oil-filter-3-25-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 7224,
         "title": "Premium: Acemagic Mini PC Ryzen 7 32GB RAM 1TB SSD for $441 w/ Prime + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Health",
         "price": "$441",
         "originalPrice": "---",
@@ -552,7 +552,7 @@ const affiliateProducts = [
     {
         "id": 4443,
         "title": "Elite: New: MH40 Wired $299.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$299.00",
         "originalPrice": "---",
@@ -563,7 +563,7 @@ const affiliateProducts = [
     {
         "id": 2685,
         "title": "Epic: Klein Tools 8-Piece Screwdriver Set for $33 + free shipping",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Shoes",
         "price": "$33",
         "originalPrice": "---",
@@ -574,7 +574,7 @@ const affiliateProducts = [
     {
         "id": 8473,
         "title": "Must-Have: Temu Patio, Lawn, & Garden Mother's Day Deals: Up to 85% off + shipping varies",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -585,7 +585,7 @@ const affiliateProducts = [
     {
         "id": 2601,
         "title": "Unbeatable: Google Pixel 10 128GB Android Smartphone for $299 + 1-year of Unlimited for $15/month + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$299",
         "originalPrice": "---",
@@ -596,7 +596,7 @@ const affiliateProducts = [
     {
         "id": 5919,
         "title": "Extreme: Lionhon 5-Tier Heavy-Duty Garage Shelf for $70 + free shipping",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Shoes",
         "price": "$70",
         "originalPrice": "---",
@@ -607,18 +607,18 @@ const affiliateProducts = [
     {
         "id": 8688,
         "title": "Savage: Sealy Twin Memory Foam Tight Top Mattresses: 12\" Hybrid $252, 12\" Medium $225 & More + Free S/H (exclusions apply)",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$252,",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/a5a55d26e_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/15056464-sealy-12-twin-memory-foam-tight-top-mattress-plush-225-8-firm-168-75-12-hybrid-firm-252-fs?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 7030,
         "title": "Viral: Google Pixel 10 128GB Mint Mobile Android Smartphone for $299 + 1-year of Unlimited for $15/month + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$299",
         "originalPrice": "---",
@@ -629,29 +629,29 @@ const affiliateProducts = [
     {
         "id": 7098,
         "title": "Extreme: Nintendo Switch 1/2 Games: Super Mario Bros. Wonder (Switch) $37.60 & More + Free S/H for Prime Members",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "FatWallet",
         "price": "$37.60",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19467627-37-59-super-mario-bros-wonder-nintendo-switch-more-at-woot?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 6999,
         "title": "Extreme: New Users: 64GB RG35XX Handheld Gaming Console (Purple) $41.65 + Free Shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals Temu",
         "price": "$41.65",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/16642292-new-users-64gb-rg35xx-handheld-gaming-console-various-colors-from-41-64-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 7913,
         "title": "Savage: Refurb Unlocked Samsung Galaxy S23 Ultra 512GB Android Smartphone for $420 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$420",
         "originalPrice": "---",
@@ -662,7 +662,7 @@ const affiliateProducts = [
     {
         "id": 1209,
         "title": "Epic: New: Ridge Power Bank - 10k mAh Bundle - Neon Tiger - 3-Pack $159.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Ridge Gear",
         "price": "$159.00",
         "originalPrice": "---",
@@ -673,7 +673,7 @@ const affiliateProducts = [
     {
         "id": 5594,
         "title": "Insane: New: Layflat Notebook (Charcoal) $18.00",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$18.00",
         "originalPrice": "---",
@@ -688,14 +688,14 @@ const affiliateProducts = [
         "source": "Slickdeals Toys",
         "price": "$80",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19206322-954-piece-lego-fortnite-battle-bus-building-toy-77073-80-at-amazon-com?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 3833,
         "title": "Viral:  The T3 Aire 360 is the closest I've got to Dyson Airwrap-style results without paying Dyson prices ",
-        "category": "Beauty & Health",
+        "category": "Electronics",
         "source": "TechRadar Deals",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -706,7 +706,7 @@ const affiliateProducts = [
     {
         "id": 6542,
         "title": "Epic: Lysol Toilet Bowl 24-oz. Cleaner Gel 2-Pack for $3.53 via Sub & Save + free shipping w/ Prime",
-        "category": "Other",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "$3.53",
         "originalPrice": "---",
@@ -717,7 +717,7 @@ const affiliateProducts = [
     {
         "id": 6471,
         "title": "Premium: LZHome Hexagon 40000LM LED Garage Light 8-Pack for $74 + free shipping",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "$74",
         "originalPrice": "---",
@@ -728,18 +728,18 @@ const affiliateProducts = [
     {
         "id": 7203,
         "title": "Premium: Amazon: Purchase $30 of Select L’Oreal Beauty, Skincare or Haircare Products, Get $10 Off + Free Shipping",
-        "category": "Beauty & Health",
+        "category": "Beauty",
         "source": "Slickdeals Beauty",
         "price": "$30",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/33a9ef1d5_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/16491691-amazon-purchase-30-worth-of-eligible-l-oreal-paris-beauty-skincare-or-haircare-products-get-10-off-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 6216,
         "title": "Epic: Open-Box Dell 13th-Gen. i5 15.6\" 2K Touchscreen Laptop w/ 512GB SSD for From $274 + pickup",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Home",
         "price": "$274",
         "originalPrice": "---",
@@ -750,7 +750,7 @@ const affiliateProducts = [
     {
         "id": 9259,
         "title": "Premium: Bosgame P4 Ultra Ryzen 7 7730U Mini PC for $350 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Health",
         "price": "$350",
         "originalPrice": "---",
@@ -761,7 +761,7 @@ const affiliateProducts = [
     {
         "id": 7313,
         "title": "Elite: 62\" Adjustable Thatch Rake for $12 + free shipping w/ Prime",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "$12",
         "originalPrice": "---",
@@ -776,14 +776,14 @@ const affiliateProducts = [
         "source": "Slickdeals Fashion",
         "price": "$2.70",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/15901396-j-crew-extra-70-off-sale-styles-wyb-3-women-s-organic-tee-2-70-cotton-cashmere-jogger-12-girls-jumpsuit-4-50-men-s-polos-9-camden-bluchers-26-40-fs?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "BEST SELLER"
     },
     {
         "id": 1298,
         "title": "Epic: Certified Refurb Samsung The Frame LS03C Series QN32LS03CB 32\" QLED Smart TV for $350.80 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$350.80",
         "originalPrice": "---",
@@ -794,7 +794,7 @@ const affiliateProducts = [
     {
         "id": 3368,
         "title": "Viral: Samsung Galaxy S26 Lineup at Mint Mobile: Up to $900 off + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$900",
         "originalPrice": "---",
@@ -809,14 +809,14 @@ const affiliateProducts = [
         "source": "Slickdeals Fashion",
         "price": "$20,",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/e/14766514-men-s-aiden-core-temp-pants-20-linen-puff-sleeve-top-12-more-free-s-h-on-50?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 5600,
         "title": "Brutal: iPhone 17, Apple Watch Series 11 & iPad at Verizon: From $0/mo. w/ any Unlimited Plan + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$0",
         "originalPrice": "---",
@@ -827,7 +827,7 @@ const affiliateProducts = [
     {
         "id": 9198,
         "title": "Extreme: Powerful Propane Torch Gun with Adjustable Flame for $30 w/ Prime + free shipping",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Shoes",
         "price": "$30",
         "originalPrice": "---",
@@ -838,29 +838,29 @@ const affiliateProducts = [
     {
         "id": 8388,
         "title": "Brutal: 3.4-Oz Armaf Blue Homme Men's Eau De Toilette Spray $15.25 ",
-        "category": "Beauty & Health",
+        "category": "Beauty",
         "source": "FatWallet",
         "price": "$15.25",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/33a9ef1d5_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19464321-15-26-armaf-blue-homme-edt-spray-men-3-4-oz-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "VIRAL"
     },
     {
         "id": 3674,
         "title": "Must-Have: Nintendo Switch Pro Controller: The Legend of Zelda: Tears of the Kingdom $56 + Free S&H w/ Amazon Prime",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "FatWallet",
         "price": "$56",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19467666-nintendo-switch-pro-controller-the-legend-of-zelda-tears-of-the-kingdom-56-free-s-h-w-amazon-prime?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "BEST SELLER"
     },
     {
         "id": 5915,
         "title": "Epic: Insignia 32\" F20 Series 720p LED HD Smart TV for $80 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$80",
         "originalPrice": "---",
@@ -871,18 +871,18 @@ const affiliateProducts = [
     {
         "id": 9571,
         "title": "Epic: 193-Piece LEGO Fortnite Durrr Burger Building Set (77070) $8.80 ",
-        "category": "Toys & Fun",
+        "category": "Food",
         "source": "Slickdeals Toys",
         "price": "$8.80",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/18692899-193-piece-lego-fortnite-durrr-burger-building-set-77070-8-79-free-shipping-w-prime-or-on-orders-over-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 2785,
         "title": "Must-Have: Dell Spring Sale Desktop Deals: Up to $870 off + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Health",
         "price": "$870",
         "originalPrice": "---",
@@ -893,7 +893,7 @@ const affiliateProducts = [
     {
         "id": 6401,
         "title": "Extreme: Kamrui Hyper H1 Ryzen 7 Mini Gaming Desktop PC for $395 w/ Prime + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Health",
         "price": "$395",
         "originalPrice": "---",
@@ -904,7 +904,7 @@ const affiliateProducts = [
     {
         "id": 4870,
         "title": "Brutal: XenonLab 6-in-1 Cordless Stick Vacuum Cleaner for $49 + free shipping",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "$49",
         "originalPrice": "---",
@@ -915,7 +915,7 @@ const affiliateProducts = [
     {
         "id": 8907,
         "title": "Savage: Seasonlife Vinyl Record Player with Speakers Vintage Turntable for $30 + free shipping w/ Prime",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$30",
         "originalPrice": "---",
@@ -926,7 +926,7 @@ const affiliateProducts = [
     {
         "id": 1124,
         "title": "Exclusive: Kamrui P2 16GB RAM 512GB SSD Mini PC for $309 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Health",
         "price": "$309",
         "originalPrice": "---",
@@ -937,7 +937,7 @@ const affiliateProducts = [
     {
         "id": 1974,
         "title": "Viral: Dell Refurbished Store Hot Deals: Up to 57% off + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Health",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -948,7 +948,7 @@ const affiliateProducts = [
     {
         "id": 2767,
         "title": "Viral: CyberpowerPC Ryzen 7 Gaming Desktop PC w/ 32GB RAM & GeForce RTX 5070 for $1,930 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Health",
         "price": "$1,930",
         "originalPrice": "---",
@@ -959,7 +959,7 @@ const affiliateProducts = [
     {
         "id": 2599,
         "title": "Insane: Sam's Club 1-Year Plus Membership for $60",
-        "category": "Other",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "$60",
         "originalPrice": "---",
@@ -970,7 +970,7 @@ const affiliateProducts = [
     {
         "id": 6174,
         "title": "Must-Have: Dell Alienware 16 Aurora Core 7 240H 16\" Gaming Laptop w/ RTX 4050 for $1,100 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Home",
         "price": "$1,100",
         "originalPrice": "---",
@@ -981,7 +981,7 @@ const affiliateProducts = [
     {
         "id": 7183,
         "title": "Insane:  I tested the Bissell CrossWave HydroScrub, and this wireless all-in-one might be the only floor cleaner your home needs ",
-        "category": "Home & Kitchen",
+        "category": "Electronics",
         "source": "TechRadar Deals",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -992,18 +992,18 @@ const affiliateProducts = [
     {
         "id": 4747,
         "title": "Legendary: $100 Sony PlayStation Store eGift Card (Email Delivery) $88 ",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals",
         "price": "$100",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=800&q=80",
         "link": "https://www.newegg.com/playstatio...6832886063?ref=money_maker_2026",
         "badge": "BEST SELLER"
     },
     {
         "id": 5491,
         "title": "Brutal: Home Depot Tools Spring Deals: Up to 50% off + free shipping",
-        "category": "Other",
+        "category": "Home",
         "source": "DealNews Shoes",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1014,18 +1014,18 @@ const affiliateProducts = [
     {
         "id": 7248,
         "title": "Elite: Select Accts: 6-Pk 20-Ct DenTek Triple Clean Advanced Clean Floss Picks $1.85 w/ S&S",
-        "category": "Beauty & Health",
+        "category": "Beauty",
         "source": "Slickdeals",
         "price": "$1.85",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/33a9ef1d5_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19463721-sns-ac-1-85-6-pk-20-count-dentek-triple-clean-advanced-clean-floss-picks-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 9513,
         "title": "Legendary: Tools Spring Picks at eBay: Up to 80% off + extra 20% off  + free shipping",
-        "category": "Other",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1036,18 +1036,18 @@ const affiliateProducts = [
     {
         "id": 6000,
         "title": "Extreme: Resident Evil 3 (PS5) $16 ",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "FatWallet",
         "price": "$16",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19463832-15-99-resident-evil-3-playstation-5-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "VIRAL"
     },
     {
         "id": 3820,
         "title": "Epic: Open-Box Laptop Deals at Best Buy for from $116 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Home",
         "price": "$116",
         "originalPrice": "---",
@@ -1058,7 +1058,7 @@ const affiliateProducts = [
     {
         "id": 8861,
         "title": "Epic: Samsung Chromebook Plus Core 3 100U 15.6\" AMOLED Laptop: Up to $559 off w/ trade-in + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Home",
         "price": "$559",
         "originalPrice": "---",
@@ -1069,7 +1069,7 @@ const affiliateProducts = [
     {
         "id": 2825,
         "title": "Elite: Buffalo Wild Wings Bone-In Wings: Buy one get one 50% off on Tuesdays",
-        "category": "Food & Grocery",
+        "category": "Food",
         "source": "DealNews Clothing",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1080,7 +1080,7 @@ const affiliateProducts = [
     {
         "id": 1276,
         "title": "Elite: Refurb Apple iMac 27\" Retina 5K (2020) for $800 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Health",
         "price": "$800",
         "originalPrice": "---",
@@ -1091,7 +1091,7 @@ const affiliateProducts = [
     {
         "id": 6424,
         "title": "Unbeatable: Outdoor Power Equipment Spring Picks at eBay : Up to 76% off + extra 20% off  + free shipping",
-        "category": "Other",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1102,7 +1102,7 @@ const affiliateProducts = [
     {
         "id": 9316,
         "title": "Must-Have: DeWalt 20V Max Orbital Sander for $97 + free shipping",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Shoes",
         "price": "$97",
         "originalPrice": "---",
@@ -1113,7 +1113,7 @@ const affiliateProducts = [
     {
         "id": 6786,
         "title": "Premium: Onn 65\" 4K LED UHD Roku Smart TV for $238 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$238",
         "originalPrice": "---",
@@ -1124,18 +1124,18 @@ const affiliateProducts = [
     {
         "id": 3690,
         "title": "Must-Have: Macy's 10 Days of Beauty Glam Cosmetic/Skincare Product Sale 50% Off w/ 6% SD Cashback + Free S/H",
-        "category": "Beauty & Health",
+        "category": "Beauty",
         "source": "Slickdeals Beauty",
         "price": "Check Deal",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/33a9ef1d5_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/15023500-macy-s-10-days-of-beauty-glam-cosmetic-skincare-product-sale-50-off-w-6-sd-cashback-free-s-h?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "HOT"
     },
     {
         "id": 7162,
         "title": "Elite: NexCyber Level 2 48A EV Charger with J1772 Connector for $123 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$123",
         "originalPrice": "---",
@@ -1146,7 +1146,7 @@ const affiliateProducts = [
     {
         "id": 2976,
         "title": "Savage: Plant Bulb and Seed Deal of the Day at Lowe's: 25% off + free shipping w/ $35",
-        "category": "Other",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "$35",
         "originalPrice": "---",
@@ -1157,7 +1157,7 @@ const affiliateProducts = [
     {
         "id": 3443,
         "title": "Extreme: Cell Phone Deals at Best Buy: Up to $700 off + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$700",
         "originalPrice": "---",
@@ -1168,7 +1168,7 @@ const affiliateProducts = [
     {
         "id": 6319,
         "title": "Legendary: eBay Spring Picks Promo: Up to 79% off + extra 20% off + free shipping",
-        "category": "Other",
+        "category": "Home",
         "source": "DealNews Tech",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1179,29 +1179,29 @@ const affiliateProducts = [
     {
         "id": 8258,
         "title": "Unbeatable: 12\" x 118\" Beautysaid Shelf and Drawer Liner (Light Green) $6 ",
-        "category": "Home & Kitchen",
+        "category": "Beauty",
         "source": "Slickdeals Home",
         "price": "$6",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/18824398-12-x-118-beautysaid-shelf-and-drawer-liner-light-green-5-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 4899,
         "title": "Epic: Hyperkin Wireless Gaming Controller w/ Joystick Hall Effect (Retro Pixel Art) $16 + Free S&H w/ Amazon Prime",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "FatWallet",
         "price": "$16",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19468311-15-99-hyperkin-retro-pixel-art-wireless-gaming-controller-with-hall-effect-joystick-at-woot?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 8051,
         "title": "Brutal: Best Buy Desktop Top Deals : Up to $270 off + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Health",
         "price": "$270",
         "originalPrice": "---",
@@ -1212,7 +1212,7 @@ const affiliateProducts = [
     {
         "id": 1151,
         "title": "Elite: Refurb Precision 5570 Laptops at Dell Refurbished Store: 40% off + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Home",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1223,7 +1223,7 @@ const affiliateProducts = [
     {
         "id": 5126,
         "title": "Viral: Desloc K120 Proprietary GPT Fingerprint Smart Lock for $119 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Clothing",
         "price": "$119",
         "originalPrice": "---",
@@ -1234,7 +1234,7 @@ const affiliateProducts = [
     {
         "id": 1408,
         "title": "Premium: Refurb HP EliteBook 840 G7 10th-Gen. i5-10310U 14\" Laptop w/ 512GB SSD for $230 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Home",
         "price": "$230",
         "originalPrice": "---",
@@ -1249,14 +1249,14 @@ const affiliateProducts = [
         "source": "Slickdeals Fashion",
         "price": "$50,",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/16458868-express-men-s-suit-jackets-blazers-topcoats-50-shirt-jackets-15-more-free-s-h-on-50?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 7380,
         "title": "Epic:  The Revamp Tri-Care is heavy and awkward, but I can't fault how well it dries and protects my hair ",
-        "category": "Other",
+        "category": "Home",
         "source": "TechRadar Deals",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1267,7 +1267,7 @@ const affiliateProducts = [
     {
         "id": 8464,
         "title": "Legendary: Power, Hobby, & Specialty Tools Deals at Woot: Up to 84% off + free shipping w/ Prime",
-        "category": "Other",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1278,7 +1278,7 @@ const affiliateProducts = [
     {
         "id": 1833,
         "title": "Exclusive: Phixton USB-C Rechargeable Flashlight for $11 + free shipping w/ Prime",
-        "category": "Home & Kitchen",
+        "category": "Electronics",
         "source": "DealNews Shoes",
         "price": "$11",
         "originalPrice": "---",
@@ -1289,7 +1289,7 @@ const affiliateProducts = [
     {
         "id": 9938,
         "title": "Viral: Dell Core Ultra 5-225 Slim Desktop w/ 16GB RAM & 1TB SSD for $700 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Health",
         "price": "$700",
         "originalPrice": "---",
@@ -1300,7 +1300,7 @@ const affiliateProducts = [
     {
         "id": 4926,
         "title": "Brutal: White Castle Original Sliders 10-Pack for $9",
-        "category": "Food & Grocery",
+        "category": "Food",
         "source": "DealNews Clothing",
         "price": "$9",
         "originalPrice": "---",
@@ -1311,7 +1311,7 @@ const affiliateProducts = [
     {
         "id": 2569,
         "title": "Viral: Refurb Creality Ender-3 V3 SE 3D Printer  for $86 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Shoes",
         "price": "$86",
         "originalPrice": "---",
@@ -1322,18 +1322,18 @@ const affiliateProducts = [
     {
         "id": 9488,
         "title": "Insane: 16-Count 11.6\" x 17.7\" Shinywear Refrigerator Shelf Liners (4-Color or Clear) $5 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$5",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/17327169-amazon-com-16pcs-refrigerator-liners-for-shelves-washable-fridge-shelf-liners-nonslip-refrigerator-mats-liner-for-glass-shelves-shinywear-fridge-liners-4-99?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "HOT"
     },
     {
         "id": 4492,
         "title": "Epic: Anker 20,000mAh 15W 2-Port Powerbank for $27 + free shipping w/ Prime",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$27",
         "originalPrice": "---",
@@ -1344,7 +1344,7 @@ const affiliateProducts = [
     {
         "id": 3519,
         "title": "Exclusive: Best of Woot Deals: Up to 81% off + free shipping w/ Prime",
-        "category": "Other",
+        "category": "Home",
         "source": "DealNews Tech",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1355,7 +1355,7 @@ const affiliateProducts = [
     {
         "id": 8861,
         "title": "Exclusive: DeWalt 12\" 15-Amp Dual Bevel Sliding Compound Miter Saw w/ Adjustable Saw Stand for $549 + free shipping",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "$549",
         "originalPrice": "---",
@@ -1370,14 +1370,14 @@ const affiliateProducts = [
         "source": "Slickdeals Fashion",
         "price": "$50,",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/15106828-express-men-s-nylon-hooded-parka-50-shirts-or-moisture-wicking-henleys-10-more-2-5-sd-cashback-free-store-pickup?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "BEST SELLER"
     },
     {
         "id": 9048,
         "title": "Insane:  I tested the Philips 4000 Series Stacked Dual Basket Air Fryer — a premium appliance with looks to match ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "TechRadar Deals",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1388,29 +1388,29 @@ const affiliateProducts = [
     {
         "id": 2976,
         "title": "Viral: Five Star 1-Subject College Ruled Spiral Notebook (White, 100 Sheets) $2 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "FatWallet",
         "price": "$2",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19466448-five-star-1-subject-college-ruled-spiral-notebook-white-100-sheets-2-free-shipping-w-prime-or-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "TOP PICK"
     },
     {
         "id": 6851,
         "title": "Unbeatable: Amazon Prime Members: Spend $10+ on Select Small Business Products & Earn $10 Credit (To Use on Amazon Prime Day)",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$10",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/15066250-amazon-prime-members-spend-10-on-select-small-business-products-earn-10-credit-to-use-on-amazon-prime-day?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "HOT"
     },
     {
         "id": 3148,
         "title": "Premium: Dell 14 Plus Core Ultra 7 256V 14\" Laptop w/ 16GB RAM & 1TB SSD for $850 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Home",
         "price": "$850",
         "originalPrice": "---",
@@ -1421,7 +1421,7 @@ const affiliateProducts = [
     {
         "id": 5917,
         "title": "Must-Have: Chipotle Entree Cards For Teachers and Healthcare Workers: Up to 200,000 available",
-        "category": "Food & Grocery",
+        "category": "Food",
         "source": "DealNews Clothing",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1432,11 +1432,11 @@ const affiliateProducts = [
     {
         "id": 7979,
         "title": "Viral: DEWALT 20V MAX Orbital Sander (Tool Only, DCW210B) $96.90 + Free S&H",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "FatWallet",
         "price": "$96.90",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19463766-96-90-dewalt-20v-max-orbital-sander-tool-only-dcw210b-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "TOP PICK"
     },
@@ -1447,14 +1447,14 @@ const affiliateProducts = [
         "source": "Slickdeals Toys",
         "price": "Check Deal",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/16802573-lego-clearance-walmart-ymmv-45?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "VIRAL"
     },
     {
         "id": 3411,
         "title": "Epic: Lamjie 8000mAh Aviation Style Desk Fan for $19 + free shipping w/ Prime",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "$19",
         "originalPrice": "---",
@@ -1465,7 +1465,7 @@ const affiliateProducts = [
     {
         "id": 7332,
         "title": "Premium: Newmen WiFi Smart Valve Controller for $20 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$20",
         "originalPrice": "---",
@@ -1476,7 +1476,7 @@ const affiliateProducts = [
     {
         "id": 2594,
         "title": "Extreme: Hammerhead 6A 4-1/2\" Angle Grinder for $18 + free shipping w/ Prime",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Shoes",
         "price": "$18",
         "originalPrice": "---",
@@ -1487,7 +1487,7 @@ const affiliateProducts = [
     {
         "id": 2202,
         "title": "Exclusive: EGO Power+ Deal of the Day at Lowe's: Up to 40% off + free shipping w/ $35",
-        "category": "Other",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "$35",
         "originalPrice": "---",
@@ -1502,14 +1502,14 @@ const affiliateProducts = [
         "source": "Slickdeals",
         "price": "$49",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ea27babaf_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19465860-saucony-men-s-progrid-guide-7-shoes-8-13-white-black-48-99-free-shipping-on-49?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "HOT"
     },
     {
         "id": 4681,
         "title": "Epic: 5G Phones at Verizon: 4 for $0 w/ Unlimited Plan + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$0",
         "originalPrice": "---",
@@ -1520,7 +1520,7 @@ const affiliateProducts = [
     {
         "id": 3322,
         "title": "Unbeatable:  The new Romo P robovac from drone expert DJI has the most jaw-dropping obstacle avoidance I’ve ever seen ",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "TechRadar Deals",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1531,11 +1531,11 @@ const affiliateProducts = [
     {
         "id": 1834,
         "title": "Insane: Select Locations: Cold Steel 4-Max Scout Folding Knife w/ G-10 Handle $43 + Free S&H",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$43",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19457856-42-99-select-locations-cold-steel-4-max-scout-folding-knife-w-g-10-handle-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "SALE"
     },
@@ -1546,25 +1546,25 @@ const affiliateProducts = [
         "source": "Slickdeals",
         "price": "$25",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19456542-stretch-zion-field-pant-prana-24-99?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "BEST SELLER"
     },
     {
         "id": 8647,
         "title": "Elite: Costco Wholesale Members: Online-Only Easter Day Promotions See Thread for Pricing ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "Check Deal",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/15733540-costco-wholesale-members-online-only-easter-day-promotions-see-thread-for-pricing?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 3316,
         "title": "Legendary: Aukey Spark Mega 140W 27,600mAh Power Bank for $50 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$50",
         "originalPrice": "---",
@@ -1575,18 +1575,18 @@ const affiliateProducts = [
     {
         "id": 4213,
         "title": "Elite: Costco: Panasonic FlashXpress 11-in-1 Air Fryer Toaster Oven w/ Pizza Stone $150 + Free S&H",
-        "category": "Home & Kitchen",
+        "category": "Food",
         "source": "Slickdeals",
         "price": "$150",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
         "link": "https://www.costco.com/p/-/panaso...4000369659?ref=money_maker_2026",
         "badge": "TOP PICK"
     },
     {
         "id": 8685,
         "title": "Elite: Angryicy Electric Whiskey Smoker Kit with Timer for $17 + free shipping w/ Prime",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "$17",
         "originalPrice": "---",
@@ -1597,7 +1597,7 @@ const affiliateProducts = [
     {
         "id": 8891,
         "title": "Must-Have:  Certified Refurb Milwaukee M18 Fuel Air Compressor  for $246 + free shipping",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Shoes",
         "price": "$246",
         "originalPrice": "---",
@@ -1608,7 +1608,7 @@ const affiliateProducts = [
     {
         "id": 6255,
         "title": "Unbeatable: Best Buy Gaming PC Top Seed Savings: Up to $420 off + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Health",
         "price": "$420",
         "originalPrice": "---",
@@ -1619,7 +1619,7 @@ const affiliateProducts = [
     {
         "id": 3383,
         "title": "Insane: Temu Electronics Mother's Day Deals: Up to 85% off + shipping varies",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1630,7 +1630,7 @@ const affiliateProducts = [
     {
         "id": 4705,
         "title": "Savage: Aura Frames at Best Buy: Up to $30 off + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Clothing",
         "price": "$30",
         "originalPrice": "---",
@@ -1641,7 +1641,7 @@ const affiliateProducts = [
     {
         "id": 8813,
         "title": "Brutal: Esgreen LED Rechargeable Flashlights 2-Pack for $12 + free shipping w/ Prime",
-        "category": "Home & Kitchen",
+        "category": "Electronics",
         "source": "DealNews Shoes",
         "price": "$12",
         "originalPrice": "---",
@@ -1652,7 +1652,7 @@ const affiliateProducts = [
     {
         "id": 1972,
         "title": "Viral: Kobalt 183-Piece Household Tool Set w/ Folding Case for $79 + free shipping",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Shoes",
         "price": "$79",
         "originalPrice": "---",
@@ -1663,18 +1663,18 @@ const affiliateProducts = [
     {
         "id": 3649,
         "title": "Elite: Lucid Comfort SureCool Memory Foam Tight Top Mattress: King 12\" $424, Twin 10\" $138.45 & More + Free Shipping",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$424,",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/a5a55d26e_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/15055099-lucid-comfort-surecool-memory-foam-tight-top-mattress-twin-10-in-firm-138-43-king-12-in-plush-424-03-more-free-s-h?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "VIRAL"
     },
     {
         "id": 1011,
         "title": "Exclusive: Wayfair Outdoor Sale : Up to 50% off + free shipping w/ $35",
-        "category": "Other",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "$35",
         "originalPrice": "---",
@@ -1685,7 +1685,7 @@ const affiliateProducts = [
     {
         "id": 6935,
         "title": "Brutal: Candle Warmer Floor Lamp with Timer for $40 + free shipping",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "$40",
         "originalPrice": "---",
@@ -1696,11 +1696,11 @@ const affiliateProducts = [
     {
         "id": 6329,
         "title": "Epic: eBay: End-of-Year Savings on Select Products Extra 20% Off ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "Check Deal",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19006279-ebay-wrap-up-the-year-with-20-off?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
@@ -1711,14 +1711,14 @@ const affiliateProducts = [
         "source": "Slickdeals Fashion",
         "price": "$7.20",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/e/14517017-janie-and-jack-extra-20-off-up-to-60-off-markdowns-free-s-h-no-min-tees-6-39-seersucker-dress-pants-16-79-more-ends-11-8?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "TOP PICK"
     },
     {
         "id": 9437,
         "title": "Insane:  Mammotion LUBA 3 AWD 3000 robot lawn mower — autonomous mowing just got exponentially better for owners of larger landscapes ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "TechRadar Deals",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1729,7 +1729,7 @@ const affiliateProducts = [
     {
         "id": 7371,
         "title": "Legendary: Mallrace 16\" AMD Ryzen 7 16GB RAM Gaming Laptop for $494 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Home",
         "price": "$494",
         "originalPrice": "---",
@@ -1740,29 +1740,29 @@ const affiliateProducts = [
     {
         "id": 3313,
         "title": "Brutal: 10' x 10' Hampton Bay Holden Hard Top Galvanized Steel Gazebo w/ Zippered Netting $498 + Free S&H",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$498",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19461726-10-x-10-hampton-bay-holden-hard-top-galvanized-steel-gazebo-w-zippered-mosquito-netting-498-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "VIRAL"
     },
     {
         "id": 2749,
         "title": "Savage: 1-Gallon Zep High Traffic Carpet Cleaner $9.75 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$9.75",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19459860-9-77-1-gallon-zep-high-traffic-carpet-cleaner-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "HOT"
     },
     {
         "id": 1077,
         "title": "Exclusive: Samsung U7900F UN75U7900FFXZA 75\" 4K HDR LED UHD Smart TV for $450 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$450",
         "originalPrice": "---",
@@ -1773,7 +1773,7 @@ const affiliateProducts = [
     {
         "id": 9035,
         "title": "Insane: New: Layflat Notebook (Navy) $18.00",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$18.00",
         "originalPrice": "---",
@@ -1788,14 +1788,14 @@ const affiliateProducts = [
         "source": "Slickdeals Toys",
         "price": "$15.95",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19387416-174-piece-lego-super-mario-standard-mario-kart-15-95-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "HOT"
     },
     {
         "id": 3444,
         "title": "Must-Have: Subway Footlongs : Buy one get one free",
-        "category": "Food & Grocery",
+        "category": "Food",
         "source": "DealNews Clothing",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1810,14 +1810,14 @@ const affiliateProducts = [
         "source": "Slickdeals Fashion",
         "price": "$4.50",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/15790516-j-crew-women-s-vintage-cotton-v-neck-tee-4-50-men-s-slim-french-terry-jogger-10-1990-macalister-boots-40-women-s-sherpa-lined-puffer-45-fs?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 1970,
         "title": "Extreme: Geekom Mini Air12 12th-Gen. N100 Mini Desktop PC for $209 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Health",
         "price": "$209",
         "originalPrice": "---",
@@ -1828,7 +1828,7 @@ const affiliateProducts = [
     {
         "id": 8978,
         "title": "Unbeatable: KFC Famous Bowls for 2 for $8",
-        "category": "Food & Grocery",
+        "category": "Food",
         "source": "DealNews Clothing",
         "price": "$8",
         "originalPrice": "---",
@@ -1839,7 +1839,7 @@ const affiliateProducts = [
     {
         "id": 5552,
         "title": "Savage: Toolbox Treasures Deals at Woot: Up to 74% off + free shipping w/ Prime",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "DealNews Shoes",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1850,7 +1850,7 @@ const affiliateProducts = [
     {
         "id": 4530,
         "title": "Viral: New: Analog Annual Kit (Black Aluminum) $229.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Ugmonk",
         "price": "$229.00",
         "originalPrice": "---",
@@ -1861,7 +1861,7 @@ const affiliateProducts = [
     {
         "id": 2141,
         "title": "Epic: Dell 27 Core 5 120U 27\" All-in-One Desktop for $800 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Health",
         "price": "$800",
         "originalPrice": "---",
@@ -1876,14 +1876,14 @@ const affiliateProducts = [
         "source": "Slickdeals Fashion",
         "price": "$16",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/e/14236406-columbia-kids-apparel-kids-fast-trek-ii-full-zip-fleece-hoodie-16-more-free-s-h?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 8886,
         "title": "Viral: TCL QM6K Series 85QM6K 85\" 4K HDR QD-Mini LED Google TV Smart TV for $1,200 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$1,200",
         "originalPrice": "---",
@@ -1894,7 +1894,7 @@ const affiliateProducts = [
     {
         "id": 7792,
         "title": "Must-Have: New: MH40 APPLIED ART FORMS $399.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$399.00",
         "originalPrice": "---",
@@ -1905,7 +1905,7 @@ const affiliateProducts = [
     {
         "id": 9715,
         "title": "Unbeatable: Headphones Deals at Best Buy: Up to $150 off + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$150",
         "originalPrice": "---",
@@ -1916,7 +1916,7 @@ const affiliateProducts = [
     {
         "id": 5136,
         "title": "Extreme: Woot April Best Sellers: Up to 95% off + free shipping w/ Prime",
-        "category": "Other",
+        "category": "Home",
         "source": "DealNews Clothing",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -1927,7 +1927,7 @@ const affiliateProducts = [
     {
         "id": 8000,
         "title": "Exclusive: Samsung Galaxy A37 5G 128GB Mint Mobile Android Phone for $300 + Year of Unlimited for $15/month + trade in + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Tech",
         "price": "$300",
         "originalPrice": "---",
@@ -1942,36 +1942,36 @@ const affiliateProducts = [
         "source": "Slickdeals",
         "price": "$4.25",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19466694-life-is-good-men-s-graphic-short-sleeve-crusher-tee-from-8-50-women-s-graphic-short-sleeve-crusher-tee-from-6-80-lig-hats-from-4-25-more-fs-on-25?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "SALE"
     },
     {
         "id": 6726,
         "title": "Extreme: Woot: Extra Savings on Select Video Games, Electronics & Accessories Extra 20% Off + Free S/H for Prime Members",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals",
         "price": "Check Deal",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19467576-extra-20-off-on-spring-video-game-sale-at-woot?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 6500,
         "title": "Unbeatable: Bluey: The Videogame w/ Exclusive Gnome Plush Bundle (Nintendo Switch) $12 + Free S&H w/ Amazon Prime",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals",
         "price": "$12",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=800&q=80",
         "link": "https://electronics.woot.com/offe...t_wp_0_159?ref=money_maker_2026",
         "badge": "BEST SELLER"
     },
     {
         "id": 8571,
         "title": "Epic: Lenovo IdeaPad Slim 3 Ryzen 7 15.6\" Touchscreen Laptop for $500 + free shipping",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "DealNews Home",
         "price": "$500",
         "originalPrice": "---",
@@ -1986,18 +1986,18 @@ const affiliateProducts = [
         "source": "Slickdeals Fashion",
         "price": "$25",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/e/11427991-eddie-bauer-coupon-50-off-free-s-h-on-25-w-shoprunner?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "TOP PICK"
     },
     {
         "id": 4152,
         "title": "Brutal: Prime Members: Cawalap Hanging Waterproof Solar Lanterns (Various) from $8 + Free S&H",
-        "category": "Tech",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$8",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/19467075-prime-cawalap-hanging-waterproof-solar-lanterns-various-from-7-99-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "BEST SELLER"
     },
@@ -2008,18 +2008,18 @@ const affiliateProducts = [
         "source": "Slickdeals Fashion",
         "price": "$10,",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ea27babaf_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/15038884-express-com-women-s-boots-15-tops-shirts-10-sherpa-jackets-15-sunglasses-tights-5-2-5-sd-cashback-pc-req-d-free-store-pickup?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 7860,
         "title": "Unbeatable: VEVOR 80lb Walk-Behind Broadcast Lawn/Turf Spreader $16 + $3 S&H",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals Temu",
         "price": "$16",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         "link": "https://slickdeals.net/f/17625672-vevor-80lb-walk-behind-broadcast-lawn-spreader-18-97-shipped?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
         "badge": "VIRAL"
     }
