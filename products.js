@@ -13,7 +13,7 @@ const digitalProducts = [
         "title": "Crypto Trading Bot V2 (Source Code)",
         "category": "Digital",
         "price": 49.99,
-        "image": "https://images.unsplash.com/photo-1611974765270-ca12586343bb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/08914ac81_generated_image.png",
         "link": "https://paypal.me/lilterry200369",
         "badge": "Popular"
     },
