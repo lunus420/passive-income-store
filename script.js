@@ -1,3 +1,21 @@
+
+// --- Click tracking (GA4) ---
+function trackProductClick(id, title, type, price) {
+    try {
+        if (typeof gtag === 'function') {
+            gtag('event', 'select_item', {
+                item_list_name: type === 'digital' ? 'Digital Products' : 'Affiliate Deals',
+                items: [{
+                    item_id: String(id),
+                    item_name: title,
+                    item_category: type,
+                    price: price || 0
+                }]
+            });
+        }
+    } catch (e) { /* never block navigation on tracking errors */ }
+}
+
 // DOM Elements
 const digitalGrid = document.getElementById('digital-grid');
 const affiliateGrid = document.getElementById('affiliate-grid');
@@ -57,6 +75,8 @@ function renderDigitalProducts(filter = 'All') {
             </div>
         `;
         digitalGrid.appendChild(card);
+        const digitalLink = card.querySelector('a');
+        if (digitalLink) digitalLink.addEventListener('click', () => trackProductClick(product.id, product.title, 'digital', product.price));
     });
 }
 
@@ -89,6 +109,8 @@ function renderAffiliateProducts(category = 'All') {
             </div>
         `;
         affiliateGrid.appendChild(card);
+        const affLink = card.querySelector('a');
+        if (affLink) affLink.addEventListener('click', () => trackProductClick(product.id, product.title, 'affiliate', 0));
     });
 }
 
