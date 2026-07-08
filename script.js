@@ -93,7 +93,7 @@ function renderAffiliateProducts(category = 'All') {
         card.className = 'glass-panel product-card';
         card.innerHTML = `
             <div class="product-image">
-                <span class="badge" style="background: ${badgeColor}; color: #fff;">${product.badge}</span>
+                <span class="badge ${['HOT','VIRAL','BRUTAL','SAVAGE','EXTREME'].includes(product.badge) ? 'badge-hot' : ''}" style="background: ${badgeColor}; color: #fff;">${product.badge}</span>
                 <img src="${product.image}" loading="lazy" alt="${product.title}">
             </div>
             <div class="product-content">
@@ -103,6 +103,7 @@ function renderAffiliateProducts(category = 'All') {
                     <span style="text-decoration: line-through; color: #666; font-size: 0.9rem; margin-right: 10px;">${product.originalPrice}</span>
                     <span style="color: var(--accent-color);">${product.price}</span>
                 </div>
+                ${['HOT','VIRAL','BRUTAL','SAVAGE','EXTREME'].includes(product.badge) ? '<div class="stock-note"><i class="fas fa-fire"></i>Selling fast — grab it before it\'s gone</div>' : ''}
                 <div class="product-actions">
                     <a href="${product.link}" target="_blank" class="btn" style="width: 100%; text-align: center; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);">View on ${product.source}</a>
                 </div>
