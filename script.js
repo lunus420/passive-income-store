@@ -29,7 +29,7 @@ const socialLinks = document.getElementById('social-links');
 
 // State
 let cart = [];
-const PAYPAL_USER = "lilterry200369";
+const PAYPAL_USER = "Explode420";
 const SOCIAL_LINKS = [
     { platform: "Twitter", icon: "fab fa-twitter", url: "https://twitter.com/teknest", color: "#1DA1F2" },
     { platform: "Facebook", icon: "fab fa-facebook", url: "https://facebook.com/teknest", color: "#1877F2" },

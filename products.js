@@ -5,7 +5,7 @@ const digitalProducts = [
         category: "Digital",
         price: 19.99,
         image: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        link: "https://paypal.me/lilterry200369",
+        link: "https://paypal.me/Explode420",
         badge: "Best Seller"
     }
 ];
