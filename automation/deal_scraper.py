@@ -11,7 +11,7 @@ from urllib.parse import urlparse, urlencode, parse_qs, urljoin
 def load_affiliate_config():
     config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "config.json")
     tags = {
-        "amazon": "bigterry20036-20",
+        "amazon": "bigterry200369420-20",
         "temu": "alg041956",
         "ebay": "4tima",
         "shopify": "moment_partner_2026",
@@ -77,7 +77,7 @@ USER_AGENTS = [
 
 # Affiliate Tags (YOUR IDs)
 AFFILIATE_TAGS = {
-    "amazon": "bigterry20036-20",
+    "amazon": "bigterry200369420-20",
     "temu": "alg041956",
     "ebay": "4tima",
     "shopify": "moment_partner_2026", # Placeholder for shopify-specific affiliate id if it existed

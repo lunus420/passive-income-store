@@ -19,7 +19,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783091780-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/Woot-July-Best-Sellers-Up-to-95-off-free-shipping-w-Prime/21871426.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Woot-July-Best-Sellers-Up-to-95-off-free-shipping-w-Prime/21871426.html?iref=rss-c196",
         "badge": "VIRAL"
     },
     {
@@ -30,7 +30,7 @@ const affiliateProducts = [
         "price": "$11",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783603198-draftworks_img_jc4vd0pt3089cckabaa.jpeg",
-        "link": "https://www.dealnews.com/Arxive-Heavy-Duty-Metal-Garden-Hose-Nozzle-for-11-free-shipping-w-Prime/21889910.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Arxive-Heavy-Duty-Metal-Garden-Hose-Nozzle-for-11-free-shipping-w-Prime/21889910.html?iref=rss-c196",
         "badge": "HOT"
     },
     {
@@ -41,7 +41,7 @@ const affiliateProducts = [
         "price": "$800",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1781870734-lenovo-laptop-amd-ryzen-5-prid.avif",
-        "link": "https://www.dealnews.com/products/Lenovo/Lenovo-Yoga-7-a-Ryzen-AI-5-430-14-2-K-Touch-Laptop/499562.html?iref=rss-c49&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/products/Lenovo/Lenovo-Yoga-7-a-Ryzen-AI-5-430-14-2-K-Touch-Laptop/499562.html?iref=rss-c49",
         "badge": "BEST SELLER"
     },
     {
@@ -52,7 +52,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783672439-screenshot-2026-07-10-at-09-33-47.png",
-        "link": "https://www.dealnews.com/Random-Tech-at-Woot-Up-to-83-off-free-shipping-w-Prime/21891644.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Random-Tech-at-Woot-Up-to-83-off-free-shipping-w-Prime/21891644.html?iref=rss-c142",
         "badge": "NEW"
     },
     {
@@ -63,7 +63,7 @@ const affiliateProducts = [
         "price": "$90",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://slickdeals.net/f/18459037-irobot-braava-jet-m6-ultimate-robot-mop-black-90-free-shipping-w-prime?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/18459037-irobot-braava-jet-m6-ultimate-robot-mop-black-90-free-shipping-w-prime?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -74,7 +74,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://cdn.mos.cms.futurecdn.net/SKbQ3QQL8tjccyZ4kvPXQF-1280-80.jpg",
-        "link": "https://www.techradar.com/home/vacuums/hoover-hf3-dynamicclean-review?ref=money_maker_2026",
+        "link": "https://www.techradar.com/home/vacuums/hoover-hf3-dynamicclean-review",
         "badge": "TOP PICK"
     },
     {
@@ -85,7 +85,7 @@ const affiliateProducts = [
         "price": "$10",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783847280-614dfiw6jfl.jpg",
-        "link": "https://www.dealnews.com/Kitsure-3-Tier-28-Stackable-Shoe-Rack-for-10-free-shipping-w-Prime/21897115.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Kitsure-3-Tier-28-Stackable-Shoe-Rack-for-10-free-shipping-w-Prime/21897115.html?iref=rss-c196",
         "badge": "NEW"
     },
     {
@@ -96,7 +96,7 @@ const affiliateProducts = [
         "price": "$56.05",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
-        "link": "https://slickdeals.net/f/19743240-crimson-desert-ps5-56-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19743240-crimson-desert-ps5-56-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -107,7 +107,7 @@ const affiliateProducts = [
         "price": "$1,800",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1781104103-laptop-alienware-ac16251-blue-ff-gallery-1-psd.avif",
-        "link": "https://www.dealnews.com/Alienware-16-x-Core-Ultra-9-16-Gaming-Laptop-w-NVIDIA-Ge-Force-RTX-5070-16-GB-1-TB-for-1-800-free-shipping/21888245.html?iref=rss-c49&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Alienware-16-x-Core-Ultra-9-16-Gaming-Laptop-w-NVIDIA-Ge-Force-RTX-5070-16-GB-1-TB-for-1-800-free-shipping/21888245.html?iref=rss-c49",
         "badge": "NEW"
     },
     {
@@ -118,7 +118,7 @@ const affiliateProducts = [
         "price": "$30",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
-        "link": "https://slickdeals.net/f/19750641-turtle-beach-rematch-wireless-nintendo-switch-controller-various-styles-30?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750641-turtle-beach-rematch-wireless-nintendo-switch-controller-various-styles-30?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "TOP PICK"
     },
     {
@@ -129,7 +129,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
-        "link": "https://slickdeals.net/f/17118157-columbia-cyber-monday-sale-men-s-women-s-or-kids-apparel-footwear-up-to-60-off-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/17118157-columbia-cyber-monday-sale-men-s-women-s-or-kids-apparel-footwear-up-to-60-off-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "BEST SELLER"
     },
     {
@@ -140,7 +140,7 @@ const affiliateProducts = [
         "price": "$14",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783698168-draftworks_img_qp0j2kgva8fq8cdamia.jpeg",
-        "link": "https://www.dealnews.com/Astro-AI-150-PSI-Cordless-Portable-Tire-Inflator-for-14-free-shipping-w-35/21891849.html?iref=rss-c197&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Astro-AI-150-PSI-Cordless-Portable-Tire-Inflator-for-14-free-shipping-w-35/21891849.html?iref=rss-c197",
         "badge": "HOT"
     },
     {
@@ -151,7 +151,7 @@ const affiliateProducts = [
         "price": "$699",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783328994-bnwps2603230iy004d4.webp",
-        "link": "https://www.dealnews.com/Ningmei-Ryzen-7-5700-G-Gaming-Desktop-for-699-free-shipping/21883355.html?iref=rss-c48&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Ningmei-Ryzen-7-5700-G-Gaming-Desktop-for-699-free-shipping/21883355.html?iref=rss-c48",
         "badge": "VIRAL"
     },
     {
@@ -162,7 +162,7 @@ const affiliateProducts = [
         "price": "$50",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19747695-homall-82-gallon-outdoor-storage-in-resin-deck-box-black-49-99-free-s-h-at-walmart?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19747695-homall-82-gallon-outdoor-storage-in-resin-deck-box-black-49-99-free-s-h-at-walmart?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "BEST SELLER"
     },
     {
@@ -173,7 +173,7 @@ const affiliateProducts = [
         "price": "$540",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1782900609-61df5spnpyl-ac_sl1500.jpg",
-        "link": "https://www.dealnews.com/products/Kamrui/Kamrui-Hype-H2-Intel-Core-Mini-Gaming-PC/498734.html?iref=rss-c48&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/products/Kamrui/Kamrui-Hype-H2-Intel-Core-Mini-Gaming-PC/498734.html?iref=rss-c48",
         "badge": "HOT"
     },
     {
@@ -184,7 +184,7 @@ const affiliateProducts = [
         "price": "$300",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783602894-6582826_sd-jpg-maxheight-1920-maxwidth-900.webp",
-        "link": "https://www.dealnews.com/Windows-11-Laptop-Deals-at-Best-Buy-for-from-300-free-shipping/21889907.html?iref=rss-c49&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Windows-11-Laptop-Deals-at-Best-Buy-for-from-300-free-shipping/21889907.html?iref=rss-c49",
         "badge": "NEW"
     },
     {
@@ -195,7 +195,7 @@ const affiliateProducts = [
         "price": "$14.00",
         "originalPrice": "---",
         "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/task-large.jpg?v=1781887568",
-        "link": "https://ugmonk.com/products/analog-task-cards-large?ref=moment_partner_2026",
+        "link": "https://ugmonk.com/products/analog-task-cards-large",
         "badge": "TOP PICK"
     },
     {
@@ -206,7 +206,7 @@ const affiliateProducts = [
         "price": "$36.20",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19750662-36-19-14-estwing-forged-steel-sportsman-s-axe-camping-hatchet-w-leather-grip-sheath-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750662-36-19-14-estwing-forged-steel-sportsman-s-axe-camping-hatchet-w-leather-grip-sheath-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -217,7 +217,7 @@ const affiliateProducts = [
         "price": "$780",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1782494498-desktop-ecs1250-slim-tower-black-gallery-1-psd.avif",
-        "link": "https://www.dealnews.com/Dell-Slim-Core-Ultra-5-225-Desktop-w-16-GB-RAM-512-GB-SSD-for-780-free-shipping/21888239.html?iref=rss-c48&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Dell-Slim-Core-Ultra-5-225-Desktop-w-16-GB-RAM-512-GB-SSD-for-780-free-shipping/21888239.html?iref=rss-c48",
         "badge": "VIRAL"
     },
     {
@@ -228,7 +228,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/18636598-woot-clearance-sale-see-thread-for-deals-more-free-s-h-for-prime-members?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/18636598-woot-clearance-sale-see-thread-for-deals-more-free-s-h-for-prime-members?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "SALE"
     },
     {
@@ -239,7 +239,7 @@ const affiliateProducts = [
         "price": "$6.75",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://slickdeals.net/f/19749408-special-k-bar-protein-meal-bars-12g-protein-snacks-meal-replacement-brownie-batter-3-boxes-18-bars-5-84-ac-s-s-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19749408-special-k-bar-protein-meal-bars-12g-protein-snacks-meal-replacement-brownie-batter-3-boxes-18-bars-5-84-ac-s-s-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -250,7 +250,7 @@ const affiliateProducts = [
         "price": "$32",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783345835-black-nulas-knife-set-block-ggwa.avif",
-        "link": "https://www.dealnews.com/Nulas-14-Piece-Knife-Set-w-Block-for-32-free-shipping-w-35/21883454.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Nulas-14-Piece-Knife-Set-w-Block-for-32-free-shipping-w-35/21883454.html?iref=rss-c196",
         "badge": "NEW"
     },
     {
@@ -261,7 +261,7 @@ const affiliateProducts = [
         "price": "$7",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/e/12394975-target-beauty-box-6-piece-holiday-winter-beauty-sample-box-dove-degree-crest-more-7-free-shipping-via-target?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/e/12394975-target-beauty-box-6-piece-holiday-winter-beauty-sample-box-dove-degree-crest-more-7-free-shipping-via-target?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -272,7 +272,7 @@ const affiliateProducts = [
         "price": "$600",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783629872-zenbookduo8965.jpg",
-        "link": "https://www.dealnews.com/ANTOnline-Summer-Sale-Up-to-600-off-free-shipping/21890033.html?iref=rss-c49&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/ANTOnline-Summer-Sale-Up-to-600-off-free-shipping/21890033.html?iref=rss-c49",
         "badge": "NEW"
     },
     {
@@ -283,7 +283,7 @@ const affiliateProducts = [
         "price": "$3.60",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/33a9ef1d5_generated_image.png",
-        "link": "https://slickdeals.net/f/19747191-150-count-gum-professional-clean-dental-floss-picks-fresh-mint-3-59-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19747191-150-count-gum-professional-clean-dental-floss-picks-fresh-mint-3-59-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -294,7 +294,7 @@ const affiliateProducts = [
         "price": "$20",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783850010-614sbox4q6l.jpg",
-        "link": "https://www.dealnews.com/Boytond-Ultra-Bone-Conduction-Earbuds-for-20-free-shipping-w-Prime/21897116.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Boytond-Ultra-Bone-Conduction-Earbuds-for-20-free-shipping-w-Prime/21897116.html?iref=rss-c142",
         "badge": "NEW"
     },
     {
@@ -305,7 +305,7 @@ const affiliateProducts = [
         "price": "$14.95",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "https://slickdeals.net/f/19481100-bokilino-gooseneck-tablet-holder-stand-w-adjustable-flexible-long-arm-black-14-94-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19481100-bokilino-gooseneck-tablet-holder-stand-w-adjustable-flexible-long-arm-black-14-94-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "VIRAL"
     },
     {
@@ -316,7 +316,7 @@ const affiliateProducts = [
         "price": "$5.10",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://slickdeals.net/f/19748820-just-play-disney-stitch-7-plush-w-camera-5-05-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19748820-just-play-disney-stitch-7-plush-w-camera-5-05-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "HOT"
     },
     {
@@ -327,7 +327,7 @@ const affiliateProducts = [
         "price": "$659",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783608703-c61ps2604180kppp7a0-jpg.webp",
-        "link": "https://www.dealnews.com/Zyneex-Ryzen-5-Gaming-Desktop-PC-w-Radeon-Vega-8-GPU-for-659-free-shipping/21889938.html?iref=rss-c48&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Zyneex-Ryzen-5-Gaming-Desktop-PC-w-Radeon-Vega-8-GPU-for-659-free-shipping/21889938.html?iref=rss-c48",
         "badge": "HOT"
     },
     {
@@ -338,7 +338,7 @@ const affiliateProducts = [
         "price": "$820",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1758737647-desktop-tower-ect1250-c-no-ssd-black-gallery-1.avif",
-        "link": "https://www.dealnews.com/products/Dell/Dell-Tower-Core-Ultra-5-225-Desktop-PC-w-16-GB-and-512-GB/497812.html?iref=rss-c48&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/products/Dell/Dell-Tower-Core-Ultra-5-225-Desktop-PC-w-16-GB-and-512-GB/497812.html?iref=rss-c48",
         "badge": "NEW"
     },
     {
@@ -349,7 +349,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783764236-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/Target-Outlet-Deals-at-eBay-Up-to-75-off-free-shipping/21893490.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Target-Outlet-Deals-at-eBay-Up-to-75-off-free-shipping/21893490.html?iref=rss-c142",
         "badge": "NEW"
     },
     {
@@ -360,7 +360,7 @@ const affiliateProducts = [
         "price": "$38.30",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://slickdeals.net/f/19741311-38-30-the-beatles-complete-scores-full-band-sheet-music-hardcover-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19741311-38-30-the-beatles-complete-scores-full-band-sheet-music-hardcover-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "TOP PICK"
     },
     {
@@ -371,7 +371,7 @@ const affiliateProducts = [
         "price": "$30",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19749336-mario-luigi-brothership-nintendo-switch-29-99-walmart?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19749336-mario-luigi-brothership-nintendo-switch-29-99-walmart?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "SALE"
     },
     {
@@ -382,7 +382,7 @@ const affiliateProducts = [
         "price": "$50",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1782994613-draftworks_img_1voemc0ah8fv4mdmllg.jpeg",
-        "link": "https://www.dealnews.com/products/TCL/TCL-42-Ceiling-Fan-with-Light/503761.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/products/TCL/TCL-42-Ceiling-Fan-with-Light/503761.html?iref=rss-c196",
         "badge": "TOP PICK"
     },
     {
@@ -393,7 +393,7 @@ const affiliateProducts = [
         "price": "$13",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783436803-beige-quilted-pet-furniture-cover-frkz.jpeg",
-        "link": "https://www.dealnews.com/Niluoh-Washable-Flannel-Couch-Cover-for-From-13-free-shipping-w-Prime/21883452.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Niluoh-Washable-Flannel-Couch-Cover-for-From-13-free-shipping-w-Prime/21883452.html?iref=rss-c196",
         "badge": "HOT"
     },
     {
@@ -404,7 +404,7 @@ const affiliateProducts = [
         "price": "$7",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/e/11428771-target-beauty-box-5-pc-all-the-masks-8-pc-be-you-tiful-more-7-each-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/e/11428771-target-beauty-box-5-pc-all-the-masks-8-pc-be-you-tiful-more-7-each-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "TOP PICK"
     },
     {
@@ -415,7 +415,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://cdn.mos.cms.futurecdn.net/C2pT7v3nsqKps5KWRXThc-1280-80.jpg",
-        "link": "https://www.techradar.com/home/air-quality/dyson-hushjet-compact-air-purifier-review?ref=money_maker_2026",
+        "link": "https://www.techradar.com/home/air-quality/dyson-hushjet-compact-air-purifier-review",
         "badge": "VIRAL"
     },
     {
@@ -426,7 +426,7 @@ const affiliateProducts = [
         "price": "$21.60",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://slickdeals.net/f/18491644-black-decker-dustbuster-quickclean-cordless-handheld-vacuum-hnvc215b10-21-59-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/18491644-black-decker-dustbuster-quickclean-cordless-handheld-vacuum-hnvc215b10-21-59-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -437,7 +437,7 @@ const affiliateProducts = [
         "price": "$139",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783786842-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/WORX-20-V-Power-Share-Cordless-Brad-Nailer-for-139-free-shipping/21893569.html?iref=rss-c197&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/WORX-20-V-Power-Share-Cordless-Brad-Nailer-for-139-free-shipping/21893569.html?iref=rss-c197",
         "badge": "NEW"
     },
     {
@@ -448,7 +448,7 @@ const affiliateProducts = [
         "price": "$57",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783859999-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/Snug-Niture-Oval-Galvanized-Raised-Garden-Bed-2-Pack-for-57-free-shipping/21897130.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Snug-Niture-Oval-Galvanized-Raised-Garden-Bed-2-Pack-for-57-free-shipping/21897130.html?iref=rss-c196",
         "badge": "NEW"
     },
     {
@@ -459,7 +459,7 @@ const affiliateProducts = [
         "price": "$13",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "https://slickdeals.net/f/19739592-best-buy-essentials-67-5w-dual-port-usb-c-and-usb-wall-charger-for-laptops-tablets-and-other-usb-c-devices-black-12-99-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19739592-best-buy-essentials-67-5w-dual-port-usb-c-and-usb-wall-charger-for-laptops-tablets-and-other-usb-c-devices-black-12-99-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -470,7 +470,7 @@ const affiliateProducts = [
         "price": "$10.50",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://slickdeals.net/f/19750551-178-piece-lego-creator-3-in-1-aircraft-race-plane-building-kit-10-50?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750551-178-piece-lego-creator-3-in-1-aircraft-race-plane-building-kit-10-50?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -481,7 +481,7 @@ const affiliateProducts = [
         "price": "$18",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1782120885-glad-forceflex-trash-bags-packaging-kgge.jpeg",
-        "link": "https://www.dealnews.com/Glad-13-Gallon-Drawstring-Fragrance-Free-Trash-Bags-110-Count-Pack-for-18-free-shipping-w-Prime/21849208.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Glad-13-Gallon-Drawstring-Fragrance-Free-Trash-Bags-110-Count-Pack-for-18-free-shipping-w-Prime/21849208.html?iref=rss-c196",
         "badge": "SALE"
     },
     {
@@ -492,7 +492,7 @@ const affiliateProducts = [
         "price": "$35",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783786423-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/Sterilite-2-5-Gallon-Trash-Can-98-cents-free-shipping-w-35/21893566.html?iref=rss-c197&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Sterilite-2-5-Gallon-Trash-Can-98-cents-free-shipping-w-35/21893566.html?iref=rss-c197",
         "badge": "NEW"
     },
     {
@@ -503,7 +503,7 @@ const affiliateProducts = [
         "price": "$21.75",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://slickdeals.net/f/19750410-21-74-cold-steel-secret-edge-japanese-aus8a-steel-fixed-blade-knife-w-3-5-drop-point-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750410-21-74-cold-steel-secret-edge-japanese-aus8a-steel-fixed-blade-knife-w-3-5-drop-point-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "VIRAL"
     },
     {
@@ -514,7 +514,7 @@ const affiliateProducts = [
         "price": "$37.90",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19742136-37-97-102l-dumos-collapsible-wagon-cart-330-lbs-capacity-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19742136-37-97-102l-dumos-collapsible-wagon-cart-330-lbs-capacity-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "VIRAL"
     },
     {
@@ -525,7 +525,7 @@ const affiliateProducts = [
         "price": "$2.99",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783765009-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/Woot-Battery-Bonanza-Sale-for-Deals-from-2-99-free-shipping-w-Prime/21893498.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Woot-Battery-Bonanza-Sale-for-Deals-from-2-99-free-shipping-w-Prime/21893498.html?iref=rss-c142",
         "badge": "TOP PICK"
     },
     {
@@ -536,7 +536,7 @@ const affiliateProducts = [
         "price": "$34.90",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
-        "link": "https://slickdeals.net/f/17571609-rei-4th-of-july-sale-clothing-footwear-tents-sleeping-bags-clearance-deals-more-free-store-pickup-or-free-shipping-on-60?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/17571609-rei-4th-of-july-sale-clothing-footwear-tents-sleeping-bags-clearance-deals-more-free-store-pickup-or-free-shipping-on-60?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "SALE"
     },
     {
@@ -547,7 +547,7 @@ const affiliateProducts = [
         "price": "$200,",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://slickdeals.net/f/19749969-159-99-razer-iskur-v2-x-ergonomic-gaming-chair-at-woot?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19749969-159-99-razer-iskur-v2-x-ergonomic-gaming-chair-at-woot?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "SALE"
     },
     {
@@ -558,7 +558,7 @@ const affiliateProducts = [
         "price": "$14.90",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19750740-soundcore-p25i-same-as-p20i-bluetooth-true-wireless-earbuds-big-bass-30h-playtime-ipx5-with-charging-case-14-88?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750740-soundcore-p25i-same-as-p20i-bluetooth-true-wireless-earbuds-big-bass-30h-playtime-ipx5-with-charging-case-14-88?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "BEST SELLER"
     },
     {
@@ -569,7 +569,7 @@ const affiliateProducts = [
         "price": "$33.50",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://slickdeals.net/f/19750599-lego-classic-large-creative-brick-box-building-set-10698-33-49-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750599-lego-classic-large-creative-brick-box-building-set-10698-33-49-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "VIRAL"
     },
     {
@@ -580,7 +580,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1782890926-product-trimmed.png",
-        "link": "https://www.dealnews.com/Woot-Prime-Leftovers-Sale-Up-to-87-off-free-shipping-w-Prime/21871287.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Woot-Prime-Leftovers-Sale-Up-to-87-off-free-shipping-w-Prime/21871287.html?iref=rss-c142",
         "badge": "NEW"
     },
     {
@@ -591,7 +591,7 @@ const affiliateProducts = [
         "price": "$69.00",
         "originalPrice": "---",
         "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/new-solo.jpg?v=1771626446",
-        "link": "https://ugmonk.com/products/analog-daily-focus-kit-walnut?ref=moment_partner_2026",
+        "link": "https://ugmonk.com/products/analog-daily-focus-kit-walnut",
         "badge": "SALE"
     },
     {
@@ -602,7 +602,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783786697-product-trimmed.png",
-        "link": "https://www.dealnews.com/Woot-Open-Box-Sale-Up-to-84-off-free-shipping-w-Prime/21893568.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Woot-Open-Box-Sale-Up-to-84-off-free-shipping-w-Prime/21893568.html?iref=rss-c142",
         "badge": "NEW"
     },
     {
@@ -613,7 +613,7 @@ const affiliateProducts = [
         "price": "$26",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783851223-draftworks_img_s47n6pdh5b4c8aljmld.jpeg",
-        "link": "https://www.dealnews.com/Kuject-X-Large-Stackable-Shoe-Storage-Box-12-Pack-for-26-free-shipping-w-Prime/21897118.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Kuject-X-Large-Stackable-Shoe-Storage-Box-12-Pack-for-26-free-shipping-w-Prime/21897118.html?iref=rss-c196",
         "badge": "TOP PICK"
     },
     {
@@ -624,7 +624,7 @@ const affiliateProducts = [
         "price": "$18",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
-        "link": "https://slickdeals.net/f/17843115-columbia-extra-20-off-sale-items-standard-big-tall-lake-aloha-half-zip-fleece-pullover-standard-18-more-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/17843115-columbia-extra-20-off-sale-items-standard-big-tall-lake-aloha-half-zip-fleece-pullover-standard-18-more-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "BEST SELLER"
     },
     {
@@ -635,7 +635,7 @@ const affiliateProducts = [
         "price": "$60",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "https://slickdeals.net/f/19749414-refurbished-msi-27-inch-wqhd-2k-1440p-180hz-amd-freesync-amd-adaptive-sync-0-5ms-hdr-ready-curved-gaming-computer-monitor-with-height-adjustable-swivel-pivot?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19749414-refurbished-msi-27-inch-wqhd-2k-1440p-180hz-amd-freesync-amd-adaptive-sync-0-5ms-hdr-ready-curved-gaming-computer-monitor-with-height-adjustable-swivel-pivot?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "SALE"
     },
     {
@@ -646,7 +646,7 @@ const affiliateProducts = [
         "price": "$1,230",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1701448364-dn-image-6659443.jpg",
-        "link": "https://www.dealnews.com/Samsung-Galaxy-Unpacked-Reservation-Deals-for-Up-to-1-230-in-savings-30-free-credit/21893572.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Samsung-Galaxy-Unpacked-Reservation-Deals-for-Up-to-1-230-in-savings-30-free-credit/21893572.html?iref=rss-c142",
         "badge": "BEST SELLER"
     },
     {
@@ -657,7 +657,7 @@ const affiliateProducts = [
         "price": "$12",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://slickdeals.net/f/19740063-254-piece-lego-halloween-pumpkin-set-40697-11-99-free-shipping-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19740063-254-piece-lego-halloween-pumpkin-set-40697-11-99-free-shipping-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -668,7 +668,7 @@ const affiliateProducts = [
         "price": "$44",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://slickdeals.net/f/17307604-5-3-x-7-3-artistic-weavers-odelia-traditional-area-rug-orange-navy-44-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/17307604-5-3-x-7-3-artistic-weavers-odelia-traditional-area-rug-orange-navy-44-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -679,7 +679,7 @@ const affiliateProducts = [
         "price": "$16",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
-        "link": "https://slickdeals.net/f/17625672-vevor-80lb-walk-behind-broadcast-lawn-spreader-18-97-shipped?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/17625672-vevor-80lb-walk-behind-broadcast-lawn-spreader-18-97-shipped?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "HOT"
     },
     {
@@ -690,7 +690,7 @@ const affiliateProducts = [
         "price": "$18",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783640241-61rwuuhirzl-ac_sl1500.jpg",
-        "link": "https://www.dealnews.com/products/Spec-Ops/Spec-Ops-Tools-22-oz-Framing-Hammer/278684.html?iref=rss-c197&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/products/Spec-Ops/Spec-Ops-Tools-22-oz-Framing-Hammer/278684.html?iref=rss-c197",
         "badge": "NEW"
     },
     {
@@ -701,7 +701,7 @@ const affiliateProducts = [
         "price": "$24",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783855979-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/Chefman-Turbo-Fry-6-Quart-Digital-Air-Fryer-for-24-free-shipping/21897124.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Chefman-Turbo-Fry-6-Quart-Digital-Air-Fryer-for-24-free-shipping/21897124.html?iref=rss-c196",
         "badge": "VIRAL"
     },
     {
@@ -712,7 +712,7 @@ const affiliateProducts = [
         "price": "$12",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783853072-61hh_063zfl.jpg",
-        "link": "https://www.dealnews.com/Monster-Clarity-101-Air-Links-Wireless-Earbuds-for-12-free-shipping-w-Prime/21897122.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Monster-Clarity-101-Air-Links-Wireless-Earbuds-for-12-free-shipping-w-Prime/21897122.html?iref=rss-c142",
         "badge": "VIRAL"
     },
     {
@@ -723,7 +723,7 @@ const affiliateProducts = [
         "price": "$9",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783841902-616rkhxo-hl.jpg",
-        "link": "https://www.dealnews.com/Martha-Stewart-4-Piece-Stainless-Steel-Measuring-Cups-Set-for-9-free-shipping-w-Prime/21897109.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Martha-Stewart-4-Piece-Stainless-Steel-Measuring-Cups-Set-for-9-free-shipping-w-Prime/21897109.html?iref=rss-c196",
         "badge": "NEW"
     },
     {
@@ -734,7 +734,7 @@ const affiliateProducts = [
         "price": "$2",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19743873-1-99-metabolical-the-lure-and-the-lies-of-processed-food-nutrition-and-modern-medicine-unpacking-the-science-behind-food-and-health-ebook-by-robert-h-lustig?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19743873-1-99-metabolical-the-lure-and-the-lies-of-processed-food-nutrition-and-modern-medicine-unpacking-the-science-behind-food-and-health-ebook-by-robert-h-lustig?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -745,7 +745,7 @@ const affiliateProducts = [
         "price": "$1,099",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783712003-notebook-dc16250-nt-black-gallery-1-psd.avif",
-        "link": "https://www.dealnews.com/Dell-16-Intel-core-7-Laptop-for-1-099-free-shipping/21891905.html?iref=rss-c49&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Dell-16-Intel-core-7-Laptop-for-1-099-free-shipping/21891905.html?iref=rss-c49",
         "badge": "TOP PICK"
     },
     {
@@ -756,7 +756,7 @@ const affiliateProducts = [
         "price": "$450.00",
         "originalPrice": "---",
         "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MW09B_TUMI-PDP_1350x1350_case.png?v=1734540611",
-        "link": "https://www.masterdynamic.com/products/mw09-tumi?ref=moment_partner_2026",
+        "link": "https://www.masterdynamic.com/products/mw09-tumi",
         "badge": "SALE"
     },
     {
@@ -767,7 +767,7 @@ const affiliateProducts = [
         "price": "$30",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/33a9ef1d5_generated_image.png",
-        "link": "https://slickdeals.net/f/16491691-amazon-purchase-30-worth-of-eligible-l-oreal-paris-beauty-skincare-or-haircare-products-get-10-off-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/16491691-amazon-purchase-30-worth-of-eligible-l-oreal-paris-beauty-skincare-or-haircare-products-get-10-off-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "TOP PICK"
     },
     {
@@ -778,7 +778,7 @@ const affiliateProducts = [
         "price": "$6",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783728832-81wix2y9hal.jpg",
-        "link": "https://www.dealnews.com/Stor-Miracle-13-Piece-Drawer-Organizer-Set-for-6-free-shipping-w-Prime/21891942.html?iref=rss-c197&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Stor-Miracle-13-Piece-Drawer-Organizer-Set-for-6-free-shipping-w-Prime/21891942.html?iref=rss-c197",
         "badge": "NEW"
     },
     {
@@ -789,7 +789,7 @@ const affiliateProducts = [
         "price": "$24",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1701465077-dn-image-7380425.jpg",
-        "link": "https://www.dealnews.com/products/Energizer/Energizer-AA-Batteries-24-ct-and-AAA-Batteries-24-ct/145264.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/products/Energizer/Energizer-AA-Batteries-24-ct-and-AAA-Batteries-24-ct/145264.html?iref=rss-c142",
         "badge": "NEW"
     },
     {
@@ -800,7 +800,7 @@ const affiliateProducts = [
         "price": "$16.50",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19563873-2-panel-52-x84-nicetown-100-blackout-linen-curtains-w-grommet-beige-16-49-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19563873-2-panel-52-x84-nicetown-100-blackout-linen-curtains-w-grommet-beige-16-49-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "HOT"
     },
     {
@@ -811,7 +811,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://cdn.mos.cms.futurecdn.net/dix6rPYgLzx3Lvyzv3piCE-1280-80.jpg",
-        "link": "https://www.techradar.com/home/vacuums/hoover-hl2-turbostyle-review?ref=money_maker_2026",
+        "link": "https://www.techradar.com/home/vacuums/hoover-hl2-turbostyle-review",
         "badge": "NEW"
     },
     {
@@ -822,7 +822,7 @@ const affiliateProducts = [
         "price": "$3.50",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "https://slickdeals.net/f/19743006-6-pack-stretchy-solo-loop-nylon-band-for-apple-watch-38-42mm-3-49-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19743006-6-pack-stretchy-solo-loop-nylon-band-for-apple-watch-38-42mm-3-49-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "BEST SELLER"
     },
     {
@@ -833,7 +833,7 @@ const affiliateProducts = [
         "price": "$1,",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
-        "link": "https://slickdeals.net/f/18645199-jb-tools-clearance-flexzilla-heavy-duty-gloves-1-oemtools-9-wire-spark-plug-gap-gauge-1-more-free-s-h-on-99?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/18645199-jb-tools-clearance-flexzilla-heavy-duty-gloves-1-oemtools-9-wire-spark-plug-gap-gauge-1-more-free-s-h-on-99?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -844,7 +844,7 @@ const affiliateProducts = [
         "price": "$34",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://slickdeals.net/f/19743171-henckels-forged-premio-6-pc-knife-set-and-knife-sharpers-for-39-99-69-off?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19743171-henckels-forged-premio-6-pc-knife-set-and-knife-sharpers-for-39-99-69-off?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -855,7 +855,7 @@ const affiliateProducts = [
         "price": "$8.50",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://slickdeals.net/f/17570994-toys-board-games-extra-50-off-masters-of-the-unverse-eternia-whiplash-figure-8-50-more-free-s-h?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/17570994-toys-board-games-extra-50-off-masters-of-the-unverse-eternia-whiplash-figure-8-50-more-free-s-h?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -866,7 +866,7 @@ const affiliateProducts = [
         "price": "$9",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/33a9ef1d5_generated_image.png",
-        "link": "https://slickdeals.net/f/19750374-onlyone-rechargeable-sonic-electric-toothbrush-w-8-brush-heads-white-9-free-shipping-w-prime-or-on-orders-over-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750374-onlyone-rechargeable-sonic-electric-toothbrush-w-8-brush-heads-white-9-free-shipping-w-prime-or-on-orders-over-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "BEST SELLER"
     },
     {
@@ -877,7 +877,7 @@ const affiliateProducts = [
         "price": "$26",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://slickdeals.net/f/19741368-okk-kids-remote-app-controlled-building-stem-robot-toy-25-99-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19741368-okk-kids-remote-app-controlled-building-stem-robot-toy-25-99-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "BEST SELLER"
     },
     {
@@ -888,7 +888,7 @@ const affiliateProducts = [
         "price": "$14",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/gp/product...th=1&amp;psc=1?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/gp/product...th=1&amp;psc=1?tag=bigterry200369420-20",
         "badge": "TOP PICK"
     },
     {
@@ -899,7 +899,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783772333-product-trimmed.png",
-        "link": "https://www.dealnews.com/Apple-Samsung-Tech-Deals-on-eBay-Live-Deals-from-3-30-pm/21893529.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Apple-Samsung-Tech-Deals-on-eBay-Live-Deals-from-3-30-pm/21893529.html?iref=rss-c142",
         "badge": "NEW"
     },
     {
@@ -910,7 +910,7 @@ const affiliateProducts = [
         "price": "$249",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783717216-7c116bfb-625e-4d11-a654-4bffaa41962a-2.avif",
-        "link": "https://www.dealnews.com/Milwaukee-M12-FUEL-2-Tool-Drill-Impact-Combo-Kit-3-8-Ratchet-Bundle-for-249-free-shipping/21891923.html?iref=rss-c197&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Milwaukee-M12-FUEL-2-Tool-Drill-Impact-Combo-Kit-3-8-Ratchet-Bundle-for-249-free-shipping/21891923.html?iref=rss-c197",
         "badge": "NEW"
     },
     {
@@ -921,7 +921,7 @@ const affiliateProducts = [
         "price": "$2.20",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/TABASCO-Scorpion-Intense-Bottle-Pineapple/dp/B08R37WQ9Y/ref=sr_1_4?crid=YBP7K&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/TABASCO-Scorpion-Intense-Bottle-Pineapple/dp/B08R37WQ9Y/ref=sr_1_4?crid=YBP7K&tag=bigterry200369420-20",
         "badge": "VIRAL"
     },
     {
@@ -932,7 +932,7 @@ const affiliateProducts = [
         "price": "$93",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1782735526-ayura-garden-hose-reel-c2gm.jpeg",
-        "link": "https://www.dealnews.com/products/Ayura/Ayura-100-Foot-Retractable-Garden-Hose-Reel/503169.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/products/Ayura/Ayura-100-Foot-Retractable-Garden-Hose-Reel/503169.html?iref=rss-c196",
         "badge": "NEW"
     },
     {
@@ -943,7 +943,7 @@ const affiliateProducts = [
         "price": "$317",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1782990679-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/Firebat-R3-Ryzen-5-7430-U-Mini-Desktop-PC-w-16-GB-RAM-512-GB-SSD-for-317-free-shipping/21867046.html?iref=rss-c48&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Firebat-R3-Ryzen-5-7430-U-Mini-Desktop-PC-w-16-GB-RAM-512-GB-SSD-for-317-free-shipping/21867046.html?iref=rss-c48",
         "badge": "NEW"
     },
     {
@@ -954,7 +954,7 @@ const affiliateProducts = [
         "price": "$1,500",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1782494498-desktop-ecs1250-slim-tower-black-gallery-1-psd.avif",
-        "link": "https://www.dealnews.com/Dell-Back-to-School-Desktop-Deals-Up-to-1-500-off-free-shipping/21890030.html?iref=rss-c48&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Dell-Back-to-School-Desktop-Deals-Up-to-1-500-off-free-shipping/21890030.html?iref=rss-c48",
         "badge": "VIRAL"
     },
     {
@@ -965,7 +965,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://cdn.mos.cms.futurecdn.net/jZE5D4C8YAKR2ucxLGNAbW-1280-80.jpg",
-        "link": "https://www.techradar.com/home/coffee-machines/keurig-k-crema-review?ref=money_maker_2026",
+        "link": "https://www.techradar.com/home/coffee-machines/keurig-k-crema-review",
         "badge": "NEW"
     },
     {
@@ -976,7 +976,7 @@ const affiliateProducts = [
         "price": "$211",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783864802-s-l1600.jpg",
-        "link": "https://www.dealnews.com/Refurb-Apple-Watch-Series-10-GPS-Cellular-Smartwatch-for-211-free-shipping/21897132.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Refurb-Apple-Watch-Series-10-GPS-Cellular-Smartwatch-for-211-free-shipping/21897132.html?iref=rss-c142",
         "badge": "SALE"
     },
     {
@@ -987,7 +987,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://cdn.mos.cms.futurecdn.net/Tcc4EgJ8giBifhUg67wSjV-1280-80.jpg",
-        "link": "https://www.techradar.com/home/coffee-machines/the-ninja-autobarista-pro-fully-automatic-espresso-machine-lets-you-make-just-about-any-coffee-creation-you-can-imagine?ref=money_maker_2026",
+        "link": "https://www.techradar.com/home/coffee-machines/the-ninja-autobarista-pro-fully-automatic-espresso-machine-lets-you-make-just-about-any-coffee-creation-you-can-imagine",
         "badge": "NEW"
     },
     {
@@ -998,7 +998,7 @@ const affiliateProducts = [
         "price": "$13",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19740987-12-99-14-pack-pilot-g2-pens-premium-refillable-and-retractable-rolling-ball-gel-pens-fine-point-0-7mm-black-ink-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19740987-12-99-14-pack-pilot-g2-pens-premium-refillable-and-retractable-rolling-ball-gel-pens-fine-point-0-7mm-black-ink-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1009,7 +1009,7 @@ const affiliateProducts = [
         "price": "$100",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783851736-draftworks_img_qolgqjlaiau3cibnpgi.png",
-        "link": "https://www.dealnews.com/products/Cuisinart/Cuisinart-Indoor-Pizza-Oven/495748.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/products/Cuisinart/Cuisinart-Indoor-Pizza-Oven/495748.html?iref=rss-c196",
         "badge": "BEST SELLER"
     },
     {
@@ -1020,7 +1020,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/16872545-rei-labor-day-sale-co-op-members-offer-extra-savings-on-one-outlet-item-20-off-free-curbside-pickup?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/16872545-rei-labor-day-sale-co-op-members-offer-extra-savings-on-one-outlet-item-20-off-free-curbside-pickup?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1031,7 +1031,7 @@ const affiliateProducts = [
         "price": "$6.85",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19750125-save-35-on-your-vitamin-s-s-subcription-nature-s-bounty-puritan-s-pride-more-free-shipping-with-prime-or-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750125-save-35-on-your-vitamin-s-s-subcription-nature-s-bounty-puritan-s-pride-more-free-shipping-with-prime-or-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1042,7 +1042,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783609734-s-l1600.jpg",
-        "link": "https://www.dealnews.com/De-Walt-Outlet-Deals-at-eBay-Up-to-40-off-free-shipping/21889944.html?iref=rss-c197&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/De-Walt-Outlet-Deals-at-eBay-Up-to-40-off-free-shipping/21889944.html?iref=rss-c197",
         "badge": "HOT"
     },
     {
@@ -1053,7 +1053,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783765221-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/Woot-Cords-Reels-Accessories-Sale-Up-to-52-off-free-shipping-w-Prime/21893501.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Woot-Cords-Reels-Accessories-Sale-Up-to-52-off-free-shipping-w-Prime/21893501.html?iref=rss-c142",
         "badge": "SALE"
     },
     {
@@ -1064,7 +1064,7 @@ const affiliateProducts = [
         "price": "$4",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783594159-817v2l4y0xl.jpg",
-        "link": "https://www.dealnews.com/115-in-1-Precision-Screwdriver-Set-for-4-free-shipping-w-25/21889859.html?iref=rss-c197&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/115-in-1-Precision-Screwdriver-Set-for-4-free-shipping-w-25/21889859.html?iref=rss-c197",
         "badge": "HOT"
     },
     {
@@ -1075,7 +1075,7 @@ const affiliateProducts = [
         "price": "$7",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783635930-product-trimmed.png",
-        "link": "https://www.dealnews.com/products/Olympia-Tools/Olympia-Tools-7-Piece-SAE-Nut-Driver-Set/507229.html?iref=rss-c197&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/products/Olympia-Tools/Olympia-Tools-7-Piece-SAE-Nut-Driver-Set/507229.html?iref=rss-c197",
         "badge": "NEW"
     },
     {
@@ -1086,7 +1086,7 @@ const affiliateProducts = [
         "price": "$10.05",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://slickdeals.net/f/19748541-sns-11-la-dolce-vita-classic-almond-italian-biscotti-cookie-snacks-with-whole-almonds-40-oz?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19748541-sns-11-la-dolce-vita-classic-almond-italian-biscotti-cookie-snacks-with-whole-almonds-40-oz?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1097,7 +1097,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://cdn.mos.cms.futurecdn.net/EPrgrvFvQTuo54LAqCxuGa-1280-80.jpg",
-        "link": "https://www.techradar.com/home/juicers-blenders/cuisinart-power-blend-immersion-blender?ref=money_maker_2026",
+        "link": "https://www.techradar.com/home/juicers-blenders/cuisinart-power-blend-immersion-blender",
         "badge": "TOP PICK"
     },
     {
@@ -1108,7 +1108,7 @@ const affiliateProducts = [
         "price": "$870",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1782927410-dell-ec24250t-aio-desktop-c-km5221w-00000ff090-gy-mldspk-getty-2218207453-png.avif",
-        "link": "https://www.dealnews.com/Dell-24-Core-i5-24-All-in-One-Desktop-for-870-free-shipping/21866819.html?iref=rss-c48&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Dell-24-Core-i5-24-All-in-One-Desktop-for-870-free-shipping/21866819.html?iref=rss-c48",
         "badge": "HOT"
     },
     {
@@ -1119,7 +1119,7 @@ const affiliateProducts = [
         "price": "$700",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783539021-27684594173_ideapad_5a_2_1_15_amd_front_cb_img_202510201009111764767414769-png.avif",
-        "link": "https://www.dealnews.com/Lenovo-Idea-Pad-5-a-2-in-1-15-Touchscreen-Laptop-for-700-free-shipping/21888217.html?iref=rss-c49&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Lenovo-Idea-Pad-5-a-2-in-1-15-Touchscreen-Laptop-for-700-free-shipping/21888217.html?iref=rss-c49",
         "badge": "NEW"
     },
     {
@@ -1130,7 +1130,7 @@ const affiliateProducts = [
         "price": "$41",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783337523-dark-gray-apple-smartphone-xxjl.avif",
-        "link": "https://www.dealnews.com/Open-Box-Unlocked-Cell-Phones-at-Best-Buy-for-Up-to-40-off-Android-phones-from-41-free-shipping/21893542.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Open-Box-Unlocked-Cell-Phones-at-Best-Buy-for-Up-to-40-off-Android-phones-from-41-free-shipping/21893542.html?iref=rss-c142",
         "badge": "HOT"
     },
     {
@@ -1141,7 +1141,7 @@ const affiliateProducts = [
         "price": "$5.50",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19750608-bosch-itsq12b-10-pc-impact-tough-2-in-square-1-power-bits-5-51-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750608-bosch-itsq12b-10-pc-impact-tough-2-in-square-1-power-bits-5-51-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "TOP PICK"
     },
     {
@@ -1152,7 +1152,7 @@ const affiliateProducts = [
         "price": "$48",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783852028-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/products/Yaheetech/Yaheetech-3-Tier-Raised-Garden-Bed/478498.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/products/Yaheetech/Yaheetech-3-Tier-Raised-Garden-Bed/478498.html?iref=rss-c196",
         "badge": "SALE"
     },
     {
@@ -1163,7 +1163,7 @@ const affiliateProducts = [
         "price": "$70.85",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://slickdeals.net/f/19714632-certified-refurbished-ninja-cfp105-dualbrew-hot-iced-coffee-maker-black-70-83-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19714632-certified-refurbished-ninja-cfp105-dualbrew-hot-iced-coffee-maker-black-70-83-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1174,7 +1174,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://cdn.mos.cms.futurecdn.net/PqMcNQafEYpK2AkBkvsENV-1280-80.jpg",
-        "link": "https://www.techradar.com/home/hair-care/dyson-supersonic-travel-review?ref=money_maker_2026",
+        "link": "https://www.techradar.com/home/hair-care/dyson-supersonic-travel-review",
         "badge": "BEST SELLER"
     },
     {
@@ -1185,7 +1185,7 @@ const affiliateProducts = [
         "price": "$130",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19750554-129-99-ninja-nc301-creami-ice-cream-maker-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750554-129-99-ninja-nc301-creami-ice-cream-maker-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1196,7 +1196,7 @@ const affiliateProducts = [
         "price": "$48",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://slickdeals.net/f/17357163-808-piece-lego-creator-3-in-1-cozy-house-building-kit-48-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/17357163-808-piece-lego-creator-3-in-1-cozy-house-building-kit-48-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1207,7 +1207,7 @@ const affiliateProducts = [
         "price": "$102",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783854739-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/Certified-Refurb-Acer-Chromebook-Celeron-N4500-15-6-Laptop-for-102-free-shipping/21897123.html?iref=rss-c49&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Certified-Refurb-Acer-Chromebook-Celeron-N4500-15-6-Laptop-for-102-free-shipping/21897123.html?iref=rss-c49",
         "badge": "VIRAL"
     },
     {
@@ -1218,7 +1218,7 @@ const affiliateProducts = [
         "price": "$10",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
-        "link": "https://slickdeals.net/f/19458405-costco-members-extra-10-off-3-select-apparel-new-offer-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19458405-costco-members-extra-10-off-3-select-apparel-new-offer-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "TOP PICK"
     },
     {
@@ -1229,7 +1229,7 @@ const affiliateProducts = [
         "price": "$2.80",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19743843-sns-ac-2-79-8-oz-shameless-pets-soft-chewy-dog-treats-bacon-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19743843-sns-ac-2-79-8-oz-shameless-pets-soft-chewy-dog-treats-bacon-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "TOP PICK"
     },
     {
@@ -1240,7 +1240,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://cdn.mos.cms.futurecdn.net/zRmEPSPjqqzG5hM5fdLUmC-1280-80.jpg",
-        "link": "https://www.techradar.com/home/air-quality/dyson-hushjet-mini-cool-review?ref=money_maker_2026",
+        "link": "https://www.techradar.com/home/air-quality/dyson-hushjet-mini-cool-review",
         "badge": "TOP PICK"
     },
     {
@@ -1251,7 +1251,7 @@ const affiliateProducts = [
         "price": "$48.55",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19741227-daranener-r101-lite-89-6wh-lifepo4-portable-power-station-w-100w-ac-outlet-usb-c-pd-48-57-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19741227-daranener-r101-lite-89-6wh-lifepo4-portable-power-station-w-100w-ac-outlet-usb-c-pd-48-57-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1262,7 +1262,7 @@ const affiliateProducts = [
         "price": "$8.80",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://slickdeals.net/f/19746114-sns-ac-8-78-60-count-0-8-oz-welch-s-fruit-snacks-pouches-mixed-fruits-summer-fruits-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19746114-sns-ac-8-78-60-count-0-8-oz-welch-s-fruit-snacks-pouches-mixed-fruits-summer-fruits-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "TOP PICK"
     },
     {
@@ -1273,7 +1273,7 @@ const affiliateProducts = [
         "price": "$378",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783764891-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/products/Hisense/Hisense-E6-Cinema-Series-65-E6-QF-65-QLED-4-K-UHD-Smart-Fire-TV/507672.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/products/Hisense/Hisense-E6-Cinema-Series-65-E6-QF-65-QLED-4-K-UHD-Smart-Fire-TV/507672.html?iref=rss-c142",
         "badge": "VIRAL"
     },
     {
@@ -1284,7 +1284,7 @@ const affiliateProducts = [
         "price": "$15",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
-        "link": "https://slickdeals.net/f/18150877-costco-members-copper-oak-men-s-shirt-jacket-s-xl-various-14-99-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/18150877-costco-members-copper-oak-men-s-shirt-jacket-s-xl-various-14-99-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1295,7 +1295,7 @@ const affiliateProducts = [
         "price": "$7",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19747860-sns-ac-6-98-92-oz-orville-redenbacher-s-gourmet-popping-kernels-original-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19747860-sns-ac-6-98-92-oz-orville-redenbacher-s-gourmet-popping-kernels-original-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1306,7 +1306,7 @@ const affiliateProducts = [
         "price": "$269.10",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783346094-draftworks_img_j9ngtesckke63mdiole.jpeg",
-        "link": "https://www.dealnews.com/Acemagic-K1-Mini-PC-Ryzen-R2544-Mini-PC-for-269-10-free-shipping/21883458.html?iref=rss-c48&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Acemagic-K1-Mini-PC-Ryzen-R2544-Mini-PC-for-269-10-free-shipping/21883458.html?iref=rss-c48",
         "badge": "BEST SELLER"
     },
     {
@@ -1317,7 +1317,7 @@ const affiliateProducts = [
         "price": "$9.25",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://slickdeals.net/f/19750143-sns-ac-9-25-2-12-pk-12-oz-dr-pepper-strawberries-and-cream-soda-4-63-each-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750143-sns-ac-9-25-2-12-pk-12-oz-dr-pepper-strawberries-and-cream-soda-4-63-each-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "SALE"
     },
     {
@@ -1328,7 +1328,7 @@ const affiliateProducts = [
         "price": "$3",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/33a9ef1d5_generated_image.png",
-        "link": "https://slickdeals.net/f/19750341-sns-ac-3-2-pk-2-7-oz-degree-men-original-antiperspirant-deodorants-cool-rush-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750341-sns-ac-3-2-pk-2-7-oz-degree-men-original-antiperspirant-deodorants-cool-rush-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1339,7 +1339,7 @@ const affiliateProducts = [
         "price": "$420",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783537716-lenovo-yoga-tab-pen-pro-2in1-keyboard-pack-png.avif",
-        "link": "https://www.dealnews.com/products/Lenovo/Lenovo-Yoga-Tab-2-in-1-Laptop/506950.html?iref=rss-c49&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/products/Lenovo/Lenovo-Yoga-Tab-2-in-1-Laptop/506950.html?iref=rss-c49",
         "badge": "HOT"
     },
     {
@@ -1350,7 +1350,7 @@ const affiliateProducts = [
         "price": "$22.45",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "https://slickdeals.net/f/19750674-casio-ws-1600h-digital-watch-90s-sport-design-100m-wr-10-year-battery-22-44-free-s-h-w-prime-or-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750674-casio-ws-1600h-digital-watch-90s-sport-design-100m-wr-10-year-battery-22-44-free-s-h-w-prime-or-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "VIRAL"
     },
     {
@@ -1361,7 +1361,7 @@ const affiliateProducts = [
         "price": "$10.85",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://slickdeals.net/f/19747932-sns-ac-10-85-18-pack-1-4-oz-kind-healthy-snacks-bars-variety-pack-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19747932-sns-ac-10-85-18-pack-1-4-oz-kind-healthy-snacks-bars-variety-pack-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "TOP PICK"
     },
     {
@@ -1372,7 +1372,7 @@ const affiliateProducts = [
         "price": "$19.50",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/e/13783631-3-piece-smashbox-shooting-star-palette-set-19-50-more-free-s-h-on-25?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/e/13783631-3-piece-smashbox-shooting-star-palette-set-19-50-more-free-s-h-on-25?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1383,7 +1383,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/a5a55d26e_generated_image.png",
-        "link": "https://slickdeals.net/f/15047827-memorial-day-sales-on-apparel-indoor-furniture-mattresses-rugs-more-20-60-off-much-more-see-thread?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/15047827-memorial-day-sales-on-apparel-indoor-furniture-mattresses-rugs-more-20-60-off-much-more-see-thread?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "TOP PICK"
     },
     {
@@ -1394,7 +1394,7 @@ const affiliateProducts = [
         "price": "$1,",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783323753-ryobi-cordless-impact-driver-umpn.jpeg",
-        "link": "https://www.dealnews.com/Ryobi-Tool-Blowout-on-eBay-Live-for-Deals-from-1-from-1-30-pm-ET/21883322.html?iref=rss-c197&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Ryobi-Tool-Blowout-on-eBay-Live-for-Deals-from-1-from-1-30-pm-ET/21883322.html?iref=rss-c197",
         "badge": "NEW"
     },
     {
@@ -1405,7 +1405,7 @@ const affiliateProducts = [
         "price": "$41.65",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
-        "link": "https://slickdeals.net/f/16642292-new-users-64gb-rg35xx-handheld-gaming-console-various-colors-from-41-64-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/16642292-new-users-64gb-rg35xx-handheld-gaming-console-various-colors-from-41-64-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1416,7 +1416,7 @@ const affiliateProducts = [
         "price": "$20",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783673393-71zathau_ul.jpg",
-        "link": "https://www.dealnews.com/Thermo-Maven-Propane-Torch-for-20-free-shipping-w-Prime/21891651.html?iref=rss-c197&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Thermo-Maven-Propane-Torch-for-20-free-shipping-w-Prime/21891651.html?iref=rss-c197",
         "badge": "NEW"
     },
     {
@@ -1427,7 +1427,7 @@ const affiliateProducts = [
         "price": "$25",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
-        "link": "https://slickdeals.net/f/19750353-24-99-pga-tour-2k25-nintendo-switch-2-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750353-24-99-pga-tour-2k25-nintendo-switch-2-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "VIRAL"
     },
     {
@@ -1438,7 +1438,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://cdn.mos.cms.futurecdn.net/GzJjFBsfnQybfRpLj4qBGR-1280-80.jpg",
-        "link": "https://www.techradar.com/home/robot-vacuums/sharks-powerdetect-uv-reveal-has-a-lot-of-potential-but-right-now-its-the-equivalent-of-a-power-washer-in-the-hands-of-a-caveman?ref=money_maker_2026",
+        "link": "https://www.techradar.com/home/robot-vacuums/sharks-powerdetect-uv-reveal-has-a-lot-of-potential-but-right-now-its-the-equivalent-of-a-power-washer-in-the-hands-of-a-caveman",
         "badge": "VIRAL"
     },
     {
@@ -1449,7 +1449,7 @@ const affiliateProducts = [
         "price": "$550",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783698447-34-360-410-01-jpg.webp",
-        "link": "https://www.dealnews.com/Acer-Aspire-Go-15-Ryzen-7-15-6-Laptop-for-550-free-shipping/21891839.html?iref=rss-c49&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Acer-Aspire-Go-15-Ryzen-7-15-6-Laptop-for-550-free-shipping/21891839.html?iref=rss-c49",
         "badge": "HOT"
     },
     {
@@ -1460,7 +1460,7 @@ const affiliateProducts = [
         "price": "$10",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1769804898-blue-storage-bags-angled-view-ol4k.jpeg",
-        "link": "https://www.dealnews.com/Ticonn-Extra-Large-Moving-Bags-for-From-10-free-shipping-w-Prime/21864284.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Ticonn-Extra-Large-Moving-Bags-for-From-10-free-shipping-w-Prime/21864284.html?iref=rss-c196",
         "badge": "BEST SELLER"
     },
     {
@@ -1471,7 +1471,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ea27babaf_generated_image.png",
-        "link": "https://slickdeals.net/f/18845533-adidas-black-friday-deals-up-to-60-off-select-shoes-clothing-accessories-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/18845533-adidas-black-friday-deals-up-to-60-off-select-shoes-clothing-accessories-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1482,7 +1482,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783610586-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/Milwaukee-Outlet-Deals-at-eBay-Up-to-40-off-free-shipping/21889956.html?iref=rss-c197&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Milwaukee-Outlet-Deals-at-eBay-Up-to-40-off-free-shipping/21889956.html?iref=rss-c197",
         "badge": "SALE"
     },
     {
@@ -1493,7 +1493,7 @@ const affiliateProducts = [
         "price": "$249.95",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19744281-jbl-partybox-on-the-go-essential-portable-party-speaker-with-wireless-mic-249-95-free-s-h-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19744281-jbl-partybox-on-the-go-essential-portable-party-speaker-with-wireless-mic-249-95-free-s-h-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1504,7 +1504,7 @@ const affiliateProducts = [
         "price": "$16",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783841549-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/Olympia-Tools-24-Bolt-Cutter-for-16-free-shipping/21897108.html?iref=rss-c197&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Olympia-Tools-24-Bolt-Cutter-for-16-free-shipping/21897108.html?iref=rss-c197",
         "badge": "NEW"
     },
     {
@@ -1515,7 +1515,7 @@ const affiliateProducts = [
         "price": "$5",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19741029-3-pack-hotec-silicone-baking-mats-red-or-grey-4-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19741029-3-pack-hotec-silicone-baking-mats-red-or-grey-4-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "HOT"
     },
     {
@@ -1526,7 +1526,7 @@ const affiliateProducts = [
         "price": "$28",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
-        "link": "https://slickdeals.net/f/19146316-gearwrench-2pk-bd2-bluetooth-diagnostic-w-gwscan-free-lifetime-software-updates-b-m-only-28?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19146316-gearwrench-2pk-bd2-bluetooth-diagnostic-w-gwscan-free-lifetime-software-updates-b-m-only-28?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1537,7 +1537,7 @@ const affiliateProducts = [
         "price": "$20,",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
-        "link": "https://slickdeals.net/f/18602236-dockers-men-s-women-s-apparel-trucker-jackets-from-20-khakis-jeans-from-15-more-free-s-h?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/18602236-dockers-men-s-women-s-apparel-trucker-jackets-from-20-khakis-jeans-from-15-more-free-s-h?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1548,7 +1548,7 @@ const affiliateProducts = [
         "price": "$550",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783603830-bcd450f5-6679-4a0c-b249-73a9ac7849ad-jpg-maxheight-1920-maxwidth-900.webp",
-        "link": "https://www.dealnews.com/products/HP/HP-Omni-Book-3-Snapdragon-X-14-Laptop/507217.html?iref=rss-c49&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/products/HP/HP-Omni-Book-3-Snapdragon-X-14-Laptop/507217.html?iref=rss-c49",
         "badge": "NEW"
     },
     {
@@ -1559,7 +1559,7 @@ const affiliateProducts = [
         "price": "$35",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "https://slickdeals.net/f/19714188-perlegear-ultra-slim-tv-wall-mount-1-1-low-profile-for-42-90-tvs-holds-up-to-132lbs-35-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19714188-perlegear-ultra-slim-tv-wall-mount-1-1-low-profile-for-42-90-tvs-holds-up-to-132lbs-35-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1570,7 +1570,7 @@ const affiliateProducts = [
         "price": "$1,250",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1781542540-desktop-tower-ect1250-c-no-ssd-black-gallery-1-psd.avif",
-        "link": "https://www.dealnews.com/Dell-Tower-Ultra-7-265-Desktop-w-32-GB-RAM-1-TB-SSD-for-1-250-free-shipping/21883546.html?iref=rss-c48&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Dell-Tower-Ultra-7-265-Desktop-w-32-GB-RAM-1-TB-SSD-for-1-250-free-shipping/21883546.html?iref=rss-c48",
         "badge": "NEW"
     },
     {
@@ -1581,7 +1581,7 @@ const affiliateProducts = [
         "price": "$90",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783764825-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/Refurb-Apple-iPhone-Watch-Savings-at-Woot-for-From-90-free-shipping-w-Prime/21893496.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Refurb-Apple-iPhone-Watch-Savings-at-Woot-for-From-90-free-shipping-w-Prime/21893496.html?iref=rss-c142",
         "badge": "NEW"
     },
     {
@@ -1592,7 +1592,7 @@ const affiliateProducts = [
         "price": "$350",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783765060-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/products/Samsung/Samsung-M70-H-55-4-K-Mini-LED-Smart-TV/507673.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/products/Samsung/Samsung-M70-H-55-4-K-Mini-LED-Smart-TV/507673.html?iref=rss-c142",
         "badge": "TOP PICK"
     },
     {
@@ -1603,7 +1603,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783609811-s-l1600.jpg",
-        "link": "https://www.dealnews.com/Makita-Outlet-Sale-at-eBay-Up-to-40-off-free-shipping/21889945.html?iref=rss-c197&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Makita-Outlet-Sale-at-eBay-Up-to-40-off-free-shipping/21889945.html?iref=rss-c197",
         "badge": "NEW"
     },
     {
@@ -1614,7 +1614,7 @@ const affiliateProducts = [
         "price": "$5.10",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://slickdeals.net/f/19741617-sns-ac-5-08-25-6-oz-maxwell-house-breakfast-blend-mild-roast-ground-coffee-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19741617-sns-ac-5-08-25-6-oz-maxwell-house-breakfast-blend-mild-roast-ground-coffee-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "BEST SELLER"
     },
     {
@@ -1625,7 +1625,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://slickdeals.net/f/19750593-7-x-4-3-8-five-star-spiral-notebook-college-ruled-80-sheets-green-1-63-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750593-7-x-4-3-8-five-star-spiral-notebook-college-ruled-80-sheets-green-1-63-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1636,7 +1636,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://cdn.mos.cms.futurecdn.net/HceiNxUHcJNHbMAt9bTJUR-1280-80.jpg",
-        "link": "https://www.techradar.com/home/home-security/ring-battery-video-doorbell-plus-2nd-gen-review?ref=money_maker_2026",
+        "link": "https://www.techradar.com/home/home-security/ring-battery-video-doorbell-plus-2nd-gen-review",
         "badge": "TOP PICK"
     },
     {
@@ -1647,7 +1647,7 @@ const affiliateProducts = [
         "price": "$10",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "https://slickdeals.net/f/19747149-adidas-starlancer-club-soccer-ball-solar-pink-white-size-5-9-96-free-s-h-w-prime-or-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19747149-adidas-starlancer-club-soccer-ball-solar-pink-white-size-5-9-96-free-s-h-w-prime-or-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "TOP PICK"
     },
     {
@@ -1658,7 +1658,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783764555-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-free-shipping/21893495.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-free-shipping/21893495.html?iref=rss-c142",
         "badge": "SALE"
     },
     {
@@ -1669,7 +1669,7 @@ const affiliateProducts = [
         "price": "$24",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ea27babaf_generated_image.png",
-        "link": "https://slickdeals.net/f/19745238-adidas-men-daily-4-0-shoes-various-from-24?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19745238-adidas-men-daily-4-0-shoes-various-from-24?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "HOT"
     },
     {
@@ -1680,7 +1680,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://cdn.mos.cms.futurecdn.net/ymaj2a2LvVqyVNVEiFZmfD-1280-80.png",
-        "link": "https://www.techradar.com/home/hair-care/dreame-airstyle-era-review?ref=money_maker_2026",
+        "link": "https://www.techradar.com/home/hair-care/dreame-airstyle-era-review",
         "badge": "BEST SELLER"
     },
     {
@@ -1691,7 +1691,7 @@ const affiliateProducts = [
         "price": "$23.90",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783498919-crave-protein-bars-12-pack-yrca.jpeg",
-        "link": "https://www.dealnews.com/Satisfy-Your-Crave-Protein-Bars-12-Pack-for-23-90-free-shipping-w-Prime/21887989.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Satisfy-Your-Crave-Protein-Bars-12-Pack-for-23-90-free-shipping-w-Prime/21887989.html?iref=rss-c196",
         "badge": "NEW"
     },
     {
@@ -1702,7 +1702,7 @@ const affiliateProducts = [
         "price": "$16.70",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/18873703-s-s-16-71-128-oz-chemical-guys-spi-208-colorless-and-odorless-leather-cleaner-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/18873703-s-s-16-71-128-oz-chemical-guys-spi-208-colorless-and-odorless-leather-cleaner-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "BEST SELLER"
     },
     {
@@ -1713,7 +1713,7 @@ const affiliateProducts = [
         "price": "$12.25",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19749573-locknlock-metro-mug-premium-18-8-stainless-steel-metal-double-wall-insulated-portable-coffee-cup-with-lid-and-handle-for-hot-and-cold-drinks-blue-20-oz-12-26-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19749573-locknlock-metro-mug-premium-18-8-stainless-steel-metal-double-wall-insulated-portable-coffee-cup-with-lid-and-handle-for-hot-and-cold-drinks-blue-20-oz-12-26-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "TOP PICK"
     },
     {
@@ -1724,7 +1724,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://cdn.mos.cms.futurecdn.net/EGsCEksdyLQebD23B6ujb5-1280-80.png",
-        "link": "https://www.techradar.com/home/air-quality/blueair-min-restful-review?ref=money_maker_2026",
+        "link": "https://www.techradar.com/home/air-quality/blueair-min-restful-review",
         "badge": "NEW"
     },
     {
@@ -1735,7 +1735,7 @@ const affiliateProducts = [
         "price": "$1",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19750428-0-99-usa-national-parks-lands-of-wonder-kindle-ebook-by-dk-travel?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750428-0-99-usa-national-parks-lands-of-wonder-kindle-ebook-by-dk-travel?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1746,7 +1746,7 @@ const affiliateProducts = [
         "price": "$150",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783770241-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-Pro-3-2025/493669.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-Pro-3-2025/493669.html?iref=rss-c142",
         "badge": "VIRAL"
     },
     {
@@ -1757,7 +1757,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1782203708-woot-logo-amazon-company-1ecw.png",
-        "link": "https://www.dealnews.com/Woot-Extra-Discounts-Clearance-Hub-Up-to-an-extra-70-off-free-shipping-w-Prime/21862595.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Woot-Extra-Discounts-Clearance-Hub-Up-to-an-extra-70-off-free-shipping-w-Prime/21862595.html?iref=rss-c142",
         "badge": "VIRAL"
     },
     {
@@ -1768,7 +1768,7 @@ const affiliateProducts = [
         "price": "$13.05",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19694493-marvel-comics-one-world-under-doom-trade-paperback-book-issues-1-9-13-04-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19694493-marvel-comics-one-world-under-doom-trade-paperback-book-issues-1-9-13-04-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "VIRAL"
     },
     {
@@ -1779,7 +1779,7 @@ const affiliateProducts = [
         "price": "$1,049",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1782854060-1781703748-c01cs25110107u8ncc8-jpg-webp.jpeg",
-        "link": "https://www.dealnews.com/AOACE-Ryzen-7-Gaming-PC-w-Ge-Force-RTX-5060-and-32-GB-RAM-for-1-049-40-Gift-Card-free-shipping/21864445.html?iref=rss-c48&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/AOACE-Ryzen-7-Gaming-PC-w-Ge-Force-RTX-5060-and-32-GB-RAM-for-1-049-40-Gift-Card-free-shipping/21864445.html?iref=rss-c48",
         "badge": "NEW"
     },
     {
@@ -1790,7 +1790,7 @@ const affiliateProducts = [
         "price": "$3.30",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19740819-s-s-ac-3-30-365-by-whole-foods-market-organic-cashews-10-ounce?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19740819-s-s-ac-3-30-365-by-whole-foods-market-organic-cashews-10-ounce?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1801,7 +1801,7 @@ const affiliateProducts = [
         "price": "$6",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://slickdeals.net/f/18824398-12-x-118-beautysaid-shelf-and-drawer-liner-light-green-5-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/18824398-12-x-118-beautysaid-shelf-and-drawer-liner-light-green-5-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1812,7 +1812,7 @@ const affiliateProducts = [
         "price": "$90",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
-        "link": "https://slickdeals.net/f/19741587-89-99-seagate-game-drive-for-xbox-2tb-external-at-woot?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19741587-89-99-seagate-game-drive-for-xbox-2tb-external-at-woot?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1823,7 +1823,7 @@ const affiliateProducts = [
         "price": "$48",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://slickdeals.net/f/19742712-47-99-789-piece-lego-botanicals-botanical-collection-bouquet-of-pink-roses-10374-2025-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19742712-47-99-789-piece-lego-botanicals-botanical-collection-bouquet-of-pink-roses-10374-2025-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "BEST SELLER"
     },
     {
@@ -1834,7 +1834,7 @@ const affiliateProducts = [
         "price": "$800",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783691734-cd775580-5027-4355-93a4-fadf821e27c0-jpg-maxheight-1920-maxwidth-900.webp",
-        "link": "https://www.dealnews.com/Lenovo-Yoga-7-i-2-in-1-Core-Ultra-7-16-Touchscreen-Laptop-for-800-free-shipping/21891773.html?iref=rss-c49&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Lenovo-Yoga-7-i-2-in-1-Core-Ultra-7-16-Touchscreen-Laptop-for-800-free-shipping/21891773.html?iref=rss-c49",
         "badge": "NEW"
     },
     {
@@ -1845,7 +1845,7 @@ const affiliateProducts = [
         "price": "$1,929",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783615171-vtpwha86geo2ku2kfxduyrx0mh0cdg696870-png-2.avif",
-        "link": "https://www.dealnews.com/Lenovo-Think-Pad-P14-s-Ryzen-AI-7-350-14-Laptop-w-1-TB-SSD-for-1-929-free-shipping/21889975.html?iref=rss-c49&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Lenovo-Think-Pad-P14-s-Ryzen-AI-7-350-14-Laptop-w-1-TB-SSD-for-1-929-free-shipping/21889975.html?iref=rss-c49",
         "badge": "VIRAL"
     },
     {
@@ -1856,7 +1856,7 @@ const affiliateProducts = [
         "price": "$19",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19750629-24-oz-hydro-flask-kids-travel-tumbler-w-handle-lid-straw-koala-19?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750629-24-oz-hydro-flask-kids-travel-tumbler-w-handle-lid-straw-koala-19?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "BEST SELLER"
     },
     {
@@ -1867,7 +1867,7 @@ const affiliateProducts = [
         "price": "$39.95",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
-        "link": "https://www.walmart.com/ip/seort/...=102821661?ref=money_maker_2026",
+        "link": "https://www.walmart.com/ip/seort/...=102821661",
         "badge": "TOP PICK"
     },
     {
@@ -1878,7 +1878,7 @@ const affiliateProducts = [
         "price": "$231",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783355175-draftworks_img_stjta20se1a50ihggbc.jpeg",
-        "link": "https://www.dealnews.com/Kamrui-AK1-Plus-Celeron-N5095-2-9-GHz-Mini-PC-for-231-free-shipping/21883524.html?iref=rss-c48&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Kamrui-AK1-Plus-Celeron-N5095-2-9-GHz-Mini-PC-for-231-free-shipping/21883524.html?iref=rss-c48",
         "badge": "BEST SELLER"
     },
     {
@@ -1889,7 +1889,7 @@ const affiliateProducts = [
         "price": "$2",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
-        "link": "https://www.walmart.com/ip/19191604966?ref=money_maker_2026",
+        "link": "https://www.walmart.com/ip/19191604966",
         "badge": "NEW"
     },
     {
@@ -1900,7 +1900,7 @@ const affiliateProducts = [
         "price": "$30.40",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19724715-30-39-3-speed-wolfbox-mf60-electric-compressed-air-duster-w-5-nozzles-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19724715-30-39-3-speed-wolfbox-mf60-electric-compressed-air-duster-w-5-nozzles-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1911,7 +1911,7 @@ const affiliateProducts = [
         "price": "$5.49",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783517113-orange-decorative-pillows-sofa-wy5o.jpeg",
-        "link": "https://www.dealnews.com/Velvet-Pillow-Cover-2-Packs-for-Couch-Bed-Sofa-for-from-5-49-free-shipping-w-Prime/21888101.html?iref=rss-c196&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Velvet-Pillow-Cover-2-Packs-for-Couch-Bed-Sofa-for-from-5-49-free-shipping-w-Prime/21888101.html?iref=rss-c196",
         "badge": "NEW"
     },
     {
@@ -1922,7 +1922,7 @@ const affiliateProducts = [
         "price": "$29",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783858008-product-trimmed.jpg",
-        "link": "https://www.dealnews.com/Beats-by-Dr-Dre-Solo-Buds-In-Ear-Headphones-for-29-free-shipping/21897126.html?iref=rss-c142&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Beats-by-Dr-Dre-Solo-Buds-In-Ear-Headphones-for-29-free-shipping/21897126.html?iref=rss-c142",
         "badge": "BEST SELLER"
     },
     {
@@ -1933,7 +1933,7 @@ const affiliateProducts = [
         "price": "$25",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
-        "link": "https://slickdeals.net/f/18147538-costco-members-woolrich-men-s-canvas-hooded-jacket-m-xxl-green-or-brown-24-99-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/18147538-costco-members-woolrich-men-s-canvas-hooded-jacket-m-xxl-green-or-brown-24-99-free-shipping?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "VIRAL"
     },
     {
@@ -1944,7 +1944,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/33a9ef1d5_generated_image.png",
-        "link": "https://slickdeals.net/f/15023500-macy-s-10-days-of-beauty-glam-cosmetic-skincare-product-sale-50-off-w-6-sd-cashback-free-s-h?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/15023500-macy-s-10-days-of-beauty-glam-cosmetic-skincare-product-sale-50-off-w-6-sd-cashback-free-s-h?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "NEW"
     },
     {
@@ -1955,7 +1955,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://cdn.mos.cms.futurecdn.net/Arx8bSpbgjRDgVQk7wGsnK-1280-80.jpg",
-        "link": "https://www.techradar.com/home/smart-lights/ikea-varmblixt-review?ref=money_maker_2026",
+        "link": "https://www.techradar.com/home/smart-lights/ikea-varmblixt-review",
         "badge": "VIRAL"
     },
     {
@@ -1966,7 +1966,7 @@ const affiliateProducts = [
         "price": "$13.55",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/17750970-6-bottles-sawyer-products-permethrin-premium-insect-repellent-for-clothing-gear-tents-trigger-spray-4-5-ounce-13-56-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/17750970-6-bottles-sawyer-products-permethrin-premium-insect-repellent-for-clothing-gear-tents-trigger-spray-4-5-ounce-13-56-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "VIRAL"
     },
     {
@@ -1977,7 +1977,7 @@ const affiliateProducts = [
         "price": "$1,700",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1783617162-us-galaxy-book-np960xjg-ka2us-galaxy-book-pro-gb-a-copilot-pc-gray-551616704.webp",
-        "link": "https://www.dealnews.com/Samsung-Galaxy-Book6-Pro-Core-Ultra-7-16-Copilot-PC-Laptop-for-1-700-free-shipping/21889984.html?iref=rss-c49&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Samsung-Galaxy-Book6-Pro-Core-Ultra-7-16-Copilot-PC-Laptop-for-1-700-free-shipping/21889984.html?iref=rss-c49",
         "badge": "HOT"
     },
     {
@@ -1988,7 +1988,7 @@ const affiliateProducts = [
         "price": "$8.75",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://slickdeals.net/f/19748070-8-73-11-cuisinart-perforated-non-stick-grill-basket-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19748070-8-73-11-cuisinart-perforated-non-stick-grill-basket-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "TOP PICK"
     },
     {
@@ -1999,7 +1999,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ea27babaf_generated_image.png",
-        "link": "https://slickdeals.net/f/19538772-extra-30-off-select-adidas-men-s-women-s-and-kids-shoes-clothing?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19538772-extra-30-off-select-adidas-men-s-women-s-and-kids-shoes-clothing?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "HOT"
     },
     {
@@ -2010,7 +2010,7 @@ const affiliateProducts = [
         "price": "Check Deal",
         "originalPrice": "---",
         "image": "https://cdn.mos.cms.futurecdn.net/mipwpbukWBTbM7hY9S96Lg-1280-80.jpg",
-        "link": "https://www.techradar.com/home/coffee-machines/keurig-k-mini-mate-review?ref=money_maker_2026",
+        "link": "https://www.techradar.com/home/coffee-machines/keurig-k-mini-mate-review",
         "badge": "NEW"
     },
     {
@@ -2021,7 +2021,7 @@ const affiliateProducts = [
         "price": "$519",
         "originalPrice": "---",
         "image": "https://d.dlnws.com/64599/1782998995-firebat-mini-pc-angled-view-flfl.jpeg",
-        "link": "https://www.dealnews.com/Firebat-AM02-Ryzen-7-Mini-PC-for-519-free-shipping/21867077.html?iref=rss-c48&ref=money_maker_2026",
+        "link": "https://www.dealnews.com/Firebat-AM02-Ryzen-7-Mini-PC-for-519-free-shipping/21867077.html?iref=rss-c48",
         "badge": "VIRAL"
     },
     {
@@ -2032,7 +2032,7 @@ const affiliateProducts = [
         "price": "$6.75",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/19750509-6-74-3-pk-1-oz-o-keeffe-s-working-hands-hand-cream-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/19750509-6-74-3-pk-1-oz-o-keeffe-s-working-hands-hand-cream-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "HOT"
     },
     {
@@ -2043,7 +2043,7 @@ const affiliateProducts = [
         "price": "$15",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://slickdeals.net/f/18360955-50-pack-homexcel-microfiber-cleaning-cloth-12-5-x-12-5-multicolor-14-99-0-30-ea-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2&ref=money_maker_2026",
+        "link": "https://slickdeals.net/f/18360955-50-pack-homexcel-microfiber-cleaning-cloth-12-5-x-12-5-multicolor-14-99-0-30-ea-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
         "badge": "VIRAL"
     }
 ];
