@@ -53,6 +53,7 @@ SOURCES = [
     {"name": "Slickdeals Home", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1&q=kitchen+furniture+home"},
     # --- Amazon-specific ---
     {"name": "FatWallet", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1&q=amazon"},
+    {"name": "DealNews Amazon", "url": "https://www.dealnews.com/newsearch.php?q=amazon&rss=1"},
     # --- Tech & Gadgets (Premium) ---
     {"name": "DealNews Tech", "url": "https://www.dealnews.com/c142/Tech-Gadgets/?rss=1"},
     {"name": "B&H Photo Video", "url": "https://www.bhphotovideo.com/c/rss/dealZone.xml"},
@@ -148,8 +149,10 @@ def append_affiliate_tag(url):
     separator = "&" if "?" in url else "?"
     
     if "amazon.com" in url:
-        # Remove any existing tag parameter first
-        url = re.sub(r'[?&]tag=[^&]*', '', url)
+        # Clean Amazon URLs of unnecessary tracking parameters to ensure clean affiliate links
+        url = re.sub(r'[?&](?:tag|ref_|ref|psc|ascsubtag|linkCode)=[^&]*', '', url)
+        # Strip trailing ? or & left behind
+        url = url.rstrip('?&')
         separator = "&" if "?" in url else "?"
         return f"{url}{separator}tag={AFFILIATE_TAGS['amazon']}"
     elif "ebay.com" in url:
@@ -254,6 +257,11 @@ def fetch_thread_final_link(aggregator_url):
         
         body = resp.text
         
+        # Look for direct Amazon links embedded anywhere in the thread text
+        amazon_match = re.search(r'(https?://(?:www\.)?amazon\.com/(?:dp|gp/product)/[A-Z0-9]+)', body)
+        if amazon_match:
+            return amazon_match.group(1)
+
         # Slickdeals "Buy Now" target usually in a specific data attribute or JS
         if "slickdeals.net" in aggregator_url:
             # Look for internal redirect links like /fout/ or /coupons/click/
@@ -406,7 +414,7 @@ def get_deals():
     # 3. Batch-resolve pending redirects in parallel
     pending = [d for d in all_deals if d.get("link_type") == "pending_redirect"]
     if pending:
-        print(f"\n⚡ Resolving {len(pending)} redirects in parallel (20 workers)...")
+        print(f"\nResolving {len(pending)} redirects in parallel (20 workers)...")
         def _resolve(deal):
             # Try to resolve redirect first
             resolved = resolve_redirect(deal["link"])
@@ -426,14 +434,15 @@ def get_deals():
                 deal["link_type"] = "aggregator"
             return deal
 
-        with ThreadPoolExecutor(max_workers=20) as executor:
-            futures = {executor.submit(_resolve, d): d for d in pending}
-            done = 0
-            for future in as_completed(futures):
-                future.result()  # updates deal dict in place
-                done += 1
-                if done % 10 == 0:
-                    print(f"  Resolved {done}/{len(pending)}...")
+        done = 0
+        for deal in pending:
+            _resolve(deal)
+            done += 1
+            if done % 10 == 0:
+                print(f"  Resolved {done}/{len(pending)}...")
+
+    # STRICT FILTER: Drop any deal that is still an aggregator link to protect commissions!
+    all_deals = [d for d in all_deals if d.get("link_type") == "direct"]
 
     # Print stats
     direct_count = sum(1 for d in all_deals if d.get("link_type") == "direct")
