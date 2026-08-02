@@ -1,3 +1,5 @@
 automation/venv/
 automation/__pycache__/
 *.pyc
+
+automation/promo_config.json
