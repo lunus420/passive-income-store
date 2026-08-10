@@ -14,11 +14,11 @@ const affiliateProducts = [
     {
         "id": 8112,
         "title": "Must-Have: 3-Pk 0.94\" x 60-Yds ScotchBlue Original Multi-Surface Painters Tape $8.40 w/ S&S",
-        "category": "Other",
+        "category": "Home",
         "source": "FatWallet",
         "price": "$8.40",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
         "link": "https://www.amazon.com/dp/B089NYWHJ5?tag=bigterry20036-20",
         "badge": "NEW"
     },
@@ -36,18 +36,18 @@ const affiliateProducts = [
     {
         "id": 1838,
         "title": "Brutal: Select Accts: 32-Oz Amazon Grocery Chicken Broth $0.95 w/ S&S",
-        "category": "Food & Grocery",
+        "category": "Food",
         "source": "Slickdeals Food",
         "price": "$0.95",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=80",
         "link": "https://www.amazon.com/Amazon-Fre..._puis?th=1&tag=bigterry20036-20",
         "badge": "HOT"
     },
     {
         "id": 6911,
         "title": "Exclusive: New: Gather Wood Zigzag Tray (2x1 - Walnut) $49.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$49.00",
         "originalPrice": "---",
@@ -58,7 +58,7 @@ const affiliateProducts = [
     {
         "id": 2042,
         "title": "Brutal: New: Warehouse Item - Hightide Cooler Cargo Bag (Large - Black) $37.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$37.00",
         "originalPrice": "---",
@@ -80,7 +80,7 @@ const affiliateProducts = [
     {
         "id": 9557,
         "title": "Elite: Select Home Depot Stores: 2-Pack Gearwrench OBD2 Bluetooth Diagnostic Tester $28 (Pricing/Availability Will Vary)",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals Temu",
         "price": "$28",
         "originalPrice": "---",
@@ -91,29 +91,29 @@ const affiliateProducts = [
     {
         "id": 9525,
         "title": "Legendary: 50-Pack Homexcel Microfiber Cleaning Cloth (12.5 x 12.5\", Multicolor) $15 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$15",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
         "link": "https://www.amazon.com/dp/B09YHTQ?tag=bigterry20036-20",
         "badge": "NEW"
     },
     {
         "id": 6932,
         "title": "Brutal: Costco Members: Vitamix Ascent X2 SmartPrep Kitchen System Deluxe $550 + Free S&H",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$550",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
         "link": "https://www.costco.com/p/-/4000345877?ref=money_maker_2026",
         "badge": "NEW"
     },
     {
         "id": 7605,
         "title": "Viral: New: Warehouse Item - Gather Note Tray (1x1 - Black) $19.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$19.00",
         "originalPrice": "---",
@@ -135,7 +135,7 @@ const affiliateProducts = [
     {
         "id": 2076,
         "title": "Extreme: AMD Ryzen 7 9800X3D CPU + MSI B850 GAMING PLUS Motherboard + MSI Liquid Cooler $459 + $2 S&H",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals Toys",
         "price": "$459",
         "originalPrice": "---",
@@ -146,7 +146,7 @@ const affiliateProducts = [
     {
         "id": 3984,
         "title": "Legendary: New: MW75 TUMI $750.00",
-        "category": "Other",
+        "category": "Fashion",
         "source": "Master & Dynamic",
         "price": "$750.00",
         "originalPrice": "---",
@@ -157,18 +157,18 @@ const affiliateProducts = [
     {
         "id": 3053,
         "title": "Elite: 72 Can Odoland Leakproof Insulated Rolling Cooler Bag w/ Handle $27.20 + Free S&H",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Food",
         "price": "$27.20",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=80",
         "link": "https://www.amazon.com/dp/B0DQKK6JNV?tag=bigterry20036-20",
         "badge": "NEW"
     },
     {
         "id": 9649,
         "title": "Brutal: New: MW09 TUMI $450.00",
-        "category": "Other",
+        "category": "Fashion",
         "source": "Master & Dynamic",
         "price": "$450.00",
         "originalPrice": "---",
@@ -179,7 +179,7 @@ const affiliateProducts = [
     {
         "id": 5960,
         "title": "Extreme: 16-Count 11.6\" x 17.7\" Shinywear Refrigerator Shelf Liners (4-Color or Clear) $5 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$5",
         "originalPrice": "---",
@@ -190,18 +190,18 @@ const affiliateProducts = [
     {
         "id": 4675,
         "title": "Insane: 3-Piece 16-oz  Chemical Guys Leather & Interior Care Bundle $24 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Fashion",
         "price": "$24",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=80",
         "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=bigterry20036-20",
         "badge": "NEW"
     },
     {
         "id": 1453,
         "title": "Must-Have: 3.4-Oz Old Spice Men's Antiperspirant Invisible Solid Deodorant (Swagger w/ Cedarwood) $3.80 w/ S&S",
-        "category": "Beauty & Health",
+        "category": "Beauty",
         "source": "FatWallet",
         "price": "$3.80",
         "originalPrice": "---",
@@ -212,7 +212,7 @@ const affiliateProducts = [
     {
         "id": 3378,
         "title": "Elite: New: MH40 Wired $299.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$299.00",
         "originalPrice": "---",
@@ -223,11 +223,11 @@ const affiliateProducts = [
     {
         "id": 7368,
         "title": "Extreme: 12-Pk 12-Oz Canada Dry Cherry Ginger Ale Fruit Splash 3 for $14.75 w/ S&S",
-        "category": "Other",
+        "category": "Food",
         "source": "FatWallet",
         "price": "$14.75",
         "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "image": "https://images.unsplash.com/photo-1581636625402-29b2a704ef13?auto=format&fit=crop&w=1200&q=80",
         "link": "https://www.amazon.com/dp/B0CJWYC?tag=bigterry20036-20",
         "badge": "SALE"
     },
@@ -245,7 +245,7 @@ const affiliateProducts = [
     {
         "id": 6022,
         "title": "Brutal: New: MW50+ $299.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$299.00",
         "originalPrice": "---",
@@ -256,7 +256,7 @@ const affiliateProducts = [
     {
         "id": 1881,
         "title": "Brutal: New: Warehouse Item - Analog Weekly Kit (Walnut) $44.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$44.00",
         "originalPrice": "---",
@@ -267,7 +267,7 @@ const affiliateProducts = [
     {
         "id": 8520,
         "title": "Unbeatable: New: MH40 APPLIED ART FORMS $399.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$399.00",
         "originalPrice": "---",
