@@ -17,7 +17,6 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tek-nest.org">
     <link rel="stylesheet" href="style.css">
-    <!-- Favicon would go here -->
     <!-- Google Analytics 4 - Tek-Nest Store Tracking -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YV9YCQ3LFZ"></script>
     <script>
@@ -27,6 +26,7 @@
         gtag('config', 'G-YV9YCQ3LFZ');
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -72,7 +72,6 @@
             <span class="cart-close" onclick="toggleCart()">&times;</span>
         </div>
         <div class="cart-items" id="cart-items">
-            <!-- Cart items loaded via JS -->
         </div>
         <div class="cart-footer">
             <div class="cart-total">
@@ -86,18 +85,46 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
             <h1 data-aos="fade-up">Stop Overpaying.<br><span>Start Winning.</span></h1>
-            <p data-aos="fade-up" data-aos-delay="200">Hand-picked digital tools and the hottest tech deals on the internet —
-                curated daily so you never miss a steal. Instant delivery, zero fluff, just deals that hit.</p>
+            <p data-aos="fade-up" data-aos-delay="200">Hand-picked digital tools and the hottest tech deals on the internet — curated daily so you never miss a steal. Instant delivery, zero fluff, just deals that hit.</p>
             <div data-aos="fade-up" data-aos-delay="400">
-                <a href="#digital" class="btn btn-primary">Explore Digital</a>
-                <a href="#affiliate" class="btn"
+                <a href="#digital" class="btn btn-primary btn-lg">Explore Digital</a>
+                <a href="#affiliate" class="btn btn-lg"
                     style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); margin-left: 20px;">Shop
                     Deals</a>
             </div>
         </div>
+        <div class="hero-scroll-hint">
+            <i class="fas fa-chevron-down"></i>
+        </div>
     </section>
+
+    <!-- Live Stats Bar -->
+    <div class="stats-bar">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" id="stat-deals">200+</div>
+                    <div class="stat-label">Live Deals</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="stat-customers">5,000+</div>
+                    <div class="stat-label">Happy Shoppers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number"><i class="fas fa-star"></i>4.9</div>
+                    <div class="stat-label">Avg Rating</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number"><span id="countdown-timer">--:--:--</span></div>
+                    <div class="stat-label">Until New Deals Drop</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Trust Bar -->
     <div class="trust-bar">
@@ -110,9 +137,11 @@
     <!-- Digital Products Section -->
     <section id="digital">
         <div class="container">
-            <h2 class="section-title">Exclusive Digital Downloads</h2>
+            <div class="section-header">
+                <h2 class="section-title">Exclusive Digital Downloads</h2>
+                <p class="section-subtitle">Instant access. Zero shipping. Pure value.</p>
+            </div>
             <div class="grid" id="digital-grid">
-                <!-- Digital products loaded via JS -->
             </div>
         </div>
     </section>
@@ -120,21 +149,43 @@
     <!-- Affiliate Products Section -->
     <section id="affiliate" style="background: rgba(0,0,0,0.2);">
         <div class="container">
-            <h2 class="section-title">Trending Global Deals</h2>
+            <div class="section-header">
+                <h2 class="section-title">Trending Global Deals</h2>
+                <p class="section-subtitle">Price-checked daily so you always get the lowest price on the internet.</p>
+            </div>
 
             <div class="filters">
                 <button class="filter-btn active" onclick="filterProducts('All')">All</button>
-                <button class="filter-btn" onclick="filterProducts('Tech')">Tech</button>
-                <button class="filter-btn" onclick="filterProducts('Home & Kitchen')">Home & Kitchen</button>
+                <button class="filter-btn" onclick="filterProducts('Electronics')">Electronics</button>
+                <button class="filter-btn" onclick="filterProducts('Home')">Home</button>
                 <button class="filter-btn" onclick="filterProducts('Fashion')">Fashion</button>
-                <button class="filter-btn" onclick="filterProducts('Beauty & Health')">Beauty & Health</button>
-                <button class="filter-btn" onclick="filterProducts('Food & Grocery')">Food & Grocery</button>
+                <button class="filter-btn" onclick="filterProducts('Beauty')">Beauty</button>
+                <button class="filter-btn" onclick="filterProducts('Food')">Food</button>
                 <button class="filter-btn" onclick="filterProducts('Toys & Fun')">Toys & Fun</button>
-                <button class="filter-btn" onclick="filterProducts('Top Deals')">Top Deals</button>
             </div>
 
             <div class="grid" id="affiliate-grid">
-                <!-- Affiliate products loaded via JS -->
+            </div>
+
+            <div class="load-more-wrap" id="load-more-wrap" style="display:none;">
+                <button class="btn btn-primary btn-lg" onclick="loadMore()">Load More Deals</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter">
+        <div class="container">
+            <div class="newsletter-panel glass-panel">
+                <div class="newsletter-content">
+                    <h2>Never Miss a Deal</h2>
+                    <p>Get the hottest deals and exclusive digital drops straight to your inbox. No spam, just savings.</p>
+                    <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
+                        <input type="email" placeholder="your@email.com" required>
+                        <button type="submit" class="btn btn-primary">Get Deals</button>
+                    </form>
+                    <p class="newsletter-fineprint">Join 5,000+ smart shoppers. Unsubscribe anytime.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -165,11 +216,25 @@
         <div class="container">
             <div class="logo" style="font-size: 1.5rem; margin-bottom: 20px;">TEK<span style="color: var(--accent-color);">-NEST</span></div>
             <div class="social-links" id="social-links">
-                <!-- Social links populated dynamically -->
             </div>
             <p style="color: var(--text-secondary); font-size: 0.8rem; margin-bottom: 15px; font-style: italic;">As an Amazon Associate I earn from qualifying purchases. &copy; 2026 Tek-nest. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <!-- Exit-Intent Popup -->
+    <div class="exit-popup-overlay" id="exit-popup">
+        <div class="exit-popup">
+            <span class="exit-close" onclick="closeExitPopup()">&times;</span>
+            <div class="exit-popup-content">
+                <div class="exit-popup-icon"><i class="fas fa-gift"></i></div>
+                <h2>WAIT! Before You Go...</h2>
+                <p>Get <strong>20% OFF</strong> your first digital download</p>
+                <div class="exit-popup-code">CODE: TEKNEST20</div>
+                <a href="#digital" class="btn btn-primary btn-lg" onclick="closeExitPopup()" style="text-decoration:none;">Claim My Discount</a>
+                <p class="exit-popup-fineprint">Limited time only. Apply at checkout.</p>
+            </div>
+        </div>
+    </div>
 
     <script src="products.js"></script>
     <script src="script.js"></script>
