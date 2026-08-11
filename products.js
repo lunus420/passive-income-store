@@ -14,7 +14,7 @@ const affiliateProducts = [
     {
         "id": 2708,
         "title": "Brutal: Select Accts: 32-Oz Amazon Grocery Chicken Broth $0.95 w/ S&S",
-        "category": "Food & Grocery",
+        "category": "Food",
         "source": "Slickdeals Food",
         "price": "$0.95",
         "originalPrice": "---",
@@ -25,7 +25,7 @@ const affiliateProducts = [
     {
         "id": 7371,
         "title": "Premium: WeLink 3-Port up to 100W USB C GaN PPS Wall Charger $15 ",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "FatWallet",
         "price": "$15",
         "originalPrice": "---",
@@ -36,7 +36,7 @@ const affiliateProducts = [
     {
         "id": 9062,
         "title": "Extreme: New: Warehouse Item - Hightide Cooler Cargo Bag (Large - Black) $37.00",
-        "category": "Other",
+        "category": "Fashion",
         "source": "Ugmonk",
         "price": "$37.00",
         "originalPrice": "---",
@@ -47,7 +47,7 @@ const affiliateProducts = [
     {
         "id": 4196,
         "title": "Brutal: 50-Pack Homexcel Microfiber Cleaning Cloth (12.5 x 12.5\", Multicolor) $15 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$15",
         "originalPrice": "---",
@@ -69,7 +69,7 @@ const affiliateProducts = [
     {
         "id": 4991,
         "title": "Must-Have: New: MW09 TUMI $450.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Master & Dynamic",
         "price": "$450.00",
         "originalPrice": "---",
@@ -80,7 +80,7 @@ const affiliateProducts = [
     {
         "id": 6743,
         "title": "Premium: 42-Ct Tide Pods Laundry Detergent Pacs (2 Scents) 4 for $32.15 + $15 Amazon Credit w/ S&S + Free S&H",
-        "category": "Other",
+        "category": "Home",
         "source": "FatWallet",
         "price": "$32.15",
         "originalPrice": "---",
@@ -102,7 +102,7 @@ const affiliateProducts = [
     {
         "id": 4689,
         "title": "Epic: New: 15 Minute Hourglass (Amber) $30.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$30.00",
         "originalPrice": "---",
@@ -113,7 +113,7 @@ const affiliateProducts = [
     {
         "id": 5620,
         "title": "Extreme: New: 15 Minute Hourglass (Clear) $30.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$30.00",
         "originalPrice": "---",
@@ -124,7 +124,7 @@ const affiliateProducts = [
     {
         "id": 7447,
         "title": "Viral: 18V Makita LXT Brushless Cordless 4.5\" / 5\" X-LOCK Angle Grinder (Tool Only) $72 + Free S&H",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$72",
         "originalPrice": "---",
@@ -135,7 +135,7 @@ const affiliateProducts = [
     {
         "id": 2090,
         "title": "Insane: New: MW50+ $299.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Master & Dynamic",
         "price": "$299.00",
         "originalPrice": "---",
@@ -146,7 +146,7 @@ const affiliateProducts = [
     {
         "id": 7447,
         "title": "Unbeatable: New: MH40 Wired $299.00",
-        "category": "Tech",
+        "category": "Home",
         "source": "Master & Dynamic",
         "price": "$299.00",
         "originalPrice": "---",
@@ -157,7 +157,7 @@ const affiliateProducts = [
     {
         "id": 5432,
         "title": "Exclusive: 12-Ct BIC Gelocity Quick Dry 0.7mm Medium Retractable Clip Gel Pens (Blue) $4.90 ",
-        "category": "Other",
+        "category": "Home",
         "source": "FatWallet",
         "price": "$4.90",
         "originalPrice": "---",
@@ -168,7 +168,7 @@ const affiliateProducts = [
     {
         "id": 5604,
         "title": "Epic: 3-Piece 16-oz  Chemical Guys Leather & Interior Care Bundle $24 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Fashion",
         "price": "$24",
         "originalPrice": "---",
@@ -179,7 +179,7 @@ const affiliateProducts = [
     {
         "id": 1310,
         "title": "Insane: Select Accounts: 100-Ct Centrum Silver Men 50+ Multivitamin Tablets $1.85 w/ S&S",
-        "category": "Other",
+        "category": "Food",
         "source": "FatWallet",
         "price": "$1.85",
         "originalPrice": "---",
@@ -190,7 +190,7 @@ const affiliateProducts = [
     {
         "id": 5523,
         "title": "Brutal: Milwaukee M18 FUEL 18V Brushless 1/2\" Hammer Drill w/1/4\" Hex Impact Driver (Tool Only) $199 + Free S&H",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$199",
         "originalPrice": "---",
@@ -201,7 +201,7 @@ const affiliateProducts = [
     {
         "id": 9804,
         "title": "Brutal: Dell XPS 13 9345 Laptop: Snapdragon X Elite, 13.4\" 2K 120Hz, 32GB RAM, 512GB SSD $1000 or Less + Free S&H",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals",
         "price": "$1000",
         "originalPrice": "---",
@@ -212,7 +212,7 @@ const affiliateProducts = [
     {
         "id": 1795,
         "title": "Insane: Select Home Depot Stores: 2-Pack Gearwrench OBD2 Bluetooth Diagnostic Tester $28 (Pricing/Availability Will Vary)",
-        "category": "Tech",
+        "category": "Home",
         "source": "Slickdeals Temu",
         "price": "$28",
         "originalPrice": "---",
@@ -223,7 +223,7 @@ const affiliateProducts = [
     {
         "id": 1842,
         "title": "Exclusive: AMD Ryzen 7 7800X3D AM5 CPU + 750W Corsair CX750 80+ Bronze ATX Power Supply $339 + Free S&H",
-        "category": "Tech",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$339",
         "originalPrice": "---",
@@ -234,7 +234,7 @@ const affiliateProducts = [
     {
         "id": 4519,
         "title": "Brutal: Victorinox Swiss Army 1 Medium Pocket Knife w/ Alox Scales $20 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals Food",
         "price": "$20",
         "originalPrice": "---",
@@ -256,7 +256,7 @@ const affiliateProducts = [
     {
         "id": 4161,
         "title": "Exclusive: New: MW75 TUMI $750.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Master & Dynamic",
         "price": "$750.00",
         "originalPrice": "---",
@@ -267,7 +267,7 @@ const affiliateProducts = [
     {
         "id": 8616,
         "title": "Extreme: 16-Count 11.6\" x 17.7\" Shinywear Refrigerator Shelf Liners (4-Color or Clear) $5 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$5",
         "originalPrice": "---",
@@ -278,7 +278,7 @@ const affiliateProducts = [
     {
         "id": 1366,
         "title": "Unbeatable: New: MH40 APPLIED ART FORMS $399.00",
-        "category": "Tech",
+        "category": "Home",
         "source": "Master & Dynamic",
         "price": "$399.00",
         "originalPrice": "---",
@@ -289,7 +289,7 @@ const affiliateProducts = [
     {
         "id": 4270,
         "title": "Epic: LISEN 67\" Phone Tripod/Selfie Stick w/ Auto-Deploy Base & Remote $17 ",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Slickdeals",
         "price": "$17",
         "originalPrice": "---",
@@ -300,7 +300,7 @@ const affiliateProducts = [
     {
         "id": 3015,
         "title": "Premium: 72 Can Odoland Leakproof Insulated Rolling Cooler Bag w/ Handle $27.20 + Free S&H",
-        "category": "Other",
+        "category": "Fashion",
         "source": "Slickdeals Food",
         "price": "$27.20",
         "originalPrice": "---",
@@ -311,7 +311,7 @@ const affiliateProducts = [
     {
         "id": 6226,
         "title": "Epic: New: Gather Wood Zigzag Tray (2x1 - Walnut) $49.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$49.00",
         "originalPrice": "---",
@@ -322,7 +322,7 @@ const affiliateProducts = [
     {
         "id": 2989,
         "title": "Exclusive: Prime Members: UGREEN Nexode Pro 160W Charger w/ Retractable Cable $100 + Free S&H",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "FatWallet",
         "price": "$100",
         "originalPrice": "---",
