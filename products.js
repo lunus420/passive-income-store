@@ -14,7 +14,7 @@ const affiliateProducts = [
     {
         "id": 6483,
         "title": "Brutal: 11.25-Oz Snyder's of Hanover Pretzel Pieces (Sour Cream & Caramelized Onion) $2.70 w/ S&S",
-        "category": "Other",
+        "category": "Food",
         "source": "Slickdeals Food",
         "price": "$2.70",
         "originalPrice": "---",
@@ -25,7 +25,7 @@ const affiliateProducts = [
     {
         "id": 3525,
         "title": "Brutal: Refurb: Microsoft Surface Laptop 4: 13.5\" 2256x1504, i5-1145G7, 16GB RAM, 256GB $290 + Free S&H",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals",
         "price": "$290",
         "originalPrice": "---",
@@ -36,7 +36,7 @@ const affiliateProducts = [
     {
         "id": 5200,
         "title": "Premium: Spigen Thin Fit MagFit Phone Case for iPhone 17 Pro Max (Metal Slate) $8 ",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "FatWallet",
         "price": "$8",
         "originalPrice": "---",
@@ -47,7 +47,7 @@ const affiliateProducts = [
     {
         "id": 2761,
         "title": "Premium: New: MW50+ $299.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$299.00",
         "originalPrice": "---",
@@ -58,7 +58,7 @@ const affiliateProducts = [
     {
         "id": 2903,
         "title": "Brutal: New: MH40 APPLIED ART FORMS $399.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$399.00",
         "originalPrice": "---",
@@ -80,7 +80,7 @@ const affiliateProducts = [
     {
         "id": 5622,
         "title": "Insane: New: Analog Card Sleeve Multipack - Small (Set of 18) $25.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$25.00",
         "originalPrice": "---",
@@ -91,7 +91,7 @@ const affiliateProducts = [
     {
         "id": 7742,
         "title": "Savage: 24-Ct EKoBRIT Coffee Machine Cleaner & Descaler Tablets $8 w/ S&S",
-        "category": "Food & Grocery",
+        "category": "Home",
         "source": "Slickdeals Food",
         "price": "$8",
         "originalPrice": "---",
@@ -102,7 +102,7 @@ const affiliateProducts = [
     {
         "id": 6977,
         "title": "Epic: Select Accounts: Kind Breakfast Protein Bars, Snack Bars, Granola & More Extra 35% Off w/ S&S",
-        "category": "Food & Grocery",
+        "category": "Food",
         "source": "Slickdeals Food",
         "price": "Check Deal",
         "originalPrice": "---",
@@ -113,7 +113,7 @@ const affiliateProducts = [
     {
         "id": 5309,
         "title": "Epic: New: MW75 TUMI $750.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$750.00",
         "originalPrice": "---",
@@ -124,7 +124,7 @@ const affiliateProducts = [
     {
         "id": 2847,
         "title": "Legendary: 4-ct 7.5-8-oz Lay's Potato Chips (various) + $2 Walmart Cash $10 + Store Pick Up",
-        "category": "Food & Grocery",
+        "category": "Food",
         "source": "Slickdeals Food",
         "price": "$2",
         "originalPrice": "---",
@@ -135,7 +135,7 @@ const affiliateProducts = [
     {
         "id": 2753,
         "title": "Elite: 4.9\" efluky 3-Speed Rechargeable Mini Desk Fan w/ LED Light from $6.70 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "FatWallet",
         "price": "$6.70",
         "originalPrice": "---",
@@ -146,7 +146,7 @@ const affiliateProducts = [
     {
         "id": 3051,
         "title": "Elite: 8\" CRAFTSMAN Linesman Cutting Pliers $7.95 ",
-        "category": "Other",
+        "category": "Home",
         "source": "FatWallet",
         "price": "$7.95",
         "originalPrice": "---",
@@ -157,7 +157,7 @@ const affiliateProducts = [
     {
         "id": 5086,
         "title": "Brutal: New: MH40 Wired $299.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$299.00",
         "originalPrice": "---",
@@ -179,7 +179,7 @@ const affiliateProducts = [
     {
         "id": 6375,
         "title": "Unbeatable: 3-Piece 16-oz  Chemical Guys Leather & Interior Care Bundle $24 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Fashion",
         "price": "$24",
         "originalPrice": "---",
@@ -190,7 +190,7 @@ const affiliateProducts = [
     {
         "id": 3539,
         "title": "Insane: Bandai 30MM Armored Core VI Fires of Rubicon RaD CC-2000 Orbiter Nightfall Model Kit $29.95 ",
-        "category": "Other",
+        "category": "Toys & Fun",
         "source": "Slickdeals Toys",
         "price": "$29.95",
         "originalPrice": "---",
@@ -201,7 +201,7 @@ const affiliateProducts = [
     {
         "id": 2942,
         "title": "Insane: 28\" 2-Shelf WORKPRO Rolling Garage Storage Cabinet $139.65 + Free S&H",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$139.65",
         "originalPrice": "---",
@@ -212,7 +212,7 @@ const affiliateProducts = [
     {
         "id": 7783,
         "title": "Extreme: New: 15 Minute Hourglass (Green) $30.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$30.00",
         "originalPrice": "---",
@@ -223,7 +223,7 @@ const affiliateProducts = [
     {
         "id": 5333,
         "title": "Savage: New: Discbound Journal Refill - Lined (Standard 6\" x 8.5\") $14.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$14.00",
         "originalPrice": "---",
@@ -234,7 +234,7 @@ const affiliateProducts = [
     {
         "id": 1566,
         "title": "Extreme: Select Home Depot Stores: 2-Pack Gearwrench OBD2 Bluetooth Diagnostic Tester $28 (Pricing/Availability Will Vary)",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals Temu",
         "price": "$28",
         "originalPrice": "---",
@@ -245,7 +245,7 @@ const affiliateProducts = [
     {
         "id": 9571,
         "title": "Must-Have: New: Discbound Journal Refill - Blank (Standard 6\" x 8.5\") $14.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$14.00",
         "originalPrice": "---",
@@ -267,7 +267,7 @@ const affiliateProducts = [
     {
         "id": 9066,
         "title": "Extreme: 16-Count 11.6\" x 17.7\" Shinywear Refrigerator Shelf Liners (4-Color or Clear) $5 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$5",
         "originalPrice": "---",
@@ -278,7 +278,7 @@ const affiliateProducts = [
     {
         "id": 1494,
         "title": "Savage: 50-Pack Homexcel Microfiber Cleaning Cloth (12.5 x 12.5\", Multicolor) $15 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$15",
         "originalPrice": "---",
@@ -289,7 +289,7 @@ const affiliateProducts = [
     {
         "id": 5324,
         "title": "Extreme: New: Analog Card Sleeve Multipack - Large (Set of 18) $30.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$30.00",
         "originalPrice": "---",
@@ -300,7 +300,7 @@ const affiliateProducts = [
     {
         "id": 2470,
         "title": "Brutal: New: MW09 TUMI $450.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$450.00",
         "originalPrice": "---",
