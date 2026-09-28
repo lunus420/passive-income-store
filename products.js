@@ -14,7 +14,7 @@ const affiliateProducts = [
     {
         "id": 9861,
         "title": "Extreme: Metallica: The Black Album Remastered (Audio CD w/ AutoRip MP3) $5 ",
-        "category": "Other",
+        "category": "Toys & Fun",
         "source": "Slickdeals",
         "price": "$5",
         "originalPrice": "---",
@@ -25,7 +25,7 @@ const affiliateProducts = [
     {
         "id": 6412,
         "title": "Viral: New: Discbound Heirloom Journal Bundle (Black Leather - Standard 6\" x 8.5\") $179.00",
-        "category": "Other",
+        "category": "Toys & Fun",
         "source": "Ugmonk",
         "price": "$179.00",
         "originalPrice": "---",
@@ -36,7 +36,7 @@ const affiliateProducts = [
     {
         "id": 8329,
         "title": "Brutal: 3-Piece 16-oz  Chemical Guys Leather & Interior Care Bundle $24 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Fashion",
         "price": "$24",
         "originalPrice": "---",
@@ -47,7 +47,7 @@ const affiliateProducts = [
     {
         "id": 9966,
         "title": "Elite: New: Discbound Heirloom Journal Bundle (Tan Leather - Standard 6\" x 8.5\") $179.00",
-        "category": "Other",
+        "category": "Toys & Fun",
         "source": "Ugmonk",
         "price": "$179.00",
         "originalPrice": "---",
@@ -58,7 +58,7 @@ const affiliateProducts = [
     {
         "id": 9630,
         "title": "Must-Have: 16-Count 11.6\" x 17.7\" Shinywear Refrigerator Shelf Liners (4-Color or Clear) $5 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$5",
         "originalPrice": "---",
@@ -69,7 +69,7 @@ const affiliateProducts = [
     {
         "id": 8354,
         "title": "Epic: Select Accounts: 5-Pk 0.625-Oz Jack Link's Beef Jerky (Original) $2.90 w/ S&S",
-        "category": "Other",
+        "category": "Food",
         "source": "FatWallet",
         "price": "$2.90",
         "originalPrice": "---",
@@ -80,7 +80,7 @@ const affiliateProducts = [
     {
         "id": 9536,
         "title": "Must-Have: The Crow (Blu-ray + Digital) $6.95 ",
-        "category": "Other",
+        "category": "Toys & Fun",
         "source": "FatWallet",
         "price": "$6.95",
         "originalPrice": "---",
@@ -91,7 +91,7 @@ const affiliateProducts = [
     {
         "id": 8276,
         "title": "Viral: 16\" MSI Crosshair Laptop: QHD+ 240Hz, i7-14650HX, RTX 5070, 16GB DDR5, 512GB SSD $1299 + Free S&H",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals Toys",
         "price": "$1299",
         "originalPrice": "---",
@@ -102,7 +102,7 @@ const affiliateProducts = [
     {
         "id": 5195,
         "title": "Unbeatable: Select Accts: 120-Ct Bestpresso for Nespresso Original Coffee Pods (Variety Pack) $21.45 w/ S&S + Free S&H",
-        "category": "Food & Grocery",
+        "category": "Food",
         "source": "FatWallet",
         "price": "$21.45",
         "originalPrice": "---",
@@ -113,7 +113,7 @@ const affiliateProducts = [
     {
         "id": 7071,
         "title": "Epic: New: MW50+ $299.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$299.00",
         "originalPrice": "---",
@@ -124,7 +124,7 @@ const affiliateProducts = [
     {
         "id": 1055,
         "title": "Unbeatable: 50-Pack Homexcel Microfiber Cleaning Cloth (12.5 x 12.5\", Multicolor) $15 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$15",
         "originalPrice": "---",
@@ -135,7 +135,7 @@ const affiliateProducts = [
     {
         "id": 3489,
         "title": "Exclusive: New: Analog - Today Cards $13.00",
-        "category": "Other",
+        "category": "Toys & Fun",
         "source": "Ugmonk",
         "price": "$13.00",
         "originalPrice": "---",
@@ -146,7 +146,7 @@ const affiliateProducts = [
     {
         "id": 2816,
         "title": "Legendary: Used Like New: Logitech G923 Racing Wheel w/ Pedals (PS4, PS5, PC) $164.35 + Free S&H",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "FatWallet",
         "price": "$164.35",
         "originalPrice": "---",
@@ -157,7 +157,7 @@ const affiliateProducts = [
     {
         "id": 7593,
         "title": "Premium: New: MW09 TUMI $450.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$450.00",
         "originalPrice": "---",
@@ -168,7 +168,7 @@ const affiliateProducts = [
     {
         "id": 1224,
         "title": "Savage: Etunsia 35dB Oscillating Misting Standing Fan w/ 3 Misting Modes & 9 Speeds $60 + Free S&H",
-        "category": "Other",
+        "category": "Home",
         "source": "FatWallet",
         "price": "$60",
         "originalPrice": "---",
@@ -179,7 +179,7 @@ const affiliateProducts = [
     {
         "id": 7719,
         "title": "Viral: Milwaukee M12 12V 3/8\" Cordless Ratchet w/ 2x 5.0 Ah Batteries & Charger $199 + Free S&H",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals",
         "price": "$199",
         "originalPrice": "---",
@@ -190,7 +190,7 @@ const affiliateProducts = [
     {
         "id": 6836,
         "title": "Exclusive: Select Home Depot Stores: 2-Pack Gearwrench OBD2 Bluetooth Diagnostic Tester $28 (Pricing/Availability Will Vary)",
-        "category": "Tech",
+        "category": "Home",
         "source": "Slickdeals Temu",
         "price": "$28",
         "originalPrice": "---",
@@ -201,7 +201,7 @@ const affiliateProducts = [
     {
         "id": 4538,
         "title": "Epic: Toughergun Men's Slim RFID-Blocking Wallet w/ Money Clip $5 ",
-        "category": "Other",
+        "category": "Fashion",
         "source": "Slickdeals Food",
         "price": "$5",
         "originalPrice": "---",
@@ -212,7 +212,7 @@ const affiliateProducts = [
     {
         "id": 2822,
         "title": "Extreme: 24-Ct ZMLM 5.5\" x 4\" Rainbow Scratch Notebook w/ Stencil & Wooden Stylus (Party) $13.50 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$13.50",
         "originalPrice": "---",
@@ -223,7 +223,7 @@ const affiliateProducts = [
     {
         "id": 2637,
         "title": "Legendary: New: MH40 Wired $299.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$299.00",
         "originalPrice": "---",
@@ -234,7 +234,7 @@ const affiliateProducts = [
     {
         "id": 8999,
         "title": "Premium: 2-Pk 5' MPATIBY 2x USB-C, 1x Lightning + 1x Micro USB to USB-C + A Charging Cables $7.50 ",
-        "category": "Tech",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$7.50",
         "originalPrice": "---",
@@ -245,7 +245,7 @@ const affiliateProducts = [
     {
         "id": 2909,
         "title": "Extreme: 1/2\" x 100' Ayura Retractable Garden Hose Reel $64 + Free S&H",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$64",
         "originalPrice": "---",
@@ -267,7 +267,7 @@ const affiliateProducts = [
     {
         "id": 3009,
         "title": "Brutal: Sicario (Blu-ray + DVD) $5 ",
-        "category": "Other",
+        "category": "Toys & Fun",
         "source": "FatWallet",
         "price": "$5",
         "originalPrice": "---",
@@ -278,7 +278,7 @@ const affiliateProducts = [
     {
         "id": 2834,
         "title": "Must-Have: 12\" x 8\" Fibogollo Bamboo End Grain Butcher Block Cutting Board $8 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Food",
         "price": "$8",
         "originalPrice": "---",
@@ -289,7 +289,7 @@ const affiliateProducts = [
     {
         "id": 2667,
         "title": "Legendary: Prime Members: SOLIOM 5MP Window Camera w/ LCD Touchscreen $29.40 + Free S&H",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Slickdeals",
         "price": "$29.40",
         "originalPrice": "---",
@@ -300,7 +300,7 @@ const affiliateProducts = [
     {
         "id": 6123,
         "title": "Elite: New: Discbound Journal Bundle (Standard 6\"x 8.5\" Journal) $99.00",
-        "category": "Other",
+        "category": "Toys & Fun",
         "source": "Ugmonk",
         "price": "$99.00",
         "originalPrice": "---",
@@ -322,7 +322,7 @@ const affiliateProducts = [
     {
         "id": 2150,
         "title": "Epic: New: MW75 TUMI $750.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$750.00",
         "originalPrice": "---",
@@ -333,7 +333,7 @@ const affiliateProducts = [
     {
         "id": 6782,
         "title": "Epic: KODA Multi-Directional LED Work Light w/ 120V Outlet & USB Charging (2500 Lumens) $19.80 + Free S&H",
-        "category": "Tech",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$19.80",
         "originalPrice": "---",
@@ -344,7 +344,7 @@ const affiliateProducts = [
     {
         "id": 8258,
         "title": "Exclusive: New: MH40 APPLIED ART FORMS $399.00",
-        "category": "Tech",
+        "category": "Home",
         "source": "Master & Dynamic",
         "price": "$399.00",
         "originalPrice": "---",
@@ -355,7 +355,7 @@ const affiliateProducts = [
     {
         "id": 5884,
         "title": "Legendary: New: Analog - Today Cards (3-Pack) $30.00",
-        "category": "Other",
+        "category": "Toys & Fun",
         "source": "Ugmonk",
         "price": "$30.00",
         "originalPrice": "---",
