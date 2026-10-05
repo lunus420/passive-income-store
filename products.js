@@ -14,7 +14,7 @@ const affiliateProducts = [
     {
         "id": 2650,
         "title": "Epic: Prime Members: 1.0 Cu. Ft. 1000W Toshiba 8-in-1 Air Fryer Combo Microwave $180.50 + Free S&H",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$180.50",
         "originalPrice": "---",
@@ -25,7 +25,7 @@ const affiliateProducts = [
     {
         "id": 8789,
         "title": "Savage: New: Analog - Today Cards (3-Pack) $30.00",
-        "category": "Other",
+        "category": "Toys & Fun",
         "source": "Ugmonk",
         "price": "$30.00",
         "originalPrice": "---",
@@ -36,7 +36,7 @@ const affiliateProducts = [
     {
         "id": 4362,
         "title": "Must-Have: New: MW75 TUMI $750.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$750.00",
         "originalPrice": "---",
@@ -47,7 +47,7 @@ const affiliateProducts = [
     {
         "id": 4151,
         "title": "Unbeatable: Prime Members: Official Luna Wireless Controller $40 + Free S&H",
-        "category": "Tech",
+        "category": "Toys & Fun",
         "source": "Slickdeals Toys",
         "price": "$40",
         "originalPrice": "---",
@@ -58,7 +58,7 @@ const affiliateProducts = [
     {
         "id": 5225,
         "title": "Unbeatable: New: MW50+ $299.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$299.00",
         "originalPrice": "---",
@@ -69,7 +69,7 @@ const affiliateProducts = [
     {
         "id": 2978,
         "title": "Insane: 2-Ct Energizer A23 Alkaline Batteries $1.80 ",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Slickdeals",
         "price": "$1.80",
         "originalPrice": "---",
@@ -80,7 +80,7 @@ const affiliateProducts = [
     {
         "id": 8890,
         "title": "Brutal: 55\" Pioneer 4K UHD Smart Roku TV $180 + Free S&H",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals",
         "price": "$180",
         "originalPrice": "---",
@@ -91,7 +91,7 @@ const affiliateProducts = [
     {
         "id": 3799,
         "title": "Savage: New: Discbound Journal Bundle (Standard 6\"x 8.5\" Journal) $99.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$99.00",
         "originalPrice": "---",
@@ -102,7 +102,7 @@ const affiliateProducts = [
     {
         "id": 2692,
         "title": "Viral: 50-Pack Homexcel Microfiber Cleaning Cloth (12.5 x 12.5\", Multicolor) $15 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$15",
         "originalPrice": "---",
@@ -124,7 +124,7 @@ const affiliateProducts = [
     {
         "id": 6739,
         "title": "Brutal: Prime Members: 24-Ct Happy Belly Dark Roast Coffee Pods (French Roast) $4.90 or Less w/ S&S + Free S&H",
-        "category": "Food & Grocery",
+        "category": "Food",
         "source": "Slickdeals Food",
         "price": "$4.90",
         "originalPrice": "---",
@@ -135,7 +135,7 @@ const affiliateProducts = [
     {
         "id": 8775,
         "title": "Insane: New: Discbound Heirloom Journal Bundle (Black Leather - Standard 6\" x 8.5\") $179.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$179.00",
         "originalPrice": "---",
@@ -146,7 +146,7 @@ const affiliateProducts = [
     {
         "id": 7598,
         "title": "Epic: Prime Members: 64-Oz BJPKPK Insulated Stainless Steel Water Bottle w/ Straw Lid $18.80 + Free S&H",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Food",
         "price": "$18.80",
         "originalPrice": "---",
@@ -157,7 +157,7 @@ const affiliateProducts = [
     {
         "id": 4389,
         "title": "Premium: 3-Piece 16-oz  Chemical Guys Leather & Interior Care Bundle $24 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Fashion",
         "price": "$24",
         "originalPrice": "---",
@@ -168,7 +168,7 @@ const affiliateProducts = [
     {
         "id": 4288,
         "title": "Must-Have: New: Analog - Today Cards $13.00",
-        "category": "Other",
+        "category": "Toys & Fun",
         "source": "Ugmonk",
         "price": "$13.00",
         "originalPrice": "---",
@@ -179,7 +179,7 @@ const affiliateProducts = [
     {
         "id": 6713,
         "title": "Must-Have: 2-Pk 7\" Lamicall Waterproof Phone Pouch Case (Various) $4.50 ",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Slickdeals",
         "price": "$4.50",
         "originalPrice": "---",
@@ -201,7 +201,7 @@ const affiliateProducts = [
     {
         "id": 4247,
         "title": "Elite: New: MW09 TUMI $450.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$450.00",
         "originalPrice": "---",
@@ -212,7 +212,7 @@ const affiliateProducts = [
     {
         "id": 4627,
         "title": "Viral: Prime Members: 1.27oz Amazon Grocery Fajita Seasoning Mix $0.50 w/ S&S + Free S/H",
-        "category": "Food & Grocery",
+        "category": "Food",
         "source": "Slickdeals Food",
         "price": "$0.50",
         "originalPrice": "---",
@@ -234,7 +234,7 @@ const affiliateProducts = [
     {
         "id": 9662,
         "title": "Must-Have: 16-Count 11.6\" x 17.7\" Shinywear Refrigerator Shelf Liners (4-Color or Clear) $5 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$5",
         "originalPrice": "---",
@@ -245,7 +245,7 @@ const affiliateProducts = [
     {
         "id": 8440,
         "title": "Must-Have: New: Discbound Heirloom Journal Bundle (Tan Leather - Standard 6\" x 8.5\") $179.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$179.00",
         "originalPrice": "---",
@@ -256,7 +256,7 @@ const affiliateProducts = [
     {
         "id": 4200,
         "title": "Elite: Select Home Depot Stores: 2-Pack Gearwrench OBD2 Bluetooth Diagnostic Tester $28 (Pricing/Availability Will Vary)",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals Temu",
         "price": "$28",
         "originalPrice": "---",
@@ -278,7 +278,7 @@ const affiliateProducts = [
     {
         "id": 2186,
         "title": "Savage: 15-Pk VOLLYC Travel Vacuum Bags w/ Rechargeable Air Pump $11.40 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$11.40",
         "originalPrice": "---",
