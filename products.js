@@ -1,6 +1,60 @@
 const digitalProducts = [
     {
         id: 1,
+        title: "[FREE] The Freelancer Money Starter Checklist — 17 Things To Do Before Your Next Invoice",
+        category: "Digital",
+        price: "FREE",
+        image: "covers/media-generation-05-starter-checklist-cover-0-6823fe65-eaec-4085-b5b7-a725daab6e98.png",
+        link: "https://payhip.com/b/n1DZU",
+        badge: "FREE"
+    },
+    {
+        id: 2,
+        title: "Irregular Income Budget Dashboard — Google Sheets + Excel Template for Freelancers",
+        category: "Digital",
+        price: 19,
+        image: "covers/media-generation-01-budget-dashboard-cover-0-4e1871c4-f74e-4d5e-a98f-d472b844a031.png",
+        link: "https://payhip.com/b/h2wnZ",
+        badge: "Best Seller"
+    },
+    {
+        id: 3,
+        title: "The Complete Irregular Income Toolkit — All 4 Products (Save $17)",
+        category: "Digital",
+        price: 29,
+        image: "covers/media-generation-06-toolkit-bundle-cover-0-3fb9c098-c1dc-4fb4-a4ee-01ad3fa3bbeb.png",
+        link: "https://payhip.com/b/daxf9",
+        badge: "Best Value"
+    },
+    {
+        id: 4,
+        title: "Freelance Invoice Tracker — Never Lose Track of Who Owes You Again",
+        category: "Digital",
+        price: 12,
+        image: "covers/media-generation-02-invoice-tracker-cover-0-6f09df05-1337-47e5-b7ab-49bc4ed5f05c.png",
+        link: "https://payhip.com/b/aN6yO",
+        badge: "NEW"
+    },
+    {
+        id: 5,
+        title: "Pay Yourself First — 12-Month Savings Goal Tracker (Printable PDF)",
+        category: "Digital",
+        price: 9,
+        image: "covers/media-generation-03-savings-tracker-cover-0-5135e066-68e0-4510-a62e-ec234e339681.png",
+        link: "https://payhip.com/b/4KAef",
+        badge: "NEW"
+    },
+    {
+        id: 6,
+        title: "30-Day No-Spend Challenge — Spending Reset for Variable Income (Printable PDF)",
+        category: "Digital",
+        price: 7,
+        image: "covers/media-generation-04-no-spend-challenge-cover-0-1b982ed5-35b2-4d29-b199-4eec69c30842.png",
+        link: "https://payhip.com/b/KLoE8",
+        badge: "NEW"
+    },
+    {
+        id: 7,
         title: "Ultimate Passive Income Guide 2026",
         category: "Digital",
         price: 19.99,
