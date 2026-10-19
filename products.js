@@ -68,7 +68,7 @@ const affiliateProducts = [
     {
         "id": 4682,
         "title": "Insane: 0.47-Oz Benadryl Extra Strength Itch Relief Stick for Insect Bites $1.40 w/ S&S",
-        "category": "Other",
+        "category": "Beauty",
         "source": "Slickdeals",
         "price": "$1.40",
         "originalPrice": "---",
@@ -79,7 +79,7 @@ const affiliateProducts = [
     {
         "id": 2256,
         "title": "Savage: Soothfeel Men's Tapered Golf Joggers w/ Zipper Pockets (Various) $14.40 ",
-        "category": "Other",
+        "category": "Fashion",
         "source": "Slickdeals",
         "price": "$14.40",
         "originalPrice": "---",
@@ -101,7 +101,7 @@ const affiliateProducts = [
     {
         "id": 1826,
         "title": "Brutal: 3-Piece 16-oz  Chemical Guys Leather & Interior Care Bundle $24 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Fashion",
         "price": "$24",
         "originalPrice": "---",
@@ -112,7 +112,7 @@ const affiliateProducts = [
     {
         "id": 2700,
         "title": "Viral: 3-Pc Kobalt Carbon Steel Snips $20 + Free S&H",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$20",
         "originalPrice": "---",
@@ -134,7 +134,7 @@ const affiliateProducts = [
     {
         "id": 9200,
         "title": "Savage: 50-Pack Homexcel Microfiber Cleaning Cloth (12.5 x 12.5\", Multicolor) $15 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$15",
         "originalPrice": "---",
@@ -145,7 +145,7 @@ const affiliateProducts = [
     {
         "id": 2536,
         "title": "Epic: Vessel Cordless Electric Slim Ratchet Set w/ 31 Socket Bits $110.45 + Free S&H",
-        "category": "Other",
+        "category": "Home",
         "source": "FatWallet",
         "price": "$110.45",
         "originalPrice": "---",
@@ -156,7 +156,7 @@ const affiliateProducts = [
     {
         "id": 5618,
         "title": "Epic: New: Discbound Heirloom Journal Bundle (Black Leather - Standard 6\" x 8.5\") $179.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$179.00",
         "originalPrice": "---",
@@ -167,7 +167,7 @@ const affiliateProducts = [
     {
         "id": 9051,
         "title": "Must-Have: Travelon RFID Blocking Waist Pouch (Gray) $9.45 ",
-        "category": "Other",
+        "category": "Fashion",
         "source": "Slickdeals",
         "price": "$9.45",
         "originalPrice": "---",
@@ -178,7 +178,7 @@ const affiliateProducts = [
     {
         "id": 2621,
         "title": "Legendary: 12\" Amazon Basics Tri-Ply Stainless Steel Fry Pan $21.90 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Food",
         "price": "$21.90",
         "originalPrice": "---",
@@ -222,7 +222,7 @@ const affiliateProducts = [
     {
         "id": 4346,
         "title": "Viral: New: MW09 TUMI $450.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$450.00",
         "originalPrice": "---",
@@ -233,7 +233,7 @@ const affiliateProducts = [
     {
         "id": 3505,
         "title": "Extreme: Select Home Depot Stores: 2-Pack Gearwrench OBD2 Bluetooth Diagnostic Tester $28 (Pricing/Availability Will Vary)",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals Temu",
         "price": "$28",
         "originalPrice": "---",
@@ -255,7 +255,7 @@ const affiliateProducts = [
     {
         "id": 1359,
         "title": "Insane: New: MW75 TUMI $750.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$750.00",
         "originalPrice": "---",
@@ -277,7 +277,7 @@ const affiliateProducts = [
     {
         "id": 6375,
         "title": "Exclusive: Super Mario Galaxy Men's Graphic Tee from $5.95 ",
-        "category": "Other",
+        "category": "Fashion",
         "source": "Slickdeals",
         "price": "$5.95",
         "originalPrice": "---",
@@ -288,7 +288,7 @@ const affiliateProducts = [
     {
         "id": 1989,
         "title": "Brutal: New: Analog Archive (Silver Aluminum) $129.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$129.00",
         "originalPrice": "---",
@@ -299,7 +299,7 @@ const affiliateProducts = [
     {
         "id": 9024,
         "title": "Epic: New: Discbound Journal Bundle (Standard 6\"x 8.5\" Journal) $99.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$99.00",
         "originalPrice": "---",
@@ -310,7 +310,7 @@ const affiliateProducts = [
     {
         "id": 7686,
         "title": "Legendary: Toro 60V Max Flex-Force Multi-Head System String Trimmer Attachment (Tool Only) $28.45 + Free S&H",
-        "category": "Beauty & Health",
+        "category": "Home",
         "source": "Slickdeals",
         "price": "$28.45",
         "originalPrice": "---",
@@ -321,7 +321,7 @@ const affiliateProducts = [
     {
         "id": 3572,
         "title": "Brutal: New: Analog - Today Cards $13.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$13.00",
         "originalPrice": "---",
@@ -332,7 +332,7 @@ const affiliateProducts = [
     {
         "id": 9586,
         "title": "Savage: Baseus Blade H1 20000mAh 4-Port Up to 100W Slim Power Bank w/ USB-C Cable $39.50 + Free S&H",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "FatWallet",
         "price": "$39.50",
         "originalPrice": "---",
@@ -343,7 +343,7 @@ const affiliateProducts = [
     {
         "id": 9187,
         "title": "Brutal: 6.5-u-ft Frigidaire Garage Ready Upright Freezer $218 + Free S&H",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Food",
         "price": "$218",
         "originalPrice": "---",
@@ -354,7 +354,7 @@ const affiliateProducts = [
     {
         "id": 4828,
         "title": "Brutal: 4-Cam ELYSOO 2K/4MP Home Security Solar Camera System w/ 64GB Local Storage $130 + Free S&H",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals",
         "price": "$130",
         "originalPrice": "---",
@@ -365,7 +365,7 @@ const affiliateProducts = [
     {
         "id": 5355,
         "title": "Extreme: 16-oz Nature's Eats Pecan Pieces $6.15 w/ S&S",
-        "category": "Other",
+        "category": "Food",
         "source": "FatWallet",
         "price": "$6.15",
         "originalPrice": "---",
@@ -376,7 +376,7 @@ const affiliateProducts = [
     {
         "id": 5932,
         "title": "Brutal: New: MH40 Wired $299.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$299.00",
         "originalPrice": "---",
@@ -387,7 +387,7 @@ const affiliateProducts = [
     {
         "id": 3284,
         "title": "Legendary: New: MW50+ $299.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$299.00",
         "originalPrice": "---",
@@ -398,7 +398,7 @@ const affiliateProducts = [
     {
         "id": 1715,
         "title": "Viral: New: MH40 APPLIED ART FORMS $399.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$399.00",
         "originalPrice": "---",
@@ -409,7 +409,7 @@ const affiliateProducts = [
     {
         "id": 8273,
         "title": "Epic: New: Analog Archive (Black Aluminum) $129.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$129.00",
         "originalPrice": "---",
@@ -431,7 +431,7 @@ const affiliateProducts = [
     {
         "id": 4329,
         "title": "Premium: 16-Count 11.6\" x 17.7\" Shinywear Refrigerator Shelf Liners (4-Color or Clear) $5 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$5",
         "originalPrice": "---",
