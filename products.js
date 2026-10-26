@@ -68,7 +68,7 @@ const affiliateProducts = [
     {
         "id": 4849,
         "title": "Elite: New: Analog Archive (Silver Aluminum) $129.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$129.00",
         "originalPrice": "---",
@@ -79,7 +79,7 @@ const affiliateProducts = [
     {
         "id": 8820,
         "title": "Legendary: New: Ridge Power Bank - 10k mAh Bundle - Founder Spec - 2-Pack $139.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Ridge Gear",
         "price": "$139.00",
         "originalPrice": "---",
@@ -90,7 +90,7 @@ const affiliateProducts = [
     {
         "id": 8670,
         "title": "Premium: Logitech G305 LIGHTSPEED Wireless Hero 12K Sensor Gaming Mouse (Various) $30 ",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals Toys",
         "price": "$30",
         "originalPrice": "---",
@@ -112,7 +112,7 @@ const affiliateProducts = [
     {
         "id": 5389,
         "title": "Savage: New: MW75 TUMI $750.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$750.00",
         "originalPrice": "---",
@@ -123,7 +123,7 @@ const affiliateProducts = [
     {
         "id": 8257,
         "title": "Elite: New: Ridge Wallet for MagSafe + Power Bank - Founder Spec $165.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Ridge Gear",
         "price": "$165.00",
         "originalPrice": "---",
@@ -134,7 +134,7 @@ const affiliateProducts = [
     {
         "id": 5131,
         "title": "Elite: 13.5-Oz Original Recipe Chex Mix Snack Mix (Traditional, Family Size) $2.75 w/ S&S",
-        "category": "Food & Grocery",
+        "category": "Food",
         "source": "Slickdeals Food",
         "price": "$2.75",
         "originalPrice": "---",
@@ -145,7 +145,7 @@ const affiliateProducts = [
     {
         "id": 5183,
         "title": "Elite: New: Analog Archive (Black Aluminum) $129.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$129.00",
         "originalPrice": "---",
@@ -156,7 +156,7 @@ const affiliateProducts = [
     {
         "id": 4523,
         "title": "Extreme: New: MW50+ $299.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$299.00",
         "originalPrice": "---",
@@ -167,7 +167,7 @@ const affiliateProducts = [
     {
         "id": 5995,
         "title": "Must-Have: YIWANFW Magnetic Fridge Shelf & Fruit Basket w/ 2 Hooks $14 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals Food",
         "price": "$14",
         "originalPrice": "---",
@@ -178,7 +178,7 @@ const affiliateProducts = [
     {
         "id": 5976,
         "title": "Must-Have: New: Ridge Power Bank - 10k mAh Bundle - Legacy Spec - 2-Pack $139.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Ridge Gear",
         "price": "$139.00",
         "originalPrice": "---",
@@ -189,7 +189,7 @@ const affiliateProducts = [
     {
         "id": 9308,
         "title": "Elite: Razer Orochi V2 Wireless Gaming Mouse (2 Colors) $30 ",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "FatWallet",
         "price": "$30",
         "originalPrice": "---",
@@ -200,7 +200,7 @@ const affiliateProducts = [
     {
         "id": 1026,
         "title": "Premium: New: MH40 APPLIED ART FORMS $399.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$399.00",
         "originalPrice": "---",
@@ -211,7 +211,7 @@ const affiliateProducts = [
     {
         "id": 7341,
         "title": "Legendary: New: Discbound Journal Bundle (Standard 6\"x 8.5\" Journal) $99.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$99.00",
         "originalPrice": "---",
@@ -222,7 +222,7 @@ const affiliateProducts = [
     {
         "id": 6329,
         "title": "Elite: New: MW09 TUMI $450.00",
-        "category": "Other",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$450.00",
         "originalPrice": "---",
@@ -233,7 +233,7 @@ const affiliateProducts = [
     {
         "id": 9522,
         "title": "Unbeatable: 50-Pack Homexcel Microfiber Cleaning Cloth (12.5 x 12.5\", Multicolor) $15 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$15",
         "originalPrice": "---",
@@ -255,7 +255,7 @@ const affiliateProducts = [
     {
         "id": 5142,
         "title": "Brutal: Pikmin 4 (Nintendo Switch Digital Code) $39.90 ",
-        "category": "Tech",
+        "category": "Toys & Fun",
         "source": "Slickdeals",
         "price": "$39.90",
         "originalPrice": "---",
@@ -266,7 +266,7 @@ const affiliateProducts = [
     {
         "id": 3129,
         "title": "Savage: New: Ridge Power Bank - 10k mAh Bundle - Legacy Spec - 3-Pack $158.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Ridge Gear",
         "price": "$158.00",
         "originalPrice": "---",
@@ -277,7 +277,7 @@ const affiliateProducts = [
     {
         "id": 3515,
         "title": "Premium: New: Analog - Today Cards $13.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$13.00",
         "originalPrice": "---",
@@ -288,7 +288,7 @@ const affiliateProducts = [
     {
         "id": 9487,
         "title": "Must-Have: 12-Pk 3.25-Oz Brunswick Golden Smoked Herring Fillets $17.55 w/ S&S",
-        "category": "Other",
+        "category": "Food",
         "source": "Slickdeals Food",
         "price": "$17.55",
         "originalPrice": "---",
@@ -299,7 +299,7 @@ const affiliateProducts = [
     {
         "id": 6776,
         "title": "Exclusive: New: Discbound Heirloom Journal Bundle (Black Leather - Standard 6\" x 8.5\") $179.00",
-        "category": "Other",
+        "category": "Home",
         "source": "Ugmonk",
         "price": "$179.00",
         "originalPrice": "---",
@@ -310,7 +310,7 @@ const affiliateProducts = [
     {
         "id": 5550,
         "title": "Legendary: New: Ridge Power Bank - 10k mAh Bundle - Founder Spec - 3-Pack $158.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Ridge Gear",
         "price": "$158.00",
         "originalPrice": "---",
@@ -332,7 +332,7 @@ const affiliateProducts = [
     {
         "id": 6497,
         "title": "Must-Have: 16-Count 11.6\" x 17.7\" Shinywear Refrigerator Shelf Liners (4-Color or Clear) $5 ",
-        "category": "Home & Kitchen",
+        "category": "Home",
         "source": "Slickdeals Home",
         "price": "$5",
         "originalPrice": "---",
@@ -343,7 +343,7 @@ const affiliateProducts = [
     {
         "id": 6083,
         "title": "Unbeatable: 3-Piece 16-oz  Chemical Guys Leather & Interior Care Bundle $24 ",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Fashion",
         "price": "$24",
         "originalPrice": "---",
@@ -354,7 +354,7 @@ const affiliateProducts = [
     {
         "id": 3095,
         "title": "Extreme: Select Home Depot Stores: 2-Pack Gearwrench OBD2 Bluetooth Diagnostic Tester $28 (Pricing/Availability Will Vary)",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Slickdeals Temu",
         "price": "$28",
         "originalPrice": "---",
@@ -365,7 +365,7 @@ const affiliateProducts = [
     {
         "id": 7958,
         "title": "Unbeatable: 2-Pc All-Clad HA1 Expert Nonstick 10\" + 12\" Fry Pan Set $90 + Free S&H",
-        "category": "Other",
+        "category": "Home",
         "source": "Slickdeals Food",
         "price": "$90",
         "originalPrice": "---",
@@ -376,7 +376,7 @@ const affiliateProducts = [
     {
         "id": 5359,
         "title": "Premium: New: MH40 Wired $299.00",
-        "category": "Tech",
+        "category": "Electronics",
         "source": "Master & Dynamic",
         "price": "$299.00",
         "originalPrice": "---",
