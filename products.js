@@ -19,7 +19,7 @@ const digitalProducts = [
     },
     {
         id: 3,
-        title: "The Complete Irregular Income Toolkit — All 4 Products (Save $17)",
+        title: "The Complete Irregular Income Toolkit — All 4 Products (Save $18)",
         category: "Digital",
         price: 29,
         image: "covers/media-generation-06-toolkit-bundle-cover-0-3fb9c098-c1dc-4fb4-a4ee-01ad3fa3bbeb.png",
@@ -61,6 +61,24 @@ const digitalProducts = [
         image: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
         link: "https://paypal.me/Explode420",
         badge: "Best Seller"
+    },
+    {
+        id: 8,
+        title: "Phone Unlock Helper — Unlock Your Own Fully Paid-Off Phone",
+        category: "Digital",
+        price: 9.99,
+        image: "covers/phone-unlock-helper-cover.webp",
+        link: "https://payhip.com/b/koQYP",
+        badge: "NEW"
+    },
+    {
+        id: 9,
+        title: "FixBuddy — Guided Repair Diagnosis for Home & Appliances",
+        category: "Digital",
+        price: 9.99,
+        image: "covers/fixbuddy-cover.png",
+        link: "https://payhip.com/b/5CqYF",
+        badge: "NEW"
     }
 ];
 
