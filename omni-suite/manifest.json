@@ -1,0 +1,24 @@
+{
+  "name": "Tek_Nest Omni Suite",
+  "short_name": "Tek_Nest",
+  "description": "Tek_Nest Omni-Agent Autonomous AI Cockpit & Omni-Forge",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080d1a",
+  "theme_color": "#080d1a",
+  "icons": [
+    {
+      "src": "/tek_nest_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/tek_nest_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

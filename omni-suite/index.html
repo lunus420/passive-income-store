@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Tek_Nest Omni Suite | Omni-Agent & Omni-Forge</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#080d1a">
+  <link rel="icon" type="image/png" href="/tek_nest_192.png">
+  <link rel="apple-touch-icon" href="/tek_nest_192.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              400: '#818cf8',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+              900: '#1e1b4b',
+            },
+            darkBg: '#090d16',
+            cardBg: '#111827',
+            panelBg: '#161f30',
+            borderGlow: '#2d3748'
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body class="bg-[#0b0f19] text-gray-100 font-sans antialiased min-h-screen flex flex-col">
+
+  <!-- Top Navigation Header -->
+  <header class="border-b border-gray-800 bg-[#0d1424]/90 backdrop-blur-md sticky top-0 z-50 px-6 py-3.5 flex items-center justify-between shadow-lg">
+    <div class="flex items-center space-x-3.5">
+      <img src="/tek_nest_192.png" alt="Tek_Nest" class="w-10 h-10 rounded-xl shadow-lg border border-indigo-500/30 object-cover">
+      <div>
+        <div class="flex items-center space-x-2">
+          <h1 class="text-lg font-black bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-purple-300 to-pink-300">Tek_Nest Omni-Agent</h1>
+          <span class="text-[10px] uppercase tracking-wider font-semibold px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">Mobile Suite</span>
+        </div>
+        <p class="text-xs text-gray-400">Autonomous action agent with infinite tools</p>
+      </div>
+    </div>
+
+    <!-- Active Navigation Tabs -->
+    <nav class="flex items-center space-x-1.5 bg-gray-900/80 p-1 rounded-xl border border-gray-800">
+      <button onclick="switchTab('studio')" id="tab-studio" class="nav-tab px-4 py-2 rounded-lg text-xs font-semibold flex items-center space-x-2 transition-all duration-150 active-tab">
+        <i class="fa-solid fa-wand-magic-sparkles text-indigo-400"></i>
+        <span>Model & Agent Studio</span>
+      </button>
+      <button onclick="switchTab('playground')" id="tab-playground" class="nav-tab px-4 py-2 rounded-lg text-xs font-semibold flex items-center space-x-2 text-gray-400 hover:text-white transition-all duration-150">
+        <i class="fa-solid fa-terminal text-emerald-400"></i>
+        <span>Live Cockpit</span>
+        <span id="active-tools-pill" class="text-[10px] bg-emerald-500/20 text-emerald-300 px-1.5 py-0.2 rounded-full border border-emerald-500/30 font-mono">10 Tools</span>
+      </button>
+      <button onclick="switchTab('workshop')" id="tab-workshop" class="nav-tab px-4 py-2 rounded-lg text-xs font-semibold flex items-center space-x-2 text-gray-400 hover:text-white transition-all duration-150">
+        <i class="fa-solid fa-toolbox text-amber-400"></i>
+        <span>Tool Workshop</span>
+      </button>
+      <button onclick="switchTab('workspace')" id="tab-workspace" class="nav-tab px-4 py-2 rounded-lg text-xs font-semibold flex items-center space-x-2 text-gray-400 hover:text-white transition-all duration-150">
+        <i class="fa-solid fa-folder-tree text-sky-400"></i>
+        <span>File System & Terminal</span>
+      </button>
+    </nav>
+
+    <!-- Key & Environment Settings Button -->
+    <div class="flex items-center space-x-3">
+      <a href="/omni-forge/" class="px-3 py-1.5 rounded-lg bg-indigo-600/30 hover:bg-indigo-600 text-indigo-200 hover:text-white text-xs font-semibold border border-indigo-500/40 flex items-center space-x-1.5 transition">
+        <i class="fa-solid fa-bolt text-amber-400"></i>
+        <span>Omni-Forge</span>
+      </a>
+      <button onclick="openSettingsModal()" class="px-3 py-1.5 rounded-lg bg-gray-800 hover:bg-gray-700 text-gray-300 hover:text-white text-xs font-medium border border-gray-700 flex items-center space-x-2 shadow-sm transition">
+        <i class="fa-solid fa-key text-amber-400"></i>
+        <span>API Keys</span>
+        <span id="key-indicator" class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="flex-1 flex overflow-hidden">
+    
+    <!-- LEFT SIDEBAR: Presets, Saved Agents, and Profiles -->
+    <aside class="w-72 bg-[#0c121e] border-r border-gray-800 flex flex-col overflow-y-auto shrink-0 select-none">
+      <div class="p-4 border-b border-gray-800 flex items-center justify-between">
+        <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">Model & Agent Library</span>
+        <button onclick="createNewAgent()" class="text-xs bg-indigo-600 hover:bg-indigo-500 text-white px-2 py-1 rounded-md font-medium transition flex items-center space-x-1 shadow">
+          <i class="fa-solid fa-plus text-[10px]"></i>
+          <span>New</span>
+        </button>
+      </div>
+
+      <div class="p-3 space-y-2" id="preset-list">
+        <!-- Rendered by JS -->
+      </div>
+
+      <div class="mt-auto p-4 border-t border-gray-800 bg-[#090d16]">
+        <div class="bg-gray-900/60 p-3 rounded-xl border border-gray-800 text-xs space-y-1.5">
+          <div class="flex items-center justify-between text-gray-400">
+            <span>Workspace:</span>
+            <span class="font-mono text-indigo-300">./workspace</span>
+          </div>
+          <div class="flex items-center justify-between text-gray-400">
+            <span>Tool Execution:</span>
+            <span class="text-emerald-400 font-semibold flex items-center"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5"></span>Full Root Sandbox</span>
+          </div>
+          <div class="flex items-center justify-between text-gray-400">
+            <span>Server Status:</span>
+            <span class="text-emerald-400 font-mono">ONLINE</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- CENTER / WORKSPACE BODY -->
+    <section class="flex-1 flex flex-col bg-[#0b0f19] overflow-hidden">
+      
+      <!-- TAB 1: STUDIO (MODEL & AGENT CONFIGURATOR) -->
+      <div id="view-studio" class="tab-view flex-1 overflow-y-auto p-8 max-w-6xl w-full mx-auto space-y-8">
+        
+        <!-- Header Banner -->
+        <div class="flex items-start justify-between bg-gradient-to-r from-indigo-950/40 via-purple-950/20 to-transparent p-6 rounded-2xl border border-indigo-900/40 shadow-inner">
+          <div class="space-y-1">
+            <h2 id="studio-agent-title" class="text-2xl font-black text-white flex items-center space-x-3">
+              <span>Universal OmniAgent</span>
+            </h2>
+            <p id="studio-agent-desc" class="text-sm text-gray-300 max-w-2xl">
+              Configured with full autonomous ReAct reasoning and unrestricted access to Linux bash, Python sandbox, filesystem, web search, and REST APIs.
+            </p>
+          </div>
+          <div class="flex items-center space-x-3">
+            <button onclick="saveCurrentAgent()" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-xl text-xs shadow-lg shadow-indigo-600/30 transition flex items-center space-x-2">
+              <i class="fa-solid fa-floppy-disk"></i>
+              <span>Save Preset</span>
+            </button>
+            <button onclick="launchInPlayground()" class="px-4 py-2 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-semibold rounded-xl text-xs shadow-lg shadow-emerald-600/30 transition flex items-center space-x-2">
+              <i class="fa-solid fa-play"></i>
+              <span>Launch Cockpit</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+          
+          <!-- Column 1: Model & Brain Architecture (7 cols) -->
+          <div class="lg:col-span-7 space-y-6">
+            
+            <!-- Model Architecture Card -->
+            <div class="bg-cardBg/90 border border-gray-800 rounded-2xl p-6 shadow-xl space-y-5">
+              <div class="flex items-center justify-between border-b border-gray-800 pb-3">
+                <div class="flex items-center space-x-2 text-sm font-bold text-gray-200 uppercase tracking-wide">
+                  <i class="fa-solid fa-brain text-indigo-400"></i>
+                  <span>1. AI Model Architecture</span>
+                </div>
+                <span class="text-xs text-gray-400">Any model, provider or endpoint</span>
+              </div>
+
+              <!-- Provider Selection -->
+              <div>
+                <label class="block text-xs font-semibold text-gray-300 mb-2">Model Provider</label>
+                <div class="grid grid-cols-3 sm:grid-cols-5 gap-2" id="provider-selector">
+                  <button type="button" onclick="selectProvider('gemini')" data-provider="gemini" class="provider-btn p-2.5 rounded-xl border border-gray-800 bg-gray-900/60 hover:border-indigo-500 text-center transition">
+                    <div class="text-sm font-bold text-indigo-300">Gemini</div>
+                    <div class="text-[10px] text-gray-400">Google</div>
+                  </button>
+                  <button type="button" onclick="selectProvider('openai')" data-provider="openai" class="provider-btn p-2.5 rounded-xl border border-gray-800 bg-gray-900/60 hover:border-indigo-500 text-center transition">
+                    <div class="text-sm font-bold text-emerald-300">OpenAI</div>
+                    <div class="text-[10px] text-gray-400">GPT-4o/o3</div>
+                  </button>
+                  <button type="button" onclick="selectProvider('anthropic')" data-provider="anthropic" class="provider-btn p-2.5 rounded-xl border border-gray-800 bg-gray-900/60 hover:border-indigo-500 text-center transition">
+                    <div class="text-sm font-bold text-amber-300">Claude</div>
+                    <div class="text-[10px] text-gray-400">Anthropic</div>
+                  </button>
+                  <button type="button" onclick="selectProvider('ollama')" data-provider="ollama" class="provider-btn p-2.5 rounded-xl border border-gray-800 bg-gray-900/60 hover:border-indigo-500 text-center transition">
+                    <div class="text-sm font-bold text-purple-300">Ollama</div>
+                    <div class="text-[10px] text-gray-400">Local / Open</div>
+                  </button>
+                  <button type="button" onclick="selectProvider('mock')" data-provider="mock" class="provider-btn p-2.5 rounded-xl border border-gray-800 bg-gray-900/60 hover:border-indigo-500 text-center transition active-provider">
+                    <div class="text-sm font-bold text-pink-300">Simulator</div>
+                    <div class="text-[10px] text-gray-400">Built-in Mock</div>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Specific Model Name & Custom Endpoint -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-semibold text-gray-300 mb-1.5">Model ID / Name</label>
+                  <input type="text" id="model-name-input" value="gemini-2.5-flash" class="w-full bg-gray-900 border border-gray-700 rounded-xl px-3.5 py-2 text-xs text-white focus:outline-none focus:border-indigo-500 transition">
+                  <div class="mt-1 flex flex-wrap gap-1" id="quick-models-list">
+                    <!-- Suggested models will render here -->
+                  </div>
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-gray-300 mb-1.5">Custom Base URL (optional)</label>
+                  <input type="text" id="model-baseurl-input" placeholder="e.g. http://localhost:11434/v1 or https://openrouter.ai/api/v1" class="w-full bg-gray-900 border border-gray-700 rounded-xl px-3.5 py-2 text-xs text-white focus:outline-none focus:border-indigo-500 transition">
+                </div>
+              </div>
+
+              <!-- Parameters (Temperature, Max Steps) -->
+              <div class="grid grid-cols-2 gap-4 pt-2">
+                <div>
+                  <div class="flex justify-between items-center text-xs mb-1">
+                    <span class="text-gray-300 font-semibold">Temperature: <span id="temp-val" class="text-indigo-400 font-mono">0.7</span></span>
+                  </div>
+                  <input type="range" id="temp-slider" min="0" max="1" step="0.05" value="0.7" class="w-full accent-indigo-500 h-1.5 bg-gray-800 rounded-lg cursor-pointer">
+                </div>
+                <div>
+                  <div class="flex justify-between items-center text-xs mb-1">
+                    <span class="text-gray-300 font-semibold">Max Agent Steps: <span id="steps-val" class="text-indigo-400 font-mono">10</span></span>
+                  </div>
+                  <input type="range" id="steps-slider" min="1" max="25" step="1" value="10" class="w-full accent-indigo-500 h-1.5 bg-gray-800 rounded-lg cursor-pointer">
+                </div>
+              </div>
+
+              <!-- System Prompt / Persona Directive -->
+              <div>
+                <div class="flex justify-between items-center mb-1.5">
+                  <label class="text-xs font-semibold text-gray-300">System Directives & Persona</label>
+                  <button onclick="injectPresetDirective('god-mode')" class="text-[11px] text-indigo-400 hover:text-indigo-300 transition">Load Unconstrained Directive</button>
+                </div>
+                <textarea id="system-prompt-input" rows="5" class="w-full bg-gray-900 border border-gray-700 rounded-xl p-3 text-xs text-white font-mono focus:outline-none focus:border-indigo-500 transition" placeholder="You are an omnipotent autonomous AI agent equipped with full shell, python, filesystem, and internet capabilities..."></textarea>
+              </div>
+
+            </div>
+
+            <!-- Agent Mode Switcher (Pure LLM vs Full Autonomous Agent) -->
+            <div class="bg-cardBg/90 border border-gray-800 rounded-2xl p-6 shadow-xl flex items-center justify-between">
+              <div class="space-y-1">
+                <div class="flex items-center space-x-2">
+                  <span class="text-sm font-bold text-white">Autonomous Agent Loop</span>
+                  <span id="agent-mode-badge" class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">RE-ACT ACTIVE</span>
+                </div>
+                <p class="text-xs text-gray-400">
+                  When enabled, the model evaluates observations, calls tools cyclically, and verifies outcomes until goals are met.
+                </p>
+              </div>
+              <label class="relative inline-flex items-center cursor-pointer">
+                <input type="checkbox" id="autonomous-toggle" checked class="sr-only peer">
+                <div class="w-14 h-7 bg-gray-800 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[4px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-emerald-600"></div>
+              </label>
+            </div>
+
+          </div>
+
+          <!-- Column 2: Tool Matrix ("Any and all tools to do anything and everything") (5 cols) -->
+          <div class="lg:col-span-5 space-y-6">
+            <div class="bg-cardBg/90 border border-gray-800 rounded-2xl p-6 shadow-xl space-y-4">
+              <div class="flex items-center justify-between border-b border-gray-800 pb-3">
+                <div class="flex items-center space-x-2 text-sm font-bold text-gray-200 uppercase tracking-wide">
+                  <i class="fa-solid fa-toolbox text-amber-400"></i>
+                  <span>2. Unconstrained Tool Matrix</span>
+                </div>
+                <div class="space-x-1.5">
+                  <button onclick="toggleAllTools(true)" class="text-[11px] text-emerald-400 hover:underline">All On</button>
+                  <span class="text-gray-600">|</span>
+                  <button onclick="toggleAllTools(false)" class="text-[11px] text-gray-400 hover:underline">Clear</button>
+                </div>
+              </div>
+
+              <p class="text-xs text-gray-400">Select which capabilities your agent can invoke during its autonomous reasoning cycles:</p>
+
+              <!-- Tools List -->
+              <div class="space-y-2 max-h-[520px] overflow-y-auto pr-1" id="tool-matrix-list">
+                <!-- Builtin Tools injected by JS -->
+              </div>
+
+              <!-- Add Custom Tool Action Button -->
+              <div class="pt-3 border-t border-gray-800">
+                <button onclick="switchTab('workshop')" class="w-full py-2.5 px-4 bg-gray-800/80 hover:bg-gray-700/80 border border-gray-700 rounded-xl text-xs font-semibold text-gray-200 flex items-center justify-center space-x-2 transition shadow">
+                  <i class="fa-solid fa-plus-circle text-indigo-400"></i>
+                  <span>Craft New Custom Tool</span>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- TAB 2: LIVE PLAYGROUND / COCKPIT -->
+      <div id="view-playground" class="tab-view flex-1 hidden flex-col overflow-hidden">
+        
+        <!-- Live Run Status Bar -->
+        <div class="bg-[#0e1627] border-b border-gray-800 px-6 py-2.5 flex items-center justify-between text-xs">
+          <div class="flex items-center space-x-4">
+            <div class="flex items-center space-x-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+              <span class="font-bold text-gray-200" id="cockpit-agent-name">Omni Supreme</span>
+            </div>
+            <div class="text-gray-400 font-mono text-[11px]" id="cockpit-model-info">
+              [Gemini] gemini-2.5-flash
+            </div>
+            <div class="px-2 py-0.5 rounded-md bg-indigo-500/20 text-indigo-300 font-mono text-[10px]" id="cockpit-tools-count">
+              10 Tools Loaded
+            </div>
+          </div>
+
+          <div class="flex items-center space-x-3">
+            <button onclick="clearChatHistory()" class="text-gray-400 hover:text-red-400 transition text-xs flex items-center space-x-1">
+              <i class="fa-solid fa-trash-can text-[10px]"></i>
+              <span>Clear Feed</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Chat / Agent Execution Timeline Stream -->
+        <div class="flex-1 overflow-y-auto p-6 space-y-6" id="chat-stream">
+          <!-- Welcome Intro Message -->
+          <div class="max-w-3xl mx-auto bg-cardBg/60 border border-gray-800 rounded-2xl p-6 shadow-lg">
+            <div class="flex items-start space-x-4">
+              <div class="w-10 h-10 rounded-xl bg-indigo-600/30 border border-indigo-500/30 flex items-center justify-center text-indigo-400 shrink-0 font-bold">
+                <i class="fa-solid fa-microchip"></i>
+              </div>
+              <div class="space-y-2 flex-1">
+                <div class="flex items-center justify-between">
+                  <h3 class="font-bold text-white text-sm">OmniAgent Engine Ready</h3>
+                  <span class="text-[10px] text-gray-500 font-mono">SYS-READY</span>
+                </div>
+                <p class="text-xs text-gray-300 leading-relaxed">
+                  You are paired with an unconstrained agent that can execute bash commands, run Python, manipulate the local file system, scrape web content, send HTTP requests, and invoke your custom tools.
+                </p>
+                <div class="pt-2">
+                  <span class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider">Try quick commands:</span>
+                  <div class="flex flex-wrap gap-2 mt-2">
+                    <button onclick="sendQuickPrompt('Write a Python script that calculates prime numbers up to 100 and execute it.')" class="quick-prompt-btn px-3 py-1.5 rounded-lg bg-gray-800/80 hover:bg-indigo-900/40 text-xs text-indigo-300 border border-gray-700 transition">
+                      ⚡ Run Python Prime Generator
+                    </button>
+                    <button onclick="sendQuickPrompt('Run a bash command to inspect current system kernel, node version, and memory.')" class="quick-prompt-btn px-3 py-1.5 rounded-lg bg-gray-800/80 hover:bg-emerald-900/40 text-xs text-emerald-300 border border-gray-700 transition">
+                      💻 Inspect System & Linux Info
+                    </button>
+                    <button onclick="sendQuickPrompt('Create an HTML dashboard file in workspace called dashboard.html and verify it with fs_list.')" class="quick-prompt-btn px-3 py-1.5 rounded-lg bg-gray-800/80 hover:bg-purple-900/40 text-xs text-purple-300 border border-gray-700 transition">
+                      📁 Create Workspace Webpage
+                    </button>
+                    <button onclick="sendQuickPrompt('Search the web for latest breakthroughs in quantum computing and summarize key findings.')" class="quick-prompt-btn px-3 py-1.5 rounded-lg bg-gray-800/80 hover:bg-sky-900/40 text-xs text-sky-300 border border-gray-700 transition">
+                      🌐 Web Search & Summarize
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Real-time chat messages and agent step timelines dynamically append here -->
+        </div>
+
+        <!-- Chat Input Bar -->
+        <div class="p-4 bg-[#0d1424] border-t border-gray-800">
+          <div class="max-w-4xl mx-auto relative">
+            <form id="chat-form" onsubmit="handleChatSubmit(event)" class="relative flex items-center">
+              <textarea id="prompt-input" rows="1" placeholder="Instruct your agent to build, code, run, search, or automate anything..." class="w-full bg-gray-900/90 border border-gray-700 rounded-2xl pl-5 pr-28 py-3.5 text-xs text-white placeholder-gray-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 resize-none transition shadow-inner"></textarea>
+              <div class="absolute right-3 flex items-center space-x-2">
+                <button type="button" onclick="stopAgentExecution()" id="btn-stop-agent" class="hidden px-3 py-1.5 rounded-xl bg-red-600/80 hover:bg-red-500 text-white text-xs font-semibold shadow transition">
+                  <i class="fa-solid fa-stop mr-1"></i> Stop
+                </button>
+                <button type="submit" id="btn-send-agent" class="px-4 py-2 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white text-xs font-semibold shadow-lg shadow-indigo-600/30 transition flex items-center space-x-1.5">
+                  <span>Run</span>
+                  <i class="fa-solid fa-paper-plane text-[10px]"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- TAB 3: TOOL WORKSHOP (CUSTOM TOOL MAKER & TESTER) -->
+      <div id="view-workshop" class="tab-view flex-1 hidden overflow-y-auto p-8 max-w-6xl w-full mx-auto space-y-8">
+        
+        <div class="flex items-center justify-between">
+          <div>
+            <h2 class="text-2xl font-black text-white flex items-center space-x-2">
+              <i class="fa-solid fa-wrench text-amber-400"></i>
+              <span>Tool Creation Workshop</span>
+            </h2>
+            <p class="text-xs text-gray-400 mt-1">Design, test, and register any custom tool with bash, Python, or REST execution handlers.</p>
+          </div>
+          <button onclick="resetCustomToolForm()" class="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-xs font-semibold text-white shadow transition">
+            + New Tool Template
+          </button>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+          
+          <!-- Tool Form (7 cols) -->
+          <div class="lg:col-span-7 bg-cardBg border border-gray-800 rounded-2xl p-6 shadow-xl space-y-4">
+            <h3 class="text-sm font-bold text-white uppercase tracking-wider border-b border-gray-800 pb-3 flex items-center justify-between">
+              <span>Tool Specification</span>
+              <span class="text-[10px] text-gray-400 font-mono">OpenAPI / JSON-Schema</span>
+            </h3>
+
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold text-gray-300 mb-1">Tool Identifier (Name)</label>
+                <input type="text" id="custom-tool-name" placeholder="e.g. docker_container_inspect" class="w-full bg-gray-900 border border-gray-700 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-indigo-500 font-mono">
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-gray-300 mb-1">Handler Type</label>
+                <select id="custom-tool-handler" class="w-full bg-gray-900 border border-gray-700 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-indigo-500">
+                  <option value="bash">Bash Script / CLI Execution</option>
+                  <option value="python">Python 3 Execution Engine</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-gray-300 mb-1">Description (for LLM Decision Engine)</label>
+              <textarea id="custom-tool-desc" rows="2" placeholder="Describe exactly what this tool does and when the agent should invoke it..." class="w-full bg-gray-900 border border-gray-700 rounded-xl p-2.5 text-xs text-white focus:outline-none focus:border-indigo-500"></textarea>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-gray-300 mb-1">Parameters Schema (JSON Schema Object)</label>
+              <textarea id="custom-tool-params" rows="5" class="w-full bg-gray-900 border border-gray-700 rounded-xl p-2.5 text-xs text-emerald-300 font-mono focus:outline-none focus:border-indigo-500">{
+  "type": "object",
+  "properties": {
+    "target": { "type": "string", "description": "The target argument" }
+  },
+  "required": ["target"]
+}</textarea>
+            </div>
+
+            <div id="handler-template-group">
+              <label class="block text-xs font-semibold text-gray-300 mb-1">Execution Code Template (<span class="text-indigo-400 font-mono">{{paramName}}</span> interpolation)</label>
+              <textarea id="custom-tool-code" rows="5" placeholder="e.g. echo 'Inspecting {{target}}' && ls -lh" class="w-full bg-gray-900 border border-gray-700 rounded-xl p-2.5 text-xs text-white font-mono focus:outline-none focus:border-indigo-500">echo "Executing custom logic for {{target}}"</textarea>
+            </div>
+
+            <div class="pt-3 flex items-center justify-between border-t border-gray-800">
+              <button onclick="testCustomToolDirectly()" class="px-4 py-2 bg-gray-800 hover:bg-gray-700 text-gray-200 text-xs font-semibold rounded-xl transition flex items-center space-x-1.5">
+                <i class="fa-solid fa-vial text-amber-400"></i>
+                <span>Test Execution</span>
+              </button>
+              <button onclick="saveCustomTool()" class="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-indigo-600/30 transition flex items-center space-x-1.5">
+                <i class="fa-solid fa-plus"></i>
+                <span>Register Tool in Engine</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Existing Custom Tools & Test Output (5 cols) -->
+          <div class="lg:col-span-5 space-y-6">
+            
+            <!-- Registered Custom Tools -->
+            <div class="bg-cardBg border border-gray-800 rounded-2xl p-6 shadow-xl space-y-4">
+              <h3 class="text-sm font-bold text-white uppercase tracking-wider border-b border-gray-800 pb-3">Active Custom Tools</h3>
+              <div id="custom-tools-list" class="space-y-2 max-h-60 overflow-y-auto">
+                <!-- Dynamically loaded -->
+              </div>
+            </div>
+
+            <!-- Test Sandbox Output Box -->
+            <div class="bg-cardBg border border-gray-800 rounded-2xl p-6 shadow-xl space-y-3">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-gray-300 uppercase tracking-wide">Test Output Console</span>
+                <span id="test-status-badge" class="text-[10px] text-gray-500 font-mono">IDLE</span>
+              </div>
+              <pre id="tool-test-output" class="bg-gray-950 p-3 rounded-xl border border-gray-800 text-[11px] font-mono text-emerald-400 overflow-x-auto min-h-[140px] max-h-60">// Output from direct tool tests will appear here...</pre>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- TAB 4: WORKSPACE & LIVE TERMINAL -->
+      <div id="view-workspace" class="tab-view flex-1 hidden flex-col overflow-hidden p-6 max-w-6xl w-full mx-auto space-y-6">
+        <div class="flex items-center justify-between">
+          <div>
+            <h2 class="text-2xl font-black text-white flex items-center space-x-2">
+              <i class="fa-solid fa-folder-tree text-sky-400"></i>
+              <span>Agent Workspace & File System</span>
+            </h2>
+            <p class="text-xs text-gray-400 mt-1">Live directory <span class="font-mono text-indigo-300">./workspace</span> manipulated in real-time by agent filesystem and bash tools.</p>
+          </div>
+          <button onclick="refreshWorkspaceFiles()" class="px-3 py-1.5 rounded-lg bg-gray-800 hover:bg-gray-700 text-xs font-semibold text-gray-200 border border-gray-700 flex items-center space-x-1.5 transition">
+            <i class="fa-solid fa-rotate text-sky-400"></i>
+            <span>Refresh Files</span>
+          </button>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 flex-1 overflow-hidden">
+          
+          <!-- File Explorer List (4 cols) -->
+          <div class="lg:col-span-4 bg-cardBg border border-gray-800 rounded-2xl p-4 flex flex-col overflow-hidden">
+            <div class="text-xs font-bold text-gray-300 uppercase tracking-wide pb-3 border-b border-gray-800 flex items-center justify-between">
+              <span>Files</span>
+              <span id="file-count-badge" class="text-[10px] text-indigo-400 font-mono">0 files</span>
+            </div>
+            <div class="flex-1 overflow-y-auto mt-3 space-y-1.5" id="workspace-file-list">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+
+          <!-- File Content Viewer / Terminal (8 cols) -->
+          <div class="lg:col-span-8 bg-cardBg border border-gray-800 rounded-2xl p-5 flex flex-col overflow-hidden space-y-4">
+            <div class="flex items-center justify-between border-b border-gray-800 pb-3">
+              <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-file-code text-indigo-400"></i>
+                <span id="viewing-filename" class="text-xs font-mono font-bold text-white">Select a file to preview</span>
+              </div>
+              <span id="viewing-filesize" class="text-[10px] text-gray-500 font-mono"></span>
+            </div>
+
+            <textarea id="file-editor-content" readonly class="flex-1 bg-gray-950 border border-gray-800 rounded-xl p-4 text-xs font-mono text-gray-300 focus:outline-none resize-none overflow-y-auto" placeholder="File content will be displayed here..."></textarea>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- SETTINGS & API KEYS MODAL -->
+  <div id="settings-modal" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-cardBg border border-gray-800 rounded-2xl max-w-lg w-full p-6 shadow-2xl space-y-5">
+      <div class="flex items-center justify-between border-b border-gray-800 pb-3">
+        <h3 class="text-base font-bold text-white flex items-center space-x-2">
+          <i class="fa-solid fa-key text-amber-400"></i>
+          <span>API Keys & Provider Credentials</span>
+        </h3>
+        <button onclick="closeSettingsModal()" class="text-gray-400 hover:text-white transition">
+          <i class="fa-solid fa-xmark text-sm"></i>
+        </button>
+      </div>
+
+      <p class="text-xs text-gray-400 leading-relaxed">
+        Keys are saved securely in your browser's local storage and used directly to communicate with your chosen AI models. If left blank, you can use the built-in <strong>Intelligent Simulator</strong> mode.
+      </p>
+
+      <div class="space-y-3.5 text-xs">
+        <div>
+          <label class="block font-semibold text-gray-300 mb-1">Google Gemini API Key</label>
+          <input type="password" id="key-gemini" placeholder="AIzaSy..." class="w-full bg-gray-900 border border-gray-700 rounded-xl px-3 py-2 text-white focus:outline-none focus:border-indigo-500 font-mono">
+        </div>
+        <div>
+          <label class="block font-semibold text-gray-300 mb-1">OpenAI API Key</label>
+          <input type="password" id="key-openai" placeholder="sk-..." class="w-full bg-gray-900 border border-gray-700 rounded-xl px-3 py-2 text-white focus:outline-none focus:border-indigo-500 font-mono">
+        </div>
+        <div>
+          <label class="block font-semibold text-gray-300 mb-1">Anthropic Claude API Key</label>
+          <input type="password" id="key-anthropic" placeholder="sk-ant-..." class="w-full bg-gray-900 border border-gray-700 rounded-xl px-3 py-2 text-white focus:outline-none focus:border-indigo-500 font-mono">
+        </div>
+        <div>
+          <label class="block font-semibold text-gray-300 mb-1">Ollama / Custom Base URL</label>
+          <input type="text" id="key-ollama-url" placeholder="http://localhost:11434/v1" class="w-full bg-gray-900 border border-gray-700 rounded-xl px-3 py-2 text-white focus:outline-none focus:border-indigo-500 font-mono">
+        </div>
+      </div>
+
+      <div class="pt-2 flex items-center justify-end space-x-3 border-t border-gray-800">
+        <button onclick="closeSettingsModal()" class="px-4 py-2 rounded-xl bg-gray-800 hover:bg-gray-700 text-xs font-semibold text-gray-300 transition">Cancel</button>
+        <button onclick="saveApiKeys()" class="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-bold text-white shadow transition">Save Credentials</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+  <script>if('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');</script>
+</body>
+</html>
