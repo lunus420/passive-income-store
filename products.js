@@ -102,7 +102,7 @@ const affiliateProducts = [
         "price": "$7.80",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://www.amazon.com/dp/B081LW6MWQ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B081LW6MWQ?tag=teknestorg420-20",
         "badge": "HOT"
     },
     {
@@ -124,7 +124,7 @@ const affiliateProducts = [
         "price": "$24",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=teknestorg420-20",
         "badge": "HOT"
     },
     {
@@ -135,7 +135,7 @@ const affiliateProducts = [
         "price": "$0.80",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B00NAXU...title&amp;th=1?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B00NAXU...title&amp;th=1?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -267,7 +267,7 @@ const affiliateProducts = [
         "price": "$42",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -278,7 +278,7 @@ const affiliateProducts = [
         "price": "$2",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://www.amazon.com/Amazon-Bra..._puis?th=1&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/Amazon-Bra..._puis?th=1&tag=teknestorg420-20",
         "badge": "VIRAL"
     },
     {
@@ -300,7 +300,7 @@ const affiliateProducts = [
         "price": "$9",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0FNRXHL41?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0FNRXHL41?tag=teknestorg420-20",
         "badge": "BEST SELLER"
     },
     {
@@ -322,7 +322,7 @@ const affiliateProducts = [
         "price": "$28",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
-        "link": "https://www.amazon.com/dp/B085TG89H4?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B085TG89H4?tag=teknestorg420-20",
         "badge": "BEST SELLER"
     },
     {
@@ -366,7 +366,7 @@ const affiliateProducts = [
         "price": "$12",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0FMS6SHX5?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0FMS6SHX5?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -410,7 +410,7 @@ const affiliateProducts = [
         "price": "$15",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B09YHTQ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B09YHTQ?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -509,7 +509,7 @@ const affiliateProducts = [
         "price": "$3",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0F88XYTZF?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0F88XYTZF?tag=teknestorg420-20",
         "badge": "TOP PICK"
     },
     {
@@ -520,7 +520,7 @@ const affiliateProducts = [
         "price": "$54.90",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
-        "link": "https://www.amazon.com/PlayStatio...B0GL96NJL5?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/PlayStatio...B0GL96NJL5?tag=teknestorg420-20",
         "badge": "VIRAL"
     },
     {
@@ -564,7 +564,7 @@ const affiliateProducts = [
         "price": "$20",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0D92XQL22?th=1&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0D92XQL22?th=1&tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -608,7 +608,7 @@ const affiliateProducts = [
         "price": "$24",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=teknestorg420-20",
         "badge": "TOP PICK"
     },
     {
@@ -641,7 +641,7 @@ const affiliateProducts = [
         "price": "$1.60",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0CYDBXH81?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0CYDBXH81?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -652,7 +652,7 @@ const affiliateProducts = [
         "price": "$0.95",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B001SAQ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B001SAQ?tag=teknestorg420-20",
         "badge": "BEST SELLER"
     },
     {
@@ -663,7 +663,7 @@ const affiliateProducts = [
         "price": "$28",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
-        "link": "https://www.amazon.com/dp/B085TG89H4?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B085TG89H4?tag=teknestorg420-20",
         "badge": "TOP PICK"
     },
     {
@@ -685,7 +685,7 @@ const affiliateProducts = [
         "price": "$21.65",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://www.amazon.com/Ghirardell...r=8-1&amp;th=1?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/Ghirardell...r=8-1&amp;th=1?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -696,7 +696,7 @@ const affiliateProducts = [
         "price": "$15",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B09YHTQ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B09YHTQ?tag=teknestorg420-20",
         "badge": "SALE"
     },
     {
@@ -718,7 +718,7 @@ const affiliateProducts = [
         "price": "$42",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -828,7 +828,7 @@ const affiliateProducts = [
         "price": "$7",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0D1549WQW?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0D1549WQW?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -872,7 +872,7 @@ const affiliateProducts = [
         "price": "$54.90",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
-        "link": "https://www.amazon.com/PlayStatio...B0GL96NJL5?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/PlayStatio...B0GL96NJL5?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -905,7 +905,7 @@ const affiliateProducts = [
         "price": "$17",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://www.amazon.com/dp/B00BJL1?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B00BJL1?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -916,7 +916,7 @@ const affiliateProducts = [
         "price": "$42",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=teknestorg420-20",
         "badge": "SALE"
     },
     {
@@ -927,7 +927,7 @@ const affiliateProducts = [
         "price": "$5",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/text-alexa-shopping?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/text-alexa-shopping?tag=teknestorg420-20",
         "badge": "HOT"
     },
     {
@@ -982,7 +982,7 @@ const affiliateProducts = [
         "price": "$7",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0D1549WQW?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0D1549WQW?tag=teknestorg420-20",
         "badge": "HOT"
     },
     {
@@ -1004,7 +1004,7 @@ const affiliateProducts = [
         "price": "$2",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://www.amazon.com/Amazon-Bra..._puis?th=1&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/Amazon-Bra..._puis?th=1&tag=teknestorg420-20",
         "badge": "BEST SELLER"
     },
     {
@@ -1015,7 +1015,7 @@ const affiliateProducts = [
         "price": "$22.40",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0FMS95QCV?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0FMS95QCV?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -1059,7 +1059,7 @@ const affiliateProducts = [
         "price": "$15",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B09YHTQ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B09YHTQ?tag=teknestorg420-20",
         "badge": "SALE"
     },
     {
@@ -1070,7 +1070,7 @@ const affiliateProducts = [
         "price": "$24",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -1103,7 +1103,7 @@ const affiliateProducts = [
         "price": "$28",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
-        "link": "https://www.amazon.com/dp/B085TG89H4?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B085TG89H4?tag=teknestorg420-20",
         "badge": "BEST SELLER"
     },
     {
@@ -1191,7 +1191,7 @@ const affiliateProducts = [
         "price": "$1.60",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0CYDBXH81?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0CYDBXH81?tag=teknestorg420-20",
         "badge": "HOT"
     },
     {
@@ -1257,7 +1257,7 @@ const affiliateProducts = [
         "price": "$28",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
-        "link": "https://www.amazon.com/dp/B085TG89H4?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B085TG89H4?tag=teknestorg420-20",
         "badge": "TOP PICK"
     },
     {
@@ -1268,7 +1268,7 @@ const affiliateProducts = [
         "price": "$7",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0HCNQQYG8?th=1&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0HCNQQYG8?th=1&tag=teknestorg420-20",
         "badge": "VIRAL"
     },
     {
@@ -1279,7 +1279,7 @@ const affiliateProducts = [
         "price": "$5",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/text-alexa-shopping?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/text-alexa-shopping?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -1334,7 +1334,7 @@ const affiliateProducts = [
         "price": "$238",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0G96H73JD?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0G96H73JD?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -1345,7 +1345,7 @@ const affiliateProducts = [
         "price": "$7",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0D1549WQW?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0D1549WQW?tag=teknestorg420-20",
         "badge": "BEST SELLER"
     },
     {
@@ -1367,7 +1367,7 @@ const affiliateProducts = [
         "price": "$24",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -1411,7 +1411,7 @@ const affiliateProducts = [
         "price": "$1.05",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://www.amazon.com/Amazon-Fresh-Canned-Pumpkin/dp/B0D1LG7TQ7?pd_rd_w=cSqGn&content-id=amzn1.sym&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/Amazon-Fresh-Canned-Pumpkin/dp/B0D1LG7TQ7?pd_rd_w=cSqGn&content-id=amzn1.sym&tag=teknestorg420-20",
         "badge": "VIRAL"
     },
     {
@@ -1455,7 +1455,7 @@ const affiliateProducts = [
         "price": "$42",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -1521,7 +1521,7 @@ const affiliateProducts = [
         "price": "$15",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B09YHTQ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B09YHTQ?tag=teknestorg420-20",
         "badge": "HOT"
     },
     {
@@ -1554,7 +1554,7 @@ const affiliateProducts = [
         "price": "$1.60",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0CYDBXH81?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0CYDBXH81?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -1576,7 +1576,7 @@ const affiliateProducts = [
         "price": "$17",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://www.amazon.com/dp/B00BJL1?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B00BJL1?tag=teknestorg420-20",
         "badge": "SALE"
     },
     {
@@ -1587,7 +1587,7 @@ const affiliateProducts = [
         "price": "$17",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0H8YNBDL9?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0H8YNBDL9?tag=teknestorg420-20",
         "badge": "VIRAL"
     },
     {
@@ -1598,7 +1598,7 @@ const affiliateProducts = [
         "price": "$10",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/Good-Luck-...475&amp;sr=8-1?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/Good-Luck-...475&amp;sr=8-1?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -1620,7 +1620,7 @@ const affiliateProducts = [
         "price": "$14.15",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0BJX5VNVF?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0BJX5VNVF?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -1664,7 +1664,7 @@ const affiliateProducts = [
         "price": "$31",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "https://www.amazon.com/Batman-Col...460&amp;sr=8-1?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/Batman-Col...460&amp;sr=8-1?tag=teknestorg420-20",
         "badge": "TOP PICK"
     },
     {
@@ -1686,7 +1686,7 @@ const affiliateProducts = [
         "price": "$24",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -1697,7 +1697,7 @@ const affiliateProducts = [
         "price": "$27",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://www.amazon.com/LEGO-Creat...B0DRW69H11?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/LEGO-Creat...B0DRW69H11?tag=teknestorg420-20",
         "badge": "SALE"
     },
     {
@@ -1719,7 +1719,7 @@ const affiliateProducts = [
         "price": "$49",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
-        "link": "https://www.amazon.com/gp/aw/d/B0GS3Z1X2Q/?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/gp/aw/d/B0GS3Z1X2Q/?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -1730,7 +1730,7 @@ const affiliateProducts = [
         "price": "$15",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B09YHTQ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B09YHTQ?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -1763,7 +1763,7 @@ const affiliateProducts = [
         "price": "$42",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=teknestorg420-20",
         "badge": "HOT"
     },
     {
@@ -1807,7 +1807,7 @@ const affiliateProducts = [
         "price": "$55",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0CXPQK?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0CXPQK?tag=teknestorg420-20",
         "badge": "TOP PICK"
     },
     {
@@ -1851,7 +1851,7 @@ const affiliateProducts = [
         "price": "$1180",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0DZZWMB2L?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0DZZWMB2L?tag=teknestorg420-20",
         "badge": "BEST SELLER"
     },
     {
@@ -1895,7 +1895,7 @@ const affiliateProducts = [
         "price": "$1",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://www.amazon.com/gp/product...X0DER&amp;th=1?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/gp/product...X0DER&amp;th=1?tag=teknestorg420-20",
         "badge": "BEST SELLER"
     },
     {
@@ -1928,7 +1928,7 @@ const affiliateProducts = [
         "price": "$223.25",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0G2SZ6DS8?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0G2SZ6DS8?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -1961,7 +1961,7 @@ const affiliateProducts = [
         "price": "$28",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
-        "link": "https://www.amazon.com/dp/B085TG89H4?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B085TG89H4?tag=teknestorg420-20",
         "badge": "TOP PICK"
     },
     {
@@ -1972,7 +1972,7 @@ const affiliateProducts = [
         "price": "$3.15",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/Amazon-Bas...r=1-1&amp;th=1?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/Amazon-Bas...r=1-1&amp;th=1?tag=teknestorg420-20",
         "badge": "HOT"
     },
     {
@@ -2016,7 +2016,7 @@ const affiliateProducts = [
         "price": "$8",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0DCMKH3HZ?th=1&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0DCMKH3HZ?th=1&tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -2038,7 +2038,7 @@ const affiliateProducts = [
         "price": "$15",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B09YHTQ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B09YHTQ?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -2049,7 +2049,7 @@ const affiliateProducts = [
         "price": "$28",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
-        "link": "https://www.amazon.com/dp/B085TG89H4?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B085TG89H4?tag=teknestorg420-20",
         "badge": "HOT"
     },
     {
@@ -2060,7 +2060,7 @@ const affiliateProducts = [
         "price": "$1",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://www.amazon.com/gp/product...X0DER&amp;th=1?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/gp/product...X0DER&amp;th=1?tag=teknestorg420-20",
         "badge": "HOT"
     },
     {
@@ -2093,7 +2093,7 @@ const affiliateProducts = [
         "price": "$42",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -2115,7 +2115,7 @@ const affiliateProducts = [
         "price": "$20",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0CMC3C3Z9?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0CMC3C3Z9?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -2192,7 +2192,7 @@ const affiliateProducts = [
         "price": "$13",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/Kreg-KHI-C...AnSA%3D%3D?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/Kreg-KHI-C...AnSA%3D%3D?tag=teknestorg420-20",
         "badge": "HOT"
     },
     {
@@ -2291,7 +2291,7 @@ const affiliateProducts = [
         "price": "$24",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -2302,7 +2302,7 @@ const affiliateProducts = [
         "price": "$30",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0943HX?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0943HX?tag=teknestorg420-20",
         "badge": "TOP PICK"
     },
     {
@@ -2313,7 +2313,7 @@ const affiliateProducts = [
         "price": "$15.40",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://www.amazon.com/gp/product...0DER&amp;psc=1?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/gp/product...0DER&amp;psc=1?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -2324,7 +2324,7 @@ const affiliateProducts = [
         "price": "$24",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0GXXMHCV4?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0GXXMHCV4?tag=teknestorg420-20",
         "badge": "TOP PICK"
     },
     {
@@ -2357,7 +2357,7 @@ const affiliateProducts = [
         "price": "$15.40",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://www.amazon.com/gp/product...0DER&amp;psc=1?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/gp/product...0DER&amp;psc=1?tag=teknestorg420-20",
         "badge": "SALE"
     },
     {
@@ -2379,7 +2379,7 @@ const affiliateProducts = [
         "price": "$1",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://www.amazon.com/gp/product...X0DER&amp;th=1?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/gp/product...X0DER&amp;th=1?tag=teknestorg420-20",
         "badge": "VIRAL"
     },
     {
@@ -2401,7 +2401,7 @@ const affiliateProducts = [
         "price": "$22.40",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B00PMUNF5A?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B00PMUNF5A?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -2423,7 +2423,7 @@ const affiliateProducts = [
         "price": "$140",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0DB6BCWGV?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0DB6BCWGV?tag=teknestorg420-20",
         "badge": "VIRAL"
     },
     {
@@ -2434,7 +2434,7 @@ const affiliateProducts = [
         "price": "$8.40",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
-        "link": "https://www.amazon.com/Jack-Links-Jerky-Original-Pounder/dp/B00PO9IEEG/ref=sr_1_7?crid=6SW1NO55S9RO&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/Jack-Links-Jerky-Original-Pounder/dp/B00PO9IEEG/ref=sr_1_7?crid=6SW1NO55S9RO&tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -2456,7 +2456,7 @@ const affiliateProducts = [
         "price": "$15",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B09YHTQ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B09YHTQ?tag=teknestorg420-20",
         "badge": "VIRAL"
     },
     {
@@ -2522,7 +2522,7 @@ const affiliateProducts = [
         "price": "$30",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "http://www.amazon.com/gp/product/...0DER&amp;psc=1?tag=bigterry20036-20",
+        "link": "http://www.amazon.com/gp/product/...0DER&amp;psc=1?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -2610,7 +2610,7 @@ const affiliateProducts = [
         "price": "$42",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -2632,7 +2632,7 @@ const affiliateProducts = [
         "price": "$12.90",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0CMFTW?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0CMFTW?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -2665,7 +2665,7 @@ const affiliateProducts = [
         "price": "$28",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
-        "link": "https://www.amazon.com/dp/B085TG89H4?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B085TG89H4?tag=teknestorg420-20",
         "badge": "VIRAL"
     },
     {
@@ -2676,7 +2676,7 @@ const affiliateProducts = [
         "price": "$24",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -2709,7 +2709,7 @@ const affiliateProducts = [
         "price": "$30",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "https://www.amazon.com/dp/B0943HX?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B0943HX?tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -2720,7 +2720,7 @@ const affiliateProducts = [
         "price": "$13.15",
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B07JMQBPD3?tag=bigterry20036-20",
+        "link": "https://www.amazon.com/dp/B07JMQBPD3?tag=teknestorg420-20",
         "badge": "BEST SELLER"
     }
 ];

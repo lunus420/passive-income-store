@@ -352,7 +352,7 @@ The bots will then:
 
 ## 📊 TRACKING
 All posts will include your affiliate tags:
-- Amazon: bigterry20036-20
+- Amazon: teknestorg420-20
 - DealNews: money_maker_2026
 
 Monitor your affiliate dashboards for automated revenue!

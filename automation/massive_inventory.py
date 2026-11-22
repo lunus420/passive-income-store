@@ -191,7 +191,7 @@ def generate_massive_inventory():
             product['id'] = product_id
             product['category'] = category
             product['source'] = 'Tek-nest Deals'
-            product['link'] = f"https://www.amazon.com/s?k={product['title'].lower().replace(' ', '+')}&tag=bigterry20036-20"
+            product['link'] = f"https://www.amazon.com/s?k={product['title'].lower().replace(' ', '+')}&tag=teknestorg420-20"
             all_products.append(product)
             product_id += 1
     

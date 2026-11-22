@@ -100,7 +100,7 @@ def get_hybrid_reply(user_msg):
     # --- Store / Deals ---
     if any(k in msg for k in ["store", "deals", "affiliate", "money", "sales", "income", "revenue", "earning"]):
         return random.choice([
-            "💰 Your Affiliate Store is LIVE on GitHub Pages! Here's the breakdown:\n• Amazon affiliate ID: bigterry20036-20\n• Temu affiliate ID: alg041956\n• eBay affiliate ID: 4tima\n• Auto-updates daily at 8 AM with fresh deals\n• PayPal payments go straight to paypal.me/teknest.org2026\n\nHit 'Trigger Store Update' on the Core tab to force a fresh scrape right now!",
+            "💰 Your Affiliate Store is LIVE on GitHub Pages! Here's the breakdown:\n• Amazon affiliate ID: teknestorg420-20\n• Temu affiliate ID: alg041956\n• eBay affiliate ID: 4tima\n• Auto-updates daily at 8 AM with fresh deals\n• PayPal payments go straight to paypal.me/teknest.org2026\n\nHit 'Trigger Store Update' on the Core tab to force a fresh scrape right now!",
             "Your passive income machine is running 24/7! The store auto-scrapes deals from Amazon, Temu, and eBay every morning, enhances them with AI descriptions, and posts them live. You can trigger a manual update anytime from the Core tab. Money goes straight to your PayPal. 💸",
         ])
     

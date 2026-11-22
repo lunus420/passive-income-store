@@ -105,7 +105,7 @@ def add_affordable_products():
             "price": "$12",
             "originalPrice": "$25",
             "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80",
-            "link": "https://www.amazon.com/s?k=anker+powercore&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=anker+powercore&tag=teknestorg420-20",
             "badge": "BUDGET"
         },
         {
@@ -116,7 +116,7 @@ def add_affordable_products():
             "price": "$25",
             "originalPrice": "$50",
             "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
-            "link": "https://www.amazon.com/s?k=jbl+headphones&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=jbl+headphones&tag=teknestorg420-20",
             "badge": "SALE"
         },
         {
@@ -127,7 +127,7 @@ def add_affordable_products():
             "price": "$8", 
             "originalPrice": "$20",
             "image": "https://images.unsplash.com/photo-1527864550417-7fd9fc2417af?auto=format&fit=crop&w=600&q=80",
-            "link": "https://www.amazon.com/s?k=logitech+mouse&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=logitech+mouse&tag=teknestorg420-20",
             "badge": "BUDGET"
         },
         {
@@ -138,7 +138,7 @@ def add_affordable_products():
             "price": "$6",
             "originalPrice": "$15", 
             "image": "https://images.unsplash.com/photo-1517486808950-2e325a9c94e5?auto=format&fit=crop&w=600&q=80",
-            "link": "https://www.amazon.com/s?k=sandisk+usb&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=sandisk+usb&tag=teknestorg420-20",
             "badge": "CHEAP"
         },
         
@@ -162,7 +162,7 @@ def add_affordable_products():
             "price": "$20",
             "originalPrice": "$45",
             "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=600&q=80",
-            "link": "https://www.amazon.com/s?k=bedding+set&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=bedding+set&tag=teknestorg420-20",
             "badge": "SALE"
         },
         {
@@ -184,7 +184,7 @@ def add_affordable_products():
             "price": "$25",
             "originalPrice": "$50",
             "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&q=80",
-            "link": "https://www.amazon.com/s?k=toaster+oven&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=toaster+oven&tag=teknestorg420-20",
             "badge": "BUDGET"
         }
     ]

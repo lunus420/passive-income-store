@@ -11,7 +11,7 @@ Go to: https://github.com/lunus420/passive-income-store/settings/pages
 
 ### 2. Test Your Affiliate Links (1 minute)
 Click a few products on your site to ensure they go to:
-- Amazon with your tag: `?tag=bigterry20036-20`
+- Amazon with your tag: `?tag=teknestorg420-20`
 - DealNews with your tag: `?ref=money_maker_2026`
 
 ### 3. Start Promotion (5 minutes)
@@ -80,7 +80,7 @@ https://lunus420.github.io/passive-income-store/
 ### Check Your Earnings:
 1. **Amazon Associates:** https://affiliate-program.amazon.com/
    - Login with your account
-   - Look for "bigterry20036-20" reports
+   - Look for "teknestorg420-20" reports
 
 2. **DealNews Dashboard:** Check your affiliate portal
    - Look for "money_maker_2026" tracking

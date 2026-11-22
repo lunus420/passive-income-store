@@ -16,7 +16,7 @@ product_templates = {
             "price": "$189",
             "originalPrice": "$249",
             "image": "https://images.unsplash.com/photo-16062793048-5e8b8b5b4f7?auto=format&fit=crop&w=600&q=80",  # AirPods
-            "link": "https://www.amazon.com/s?k=airpods+pro&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=airpods+pro&tag=teknestorg420-20",
             "badge": "APPLE DEAL"
         },
         {
@@ -26,7 +26,7 @@ product_templates = {
             "price": "$129",
             "originalPrice": "$199",
             "image": "https://images.unsplash.com/photo-16062793048-5e8b8b5b4f7?auto=format&fit=crop&w=600&q=80",  # Earbuds
-            "link": "https://www.amazon.com/s?k=galaxy+buds2&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=galaxy+buds2&tag=teknestorg420-20",
             "badge": "SAMSUNG DEAL"
         },
         {
@@ -36,7 +36,7 @@ product_templates = {
             "price": "$279",
             "originalPrice": "$399",
             "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",  # Headphones
-            "link": "https://www.amazon.com/s?k=sony+headphones&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=sony+headphones&tag=teknestorg420-20",
             "badge": "AUDIO DEAL"
         },
         {
@@ -46,7 +46,7 @@ product_templates = {
             "price": "$449", 
             "originalPrice": "$599",
             "image": "https://images.unsplash.com/photo-1544244015-0f4fd9c4e7c?auto=format&fit=crop&w=600&q=80",  # Tablet
-            "link": "https://www.amazon.com/s?k=ipad+air+5th&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=ipad+air+5th&tag=teknestorg420-20",
             "badge": "TABLET DEAL"
         },
         {
@@ -56,7 +56,7 @@ product_templates = {
             "price": "$99",
             "originalPrice": "$149",
             "image": "https://images.unsplash.com/photo-1575311376930-6b9a2c7c6e4?auto=format&fit=crop&w=600&q=80",  # Fitness tracker
-            "link": "https://www.amazon.com/s?k=fitbit+charge+5&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=fitbit+charge+5&tag=teknestorg420-20",
             "badge": "FITNESS DEAL"
         },
         {
@@ -66,7 +66,7 @@ product_templates = {
             "price": "$89",
             "originalPrice": "$139",
             "image": "https://images.unsplash.com/photo-1544947950-490e5c4d9a3a?auto=format&fit=crop&w=600&q=80",  # E-reader
-            "link": "https://www.amazon.com/s?k=kindle+paperwhite&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=kindle+paperwhite&tag=teknestorg420-20",
             "badge": "READING DEAL"
         },
         {
@@ -76,7 +76,7 @@ product_templates = {
             "price": "$39",
             "originalPrice": "$69",
             "image": "https://images.unsplash.com/photo-1592831956182-0c9a2c7b4c6?auto=format&fit=crop&w=600&q=80",  # Streaming device
-            "link": "https://www.amazon.com/s?k=roku+stick+4k&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=roku+stick+4k&tag=teknestorg420-20",
             "badge": "STREAMING DEAL"
         },
         {
@@ -86,7 +86,7 @@ product_templates = {
             "price": "$549",
             "originalPrice": "$799",
             "image": "https://images.unsplash.com/photo-1516035069375-8d764703b832?auto=format&fit=crop&w=600&q=80",  # Camera
-            "link": "https://www.amazon.com/s?k=canon+rebel+t7&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=canon+rebel+t7&tag=teknestorg420-20",
             "badge": "CAMERA DEAL"
         },
         {
@@ -96,7 +96,7 @@ product_templates = {
             "price": "$379",
             "originalPrice": "$529",
             "image": "https://images.unsplash.com/photo-1527864550417-7fd9fc2417af?auto=format&fit=crop&w=600&q=80",  # Monitor
-            "link": "https://www.amazon.com/s?k=dell+ultrasharp+27&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=dell+ultrasharp+27&tag=teknestorg420-20",
             "badge": "MONITOR DEAL"
         },
         {
@@ -106,7 +106,7 @@ product_templates = {
             "price": "$69",
             "originalPrice": "$99",
             "image": "https://images.unsplash.com/photo-1527864550417-7fd9fc2417af?auto=format&fit=crop&w=600&q=80",  # Mouse
-            "link": "https://www.amazon.com/s?k=logitech+mx+master&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=logitech+mx+master&tag=teknestorg420-20",
             "badge": "MOUSE DEAL"
         },
         {
@@ -116,7 +116,7 @@ product_templates = {
             "price": "$279",
             "originalPrice": "$379",
             "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",  # Headphones
-            "link": "https://www.amazon.com/s?k=bose+quietcomfort+45&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=bose+quietcomfort+45&tag=teknestorg420-20",
             "badge": "AUDIO DEAL"
         }
     ],
@@ -129,7 +129,7 @@ product_templates = {
             "price": "$59",
             "originalPrice": "$99",
             "image": "https://images.unsplash.com/photo-1574246010505-190b4d6d2b1c?auto=format&fit=crop&w=600&q=80",  # Pressure cooker
-            "link": "https://www.amazon.com/s?k=instant+pot+duo+7&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=instant+pot+duo+7&tag=teknestorg420-20",
             "badge": "KITCHEN DEAL"
         },
         {
@@ -139,7 +139,7 @@ product_templates = {
             "price": "$89",
             "originalPrice": "$139",
             "image": "https://images.unsplash.com/photo-1532339412427-7767df3fe897?auto=format&fit=crop&w=600&q=80",  # Blender
-            "link": "https://www.amazon.com/s?k=ninja+foodi+blender&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=ninja+foodi+blender&tag=teknestorg420-20",
             "badge": "BLENDER DEAL"
         },
         {
@@ -149,7 +149,7 @@ product_templates = {
             "price": "$449",
             "originalPrice": "$599",
             "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=600&q=80",  # Vacuum
-            "link": "https://www.amazon.com/s?k=dyson+v15+detect&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=dyson+v15+detect&tag=teknestorg420-20",
             "badge": "VACUUM DEAL"
         },
         {
@@ -159,7 +159,7 @@ product_templates = {
             "price": "$79",
             "originalPrice": "$129",
             "image": "https://images.unsplash.com/photo-1495474471446-4eb0e1622e0?auto=format&fit=crop&w=600&q=80",  # Coffee maker
-            "link": "https://www.amazon.com/s?k=keurig+k-elite&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=keurig+k-elite&tag=teknestorg420-20",
             "badge": "COFFEE DEAL"
         },
         {
@@ -169,7 +169,7 @@ product_templates = {
             "price": "$595",
             "originalPrice": "$795",
             "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=600&q=80",  # Mattress
-            "link": "https://www.amazon.com/s?k=casper+mattress&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=casper+mattress&tag=teknestorg420-20",
             "badge": "MATTRESS DEAL"
         },
         {
@@ -179,7 +179,7 @@ product_templates = {
             "price": "$89",
             "originalPrice": "$139",
             "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=600&q=80",  # Smart lights
-            "link": "https://www.amazon.com/s?k=philips+hue+starter&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=philips+hue+starter&tag=teknestorg420-20",
             "badge": "SMART HOME DEAL"
         },
         {
@@ -189,7 +189,7 @@ product_templates = {
             "price": "$249",
             "originalPrice": "$379",
             "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=600&q=80",  # Robot vacuum
-            "link": "https://www.amazon.com/s?k=irobot+roomba+692&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=irobot+roomba+692&tag=teknestorg420-20",
             "badge": "ROBOT DEAL"
         },
         {
@@ -199,7 +199,7 @@ product_templates = {
             "price": "$49",
             "originalPrice": "$69",
             "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab0467?auto=format&fit=crop&w=600&q=80",  # Water flosser
-            "link": "https://www.amazon.com/s?k=waterpik+aquarius&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=waterpik+aquarius&tag=teknestorg420-20",
             "badge": "DENTAL DEAL"
         }
     ],
@@ -212,7 +212,7 @@ product_templates = {
             "price": "$79",
             "originalPrice": "$110",
             "image": "https://images.unsplash.com/photo-1549298936-827da563d8f3?auto=format&fit=crop&w=600&q=80",  # Sneakers
-            "link": "https://www.amazon.com/s?k=nike+air+force+1&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=nike+air+force+1&tag=teknestorg420-20",
             "badge": "SHOE DEAL"
         },
         {
@@ -222,7 +222,7 @@ product_templates = {
             "price": "$59",
             "originalPrice": "$89",
             "image": "https://images.unsplash.com/photo-1542273492-532b0f050af2?auto=format&fit=crop&w=600&q=80",  # Jeans
-            "link": "https://www.amazon.com/s?k=levis+501+jeans&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=levis+501+jeans&tag=teknestorg420-20",
             "badge": "JEANS DEAL"
         },
         {
@@ -232,7 +232,7 @@ product_templates = {
             "price": "$39",
             "originalPrice": "$59",
             "image": "https://images.unsplash.com/photo-1551698618-494ae0085b4b?auto=format&fit=crop&w=600&q=80",  # Hoodie
-            "link": "https://www.amazon.com/s?k=champion+hoodie&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=champion+hoodie&tag=teknestorg420-20",
             "badge": "HOODIE DEAL"
         },
         {
@@ -242,7 +242,7 @@ product_templates = {
             "price": "$119",
             "originalPrice": "$179",
             "image": "https://images.unsplash.com/photo-1473496925-d7a4c8b6b3a?auto=format&fit=crop&w=600&q=80",  # Sunglasses
-            "link": "https://www.amazon.com/s?k=ray+ban+wayfarer&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=ray+ban+wayfarer&tag=teknestorg420-20",
             "badge": "SUNGLASSES DEAL"
         },
         {
@@ -252,7 +252,7 @@ product_templates = {
             "price": "$89",
             "originalPrice": "$139",
             "image": "https://images.unsplash.com/photo-1551698618-494ae0085b4b?auto=format&fit=crop&w=600&q=80",  # Jacket
-            "link": "https://www.amazon.com/s?k=north+face+recon&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=north+face+recon&tag=teknestorg420-20",
             "badge": "JACKET DEAL"
         },
         {
@@ -262,7 +262,7 @@ product_templates = {
             "price": "$79",
             "originalPrice": "$120",
             "image": "https://images.unsplash.com/photo-1542273492-532b0f050af2?auto=format&fit=crop&w=600&q=80",  # Running shoes
-            "link": "https://www.amazon.com/s?k=adidas+ultraboost+22&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=adidas+ultraboost+22&tag=teknestorg420-20",
             "badge": "RUNNING DEAL"
         }
     ],
@@ -275,7 +275,7 @@ product_templates = {
             "price": "$15",
             "originalPrice": "$25",
             "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab0467?auto=format&fit=crop&w=600&q=80",  # Steak
-            "link": "https://www.amazon.com/s?k=prime+ribeye+steak&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=prime+ribeye+steak&tag=teknestorg420-20",
             "badge": "MEAT DEAL"
         },
         {
@@ -285,7 +285,7 @@ product_templates = {
             "price": "$8",
             "originalPrice": "$12",
             "image": "https://images.unsplash.com/photo-1523049673857-49663e17b85a?auto=format&fit=crop&w=600&q=80",  # Avocados
-            "link": "https://www.amazon.com/s?k=organic+avocados&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=organic+avocados&tag=teknestorg420-20",
             "badge": "PRODUCE DEAL"
         },
         {
@@ -295,7 +295,7 @@ product_templates = {
             "price": "$12",
             "originalPrice": "$18",
             "image": "https://images.unsplash.com/photo-1494475510638-8cd1c9b7edfe?auto=format&fit=crop&w=600&q=80",  # Coffee
-            "link": "https://www.amazon.com/s?k=kirkland+coffee&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=kirkland+coffee&tag=teknestorg420-20",
             "badge": "COFFEE DEAL"
         },
         {
@@ -305,7 +305,7 @@ product_templates = {
             "price": "$9",
             "originalPrice": "$15",
             "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab0467?auto=format&fit=crop&w=600&q=80",  # Ice cream
-            "link": "https://www.amazon.com/s?k=ben+and+jerrys+ice+cream&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=ben+and+jerrys+ice+cream&tag=teknestorg420-20",
             "badge": "DESSERT DEAL"
         },
         {
@@ -315,7 +315,7 @@ product_templates = {
             "price": "$6",
             "originalPrice": "$9",
             "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab0467?auto=format&fit=crop&w=600&q=80",  # Sparkling water
-            "link": "https://www.amazon.com/s?k=la+croix+water&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=la+croix+water&tag=teknestorg420-20",
             "badge": "DRINK DEAL"
         }
     ],
@@ -328,7 +328,7 @@ product_templates = {
             "price": "$15",
             "originalPrice": "$23",
             "image": "https://images.unsplash.com/photo-1522337360788-8b13dee73837?auto=format&fit=crop&w=600&q=80",  # Skincare
-            "link": "https://www.amazon.com/s?k=cerave+cleanser&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=cerave+cleanser&tag=teknestorg420-20",
             "badge": "SKINCARE DEAL"
         },
         {
@@ -338,7 +338,7 @@ product_templates = {
             "price": "$7",
             "originalPrice": "$11",
             "image": "https://images.unsplash.com/photo-1586959744440-b6a6a5e868c?auto=format&fit=crop&w=600&q=80",  # Lipstick
-            "link": "https://www.amazon.com/s?k=maybelline+superstay&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=maybelline+superstay&tag=teknestorg420-20",
             "badge": "MAKEUP DEAL"
         },
         {
@@ -348,7 +348,7 @@ product_templates = {
             "price": "$22",
             "originalPrice": "$35",
             "image": "https://images.unsplash.com/photo-1522337360788-8b13dee73837?auto=format&fit=crop&w=600&q=80",  # Face cream
-            "link": "https://www.amazon.com/s?k=olay+regenerist&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=olay+regenerist&tag=teknestorg420-20",
             "badge": "ANTI-AGING DEAL"
         },
         {
@@ -358,7 +358,7 @@ product_templates = {
             "price": "$8",
             "originalPrice": "$12",
             "image": "https://images.unsplash.com/photo-1606925346785-ffefd2e6e8a4?auto=format&fit=crop&w=600&q=80",  # Nail polish
-            "link": "https://www.amazon.com/s?k=essie+nail+polish&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=essie+nail+polish&tag=teknestorg420-20",
             "badge": "NAIL DEAL"
         }
     ],
@@ -371,7 +371,7 @@ product_templates = {
             "price": "$139",
             "originalPrice": "$199",
             "image": "https://images.unsplash.com/photo-1596487131256-241721296dbb?auto=format&fit=crop&w=600&q=80",  # LEGO
-            "link": "https://www.amazon.com/s?k=lego+millennium+falcon&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=lego+millennium+falcon&tag=teknestorg420-20",
             "badge": "TOY DEAL"
         },
         {
@@ -381,7 +381,7 @@ product_templates = {
             "price": "$299",
             "originalPrice": "$349",
             "image": "https://images.unsplash.com/photo-1607342666198-7846b4b5db85?auto=format&fit=crop&w=600&q=80",  # Gaming console
-            "link": "https://www.amazon.com/s?k=nintendo+switch+oled&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=nintendo+switch+oled&tag=teknestorg420-20",
             "badge": "GAMING DEAL"
         },
         {
@@ -391,7 +391,7 @@ product_templates = {
             "price": "$79",
             "originalPrice": "$119",
             "image": "https://images.unsplash.com/photo-1517486808950-2e325a9c94e5?auto=format&fit=crop&w=600&q=80",  # Playset
-            "link": "https://www.amazon.com/s?k=barbie+dreamhouse&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=barbie+dreamhouse&tag=teknestorg420-20",
             "badge": "TOY DEAL"
         },
         {
@@ -401,7 +401,7 @@ product_templates = {
             "price": "$24",
             "originalPrice": "$35",
             "image": "https://images.unsplash.com/photo-1517486808950-2e325a9c94e5?auto=format&fit=crop&w=600&q=80",  # Toy cars
-            "link": "https://www.amazon.com/s?k=hot+wheels+20+car&tag=bigterry20036-20",
+            "link": "https://www.amazon.com/s?k=hot+wheels+20+car&tag=teknestorg420-20",
             "badge": "TOY DEAL"
         }
     ]

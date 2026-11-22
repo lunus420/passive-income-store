@@ -71,7 +71,7 @@
 ## 💰 **REVENUE SYSTEM:**
 
 ### **Your Affiliate Tags:**
-- **Amazon:** `bigterry20036-20` ✅
+- **Amazon:** `teknestorg420-20` ✅
 - **DealNews:** `money_maker_2026` ✅
 - **All clicks = YOUR commission**
 
