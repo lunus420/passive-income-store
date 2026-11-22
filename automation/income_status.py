@@ -11,7 +11,7 @@ import sys
 def load_config():
     config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "config.json")
     default_config = {
-        "Amazon Associates": {"id": "bigterry20036-20", "url": "https://affiliate-program.amazon.com/home"},
+        "Amazon Associates": {"id": "teknestorg420-20", "url": "https://affiliate-program.amazon.com/home"},
         "eBay Partner Network": {"id": "4tima", "url": "https://partnernetwork.ebay.com/dashboard"},
         "Temu Affiliate": {"id": "alg041956", "url": "https://www.temu.com/affiliate/dashboard"},
         "Shopify Brands (Joint)": {"id": "moment_partner_2026 (Placeholder)", "url": "https://collabs.shopify.com/"},

@@ -13,7 +13,7 @@ This versatile pan is perfect for quick breakfasts - make omelettes, fry eggs, o
 
 At this price point, it's a steal for anyone looking to upgrade their kitchen cookware without breaking the bank. Great for students, new homeowners, or anyone who wants reliable cookware on a budget.
 
-🔗 [Get it here](https://www.amazon.com/s?k=carote+egg+pan&tag=bigterry20036-20)
+🔗 [Get it here](https://www.amazon.com/s?k=carote+egg+pan&tag=teknestorg420-20)
 
 *Prime required for free shipping. Price may change. Limited time offer.*
 ```
@@ -40,7 +40,7 @@ Key features:
 
 At $42, this is significantly cheaper than most 360mm AIO coolers which typically cost $60+. Perfect for budget PC builders who want liquid cooling without the premium price tag.
 
-🔗 [Grab it](https://www.amazon.com/s?k=thermalright+aio+360mm&tag=bigterry20036-20)
+🔗 [Grab it](https://www.amazon.com/s?k=thermalright+aio+360mm&tag=teknestorg420-20)
 ```
 **Subreddits:** r/buildapcsales, r/deals
 
@@ -65,7 +65,7 @@ Key features:
 
 At $42, this is significantly cheaper than similar capacity power stations which typically cost $70+. The LiFePO4 battery chemistry is safer and lasts longer than traditional lithium-ion batteries, making this a great value for anyone who needs portable power.
 
-🔗 [Check it out](https://www.amazon.com/s?k=lifepo4+power+station+28000mah&tag=bigterry20036-20)
+🔗 [Check it out](https://www.amazon.com/s?k=lifepo4+power+station+28000mah&tag=teknestorg420-20)
 ```
 **Subreddits:** r/deals, r/preppers, r/CampingGear
 

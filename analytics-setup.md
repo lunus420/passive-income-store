@@ -14,7 +14,7 @@ Add to your `index.html` before `</head>`:
 ```
 
 ## 2. Amazon Affiliate Tracking
-Your links already include: `?tag=bigterry20036-20`
+Your links already include: `?tag=teknestorg420-20`
 This tracks all purchases from your links.
 
 ## 3. Temu Affiliate Tracking  

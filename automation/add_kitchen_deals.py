@@ -15,7 +15,7 @@ kitchen_deals = [
         "price": "$29.99",
         "originalPrice": "$49.99",
         "image": "https://images-na.ssl-images-amazon.com/images/I/71X5F9P5PfL._AC_SL1500_.jpg",
-        "link": "https://www.amazon.com/s?k=amazon+basics+cookware+set&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/s?k=amazon+basics+cookware+set&tag=teknestorg420-20",
         "badge": "CHEAP"
     },
     {
@@ -26,7 +26,7 @@ kitchen_deals = [
         "price": "$14.99",
         "originalPrice": "$24.99",
         "image": "https://images-na.ssl-images-amazon.com/images/I/61aX1wC1xRL._AC_SL1500_.jpg",
-        "link": "https://www.amazon.com/s?k=black+decker+toaster&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/s?k=black+decker+toaster&tag=teknestorg420-20",
         "badge": "HOT"
     },
     {
@@ -37,7 +37,7 @@ kitchen_deals = [
         "price": "$19.99",
         "originalPrice": "$29.99",
         "image": "https://images-na.ssl-images-amazon.com/images/I/71lVf5Gt5eL._AC_SL1500_.jpg",
-        "link": "https://www.amazon.com/s?k=hamilton+beach+kettle&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/s?k=hamilton+beach+kettle&tag=teknestorg420-20",
         "badge": "SALE"
     },
     {
@@ -48,7 +48,7 @@ kitchen_deals = [
         "price": "$15.99",
         "originalPrice": "$24.99",
         "image": "https://images-na.ssl-images-amazon.com/images/I/81z3qK9A9kL._AC_SL1500_.jpg",
-        "link": "https://www.amazon.com/s?k=dinnerware+set+cheap&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/s?k=dinnerware+set+cheap&tag=teknestorg420-20",
         "badge": "CHEAP"
     },
     {
@@ -59,7 +59,7 @@ kitchen_deals = [
         "price": "$19.99",
         "originalPrice": "$29.99",
         "image": "https://images-na.ssl-images-amazon.com/images/I/61qzZz1ZMFL._AC_SL1500_.jpg",
-        "link": "https://www.amazon.com/s?k=ninja+chopper&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/s?k=ninja+chopper&tag=teknestorg420-20",
         "badge": "POPULAR"
     },
     {
@@ -70,7 +70,7 @@ kitchen_deals = [
         "price": "$34.99",
         "originalPrice": "$49.99",
         "image": "https://images-na.ssl-images-amazon.com/images/I/61ZJ2qC5eSL._AC_SL1500_.jpg",
-        "link": "https://www.amazon.com/s?k=cuisinart+coffee+maker&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/s?k=cuisinart+coffee+maker&tag=teknestorg420-20",
         "badge": "BEST SELLER"
     },
     {
@@ -81,7 +81,7 @@ kitchen_deals = [
         "price": "$24.99",
         "originalPrice": "$39.99",
         "image": "https://images-na.ssl-images-amazon.com/images/I/81f9k0rK9LL._AC_SL1500_.jpg",
-        "link": "https://www.amazon.com/s?k=rubbermaid+food+storage&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/s?k=rubbermaid+food+storage&tag=teknestorg420-20",
         "badge": "NEW"
     },
     {
@@ -92,7 +92,7 @@ kitchen_deals = [
         "price": "$49.99",
         "originalPrice": "$79.99",
         "image": "https://images-na.ssl-images-amazon.com/images/I/71FZ6KfF3pL._AC_SL1500_.jpg",
-        "link": "https://www.amazon.com/s?k=chefman+air+fryer&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/s?k=chefman+air+fryer&tag=teknestorg420-20",
         "badge": "HOT"
     },
     {
@@ -103,7 +103,7 @@ kitchen_deals = [
         "price": "$24.99",
         "originalPrice": "$39.99",
         "image": "https://images-na.ssl-images-amazon.com/images/I/61Z1r5W8zQL._AC_SL1500_.jpg",
-        "link": "https://www.amazon.com/s?k=oster+blender&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/s?k=oster+blender&tag=teknestorg420-20",
         "badge": "SALE"
     },
     {
@@ -114,7 +114,7 @@ kitchen_deals = [
         "price": "$19.99",
         "originalPrice": "$34.99",
         "image": "https://images-na.ssl-images-amazon.com/images/I/61yD1pVX0tL._AC_SL1500_.jpg",
-        "link": "https://www.amazon.com/s?k=farberware+knife+set&tag=bigterry20036-20",
+        "link": "https://www.amazon.com/s?k=farberware+knife+set&tag=teknestorg420-20",
         "badge": "CHEAP"
     }
 ]
