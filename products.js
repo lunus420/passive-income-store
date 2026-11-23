@@ -84,6 +84,39 @@ const digitalProducts = [
 
 const affiliateProducts = [
     {
+        "id": 11002,
+        "title": "Must-Have: Blink Mini 2K+ Plug-in Indoor Security Camera (Newest Model) \u2014 $15.99 + Free Shipping",
+        "category": "Smart Home",
+        "source": "Slickdeals",
+        "price": "$15.99",
+        "originalPrice": "$39.99",
+        "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/450x450/22260042.thumb",
+        "link": "https://www.amazon.com/dp/B0F3BB8D37?tag=teknestorg420-20",
+        "badge": "BEST SELLER"
+    },
+    {
+        "id": 11003,
+        "title": "Unbeatable: Blink Outdoor 4 XR 2-Camera System w/ Sync Module XR \u2014 $58.99 + Free Shipping",
+        "category": "Smart Home",
+        "source": "Slickdeals",
+        "price": "$58.99",
+        "originalPrice": "$169.99",
+        "image": "https://static.slickdealscdn.com/attachment/3/4/8/5/6/7/3/450x450/18752284.thumb",
+        "link": "https://www.amazon.com/dp/B0DV4WPXNM?tag=teknestorg420-20",
+        "badge": "HOT"
+    },
+    {
+        "id": 11007,
+        "title": "Exclusive: Soundcore by Anker Q31i Adaptive ANC Over-Ear Headphones \u2014 $59.99 + Free Shipping",
+        "category": "Electronics",
+        "source": "Slickdeals",
+        "price": "$59.99",
+        "originalPrice": "$89.99",
+        "image": "https://static.slickdealscdn.com/attachment/6/2/0/0/0/9/450x450/22337379.thumb",
+        "link": "https://www.amazon.com/dp/B0H9RLZFPR?tag=teknestorg420-20",
+        "badge": "BEST SELLER"
+    },
+    {
         "id": 5509,
         "title": "Exclusive: Costco Members: 27\" MSI QD-OLED 1440p 240Hz 0.03ms Gaming Monitor $300 + Free S&H",
         "category": "Tech",
