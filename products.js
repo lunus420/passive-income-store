@@ -1063,17 +1063,6 @@ const affiliateProducts = [
         "badge": "BEST SELLER"
     },
     {
-        "id": 3681,
-        "title": "Unbeatable: New: Ridge Wallet - Franchise Series - San Francisco 49ers $125.00",
-        "category": "Other",
-        "source": "Ridge Gear",
-        "price": "$125.00",
-        "originalPrice": "---",
-        "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/san-francisco-49ers-franchise-wallet-front.webp?v=1794895411",
-        "link": "https://www.ridge.com/products/franchise-series-san-francisco-49ers?ref=moment_partner_2026",
-        "badge": "NEW"
-    },
-    {
         "id": 3545,
         "title": "Viral: 50-Pack Homexcel Microfiber Cleaning Cloth (12.5 x 12.5\", Multicolor) $15 ",
         "category": "Other",
@@ -3120,17 +3109,6 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 6028,
-        "title": "Elite: Legion 5i Laptop: 15.3\" 1600p OLED 165Hz, Core 7 245HX RTX 5060, 16GB, 512GB $1200 + Free S&H",
-        "category": "Tech",
-        "source": "Slickdeals",
-        "price": "$1200",
-        "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
-        "link": "https://www.bestbuy.com/product/l...JJGH3V7KPG?ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
         "id": 5143,
         "title": "Epic: New: MH40 APPLIED ART FORMS $399.00",
         "category": "Tech",
@@ -3206,6 +3184,347 @@ const affiliateProducts = [
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
         "link": "https://www.walmart.com/ip/Inside...9504924930?ref=money_maker_2026",
         "badge": "BEST SELLER"
+    },
+    {
+        "id": 5283,
+        "title": "Unbeatable: New: MW75 TUMI $750.00",
+        "category": "Other",
+        "source": "Master & Dynamic",
+        "price": "$750.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MW75B_TUMI_800x800_Hero.png?v=1769444695",
+        "link": "https://www.masterdynamic.com/products/mw75-tumi?ref=moment_partner_2026",
+        "badge": "HOT"
+    },
+    {
+        "id": 2435,
+        "title": "Must-Have: New: Ridge Wallet - Buffalo Bills $99.00",
+        "category": "Other",
+        "source": "Ridge Gear",
+        "price": "$99.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/BuffaloBills-Wallet-RenderFront_696797e0-d9f8-4770-911f-e1258b94937f.jpg?v=1795040106",
+        "link": "https://www.ridge.com/products/buffalo-bills?ref=moment_partner_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 9151,
+        "title": "Viral: Goodyear Assurance RangeMax 205/65R16 95H Passenger Tire $59.10 + Free S&H",
+        "category": "Other",
+        "source": "Slickdeals",
+        "price": "$59.10",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.walmart.com/ip/Goodye...hbdg=L1300?ref=money_maker_2026",
+        "badge": "SALE"
+    },
+    {
+        "id": 8483,
+        "title": "Epic: New: MW50+ $299.00",
+        "category": "Other",
+        "source": "Master & Dynamic",
+        "price": "$299.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MW50_S2_Hero-On-Ear_1200x1200_V2.png?v=1763056954",
+        "link": "https://www.masterdynamic.com/products/mw50-wireless-on-and-over-ear-headphones?ref=moment_partner_2026",
+        "badge": "BEST SELLER"
+    },
+    {
+        "id": 8142,
+        "title": "Exclusive: New: Ridge Wallet - Detroit Lions $99.00",
+        "category": "Other",
+        "source": "Ridge Gear",
+        "price": "$99.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/DetroitLions-Wallet-RenderFront_980d06f8-d646-4afa-b98b-972168489005.jpg?v=1795039920",
+        "link": "https://www.ridge.com/products/detroit-lions?ref=moment_partner_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 5279,
+        "title": "Insane: Sonic X Shadow Generations (Nintendo Switch 2 Game-Key Card) $15 ",
+        "category": "Tech",
+        "source": "Slickdeals Toys",
+        "price": "$15",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
+        "link": "https://www.walmart.com/ip/seort/16236511519?ref=money_maker_2026",
+        "badge": "HOT"
+    },
+    {
+        "id": 7630,
+        "title": "Epic: 3-Piece 16-oz  Chemical Guys Leather & Interior Care Bundle $24 ",
+        "category": "Other",
+        "source": "Slickdeals Fashion",
+        "price": "$24",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=teknestorg420-20",
+        "badge": "BEST SELLER"
+    },
+    {
+        "id": 6178,
+        "title": "Viral: 50-Pack Homexcel Microfiber Cleaning Cloth (12.5 x 12.5\", Multicolor) $15 ",
+        "category": "Other",
+        "source": "Slickdeals Home",
+        "price": "$15",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/dp/B09YHTQ?tag=teknestorg420-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 5318,
+        "title": "Legendary: New: Ugmonk Utility Tote (Olive) $29.00",
+        "category": "Other",
+        "source": "Ugmonk",
+        "price": "$29.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/tote-olive-1.jpg?v=1793117266",
+        "link": "https://ugmonk.com/products/ugmonk-utility-tote-olive?ref=moment_partner_2026",
+        "badge": "SALE"
+    },
+    {
+        "id": 4669,
+        "title": "Exclusive: 15.5-Oz Amazon Grocery Canned Dark Red Kidney Beans $0.70 w/ S&S",
+        "category": "Food & Grocery",
+        "source": "Slickdeals Food",
+        "price": "$0.70",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
+        "link": "https://www.amazon.com/Amazon-Fresh-Canned-Kidney-Beans/dp/B0BZB4FL11/ref=sr_1_9?crid=JAGA55V78BQL&d&tag=teknestorg420-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 5017,
+        "title": "Exclusive: New: Ugmonk Utility Tote (Black) $29.00",
+        "category": "Other",
+        "source": "Ugmonk",
+        "price": "$29.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/tote-blk-1.jpg?v=1793117283",
+        "link": "https://ugmonk.com/products/ugmonk-utility-tote-black?ref=moment_partner_2026",
+        "badge": "BEST SELLER"
+    },
+    {
+        "id": 3681,
+        "title": "Viral: New: Analog Archive (Silver Aluminum) $129.00",
+        "category": "Other",
+        "source": "Ugmonk",
+        "price": "$129.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/aluminum-archive-silver-1.jpg?v=1791302272",
+        "link": "https://ugmonk.com/products/analog-archive-silver-aluminum?ref=moment_partner_2026",
+        "badge": "VIRAL"
+    },
+    {
+        "id": 5567,
+        "title": "Viral: 1-Gal. Franks RedHot Original Cayenne Pepper Hot Sauce Bulk Container $11 w/ S&S",
+        "category": "Other",
+        "source": "Slickdeals Food",
+        "price": "$11",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/dp/B07HLWF?tag=teknestorg420-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 5400,
+        "title": "Viral: New: Utility Tote Bundle - Set of 3 $75.00",
+        "category": "Other",
+        "source": "Ugmonk",
+        "price": "$75.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/tote-bundle.jpg?v=1793118020",
+        "link": "https://ugmonk.com/products/ugmonk-utility-tote-bundle-set-of-3?ref=moment_partner_2026",
+        "badge": "SALE"
+    },
+    {
+        "id": 2621,
+        "title": "Brutal: 8-Ct 16.3-Oz Campbell's Chili Mac Chunky Soup $10.80 w/ S&S",
+        "category": "Other",
+        "source": "Slickdeals Food",
+        "price": "$10.80",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/Campbells-...r=1-9&amp;th=1?tag=teknestorg420-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 3899,
+        "title": "Savage: Select Home Depot Stores: 2-Pack Gearwrench OBD2 Bluetooth Diagnostic Tester $28 (Pricing/Availability Will Vary)",
+        "category": "Tech",
+        "source": "Slickdeals Temu",
+        "price": "$28",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
+        "link": "https://www.amazon.com/dp/B085TG89H4?tag=teknestorg420-20",
+        "badge": "SALE"
+    },
+    {
+        "id": 3186,
+        "title": "Extreme: New: Ridge Wallet - New York Yankees $99.00",
+        "category": "Other",
+        "source": "Ridge Gear",
+        "price": "$99.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/NYYankees-Wallet-RenderFront_796e70ab-cdbe-4b19-9e3c-93e36cffe9ae.webp?v=1795125589",
+        "link": "https://www.ridge.com/products/ridge-wallet-new-york-yankees?ref=moment_partner_2026",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 5125,
+        "title": "Elite: New: MH40 Wired $299.00",
+        "category": "Tech",
+        "source": "Master & Dynamic",
+        "price": "$299.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MH40G1_Hero_1200x1200_V2.png?v=1763576920",
+        "link": "https://www.masterdynamic.com/products/mh40-over-ear-headphones?ref=moment_partner_2026",
+        "badge": "SALE"
+    },
+    {
+        "id": 6657,
+        "title": "Savage: Prime Members: 808-Pc LEGO Creator 3 in 1 Cozy House Building Set $42 + Free S&H",
+        "category": "Toys & Fun",
+        "source": "Slickdeals Home",
+        "price": "$42",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
+        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=teknestorg420-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 3878,
+        "title": "Brutal: New: Ugmonk Utility Tote (Field Tan) $29.00",
+        "category": "Other",
+        "source": "Ugmonk",
+        "price": "$29.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/tote-tan-1.jpg?v=1793117251",
+        "link": "https://ugmonk.com/products/ugmonk-utility-tote-field-tan?ref=moment_partner_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 7415,
+        "title": "Insane: Sonic Frontiers Definitive Edition (Nintendo Switch 2, Game-Key Card) $15 ",
+        "category": "Tech",
+        "source": "FatWallet",
+        "price": "$15",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
+        "link": "https://www.amazon.com/dp/B0H2K3HQFS?tag=teknestorg420-20",
+        "badge": "SALE"
+    },
+    {
+        "id": 7508,
+        "title": "Brutal: 128GB Apple iPad A16 Chip 11\" Wi-Fi Tablet (Early 2025) $379 + Free S&H",
+        "category": "Tech",
+        "source": "FatWallet",
+        "price": "$379",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
+        "link": "https://www.amazon.com/gp/product/B0DZ77D5HL?tag=teknestorg420-20",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 8667,
+        "title": "Viral: 14-Oz Contigo SnapSeal Insulated Stainless Steel Water Bottle (Denim Champagne) $12.30 ",
+        "category": "Fashion",
+        "source": "Slickdeals Food",
+        "price": "$12.30",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "link": "https://www.walmart.com/ip/Contig...om=/search?ref=money_maker_2026",
+        "badge": "HOT"
+    },
+    {
+        "id": 9097,
+        "title": "Insane: 26-Pc Rubbermaid Easy Store Food Storage Container Set w/ Lids (Red or Blue) $8 + Free Pickup",
+        "category": "Other",
+        "source": "Slickdeals Food",
+        "price": "$8",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.walmart.com/ip/Rubber...0039221351?ref=money_maker_2026",
+        "badge": "SALE"
+    },
+    {
+        "id": 6576,
+        "title": "Must-Have: Star Wars Outlaws Gold Edition (Switch 2, Game-Key Card) $15 ",
+        "category": "Other",
+        "source": "Slickdeals Toys",
+        "price": "$15",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/gp/product...smid=&amp;th=1?tag=teknestorg420-20",
+        "badge": "VIRAL"
+    },
+    {
+        "id": 5841,
+        "title": "Extreme: New: Ridge Wallet + Power Bank + KeyCase - Franchise Series - San Francisco Giants $205.00",
+        "category": "Tech",
+        "source": "Ridge Gear",
+        "price": "$205.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/SanFransiscoGiants-01.webp?v=1795028038",
+        "link": "https://www.ridge.com/products/wallet-power-bank-keycase-franchise-series-san-francisco-giants?ref=moment_partner_2026",
+        "badge": "VIRAL"
+    },
+    {
+        "id": 5772,
+        "title": "Brutal: Men's & Women's HEAD Tees & Joggers (various) from $2.35 ",
+        "category": "Other",
+        "source": "FatWallet",
+        "price": "$2.35",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/s?k=head+t...aMFZIufOoE&tag=teknestorg420-20",
+        "badge": "HOT"
+    },
+    {
+        "id": 8579,
+        "title": "Savage: New: MW09 TUMI $450.00",
+        "category": "Other",
+        "source": "Master & Dynamic",
+        "price": "$450.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MW09B_TUMI-PDP_1350x1350_case.png?v=1734540611",
+        "link": "https://www.masterdynamic.com/products/mw09-tumi?ref=moment_partner_2026",
+        "badge": "SALE"
+    },
+    {
+        "id": 8367,
+        "title": "Unbeatable: Apple AirTag (2nd Generation) $18 ",
+        "category": "Other",
+        "source": "FatWallet",
+        "price": "$18",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/gp/product...0DER&amp;psc=1?tag=teknestorg420-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 3486,
+        "title": "Savage: Costco Members: Men's 32 Degrees Battery-Powered Heated Jacket (various sizes) $55 + Free S&H",
+        "category": "Fashion",
+        "source": "Slickdeals Fashion",
+        "price": "$55",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "link": "https://www.costco.com/p/-/32-deg...4000428350?ref=money_maker_2026",
+        "badge": "HOT"
+    },
+    {
+        "id": 4645,
+        "title": "Legendary: New: MH40 APPLIED ART FORMS $399.00",
+        "category": "Tech",
+        "source": "Master & Dynamic",
+        "price": "$399.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MH40W2-AAF1_PDP_1350x1350_Hero.png?v=1761926777",
+        "link": "https://www.masterdynamic.com/products/mh40-applied-art-forms?ref=moment_partner_2026",
+        "badge": "HOT"
     }
 ];
 
