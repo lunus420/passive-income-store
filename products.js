@@ -403,17 +403,6 @@ const affiliateProducts = [
         "badge": "NEW"
     },
     {
-        "id": 9739,
-        "title": "Viral: 4-Qt Ninja FN090 Crispi Glass 3-in-1 Air Fryer (3 Colors) $89 + Free S/H",
-        "category": "Home & Kitchen",
-        "source": "Slickdeals Food",
-        "price": "$89",
-        "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://www.walmart.com/ip/Ninja-...1350566851?ref=money_maker_2026",
-        "badge": "NEW"
-    },
-    {
         "id": 6357,
         "title": "Savage: 12-Pk LiCB AAA Rechargeable 1100mAh 1.2V NiMH Batteries $14.15 ",
         "category": "Other",
@@ -698,17 +687,6 @@ const affiliateProducts = [
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
         "link": "https://www.amazon.com/dp/B085TG89H4?tag=teknestorg420-20",
         "badge": "TOP PICK"
-    },
-    {
-        "id": 9727,
-        "title": "Epic: Ozark Trail 6-Can Soft-Sided Cooler w/ Removable Hard Liner (Green or Tan) $10.95 ",
-        "category": "Home & Kitchen",
-        "source": "Slickdeals Food",
-        "price": "$10.95",
-        "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
-        "link": "https://www.walmart.com/ip/seort/17582971206?&ref=money_maker_2026",
-        "badge": "NEW"
     },
     {
         "id": 6998,
@@ -2193,17 +2171,6 @@ const affiliateProducts = [
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
         "link": "https://www.amazon.com/Kreg-KHI-C...AnSA%3D%3D?tag=teknestorg420-20",
-        "badge": "HOT"
-    },
-    {
-        "id": 5720,
-        "title": "Legendary: New: Analog Archive (Silver Aluminum) $129.00",
-        "category": "Other",
-        "source": "Ugmonk",
-        "price": "$129.00",
-        "originalPrice": "---",
-        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/aluminum-archive-silver-1.jpg?v=1791302272",
-        "link": "https://ugmonk.com/products/analog-archive-silver-aluminum?ref=moment_partner_2026",
         "badge": "HOT"
     },
     {
@@ -3943,6 +3910,358 @@ const affiliateProducts = [
         "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/tote-blk-1.jpg?v=1793117283",
         "link": "https://ugmonk.com/products/ugmonk-utility-tote-black?ref=moment_partner_2026",
         "badge": "HOT"
+    },
+    {
+        "id": 3981,
+        "title": "Savage: New: Ugmonk Utility Tote (Olive) $29.00",
+        "category": "Other",
+        "source": "Ugmonk",
+        "price": "$29.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/tote-olive-1.jpg?v=1793117266",
+        "link": "https://ugmonk.com/products/ugmonk-utility-tote-olive?ref=moment_partner_2026",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 5720,
+        "title": "Exclusive: 4-Pk 15.25oz. Amazon Grocery Whole Kernel Canned Corn $2.25 w/ S&S",
+        "category": "Food & Grocery",
+        "source": "Slickdeals Food",
+        "price": "$2.25",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
+        "link": "https://www.amazon.com/Amazon-Fre..._puis?th=1&tag=teknestorg420-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 9791,
+        "title": "Brutal: New: Ridge Wallet - Stonewashed Titanium $69.00",
+        "category": "Other",
+        "source": "Ridge Gear",
+        "price": "$69.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/auwti101128-1-Stonewashed-Titanium-frontinjector-1500.jpg?v=1795586174",
+        "link": "https://www.ridge.com/products/stonewashed-titanium-auwti101128?ref=moment_partner_2026",
+        "badge": "SALE"
+    },
+    {
+        "id": 7671,
+        "title": "Savage: 50-Pack Homexcel Microfiber Cleaning Cloth (12.5 x 12.5\", Multicolor) $15 ",
+        "category": "Other",
+        "source": "Slickdeals Home",
+        "price": "$15",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/dp/B09YHTQ?tag=teknestorg420-20",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 9739,
+        "title": "Extreme: New: MH40 APPLIED ART FORMS $399.00",
+        "category": "Tech",
+        "source": "Master & Dynamic",
+        "price": "$399.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MH40W2-AAF1_PDP_1350x1350_Hero.png?v=1761926777",
+        "link": "https://www.masterdynamic.com/products/mh40-applied-art-forms?ref=moment_partner_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 1667,
+        "title": "Exclusive: New: MW75 TUMI $750.00",
+        "category": "Other",
+        "source": "Master & Dynamic",
+        "price": "$750.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MW75B_TUMI_800x800_Hero.png?v=1769444695",
+        "link": "https://www.masterdynamic.com/products/mw75-tumi?ref=moment_partner_2026",
+        "badge": "VIRAL"
+    },
+    {
+        "id": 5526,
+        "title": "Elite: New: Ugmonk Utility Tote (Field Tan) $29.00",
+        "category": "Other",
+        "source": "Ugmonk",
+        "price": "$29.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/tote-tan-1.jpg?v=1793117251",
+        "link": "https://ugmonk.com/products/ugmonk-utility-tote-field-tan?ref=moment_partner_2026",
+        "badge": "HOT"
+    },
+    {
+        "id": 7993,
+        "title": "Brutal: New: Utility Tote Bundle - Set of 3 $75.00",
+        "category": "Other",
+        "source": "Ugmonk",
+        "price": "$75.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/tote-bundle.jpg?v=1793118020",
+        "link": "https://ugmonk.com/products/ugmonk-utility-tote-bundle-set-of-3?ref=moment_partner_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 4438,
+        "title": "Extreme: New: Ugmonk Utility Tote (Black) $29.00",
+        "category": "Other",
+        "source": "Ugmonk",
+        "price": "$29.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/tote-blk-1.jpg?v=1793117283",
+        "link": "https://ugmonk.com/products/ugmonk-utility-tote-black?ref=moment_partner_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 2180,
+        "title": "Exclusive: 15.5-Oz Amazon Grocery Canned Dark Red Kidney Beans $0.70 w/ S&S",
+        "category": "Food & Grocery",
+        "source": "Slickdeals Food",
+        "price": "$0.70",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/d32f1a159_generated_image.png",
+        "link": "https://www.amazon.com/Amazon-Fresh-Canned-Kidney-Beans/dp/B0BZB4FL11/ref=sr_1_9?crid=JAGA55V78BQL&d&tag=teknestorg420-20",
+        "badge": "VIRAL"
+    },
+    {
+        "id": 4097,
+        "title": "Premium: 34\" Samsung Odyssey G5 G55H UWQHD VA 180Hz FreeSync Curved Gaming Monitor $179 + Free S&H",
+        "category": "Tech",
+        "source": "Slickdeals Toys",
+        "price": "$179",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
+        "link": "https://www.walmart.com/ip/Samsun...hbdg=L1800?ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 5312,
+        "title": "Legendary: New: MH40 Wired $299.00",
+        "category": "Tech",
+        "source": "Master & Dynamic",
+        "price": "$299.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MH40G1_Hero_1200x1200_V2.png?v=1763576920",
+        "link": "https://www.masterdynamic.com/products/mh40-over-ear-headphones?ref=moment_partner_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 6172,
+        "title": "Unbeatable: New: Ridge Wallet - Burnt Titanium $69.00",
+        "category": "Other",
+        "source": "Ridge Gear",
+        "price": "$69.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/auwti101800-1-Titanium_Burnt_Front-1500.jpg?v=1795586152",
+        "link": "https://www.ridge.com/products/burnt-titanium-auwti101800?ref=moment_partner_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 1829,
+        "title": "Premium: AMD Ryzen 7 9800X3D Desktop Processor + Rosewill FROSTMAX AIO CPU Cooler $370 + Free S&H",
+        "category": "Tech",
+        "source": "Slickdeals Toys",
+        "price": "$370",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
+        "link": "https://www.newegg.com/amd-ryzen-...ce-options?ref=money_maker_2026",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 2978,
+        "title": "Must-Have: Acer Nitro V Laptop: Intel Core 7 240H, 16\" WUXGA 165Hz, RTX 5060, 16GB RAM $1050 + Free S&H",
+        "category": "Tech",
+        "source": "Slickdeals Toys",
+        "price": "$1050",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
+        "link": "https://www.bestbuy.com/product/a...JJ8V8QFPT8?ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 9981,
+        "title": "Viral: Slippers, Sandals & Slides: MUK LUKS $6, Monster Jam Slippers $5 & More",
+        "category": "Other",
+        "source": "Slickdeals Toys",
+        "price": "$6,",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.walmart.com/ip/MUK-LU...0300858681?ref=money_maker_2026",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 7283,
+        "title": "Epic: Nike Men's Air Max Alpha Trainer 6 Workout Shoes (Black, size 3.5-11) $55 + Free S&H",
+        "category": "Fashion",
+        "source": "Slickdeals",
+        "price": "$55",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ea27babaf_generated_image.png",
+        "link": "https://www.amazon.com/dp/B0D7MVSCCQ?tag=teknestorg420-20",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 1731,
+        "title": "Elite: New: Ridge Wallet - Stars & Stripes $69.00",
+        "category": "Other",
+        "source": "Ridge Gear",
+        "price": "$69.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/StarsStripes-Wallet-THUMBNAIL.jpg?v=1782485905",
+        "link": "https://www.ridge.com/products/ridge-wallet-stars-stripes?ref=moment_partner_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 8168,
+        "title": "Must-Have: New: MW09 TUMI $450.00",
+        "category": "Other",
+        "source": "Master & Dynamic",
+        "price": "$450.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MW09B_TUMI-PDP_1350x1350_case.png?v=1734540611",
+        "link": "https://www.masterdynamic.com/products/mw09-tumi?ref=moment_partner_2026",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 5528,
+        "title": "Legendary: 4-Qt Instant Pot Rio Mini 7-in-1 Electric Pressure Cooker (3 colors) $65 + Free S&H",
+        "category": "Home & Kitchen",
+        "source": "Slickdeals Food",
+        "price": "$65",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/db76a2f0d_generated_image.png",
+        "link": "https://www.amazon.com/dp/B0F9B923NC?tag=teknestorg420-20",
+        "badge": "BEST SELLER"
+    },
+    {
+        "id": 5535,
+        "title": "Must-Have: New: Ridge Wallet - Forged Carbon $69.00",
+        "category": "Other",
+        "source": "Ridge Gear",
+        "price": "$69.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/forged-carbon-thumbnail-444_60b70497-c5cb-4dc5-8390-933307511ae5.jpg?v=1795585771",
+        "link": "https://www.ridge.com/products/forged-carbon-444?ref=moment_partner_2026",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 1819,
+        "title": "Unbeatable: Select Home Depot Stores: 2-Pack Gearwrench OBD2 Bluetooth Diagnostic Tester $28 (Pricing/Availability Will Vary)",
+        "category": "Tech",
+        "source": "Slickdeals Temu",
+        "price": "$28",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
+        "link": "https://www.amazon.com/dp/B085TG89H4?tag=teknestorg420-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 8565,
+        "title": "Savage: Mega Man: Star Force Legacy Collection (PS5) $20 + Free S&H",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "$20",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
+        "link": "https://www.bestbuy.com/product/m...ku/6667908?ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 1665,
+        "title": "Savage: Costco Members: Men's 32 Degrees Battery-Powered Heated Jacket (various sizes) $55 + Free S&H",
+        "category": "Fashion",
+        "source": "Slickdeals Fashion",
+        "price": "$55",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "link": "https://www.costco.com/p/-/32-deg...4000428350?ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 1935,
+        "title": "Premium: New: MW50+ $299.00",
+        "category": "Other",
+        "source": "Master & Dynamic",
+        "price": "$299.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MW50_S2_Hero-On-Ear_1200x1200_V2.png?v=1763056954",
+        "link": "https://www.masterdynamic.com/products/mw50-wireless-on-and-over-ear-headphones?ref=moment_partner_2026",
+        "badge": "HOT"
+    },
+    {
+        "id": 7216,
+        "title": "Savage: Prime Members: 808-Pc LEGO Creator 3 in 1 Cozy House Building Set $42 + Free S&H",
+        "category": "Toys & Fun",
+        "source": "Slickdeals Home",
+        "price": "$42",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
+        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=teknestorg420-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 7551,
+        "title": "Insane: New: Analog Archive (Silver Aluminum) $129.00",
+        "category": "Other",
+        "source": "Ugmonk",
+        "price": "$129.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/aluminum-archive-silver-1.jpg?v=1791302272",
+        "link": "https://ugmonk.com/products/analog-archive-silver-aluminum?ref=moment_partner_2026",
+        "badge": "VIRAL"
+    },
+    {
+        "id": 6499,
+        "title": "Savage: adidas Men's Runfalcon 5 Running Shoes (Cloud White) $18 + Free S&H",
+        "category": "Fashion",
+        "source": "Slickdeals",
+        "price": "$18",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ea27babaf_generated_image.png",
+        "link": "https://www.ebay.com/itm/15761236...9186890844?mkcid=1&mkrid=711-53200-19255-0&campid=4tima",
+        "badge": "NEW"
+    },
+    {
+        "id": 9356,
+        "title": "Premium: 20-Pc Kobalt 12-Point Standard & Metric Ratchet Wrench Set $60 + Free S&H",
+        "category": "Home & Kitchen",
+        "source": "Slickdeals",
+        "price": "$60",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
+        "link": "https://www.lowes.com/pd/Kobalt-2...5001994741?ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 9727,
+        "title": "Extreme: myQ Smart Garage Door Video Keypad + $20 Amazon GC $40 + Free S&H",
+        "category": "Other",
+        "source": "FatWallet",
+        "price": "$20",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/gp/product/B0GVFJ4BS8?tag=teknestorg420-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 2946,
+        "title": "Legendary: 3-Piece 16-oz  Chemical Guys Leather & Interior Care Bundle $24 ",
+        "category": "Other",
+        "source": "Slickdeals Fashion",
+        "price": "$24",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=teknestorg420-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 2834,
+        "title": "Elite: Costco Members: Men's Spyder Full-Zip Sweater Jacket (various colors/sizes) $23 + Free S&H",
+        "category": "Fashion",
+        "source": "Slickdeals Fashion",
+        "price": "$23",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "link": "https://www.costco.com/p/-/spyder...lor%3Agray?ref=money_maker_2026",
+        "badge": "NEW"
     }
 ];
 
