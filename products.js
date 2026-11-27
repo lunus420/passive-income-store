@@ -315,17 +315,6 @@ const affiliateProducts = [
         "badge": "VIRAL"
     },
     {
-        "id": 9902,
-        "title": "Brutal: New: Ridge KeyCase - Forged Ember $85.00",
-        "category": "Other",
-        "source": "Ridge Gear",
-        "price": "$85.00",
-        "originalPrice": "---",
-        "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/ForgedEmber-Keycase-RenderFront__FM.webp?v=1794348684",
-        "link": "https://www.ridge.com/products/forged-ember-keycase?ref=moment_partner_2026",
-        "badge": "VIRAL"
-    },
-    {
         "id": 9661,
         "title": "Exclusive: 191-Pc LEGO Sunflowers Building Kit $9 ",
         "category": "Toys & Fun",
@@ -873,17 +862,6 @@ const affiliateProducts = [
         "originalPrice": "---",
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
         "link": "https://www.amazon.com/PlayStatio...B0GL96NJL5?tag=teknestorg420-20",
-        "badge": "NEW"
-    },
-    {
-        "id": 7093,
-        "title": "Legendary: New: Ugmonk Utility Tote (Olive) $29.00",
-        "category": "Other",
-        "source": "Ugmonk",
-        "price": "$29.00",
-        "originalPrice": "---",
-        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/tote-olive-1.jpg?v=1793117266",
-        "link": "https://ugmonk.com/products/ugmonk-utility-tote-olive?ref=moment_partner_2026",
         "badge": "NEW"
     },
     {
@@ -2403,17 +2381,6 @@ const affiliateProducts = [
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
         "link": "https://www.costco.com/p/-/spyder...lor%3Agray?ref=money_maker_2026",
         "badge": "NEW"
-    },
-    {
-        "id": 8507,
-        "title": "Savage: 50-Pack Homexcel Microfiber Cleaning Cloth (12.5 x 12.5\", Multicolor) $15 ",
-        "category": "Other",
-        "source": "Slickdeals Home",
-        "price": "$15",
-        "originalPrice": "---",
-        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
-        "link": "https://www.amazon.com/dp/B09YHTQ?tag=teknestorg420-20",
-        "badge": "VIRAL"
     },
     {
         "id": 7306,
@@ -4603,6 +4570,402 @@ const affiliateProducts = [
         "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
         "link": "https://www.costco.com/p/-/apple-...4000444356?ref=money_maker_2026",
         "badge": "TOP PICK"
+    },
+    {
+        "id": 9902,
+        "title": "Premium: Prime Members: 808-Pc LEGO Creator 3 in 1 Cozy House Building Set $42 + Free S&H",
+        "category": "Toys & Fun",
+        "source": "Slickdeals Home",
+        "price": "$42",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/ac0310018_generated_image.png",
+        "link": "https://www.amazon.com/dp/B0BLJ6CCXZ?tag=teknestorg420-20",
+        "badge": "HOT"
+    },
+    {
+        "id": 1691,
+        "title": "Viral: New: Layflat Notebook Bundle (Series 3 - Set of 3) $45.00",
+        "category": "Home & Kitchen",
+        "source": "Ugmonk",
+        "price": "$45.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/notebooks-series-3-set.jpg?v=1794860786",
+        "link": "https://ugmonk.com/products/layflat-notebook-bundle-series-3-set-of-3?ref=moment_partner_2026",
+        "badge": "VIRAL"
+    },
+    {
+        "id": 2467,
+        "title": "Premium: Renewed Unit: 256GB Google Pixel 10 Pro XL Unlocked Smartphone (Obsidian) $589.80 + Free S&H",
+        "category": "Tech",
+        "source": "FatWallet",
+        "price": "$589.80",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
+        "link": "https://www.amazon.com/Google-Pix...%3D&amp;sr=8-1?tag=teknestorg420-20",
+        "badge": "HOT"
+    },
+    {
+        "id": 3419,
+        "title": "Insane: Select Home Depot Stores: 2-Pack Gearwrench OBD2 Bluetooth Diagnostic Tester $28 (Pricing/Availability Will Vary)",
+        "category": "Tech",
+        "source": "Slickdeals Temu",
+        "price": "$28",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/3eb0f4921_generated_image.png",
+        "link": "https://www.amazon.com/dp/B085TG89H4?tag=teknestorg420-20",
+        "badge": "VIRAL"
+    },
+    {
+        "id": 2190,
+        "title": "Insane: New: The Ultimate Analog Bundle (Silver) $328.23",
+        "category": "Other",
+        "source": "Ugmonk",
+        "price": "$328.23",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/ultimate-bundle-silver-banner.jpg?v=1794787465",
+        "link": "https://ugmonk.com/products/the-ultimate-analog-bundle-silver?ref=moment_partner_2026",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 8778,
+        "title": "Viral: New: MH40 APPLIED ART FORMS $399.00",
+        "category": "Tech",
+        "source": "Master & Dynamic",
+        "price": "$399.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MH40W2-AAF1_PDP_1350x1350_Hero.png?v=1761926777",
+        "link": "https://www.masterdynamic.com/products/mh40-applied-art-forms?ref=moment_partner_2026",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 7093,
+        "title": "Epic: Star Wars Outlaws Gold Edition (Switch 2, Game-Key Card) $15 ",
+        "category": "Other",
+        "source": "Slickdeals Toys",
+        "price": "$15",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.walmart.com/ip/seort/16344962410?ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 2152,
+        "title": "Elite: 3-Piece 16-oz  Chemical Guys Leather & Interior Care Bundle $24 ",
+        "category": "Other",
+        "source": "Slickdeals Fashion",
+        "price": "$24",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/dp/B0CVQXF2HJ?tag=teknestorg420-20",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 9109,
+        "title": "Legendary: New: MW09 TUMI $450.00",
+        "category": "Other",
+        "source": "Master & Dynamic",
+        "price": "$450.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MW09B_TUMI-PDP_1350x1350_case.png?v=1734540611",
+        "link": "https://www.masterdynamic.com/products/mw09-tumi?ref=moment_partner_2026",
+        "badge": "VIRAL"
+    },
+    {
+        "id": 6214,
+        "title": "Premium: New: The Ultimate Analog Bundle (Black) $328.23",
+        "category": "Other",
+        "source": "Ugmonk",
+        "price": "$328.23",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/ultimate-bundle-2-red-banner.jpg?v=1794787071",
+        "link": "https://ugmonk.com/products/the-ultimate-analog-black-friday-bundle?ref=moment_partner_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 2156,
+        "title": "Extreme: Select Walmart Stores: Donkey Kong Bananza (Nintendo Switch 2) $30 ",
+        "category": "Tech",
+        "source": "Slickdeals",
+        "price": "$30",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
+        "link": "https://www.walmart.com/ip/159498...32FC190635?ref=money_maker_2026",
+        "badge": "SALE"
+    },
+    {
+        "id": 1565,
+        "title": "Elite: New: Ridge Wallet - Forged Carbon $69.00",
+        "category": "Other",
+        "source": "Ridge Gear",
+        "price": "$69.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/forged-carbon-thumbnail-444_60b70497-c5cb-4dc5-8390-933307511ae5.jpg?v=1795585771",
+        "link": "https://www.ridge.com/products/forged-carbon-444?ref=moment_partner_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 6655,
+        "title": "Extreme: Engineering in Plain Sight (Hardcover Book) $12.40 ",
+        "category": "Other",
+        "source": "FatWallet",
+        "price": "$12.40",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/gp/product/171850232X?tag=teknestorg420-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 2878,
+        "title": "Brutal: eBay: End-of-Year Savings on Select Products Extra 20% Off ",
+        "category": "Other",
+        "source": "Slickdeals Home",
+        "price": "Check Deal",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.ebay.com/e/daily-deal...2-apac-sfc?mkcid=1&mkrid=711-53200-19255-0&campid=4tima",
+        "badge": "NEW"
+    },
+    {
+        "id": 7112,
+        "title": "Premium: New: MH40 Wired $299.00",
+        "category": "Tech",
+        "source": "Master & Dynamic",
+        "price": "$299.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MH40G1_Hero_1200x1200_V2.png?v=1763576920",
+        "link": "https://www.masterdynamic.com/products/mh40-over-ear-headphones?ref=moment_partner_2026",
+        "badge": "SALE"
+    },
+    {
+        "id": 8507,
+        "title": "Savage: Physical Gift Card Sale: $50 adidas GC  $40, $50 Victoria\u2019s Secret GC $40 & More",
+        "category": "Other",
+        "source": "Slickdeals Food",
+        "price": "$50",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/dp/B0FBWBGQ1M?tag=teknestorg420-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 2902,
+        "title": "Unbeatable: Costco Members: $100 inKind One eGift Card $65 ",
+        "category": "Other",
+        "source": "Slickdeals Food",
+        "price": "$100",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.costco.com/p/-/inkind...4000233859?ref=money_maker_2026",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 9859,
+        "title": "Insane: 32\" Alienware AW3225QF 4K 240Hz Curved QD-OLED Gaming Monitor $700 + Free S&H",
+        "category": "Tech",
+        "source": "Slickdeals Toys",
+        "price": "$700",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
+        "link": "https://www.bestbuy.com/product/a...4L62597?ir&ref=money_maker_2026",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 9775,
+        "title": "Premium: $100 Airbnb Gift Card (Email Delivery of Physical) + $10 Amazon eGift Card $100 ",
+        "category": "Other",
+        "source": "FatWallet",
+        "price": "$100",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/dp/B0FQMXSDKH?tag=teknestorg420-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 7055,
+        "title": "Brutal: 50-Pack Homexcel Microfiber Cleaning Cloth (12.5 x 12.5\", Multicolor) $15 ",
+        "category": "Other",
+        "source": "Slickdeals Home",
+        "price": "$15",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/dp/B09YHTQ?tag=teknestorg420-20",
+        "badge": "NEW"
+    },
+    {
+        "id": 9308,
+        "title": "Insane: 27\" Samsung Odyssey G5 1440p 180Hz 1ms FreeSync VA Monitor $140 + Free S&H",
+        "category": "Tech",
+        "source": "Slickdeals Toys",
+        "price": "$140",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
+        "link": "https://www.amazon.com/dp/B0FF5HX?tag=teknestorg420-20",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 2223,
+        "title": "Premium: 75\" Samsung M70H Series Mini LED 4K UHD Smart Tizen TV (2026) $500 + Free S&H",
+        "category": "Tech",
+        "source": "Slickdeals Toys",
+        "price": "$500",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
+        "link": "https://www.bestbuy.com/product/s...71593?ircl&ref=money_maker_2026",
+        "badge": "VIRAL"
+    },
+    {
+        "id": 5888,
+        "title": "Elite: Costco Members: Men's Spyder Full-Zip Sweater Jacket (various colors/sizes) $23 + Free S&H",
+        "category": "Fashion",
+        "source": "Slickdeals Fashion",
+        "price": "$23",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "link": "https://www.costco.com/p/-/spyder...lor%3Agray?ref=money_maker_2026",
+        "badge": "VIRAL"
+    },
+    {
+        "id": 3682,
+        "title": "Epic: Costco Members: Men's 32 Degrees Battery-Powered Heated Jacket (various sizes) $55 + Free S&H",
+        "category": "Fashion",
+        "source": "Slickdeals Fashion",
+        "price": "$55",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/108234b53_generated_image.png",
+        "link": "https://www.costco.com/p/-/32-deg...4000428350?ref=money_maker_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 1401,
+        "title": "Savage: New: Analog Card Bar - Pro Kit (Walnut) $139.00",
+        "category": "Other",
+        "source": "Ugmonk",
+        "price": "$139.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/walnut-pro-kit.jpg?v=1794497084",
+        "link": "https://ugmonk.com/products/analog-card-bar-pro-kit-walnut?ref=moment_partner_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 7915,
+        "title": "Must-Have: Spend $100+ on Select Purina Cat or Dog Products, Get $35 Amazon Credit + Free S&H",
+        "category": "Other",
+        "source": "Slickdeals Food",
+        "price": "$100",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.amazon.com/promotion/...CP5W?tag=teknestorg420-20",
+        "badge": "VIRAL"
+    },
+    {
+        "id": 5614,
+        "title": "Unbeatable: New: Analog Card Bar - Essentials Kit (Walnut) $89.00",
+        "category": "Other",
+        "source": "Ugmonk",
+        "price": "$89.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/essentials-walnut.jpg?v=1794588527",
+        "link": "https://ugmonk.com/products/analog-card-bar-essentials-kit-walnut?ref=moment_partner_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 2979,
+        "title": "Extreme: Star Wars Galactic Racer: Standard Edition (PS5) $30 ",
+        "category": "Tech",
+        "source": "FatWallet",
+        "price": "$30",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/634adaf28_generated_image.png",
+        "link": "https://www.amazon.com/gp/product...smid=&amp;th=1?tag=teknestorg420-20",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 8900,
+        "title": "Exclusive: New: Ridge Wallet - Rodeo Red $95.00",
+        "category": "Other",
+        "source": "Ridge Gear",
+        "price": "$95.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/Rodeo-Red-Wallet-THUMBNAIL.jpg?v=1758796361",
+        "link": "https://www.ridge.com/products/rodeo-red?ref=moment_partner_2026",
+        "badge": "VIRAL"
+    },
+    {
+        "id": 4545,
+        "title": "Epic: Costco Members: Bosch 300 Series VeroCafe Fully Automatic Espresso Machine $300 + Free S&H",
+        "category": "Other",
+        "source": "Slickdeals Food",
+        "price": "$300",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.costco.com/p/-/bosch-...4000318179?ref=money_maker_2026",
+        "badge": "HOT"
+    },
+    {
+        "id": 5194,
+        "title": "Viral: New: Ridge Wallet - Stonewashed Titanium $69.00",
+        "category": "Other",
+        "source": "Ridge Gear",
+        "price": "$69.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/auwti101128-1-Stonewashed-Titanium-frontinjector-1500.jpg?v=1795586174",
+        "link": "https://www.ridge.com/products/stonewashed-titanium-auwti101128?ref=moment_partner_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 2749,
+        "title": "Savage: New: MW75 TUMI $750.00",
+        "category": "Other",
+        "source": "Master & Dynamic",
+        "price": "$750.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MW75B_TUMI_800x800_Hero.png?v=1769444695",
+        "link": "https://www.masterdynamic.com/products/mw75-tumi?ref=moment_partner_2026",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 4223,
+        "title": "Brutal: New: MW50+ $299.00",
+        "category": "Other",
+        "source": "Master & Dynamic",
+        "price": "$299.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0404/1101/files/MW50_S2_Hero-On-Ear_1200x1200_V2.png?v=1763056954",
+        "link": "https://www.masterdynamic.com/products/mw50-wireless-on-and-over-ear-headphones?ref=moment_partner_2026",
+        "badge": "NEW"
+    },
+    {
+        "id": 3576,
+        "title": "Premium: Select Stores: DeWALT 20V MAX Lithium-Ion 2.0 Ah and (2) 4.0 Ah Batteries $99 (In-Store Only)",
+        "category": "Other",
+        "source": "Slickdeals",
+        "price": "$99",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/4d9de39ba_generated_image.png",
+        "link": "https://www.homedepot.com/p/DEWAL.../335743706?ref=money_maker_2026",
+        "badge": "SALE"
+    },
+    {
+        "id": 2092,
+        "title": "Epic: Select Walmart Stores: Resident Evil Requiem (Nintendo Switch 2) $30 ",
+        "category": "Tech",
+        "source": "Slickdeals Toys",
+        "price": "$30",
+        "originalPrice": "---",
+        "image": "https://media.base44.com/images/public/6a477d0a1f5ba6a40fc0b08e/9bd0fb41b_generated_image.png",
+        "link": "https://www.walmart.com/ip/Reside...8330858360?ref=money_maker_2026",
+        "badge": "TOP PICK"
+    },
+    {
+        "id": 8344,
+        "title": "Legendary: New: Ridge Wallet - Stars & Stripes $69.00",
+        "category": "Other",
+        "source": "Ridge Gear",
+        "price": "$69.00",
+        "originalPrice": "---",
+        "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/StarsStripes-Wallet-THUMBNAIL.jpg?v=1782485905",
+        "link": "https://www.ridge.com/products/ridge-wallet-stars-stripes?ref=moment_partner_2026",
+        "badge": "NEW"
     }
 ];
 
